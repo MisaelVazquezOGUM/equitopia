@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="inherit_dashbord_frontend" name="web_dashbord_assets"  inherit_id="website.assets_frontend">
+       
+       <xpath expr="script[last()]" position="after">
+       <!--funciones globales-->
+        <script type="text/javascript" 
+              src="/website_custom_property/static/src/js/funciones_globales.js"/>      
+        <!--MINICALENDARIO-->
+       <script type="text/javascript" 
+              src="/website_custom_property/static/src/js/minieventcalendarmin.js"/>
+       <script type="text/javascript" src="/website_custom_property/static/src/js/custom_property_dashbord.js"/>
+       <script type="text/javascript" src="/website_custom_property/static/src/js/moment.min.js"></script>
+        <!--Fullcalendar-->
+       <script type="text/javascript" 
+              src="/website_custom_property/static/src/js/lib/fullcalendar.min.js"/>
+       <script type="text/javascript" src="/website_custom_property/static/src/js/lib/es.js"/>       
+      <script type="text/javascript" src="/website_custom_property/static/src/js/calendario.js"/> 
+      <!--CHART-->
+       <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+
+       <script type="text/javascript" 
+              src="/website_custom_property/static/src/js/custom_info_graft.js"/>      
+
+       <script type="text/javascript" 
+              src="/website_custom_property/static/src/js/history_property.js"/>              
+
+       <script type="text/javascript" 
+              src="/website_custom_property/static/src/js/graficar_metricas.js"/>       
+
+       <script type="text/javascript" 
+              src="/website_custom_property/static/src/js/grafica_mensual.js"/> 
+
+       <script type="text/javascript" 
+              src="/website_custom_property/static/src/js/graficas_ocupacion.js"/> 
+
+      </xpath>
+       
+      
+      <xpath expr="." position="inside">
+       <link rel="stylesheet" href="/website_custom_property/static/src/css/styles.css"/>  
+       
+       <!--ICONOS-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!--FULL CALENDAR-->
+       <link rel="stylesheet" href="/website_custom_property/static/src/css/main.min.css"/>      
+       <!--TABLA--> 
+       <link rel="stylesheet" href="/website_custom_property/static/src/css/scrollbartable.css"/>
+       <!--MINI CALENDARIO-->
+       <link rel="stylesheet" href="/website_custom_property/static/src/css/mini-event-calendar.css"/>
+
+      </xpath>
+</template>
+</odoo>

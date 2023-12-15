@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="product_slider_snippet_load" inherit_id="website.snippets">
+       <xpath expr="//div[@id='snippet_mega_menu']" position="before">
+            <div id="slider_snippet_menu" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-puzzle-piece" />
+                    Sliders Snippets
+                </div>
+                <div class="o_panel_body">
+                   <t t-snippet="vouge_corporate_theme_common.s_bizople_theme_blog_slider_snippet" t-thumbnail="/vouge_corporate_theme_common/static/description/icon.png" />
+               </div>
+           </div>
+        </xpath>
+    </template>
+
+    <!-- blog Slider  -->
+	<template id="s_bizople_theme_blog_slider_snippet" name="Blog Slider">
+        <section id="biz_blog_slider_snippet" class="blog blog_slider_owl oe_img_bg" data-blog-slider-id="" data-blog-slider-type="" data-disp="blog">
+            <div class="container">
+                <div class="block-title">
+                    <h2 class="filter">Blog post</h2>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="s_bizople_theme_blog_slider_snippet_option" inherit_id="website.snippet_options" name="Filter Options">
+        <xpath expr="//div" position="after">
+            <div data-js="s_bizople_theme_blog_slider_snippet" data-selector=".blog_slider_owl" data-snippet-option-id="s_bizople_theme_blog_slider_snippet">
+                <li data-vouge_corporate_theme_common_blog_slider="">
+                    <we-button class="dropdown-item blog_slider_owl" tabindex="-1" href="#" data-vouge_corporate_theme_common_blog_slider="">Filter</we-button>
+                </li>
+            </div>
+        </xpath>
+    </template>
+    <template id="bizcommon_blog_slider_view" name="Blog Slider View">
+        <div class="container">
+            <div class="block-title">
+                <h2 class="filter" t-if="not slider_header">Blog post</h2>
+                <h2 class="" t-if="slider_header">
+                    <t t-esc="slider_header.name"/>
+                </h2>
+            </div>
+            <div id='blog_2_owl_carosel' class="owl-carousel" t-if="blog_slider_details">
+                <t t-as="slide" t-foreach="blog_slider_details">
+                    <div class="comm_blog_box">
+                    	<a t-attf-href="/blog/#{slug(slide.blog_id)}/post/#{slug(slide)}" class='slider-blog-image' t-if="slide.cover_properties">
+                            <t t-set="cover_property" t-value="json.loads(slide.cover_properties)"/>
+                            <div class="section-post-media" t-attf-style="background-image: #{cover_property.get('background-image', 'none')}" t-if="slide.cover_properties">
+                            </div>
+                            <div class="date-post text-primary text-center">
+                            	<div class="date_span" t-field="slide.post_date"
+								t-options='{"format": "dd"}'/>
+								<div class="month_span" t-field="slide.post_date"
+								t-options='{"format": "MMM"}' />
+								
+							</div>
+                            <div class='comm_base_class'>
+                                <h3 t-field="slide.name" class="text-secondary"/>
+                                <div class="comm_hover_blog_content text-secondary">
+                                    <t t-esc="slide.subtitle" class="text-secondary"/>
+                                </div>
+                                <a href="#" class="author">
+		            				<span class="text-muted"> By:
+			                            <span t-esc="slide.sudo().author_id.name"></span>
+			                        </span>
+	            				</a>
+	            				
+                            </div>
+                        </a>
+                    </div>
+                </t>
+            </div>
+        </div>
+    </template>
+</odoo>

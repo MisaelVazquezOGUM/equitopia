@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="vouge_corporate_theme_common_header_new3" inherit_id="portal.frontend_layout" name="Header Three" active="False">
+	    
+	    <xpath expr="//header" position="replace">
+			<header id="vouge_header_three" t-attf-class="vouge_header_three">
+		        <nav data-name="Navbar" id="vouge-header-new-3" class="navbar navbar-expand-lg  o_colored_level shadow pb-3">
+		            <div id="top_menu_container" class="container h-100">
+		                <!-- Brand -->
+		                <!-- <t t-call="website.placeholder_header_brand"/> -->
+		                <div class="header-brand mt16 mb16">
+	    					<a href="/" t-attf-class="navbar-brand logo #{_link_class}">
+					            <span t-field="website.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name"/>
+					        </a>
+	            		</div>
+		                <!-- Navbar Toggler -->
+		                <!-- <t t-call="website.navbar_toggler"/> -->
+		                <div class="mobile-sidebar-toggle ml-auto d-block d-lg-none">
+							<button type="button" id="show-sidebar" class="btn btn-sm d-block d-lg-none">
+								<span class="ti ti-view-grid text-secondary fa-2x"></span>
+							</button>
+						</div>
+		                
+		                <!-- Navbar Collapse -->
+		                <div id="top_menu_collapse" class="collapse navbar-collapse flex-column align-self-stretch align-items-stretch">
+		                	<t t-set="menu_count" t-value="0"/>
+		                	<t t-set="more_menu_count" t-value="0"/>
+
+							<ul class="nav navbar-nav w-100 mb-auto" id="top_menu">
+								<t t-foreach="website.menu_id.child_id" t-as="submenu">
+		                        	<t t-set="menu_count" t-value="menu_count + 1"/>
+		                        	<t t-if="menu_count &lt; 6">
+		                            	<t t-call="website.submenu">
+			                                <t t-set="item_class" t-value="'nav-item'"/>
+			                                <t t-set="link_class" t-value="'nav-link'"/>
+			                            </t>
+		                            </t>
+		                        </t>
+		                        <li t-if="menu_count &gt; 5" class="nav-item more-item dropdown" >
+									<a data-toggle="dropdown" href="#" class="nav-link dropdown-toggle">
+										<span>Show More</span>
+									</a>
+									<ul class="dropdown-menu" role="menu">
+										<t t-foreach="website.menu_id.child_id" t-as="submenu">
+											<t t-set="more_menu_count" t-value="more_menu_count + 1"/>
+				                        	<t t-if="more_menu_count &gt; 5">
+				                            	<t t-call="website.submenu">
+					                                <t t-set="item_class" t-value="'nav-item'"/>
+					                                <t t-set="link_class" t-value="'nav-link'"/>
+					                            </t>
+				                            </t>
+				                        </t>
+									</ul>
+								</li>
+							</ul>
+		                    <div class="oe_structure oe_structure_solo" id="oe_structure_header_sidebar_1">
+					            <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
+					                <div class="container">
+					                    <!-- Social -->
+					                    <div class="s_share mt-3" data-name="Social Media">
+					                        <h5 class="s_share_title d-none">Follow us</h5>
+					                        <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+					                            <i class="fa fa-facebook rounded-circle shadow-sm"/>
+					                        </a>
+					                        <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+					                            <i class="fa fa-twitter rounded-circle shadow-sm"/>
+					                        </a>
+					                        <a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
+					                            <i class="fa fa-linkedin rounded-circle shadow-sm"/>
+					                        </a>
+					                        <a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+					                            <i class="fa fa-instagram rounded-circle shadow-sm"/>
+					                        </a>
+					                        <a class="link s_share_youtube" t-att-href="website.social_youtube"
+											t-if="website.social_youtube" target="_blank">
+												<i class="fa fa-youtube-play rounded-circle shadow-sm" />
+											</a>
+					                    </div>
+					                    <!-- Separator -->
+					                    <div class="s_hr text-left pt16 pb16" data-name="Separator">
+					                        <hr class="w-100 mx-auto" style="border-top-width: 1px; border-top-style: solid; border-top-color: #e8e8e8;"/>
+					                    </div>
+					                    <!-- Contact -->
+					                    <div class="sidebar_contact">
+					                    	<small><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span></small><br/>
+					                    	<small><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr"><a href="tel:+1 (650) 691-3277">+1 (650) 691-3277</a></span></small>
+					                    </div>
+					                    
+					                </div>
+					            </section>
+					        </div>
+		                    <ul class="login_nav nav navbar-nav">
+		                        <!-- Separator -->
+					            <div class="s_hr text-left pt16 pb16 d-none" data-name="Separator">
+					                <hr class="w-100 mx-auto" style="border-top-width: 1px; border-top-style: solid; border-top-color: #e8e8e8;"/>
+					            </div>
+								<ul class="nav navbar-nav">
+						            <!-- User Dropdown -->
+						            <t t-call="vouge_corporate_theme_common.user_dropdown">
+						                <t t-set="_icon" t-value="true"/>
+						                <t t-set="_user_name" t-value="true"/>
+						                <t t-set="_item_class" t-value="'nav-item dropup'"/>
+						                <t t-set="_link_class" t-value="'nav-link'"/>
+						                <t t-set="_dropdown_menu_class" t-value="'position-absolute'"/>
+						            </t>
+					        	</ul>
+
+		                        <!-- Separator -->
+			                    <div class="s_hr text-left pt16 pb16" data-name="Separator">
+			                        <hr class="w-100 mx-auto" style="border-top-width: 1px; border-top-style: solid; border-top-color: #e8e8e8;"/>
+			                    </div>
+			                    <small class="text-left"><span class="copyright">Copyright© 2020. All Rights Reserved by<span t-field="res_company.name" />
+										</span></small>
+		                    </ul>
+		                </div>
+		            </div>
+		        </nav>
+		    </header>
+	    </xpath>
+	    <xpath expr="//header" position="attributes">
+	        <attribute name="t-attf-class" add="o_header_sidebar" separator=" "/>
+	    </xpath>
+     	<xpath expr="//header" position="attributes">
+	        <attribute name="t-attf-class" add="#{'o_no_autohide_menu'}" separator=" "/>
+	    </xpath>
+	    <xpath expr="//header" position="after">
+			<div class="d-block d-md-none">
+				<t t-call="vouge_corporate_theme_common.bizople_mobile_bottom_icon_bar"/>
+			</div>
+		</xpath>
+	</template>
+
+	<template id="vouge_header_new3_login_option" inherit_id="vouge_corporate_theme_common.vouge_corporate_theme_common_header_new3" name="Login Option" customize_show="True" active="True">
+		<xpath expr="//t[@t-call='vouge_corporate_theme_common.user_dropdown']" position="before">
+			<!-- Sign In -->
+			<t t-call="vouge_corporate_theme_common.placeholder_user_sign_in">
+	            <t t-set="_item_class" t-value="'nav-item'"/>
+	            <t t-set="_link_class" t-value="'nav-link'"/>
+	        </t>
+		</xpath>
+	</template>
+
+	<template id="placeholder_user_sign_in" name="User Sign In Placeholder"/>
+
+    <template id="user_sign_in" name="User Sign In" inherit_id="vouge_corporate_theme_common.placeholder_user_sign_in">
+        <xpath expr="." position="inside">
+            <li groups="base.group_public" t-attf-class="#{_item_class} o_no_autohide_item">
+                <a t-attf-href="/web/login" t-attf-class="#{_link_class}">Sign in</a>
+            </li>
+        </xpath>
+    </template>
+	<template id="user_dropdown" name="Portal User Dropdown">
+        <t t-set="is_connected" t-value="not user_id._is_public()"/>
+        <li t-if="is_connected" t-attf-class="#{_item_class} o_no_autohide_item">
+            <a href="#" role="button" data-toggle="dropdown" t-attf-class="dropdown-toggle #{_link_class}">
+                <t t-if="_avatar">
+                    <t t-if="user_id.image_256" t-set="avatar_source" t-value="image_data_uri(user_id.image_256)"/>
+                    <t t-else="" t-set="avatar_source" t-value="'/web/static/src/img/placeholder.png'"/>
+                    <img t-att-src="avatar_source" t-attf-class="rounded-circle #{_avatar_class}" width="24" height="24" alt="" loading="eager"/>
+                </t>
+                <!-- <i t-if="_icon" t-attf-class="fa fa-1x fa-fw fa-user-circle-o #{_icon_class}"/> -->
+                <span t-if="_icon">
+                	<span t-ignore="true" t-if="not user_id._is_public()">
+						<t t-call="vouge_corporate_theme_common.portal_frontend_user"/>
+					</span>
+					<span groups="base.group_public">
+						<span class="icon fa-1x fa fa-user-circle-o text-secondary align-middle"></span>
+					</span>
+                </span>
+                <span t-if="_user_name" t-attf-class="#{_user_name_class}" t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name"/>
+            </a>
+            <div t-attf-class="dropdown-menu js_usermenu #{_dropdown_menu_class}" role="menu">
+            	<a href="/my/home" role="menuitem" class="dropdown-item">My Account</a>
+                <a t-attf-href="/web/session/logout?redirect=/" role="menuitem" id="o_logout" class="dropdown-item">Logout</a>
+            </div>
+        </li>
+    </template>
+</odoo>

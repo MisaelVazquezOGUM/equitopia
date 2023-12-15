@@ -16,8 +16,7 @@ _logger = logging.getLogger(__name__)
 class Rent_type_get(models.Model):
 
     _inherit="rent.type"
-
-    renttype = fields.Selection(selection_add=[('Day', 'Day')])
+    renttype = fields.Selection(selection_add=[('Day', 'Dia')])
 
     @api.constrains('sequence_in_view')
     def _check_value(self):
@@ -29,13 +28,11 @@ class Landlord_partner_hp(models.Model):
     _inherit='tenancy.rent.schedule'
 
     hecho_pago = fields.Char(string='P/M') 
-
     payment_echo = fields.Float(
             string='Payment Made', 
             compute="diff_count",
             )
-
-    gastos_extra = fields.Boolean(string="Extra expenses", default=False)
+    gastos_extra = fields.Boolean(string="Gastos extra", default=False)
 
     @api.depends("pen_amt","amount")
     def diff_count(self):
@@ -45,8 +42,6 @@ class Landlord_partner_hp(models.Model):
                 rec.payment_echo=temp
             else:
                 rec.payment_echo=0.0
-
-
 
     def create_invoice(self):
         res=super(Landlord_partner_hp,self).create_invoice()
@@ -59,14 +54,13 @@ class Account_move_hp(models.Model):
 
     _inherit='account.move'
 
-    numero_pagos = fields.Char(string='Payment number')
-    gastos_extra = fields.Boolean(string='Is it an extra expense?')
+    numero_pagos = fields.Char(string='Numero de pago')
+    gastos_extra = fields.Boolean(string='Es un gasto extra?')
 
 class Account_payment_custom(models.Model):
     _inherit = 'account.payment'
 
     tipo_de_pago = fields.Selection([('r', "Rent"), ("m", "Maintenance"), ("s", "Service"), ("o", "Other"), ("c", "Commissions")], string='Payment Type')
-
     calc_balance = fields.Boolean(string='Balance')
 
 class Account_asset_asset_customs(models.Model):
@@ -75,24 +69,17 @@ class Account_asset_asset_customs(models.Model):
 
 
     hora_entrada = fields.Float(string='Entry Time')
-
     hora_salida = fields.Float(string='Departure time')
-
     entrega_acceso_id = fields.Many2one('res.partner',string='Access Delivery')
-
     count_reg=fields.Integer(compute="_calculo_registro")
-
     count_reg_state=fields.Integer(compute="_count_estados")
-
     count_balances=fields.Integer(compute="_contarbalances")
-
     tarifa_de_propiedad = fields.One2many(
             'rental.rates',
             'propiedad_id',
-            string='Property fee',
+            string='Tarifa de propiedad',
             required=True
             )
-
     send_state_result = fields.Boolean(string='Send income statement',default=True)
 
     def _calculo_registro(self):
@@ -117,52 +104,37 @@ class Account_asset_asset_customs(models.Model):
     def print_report_property_pdf(self):
         vals=[]
         user_id=self.env.user.partner_id.id
-    	#raise UserError(user_id)
+        #raise UserError(user_id)
         estados=self.env['estado.result']    	
         for lines in estados.search([('foreport','=',True),('manager_id','=',user_id)]):
-    		#calendario=self.env['calendar.event'].search([('property_calendary','=',lines.property_id.id)])
-    		#fecha_actual=datetime.now()
-    		#total_dias=calendar.monthrange(int(fecha_actual.year),fecha_actual.month)[1]
-    		#inicio=datetime(fecha_actual.year,fecha_actual.month,1)
-    		#fin=datetime(fecha_actual.year,fecha_actual.month,total_dias)
-    		#deff=fin-inicio
 
-    		#lista_fecha=[fecha for fecha in (inicio,fin)]
-
-
-    		#cal=calendar.HTMLCalendar()
-    		#cal_format=calendar.month(2022,12)
-    		#cal_format=cal_format.replace('border="0"','border="1"')
-    		
-    		#for item in calendario:
 
             vals.append({
-    			'property':lines.property_id.name,
-    			'company':lines.company_id.name,
-    			'fecha':lines.fecha_report,
-    			'manager':lines.manager_id.name,
-    			'owner':lines.owner_id.name,
-    			'estado':lines.estado,
-    			'rent_cronograma':lines.rent_cronograma,
-    			'rent_efectivo':lines.rent_efectivo,
-    			'mantenimientos':lines.mantenimientos,
-    			'servicios':lines.servicios,
-    			'otros_gastos':lines.otros_gastos,
-    			'comisiones':lines.comisiones,
-    			'dias_libres':lines.dias_libres,
-    			'dias_ocupados':lines.dias_ocupados,
-    			'rent_cobradas':lines.rent_cobradas,
-    			'rent_por_cobrar':lines.rent_por_cobrar,
-    			'ingresos_netos':lines.ingresos_netos,
-    			'imagen':lines.imagen,
-    		#	'calendar':cal_format,
-    			})
+                'property':lines.property_id.name,
+                'company':lines.company_id.name,
+                'fecha':lines.fecha_report,
+                'manager':lines.manager_id.name,
+                'owner':lines.owner_id.name,
+                'estado':lines.estado,
+                'rent_cronograma':lines.rent_cronograma,
+                'rent_efectivo':lines.rent_efectivo,
+                'mantenimientos':lines.mantenimientos,
+                'servicios':lines.servicios,
+                'otros_gastos':lines.otros_gastos,
+                'comisiones':lines.comisiones,
+                'dias_libres':lines.dias_libres,
+                'dias_ocupados':lines.dias_ocupados,
+                'rent_cobradas':lines.rent_cobradas,
+                'rent_por_cobrar':lines.rent_por_cobrar,
+                'ingresos_netos':lines.ingresos_netos,
+                'imagen':lines.imagen,
+        })
 
     	
         data={
-    	   'ids':self.ids,
-    	   'model':self._name,
-    	   'vals':vals,    	   
+    	    'ids':self.ids,
+    	    'model':self._name,
+    	    'vals':vals,    	   
     	}
         return self.env.ref('custom_property.action_custom_property_report_menu').report_action(self, data=data)
     
@@ -172,11 +144,8 @@ class Account_asset_asset_customs(models.Model):
         crea un registro nuevo
         """
         if 'tarifa_de_propiedad' not in vals:
-            raise ValidationError("El campo Tarifas de renta es requirido")
+            raise ValidationError("The Rental Rates field is required.")
         return super(Account_asset_asset_customs, self).create(vals)
-
-
-
 
 
 class RentalRates(models.Model):
@@ -186,9 +155,9 @@ class RentalRates(models.Model):
     tipo_tarifa=fields.Selection(
         string='Rate',
         selection=[
-                 ('1', 'Normal Rate'),                 
-                 ('2', 'High Rate'),
-                 ('3', 'Low Rate'),                 
+                ('1', 'Normal Rate'),                 
+                ('2', 'High Rate'),
+                ('3', 'Low Rate'),       
         ],
         required=True
         )
@@ -200,9 +169,9 @@ class RentalRates(models.Model):
     tipo_renta=fields.Selection(
         string='Type of Rent',
         selection=[
-                 ('1', 'Daily'),
-                 ('2', 'Weekly'),
-                 ('3', 'Monthly'),                 
+                ('1', 'Daily'),
+                ('2', 'Weekly'),
+                ('3', 'Monthly'),                 
         ],
         required=True
         )
@@ -282,26 +251,17 @@ class Account_analytic_account_bh(models.Model):
         help='it shows all recurring maintenance assigned to this tenancy')
 
     chech_in = fields.Datetime(string='Check in')
-
     chech_out = fields.Datetime(string='Check out')
-
     hora_entrada = fields.Float(string='Entry Time')
-
     hora_salida = fields.Float(string='Departure Time')
-
     entrega_acceso_id = fields.Many2one('res.partner',string='Access Delivery')
-
     telefono = fields.Char(related='entrega_acceso_id.phone',string='Phone')
-
     email = fields.Char(related='entrega_acceso_id.email', string='Email')
-
     chech_in_realizado = fields.Datetime(string='Date Done')
-
     bandera_in_realizado = fields.Boolean(string='Done')
-
     rate_busy=fields.Html(
             string='Rate busy',
-            )
+    )
 
     suggested_month = fields.Selection(
         string='Month',
@@ -322,51 +282,133 @@ class Account_analytic_account_bh(models.Model):
         default=lambda self: str(fields.datetime.now().month),
     )
 
-
     other_line_product_ids = fields.One2many(
             'others.payment',
             'other_product_id',
-            string='Other expenses',
+            string='Otros gastos',
             )
+    
+    
+    
+    @api.onchange('property_id')
+    def _onchange_check_times(self):
+        local_tz = pytz.timezone('America/Mexico_City')
+        utc_tz = pytz.utc    
+        for record in self: 
+            if record.property_id:
+                # Obtener la fecha actual en UTC
+                today = datetime.now().date()
+                #now_utc = datetime.utcnow().date()
+                now_local = datetime.now(local_tz).date()
 
+                # Convertir hora decimal a datetime para check_in
+                hours = int(record.property_id.hora_entrada)
+                minutes = int((record.property_id.hora_entrada*60) % 60)  # Asegurarnos de que los minutos sean enteros
+                combined_dt = datetime.combine(now_local, time(hours, minutes))
+                localized_dt = local_tz.localize(combined_dt)
+                utc_dt = localized_dt.astimezone(utc_tz)
+                record.chech_in = utc_dt.replace(tzinfo=None)
+                # Convertir hora decimal a datetime para check_out
+                hours = int(record.property_id.hora_salida)
+                minutes = int((record.property_id.hora_salida*60) % 60)
+                combined_dt = datetime.combine(now_local, time(hours, minutes))
+                localized_dt = local_tz.localize(combined_dt)
+                utc_dt = localized_dt.astimezone(utc_tz)
+                record.chech_out = utc_dt.replace(tzinfo=None)
 
-    def buscar_rango(self,days):
-        """"
-        Funcion para filtar la consulta dependiendo de los dias
-        como resultado arroja como la respuesta de la consulta
+    def buscar_rango(self, days):
+        # Rango uno
+        if days >= 1 and days <= 7:
+            tarifa_dias = self.env['rental.rates'].search([
+                ('propiedad_id', '=', self.property_id.id),
+                ('tipo_tarifa', '=', self.tipo_tarifa),
+                ('tipo_renta', '=', 1)
+            ])
+            if not tarifa_dias:
+                # Si no se encuentra la tarifa, asignar el registro que se encuentre
+                tarifa_dias = self.env['rental.rates'].search([
+                    ('propiedad_id', '=', self.property_id.id),
+                    ('tipo_renta', '=', 1)
+                ], limit=1)
+            return tarifa_dias
+        # Rango dos
+        if days >= 8 and days < 31:
+            tarifa_dias = self.env['rental.rates'].search([
+                ('propiedad_id', '=', self.property_id.id),
+                ('tipo_tarifa', '=', self.tipo_tarifa),
+                ('tipo_renta', '=', 2)
+            ])
+            if not tarifa_dias:
+                # Si no se encuentra la tarifa, asignar el registro que se encuentre
+                tarifa_dias = self.env['rental.rates'].search([
+                    ('propiedad_id', '=', self.property_id.id),
+                ], limit=1)
+            return tarifa_dias
+        # Rango tres
+        if days >= 31:
+            tarifa_dias = self.env['rental.rates'].search([
+                ('propiedad_id', '=', self.property_id.id),
+                ('tipo_tarifa', '=', self.tipo_tarifa),
+                ('tipo_renta', '=', 3)
+            ])
+            if not tarifa_dias:
+                # Si no se encuentra la tarifa, asignar el registro que se encuentre
+                tarifa_dias = self.env['rental.rates'].search([
+                    ('propiedad_id', '=', self.property_id.id),
+                ], limit=1)
+            return tarifa_dias
+
+    def buscar_rango_not_self(self, days, property_id, tipo_tarifa):
         """
-        if days>=1 and days<=7:
-            tarifa_dias=self.env['rental.rates'].search([('propiedad_id','=',self.property_id.id),
-                ('tipo_tarifa','=',self.tipo_tarifa),('tipo_renta','=',1)])
-            return tarifa_dias #rango uno
-        if days>=8 and days<31:
-            tarifa_dias=self.env['rental.rates'].search([('propiedad_id','=',self.property_id.id),
-                ('tipo_tarifa','=',self.tipo_tarifa),('tipo_renta','=',2)])
-            return tarifa_dias #rango dos
-        if days>31:
-            tarifa_dias=self.env['rental.rates'].search([('propiedad_id','=',self.property_id.id),
-                ('tipo_tarifa','=',self.tipo_tarifa),('tipo_renta','=',3)])
-            return tarifa_dias #rango tres
+        Funcion para filtrar la consulta dependiendo de los dias.
+        Como resultado arroja como la respuesta de la consulta.
+        """
+
+        # Rango uno
+        if 1 <= days <= 7:
+            tarifa_dias = self.env['rental.rates'].search([
+                ('propiedad_id', '=', property_id),
+                ('tipo_tarifa', '=', tipo_tarifa),
+                ('tipo_renta', '=', 1)
+            ])
+            if not tarifa_dias:
+                # Si no se encuentra la tarifa, asignar el registro que se encuentre
+                tarifa_dias = self.env['rental.rates'].search([
+                    ('propiedad_id', '=', property_id),
+                ], limit=1)
+            return tarifa_dias
+
+        # Rango dos
+        elif 8 <= days < 31:
+            tarifa_dias = self.env['rental.rates'].search([
+                ('propiedad_id', '=', property_id),
+                ('tipo_tarifa', '=', tipo_tarifa),
+                ('tipo_renta', '=', 2),
+            ])
+            if not tarifa_dias:
+                # Si no se encuentra la tarifa, asignar el registro que se encuentre
+                tarifa_dias = self.env['rental.rates'].search([
+                    ('propiedad_id', '=', property_id),
+                ], limit=1)
+            return tarifa_dias
+
+        # Rango tres
+        elif days > 31:
+            tarifa_dias = self.env['rental.rates'].search([
+                ('propiedad_id', '=', property_id),
+                ('tipo_tarifa', '=', tipo_tarifa),
+                ('tipo_renta', '=', 3),
+            ])
+            if not tarifa_dias:
+                # Si no se encuentra la tarifa, asignar el registro que se encuentre
+                tarifa_dias = self.env['rental.rates'].search([
+                    ('propiedad_id', '=', property_id),
+                ], limit=1)
+            return tarifa_dias
+
+        # Si no se encuentra en ningún rango
         else:
             return False
-        
-    def buscar_rango_not_self(self,days,property_id,tipo_tarifa):
-        """"
-        Funcion para filtar la consulta dependiendo de los dias
-        como resultado arroja como la respuesta de la consulta
-        """
-        if days>=1 and days<=7:
-            tarifa_dias=self.env['rental.rates'].search([('propiedad_id','=',property_id),
-                ('tipo_tarifa','=',tipo_tarifa),('tipo_renta','=',1)])
-            return tarifa_dias #rango uno
-        if days>=8 and days<31:
-            tarifa_dias=self.env['rental.rates'].search([('propiedad_id','=',property_id),
-                ('tipo_tarifa','=',tipo_tarifa),('tipo_renta','=',2)])
-            return tarifa_dias #rango dos
-        if days>31:
-            tarifa_dias=self.env['rental.rates'].search([('propiedad_id','=',property_id),
-                ('tipo_tarifa','=',tipo_tarifa),('tipo_renta','=',3)])
-            return tarifa_dias #rango tres
 
 
     def get_correct_date(self,fecha):
@@ -431,15 +473,17 @@ class Account_analytic_account_bh(models.Model):
 
         for tenancy_rec in self:
             day_diff = (self.chech_out-self.chech_in).days
-            tarifa_select = self.buscar_rango(day_diff)
-            if not tarifa_select:
-                raise UserError("No rate found to use")
             d1=self.chech_in
-            #DIARIO
-            if day_diff>=1 and day_diff<=7:
-                renta_total=tarifa_select.costo_tarifa*day_diff
-                pago_real=renta_total/tarifa_select.fecuencia_de_pagos
-                for iteracion in range(0,tarifa_select.fecuencia_de_pagos):
+            if self.tipo_tarifa == '4':
+                _logger.info("XXXXXXXXXXXXXXXXXXXX")
+                _logger.info(self.spetial_cost)
+                _logger.info(tenancy_rec.spetial_cost)
+                renta_total=self.spetial_cost*day_diff
+                _logger.info(renta_total)
+                pago_real=renta_total/1
+                _logger.info(pago_real)
+
+                for iteracion in range(0,1):
                     vard_data={
                             'start_date':d1,
                             'amount':pago_real,
@@ -450,58 +494,89 @@ class Account_analytic_account_bh(models.Model):
                             'currency_id': tenancy_rec.currency_id.id or False,
                             'rel_tenant_id': tenancy_rec.tenant_id.id,									
                             }
+                    _logger.info(vard_data)
                     self.write({
                         'rent_schedule_ids':[(0,0,vard_data)]
                         })
                     d1=d1+relativedelta(days=1)
-                tenancy_rec.deposit=tarifa_select.deposito	
-                tenancy_rec.rent=pago_real		
-            #SEMANAL		
-            if day_diff>=8 and day_diff<31:
-                renta_total=tarifa_select.costo_tarifa*day_diff
-                pago_real=renta_total/tarifa_select.fecuencia_de_pagos
-                for iteracion in range(0,tarifa_select.fecuencia_de_pagos):
-                    vard_data={
-                            'start_date':d1,
-                            'amount':pago_real,
-                            'pen_amt':pago_real,
-                            'property_id': tenancy_rec.property_id
-                            and tenancy_rec.property_id.id or False,
-                            'tenancy_id': tenancy_rec.id,
-                            'currency_id': tenancy_rec.currency_id.id or False,
-                            'rel_tenant_id': tenancy_rec.tenant_id.id,	
-                            }
-                    self.write({
-                        'rent_schedule_ids':[(0,0,vard_data)]
-                        })
-                    d1=d1+relativedelta(weeks=1)
-                tenancy_rec.deposit=tarifa_select.deposito
-                tenancy_rec.rent=pago_real
-            #MENSUAL
-            if day_diff>=31:
-                intervalo=math.ceil(abs(day_diff/31))
-                renta_total=tarifa_select.costo_tarifa*day_diff
-                pago_real=renta_total/intervalo
-                for iteracion in range(0,intervalo):
-                    vard_data={
-                            'start_date':d1,
-                            'amount':pago_real,
-                            'pen_amt':pago_real,
-                            'property_id': tenancy_rec.property_id
-                            and tenancy_rec.property_id.id or False,
-                            'tenancy_id': tenancy_rec.id,
-                            'currency_id': tenancy_rec.currency_id.id or False,
-                            'rel_tenant_id': tenancy_rec.tenant_id.id,	
-                            }
-                    self.write({
-                        'rent_schedule_ids':[(0,0,vard_data)]
-                        })
-                    d1=d1+relativedelta(days=30)
-                tenancy_rec.deposit=tarifa_select.deposito	
-                tenancy_rec.rent=pago_real						
-            self.set_number_pay()
-            self.state='open'
-            return tenancy_rec.write({'rent_entry_chck': True})	
+                tenancy_rec.deposit=self.deposit
+                self.rent=self.spetial_cost
+
+                self.set_number_pay()
+                self.state='open'
+                return tenancy_rec.write({'rent_entry_chck': True})	
+
+            else: # Si el tipo de tarifa no es 4, se sigue con el proceso original.
+                    tarifa_select = self.buscar_rango(day_diff)
+                    if not tarifa_select:
+                        raise UserError("No rate found to use")
+                    #DIARIO
+                    if day_diff>=1 and day_diff<=7:
+                        renta_total=tarifa_select.costo_tarifa*day_diff
+                        pago_real=renta_total/tarifa_select.fecuencia_de_pagos
+                        for iteracion in range(0,tarifa_select.fecuencia_de_pagos):
+                            vard_data={
+                                    'start_date':d1,
+                                    'amount':pago_real,
+                                    'pen_amt':pago_real,
+                                    'property_id': tenancy_rec.property_id
+                                    and tenancy_rec.property_id.id or False,
+                                    'tenancy_id': tenancy_rec.id,
+                                    'currency_id': tenancy_rec.currency_id.id or False,
+                                    'rel_tenant_id': tenancy_rec.tenant_id.id,									
+                                    }
+                            self.write({
+                                'rent_schedule_ids':[(0,0,vard_data)]
+                                })
+                            d1=d1+relativedelta(days=1)
+                        tenancy_rec.deposit=tarifa_select.deposito	
+                        tenancy_rec.rent=pago_real		
+                    #SEMANAL		
+                    if day_diff>=8 and day_diff<31:
+                        renta_total=tarifa_select.costo_tarifa*day_diff
+                        pago_real=renta_total/tarifa_select.fecuencia_de_pagos
+                        for iteracion in range(0,tarifa_select.fecuencia_de_pagos):
+                            vard_data={
+                                    'start_date':d1,
+                                    'amount':pago_real,
+                                    'pen_amt':pago_real,
+                                    'property_id': tenancy_rec.property_id
+                                    and tenancy_rec.property_id.id or False,
+                                    'tenancy_id': tenancy_rec.id,
+                                    'currency_id': tenancy_rec.currency_id.id or False,
+                                    'rel_tenant_id': tenancy_rec.tenant_id.id,	
+                                    }
+                            self.write({
+                                'rent_schedule_ids':[(0,0,vard_data)]
+                                })
+                            d1=d1+relativedelta(weeks=1)
+                        tenancy_rec.deposit=tarifa_select.deposito
+                        tenancy_rec.rent=pago_real
+                    #MENSUAL
+                    if day_diff>=31:
+                        intervalo=math.ceil(abs(day_diff/31))
+                        renta_total=tarifa_select.costo_tarifa*day_diff
+                        pago_real=renta_total/intervalo
+                        for iteracion in range(0,intervalo):
+                            vard_data={
+                                    'start_date':d1,
+                                    'amount':pago_real,
+                                    'pen_amt':pago_real,
+                                    'property_id': tenancy_rec.property_id
+                                    and tenancy_rec.property_id.id or False,
+                                    'tenancy_id': tenancy_rec.id,
+                                    'currency_id': tenancy_rec.currency_id.id or False,
+                                    'rel_tenant_id': tenancy_rec.tenant_id.id,	
+                                    }
+                            self.write({
+                                'rent_schedule_ids':[(0,0,vard_data)]
+                                })
+                            d1=d1+relativedelta(days=30)
+                        tenancy_rec.deposit=tarifa_select.deposito	
+                        tenancy_rec.rent=pago_real						
+                    self.set_number_pay()
+                    self.state='open'
+                    return tenancy_rec.write({'rent_entry_chck': True})	
 
     tipo_tarifa=fields.Selection(
             string='Rate',
@@ -509,8 +584,13 @@ class Account_analytic_account_bh(models.Model):
                 ('1', 'Normal Rate'),                 
                 ('2', 'High Rate'),
                 ('3', 'Low Rate'),                 
+                ('4', 'Spetial Rate'),                 
                 ]
             )
+    
+    spetial_cost = fields.Float(
+        string='Spetial Cost',
+    )	
 
     def insert_accion(self,accion):
         """
@@ -552,47 +632,6 @@ class Account_analytic_account_bh(models.Model):
         self.hora_entrada=self.property_id.hora_entrada
         self.hora_salida=self.property_id.hora_salida
 
-    # @api.onchange('chech_in')
-    # def _onchange_chechin_chechout(self):
-    #     hrinstring = ''
-    #     hrinstring_1 = ''
-    #     hr_min = []
-    #     propiedad=self.env['account.asset.asset'].search([
-    #             ('id','=',self.property_id.id)])
-    #     if propiedad and self.chech_in:
-    #         hrinstring = str(propiedad.hora_entrada)
-    #         hr_min = hrinstring.split('.')
-    #         hr_min = [int(x) for x in hr_min]
-    #         _logger.info(f'****hr_min: {hr_min}')
-    #         self.chech_in = self.chech_in.replace(hour=12, minute=12)
-    #         hrinstring_1 = str(propiedad.hora_salida) 
-    #         hr_min_1 = hrinstring_1.split('.')
-    #         hr_min_1 = [int(x) for x in hr_min_1]
-    #         _logger.info(f'****hr_min: {hr_min_1}')
-    #         co = self.chech_out
-    #         self.chech_out = datetime(co.year,co.month,co.day,hr_min_1[0],hr_min_1[1],0)
-    #         #self.chech_out = self.chech_out.replace(hour=hr_min_1[0], minute=hr_min_1[1]) - timedelta(hours=18)
-
-    #@api.onchange('chech_in')
-    #def _onchange_chechin_chechout(self):
-    #    hrinstring = ''
-    #    hrinstring_1 = ''
-    #    hr_min = []
-    #    hr_min_1 = []
-    #    propiedad=self.env['account.asset.asset'].search([('id','=',self.property_id.id)],limit=1)
-    #    if propiedad:
-    #        if self.chech_in:
-    #            self.chech_in = self.chech_in.replace(hour=0, minute=0) + timedelta(hours=6)
-    #            self.chech_out = self.chech_out.replace(hour=0, minute=0) + timedelta(hours=6)
-    #            hrinstring = str(propiedad.hora_entrada)
-    #            hr_min = hrinstring.split('.')
-    #            hr_min = [int(x) for x in hr_min]
-    #            self.chech_in = self.chech_in + timedelta(hours=hr_min[0], minutes=hr_min[1])
-    #            hrinstring_1 = str(propiedad.hora_salida) 
-    #            hr_min_1 = hrinstring_1.split('.')
-    #            hr_min_1 = [int(x) for x in hr_min_1]
-    #            self.chech_out = self.chech_out + timedelta(hours=hr_min_1[0], minutes=hr_min_1[1])
-
 
     def set_number_pay(self):
         """
@@ -607,6 +646,28 @@ class Account_analytic_account_bh(models.Model):
     def action_invoice_payment(self):
         self.tenancy_invoice()
         self.invoice_other_payments()
+
+        for tenancy_rec in self:
+        # Iterate through other_line_product_ids to get the invoices you just created
+            for other_line in tenancy_rec.other_line_product_ids:
+                # Check if there's an associated invoice with the other_line
+                if other_line.inv_id:
+                    # Create a new line for rent_schedule_ids based on the invoice
+                    rent_schedule_data = {
+                        # Adjust these fields based on your model's structure and the data you want to copy
+                        'start_date': tenancy_rec.chech_in,
+                        'amount': other_line.cost or 0.00,  # or the amount from the invoice
+                        'property_id': tenancy_rec.property_id.id or False,
+                        'tenancy_id': tenancy_rec.id,
+                        'currency_id': tenancy_rec.currency_id.id or False,
+                        'rel_tenant_id': tenancy_rec.tenant_id.id,
+                        'cheque_detail': other_line.other_product,  # or some relevant detail from the invoice
+                        'invc_id': other_line.inv_id.id  # assuming you have a field to store the related invoice in rent_schedule_ids
+                    }
+                    # Add the new line to rent_schedule_ids
+                    tenancy_rec.write({
+                        'rent_schedule_ids': [(0, 0, rent_schedule_data)]
+                    })
 
     def tenancy_invoice(self):
         inv_obj = self.env['account.move']
@@ -746,11 +807,11 @@ class Account_analytic_account_bh(models.Model):
         """
         _logger.info('*************envio el correo****************')
         if not self.manager_id:
-            raise UserError("Does not have the sender")
+            raise UserError("No cuenta con el remitente ")
         if not self.tenant_id:
-            raise UserError("Tenant is empty")
+            raise UserError("Inquilino esta vacio")
         if not self.entrega_acceso_id:
-            raise UserError("Delivery of empty accesses")
+            raise UserError("Entrega de accesos vacio")
 
         template_id=self.env.ref('custom_property.email_template_contrato').id
         self.env['mail.template'].browse(template_id).send_mail(self.id,force_send=True)
@@ -761,11 +822,11 @@ class Account_analytic_account_bh(models.Model):
         valida sus respetivos remitentes y destinatarios
         """
         if not self.property_owner_id:
-            raise UserError("Does not have the sender")
+            raise UserError("No cuenta con el remitente ")
         if not self.contact_id:
-            raise UserError("Contact is empty")
+            raise UserError("Contacto esta vacio")
         if not self.manager_id:
-            raise UserError("Account manager or empty sender")
+            raise UserError("Gerente de cuentas o remitente vacio")
 
         template_id=self.env.ref('custom_property.email_template_contrato_tenancy').id
         self.env['mail.template'].browse(template_id).send_mail(self.id,force_send=True)
@@ -802,7 +863,7 @@ class Account_analytic_account_bh(models.Model):
                 date_is_range_busy_stop=True
 
         if date_is_range_busy_start or date_is_range_busy_stop:
-            raise UserError(_("The reservation date range is already occupied, please use another"))
+            raise UserError(_("The reservation date range is already taken, Please use another one"))
 
     def _matrix2vector(self, matrix):
         vector = []
@@ -864,13 +925,34 @@ class Account_analytic_account_bh(models.Model):
                 astimezone(local),"%d-%m-%Y %H:%M:%S")
             return fecha_real
 
+    count_reg = fields.Integer(compute="_calculo_registro")
 
+    def _calculo_registro(self):
+        """
+        suma la cantidad de eventos de calendario
+        """
+        for rec in self:
+            rec.count_reg = self.env['calendar.event'].search_count([('property_calendary', '=', rec.property_id.id)])
 
-
+    def action_show_events(self):
+        self.ensure_one()
+        domain = [('property_calendary', '=', self.property_id.id)]
+        return {
+            'name': _('Events for %s' % self.property_id.name),
+            'type': 'ir.actions.act_window',
+            'res_model': 'calendar.event',
+            'view_mode': 'calendar,tree,form',
+            'view_id': False,
+            'view_type': 'form',
+            'domain': domain,
+            'context': {
+                'default_mode': 'month',  
+            },
+        } 
 # Codigo por Saul
 class AccounMoveLineModified(models.Model):
     _inherit = 'account.move.line'
 
-    is_service = fields.Boolean(default=False, string="Is it a service?")
-    maintenance_id = fields.Many2one('maintenance.request', string="Maintenance")
+    is_service = fields.Boolean(default=False, string="Es un servicio?")
+    maintenance_id = fields.Many2one('maintenance.request', string="Mantenimiento")
 

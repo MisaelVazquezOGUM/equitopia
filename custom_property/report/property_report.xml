@@ -3,7 +3,7 @@
 
 
 		<record id="menu_action_property" model="ir.actions.server">
-			<field name='name'>Server Propiedades</field>
+			<field name='name'>Server Properties</field>
 			<field name="model_id" ref="custom_property.model_account_asset_asset"/>
 			<field name="state">code</field>
 			<field name="code">action=model.print_report_property_pdf()</field>
@@ -16,7 +16,7 @@
 			action="menu_action_property"/> -->
 
 		<record id="action_custom_property_report_menu" model="ir.actions.report">
-			<field name='name'>Propiedades</field>
+			<field name='name'>Properties</field>
 			<field name='model'>account.asset.asset</field>
 			<field name='report_type'>qweb-pdf</field>
 			<field name='report_name'>custom_property.property_propery</field>
@@ -27,71 +27,71 @@
 					
 			    <t t-call="web.external_layout">
 				    <div class="page">
-				    	<h1 style="text-align:center;">Estado de resultados</h1>
+				    	<h1 style="text-align:center;">Ownership status</h1>
 				        <t t-foreach="vals" t-as="doc">
 				        	
 				        	
 				        	<table class="table table-sm">
 				        		<thead>
 				        			<tr>
-				        				<th>Imagen</th> 
-				        				<th>General</th>
-				        				<th>Gastos</th>
-				        				<th>Ocupacion</th>
-				        				<!-- <th>Calendario</th> -->
-				        				<th>Neto</th>
-				        				<th>Historico</th>
+				        				<th>Image</th>
+										<th>General</th>
+										<th>Expenses</th>
+										<th>Occupancy</th>
+										<!-- <th>Calendar</th> -->
+										<th>Net</th>
+										<th>Historical</th>
 				        			</tr>
 				        		</thead>
 				        		<tbody>
 				        			<tr>
 				        				<td>
-				        					<strong>Propiedad:</strong> 
+				        					<strong>Property:</strong> 
 							        		<span><t t-esc="doc['property']"/></span><br/>
 				        					<img t-attf-src="data:image/*;base64,{{doc['imagen']}}" style="max-height: 80px;max-width: 145px;padding:2px;" align="center"/><br/>
-				        					<strong>Estado:</strong>
+				        					<strong>State:</strong>
 							        		<span><t t-esc="doc['estado']"/></span><br/>
-							        		<strong>Fecha:</strong>
+							        		<strong>Date:</strong>
 							        		<span><t t-esc="doc['fecha']"/></span><br/>
 				        				</td>
 				        				<td>				        					
-							        		<strong>Manejador:</strong>
+							        		<strong>Manager:</strong>
 							        		<span><t t-esc="doc['manager']"/></span><br/>
-							        		<strong>Dueño:</strong>
+							        		<strong>Owner:</strong>
 							        		<span><t t-esc="doc['owner']"/></span><br/>
-							        		<strong>Programadas:</strong>
+							        		<strong>Scheduled:</strong>
 							        		<span t-esc="doc['rent_cronograma']"/><br/>	
-							        		<strong>Efectivo:</strong>					        	
+							        		<strong>Efective:</strong>					        	
 							        		<span t-esc="doc['rent_efectivo']"/><br/>	
 							        		
 				        				</td>
 				        				<td>
-				        					<strong>Mantenimiento:</strong>
-							        		<span t-esc="doc['mantenimientos']"/><br/>
-							        		<strong>Servicios:</strong>
-							        		<span t-esc="doc['servicios']"/><br/>
-							        		<strong>Otros Gastos:</strong>
-							        		<span t-esc="doc['otros_gastos']"/><br/>
-							        		<strong>Comisiones:</strong>
-							        		<span t-esc="doc['comisiones']"/><br/>
+											<strong>Maintenance:</strong>
+											<span t-esc="doc['mantenimientos']"/><br/>
+											<strong>Services:</strong>
+											<span t-esc="doc['servicios']"/><br/>
+											<strong>Other Expenses:</strong>
+											<span t-esc="doc['otros_gastos']"/><br/>
+											<strong>Commissions:</strong>
+											<span t-esc="doc['comisiones']"/><br/>
 				        				</td>
 				        				<td>
-				        					<strong>Libre:</strong>
-							        		<span><t t-esc="doc['dias_libres']"/></span> Dias<br/>
-							        		<strong>No libre:</strong>
-							        		<span><t t-esc="doc['dias_ocupados']"/></span> Dias<br/>
+				        					<strong>Free:</strong>
+							        		<span><t t-esc="doc['dias_libres']"/></span> Days<br/>
+							        		<strong>Occupied:</strong>
+							        		<span><t t-esc="doc['dias_ocupados']"/></span> Days<br/>
 				        				</td>
 				        			<!-- 	<td>
 				        					  <span><t t-esc="doc['calendar']"/></span>
 				        				</td> -->
 				        				<td>
-				        					<strong>Ingreso Neto:</strong>
+				        					<strong>Net Income:</strong>
 								        	  <span><t t-esc="doc['ingresos_netos']"/></span>
 				        				</td>				        				
 				        				<td>
-				        					<strong>Cobrado:</strong>
+				        					<strong>Collected:</strong>
 							        		<span t-esc="doc['rent_cobradas']"/><br/>					        		
-							        		<strong>Ha Cobrado:</strong>
+							        		<strong>Outstanding:</strong>
 							        		<span t-esc="doc['rent_por_cobrar']"/><br/>	
 				        				</td>
 				        			</tr>

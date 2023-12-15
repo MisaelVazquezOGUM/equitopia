@@ -10,33 +10,30 @@
 			<field name="body_html" type="html">
 				
 				<div>
-                    deposito del inquilino ${object.journal_id.name} de ${object.property_id.name}
+                    Tenant's deposit from ${object.journal_id.name} of ${object.property_id.name}
                     <br/><br/>
                     
                 </div>
                 <div class = "row">
-                    <div class = "col-6"> 
-                    Tipo de pago ${object.payment_type}
-                    Tipo de empresa ${object.partner_type}
-                    Socio ${object.partner_id.name}
-                    Importe${object.amount}
-                    Fecha ${object.payment_date}
+                    <div class="col-6">
+                        Payment Type: ${object.payment_type}
+                        Company Type: ${object.partner_type}
+                        Partner: ${object.partner_id.name}
+                        Amount: ${object.amount}
+                        Date: ${object.payment_date}
                     </div>
-                    
-                    <div class = "col-6">
-                    
-                    Circular ${object.communication}
-                    Contrato inquilino ${object.tenancy_id.name}
-                    propiedad ${object.property_id.name}
-                    Importe adeudo ${object.amount_due}
-                    Fecha ${object.payment_date}
+                    <div class="col-6">
+                        Circular: ${object.communication}
+                        Tenant Contract: ${object.tenancy_id.name}
+                        Property: ${object.property_id.name}
+                        Amount Due: ${object.amount_due}
+                        Date: ${object.payment_date}
                     </div>
-
                 </div>
 
 			</field>
 		<field name="report_template" ref="account.action_report_payment_receipt"/>
-			<field name="report_name">Correo ${object.name}</field>
+			<field name="report_name">Email ${object.name}</field>
 		</record> 
 
 	</data>

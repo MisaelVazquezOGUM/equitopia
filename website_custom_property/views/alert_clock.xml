@@ -1,0 +1,35 @@
+<odoo>
+  <data>
+ <!--TREE-->
+  <record id="website_custom_property_tree_inheriti" model="ir.ui.view">
+    <field name="name">website_custom_property_tree.inheriti</field>
+    <field name="model">alert.clock</field>
+    <field name="arch" type="xml">  
+    	  <tree create="false" edit="false">
+             <field  name="actividad"/>
+             <field  name="propiedad_id"/>
+             <field  name="contratos_id"/>
+            <field name="duenos_id"/>
+            <field name="marcarleido"/>
+          </tree>
+    </field>
+   </record>
+   
+
+   <!--menu-->
+    <record id="action_custom_alert_clock" model="ir.actions.act_window">
+            <field name="name">Alertas</field>
+            <field name="res_model">alert.clock</field>
+            <field name="view_mode">tree</field>
+        </record>  
+    
+      <menuitem 
+            name="Alertas" 
+            id="menu_main_alertas" 
+            parent="property_management.menu_report_sub" 
+            sequence="11" 
+            action="action_custom_alert_clock"/>
+
+  
+  </data>
+</odoo>

@@ -5,8 +5,8 @@
       <field name="name">maintenance.category.form</field>
       <field name="model">maintenance.category</field>
       <field name="arch" type="xml">
-        <form string="Category">
-          <field name="name" string="Category Name" placeholder="Category Name..." />
+        <form string="Categories">
+          <field name="name" string="Category name" placeholder="Category name..."  />
           <field name="maintenances" invisible="1" />
         </form>
       </field>
@@ -16,8 +16,8 @@
       <field name="name">maintenance.names.form</field>
       <field name="model">maintenance.names</field>
       <field name="arch" type="xml">
-        <form string="Category">
-          <field name="name" string="Maintenances name" placeholder="Maintenances name..."  />
+        <form string="Categories">
+          <field name="name" string="Maintenance name" placeholder="Maintenance name..."  />
           <field name="maintenances" invisible="1" />
         </form>
       </field>
@@ -123,7 +123,7 @@
           <field name="frequency" />
         </field>
         <field name="deposit_scheme_type" position="after">
-          <field name="tenant_tenancy_id" readonly="1" string="Tenant agreement" context="{'form_view_ref': 'property_management.property_analytic_view_form'}" />
+          <field name="tenant_tenancy_id" readonly="1" string="Tenant's contract" context="{'form_view_ref': 'property_management.property_analytic_view_form'}" />
         </field>
 
         <xpath expr="//page[@name='history']" position="after">

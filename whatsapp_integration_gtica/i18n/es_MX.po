@@ -1,0 +1,715 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* whatsapp_integration_gtica
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-30 15:34+0000\n"
+"PO-Revision-Date: 2020-05-30 14:01-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"*\n"
+"        <br/>\n"
+"        *Qty:*"
+msgstr ""
+"*\n"
+"        <br/>\n"
+"        *Cantidad:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid ""
+"*Delivery Note:*\n"
+"<br/>"
+msgstr ""
+"*Nota de entrega:*\n"
+"<br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid "*Discount:*"
+msgstr "*Descuento:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid ""
+"*Products:*\n"
+"<br/>-------------------<br/>"
+msgstr ""
+"*Productos:*\n"
+"<br/>-------------------<br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_form
+msgid ""
+"*Remember, you can place the shortcode {name} to get the partner or contact "
+"name automatically in your template message."
+msgstr ""
+"* Recuerda, puedes colocar el codigo {nombre} para obtener el nombre del "
+"socio o contacto automáticamente en tus mensajes de plantilla."
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid "*Tax*"
+msgstr "*Impuesto*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"-----------------\n"
+"        <br/>\n"
+"        *Subtotal:*"
+msgstr ""
+"-----------------\n"
+"        <br/>\n"
+"        *Subtotal:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid ""
+"-------------------<br/>\n"
+"<span>*Date Delivery:*</span>"
+msgstr ""
+"------------------- <br/>\n"
+"<span> * Fecha de entrega: * </span>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid ""
+"<br/>\n"
+"            *Note:* Remember that this message is informative, request your "
+"formal invoice\n"
+"            <br/>"
+msgstr ""
+"<br/>\n"
+"         * Nota: * Recuerda que este mensaje es informativo, solicita tu "
+"factura formal\n"
+"         <br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid ""
+"<br/>\n"
+"            ------------------\n"
+"            <br/>\n"
+"            {link}\n"
+"            <br/>\n"
+"            ------------------\n"
+"            <br/><br/>"
+msgstr ""
+"<br/>\n"
+"            ------------------\n"
+"            <br/>\n"
+"            {link}\n"
+"            <br/>\n"
+"            ------------------\n"
+"            <br/><br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"<br/>\n"
+"        *Amount*"
+msgstr ""
+"<br/>\n"
+"         *Cantidad*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"<br/>\n"
+"        *Due Date:*"
+msgstr ""
+"<br/>\n"
+"         *Fecha de vencimiento:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"<br/>\n"
+"        *Note:* Remember that this message is informative, request your "
+"formal invoice\n"
+"        <br/>"
+msgstr ""
+"<br/>\n"
+"         * Nota: * Recuerda que este mensaje es informativo, solicita tu "
+"factura formal\n"
+"         <br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"<br/>\n"
+"        *Price Unit:*"
+msgstr ""
+"<br/>\n"
+"        *Precio unitario:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"<br/>\n"
+"        *Tax:*"
+msgstr ""
+"<br/>\n"
+"         *Impuesto:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"<br/>\n"
+"        *Total:*"
+msgstr ""
+"<br/>\n"
+"        *Total:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid ""
+"<br/>\n"
+"        -----------------\n"
+"        <br/><br/>\n"
+"        *Invoice Date:*"
+msgstr ""
+"<br/>\n"
+"         -----------------\n"
+"         <br/> <br/>\n"
+"         *Fecha de la factura:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid ""
+"<br/>\n"
+"    *Date Ordered:*"
+msgstr ""
+"<br/>\n"
+"     *Fecha del pedido:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+msgid ""
+"<br/>\n"
+"    *Discount*"
+msgstr ""
+"<br/>\n"
+"    *Descuento*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+msgid ""
+"<br/>\n"
+"    *Qty:*"
+msgstr ""
+"<br/>\n"
+"    *Cantidad:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid ""
+"<br/>\n"
+"    *Quotation Date:*"
+msgstr ""
+"<br/>\n"
+"     * Fecha de cotización: *"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid ""
+"<br/>\n"
+"    *Salesperson:*"
+msgstr ""
+"<br/>\n"
+"     * Vendedor: *"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+msgid ""
+"<br/>\n"
+"    *Total Price:*"
+msgstr ""
+"<br/>\n"
+"    *Precio Total:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+msgid ""
+"<br/>\n"
+"    *Total*:"
+msgstr ""
+"<br/>\n"
+"    *Total*:"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid ""
+"<br/>\n"
+"    ------------------\n"
+"    <br/>\n"
+"    {link}\n"
+"    <br/>\n"
+"    ------------------"
+msgstr ""
+"<br/>\n"
+"    ------------------\n"
+"    <br/>\n"
+"    {link}\n"
+"    <br/>\n"
+"    ------------------"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid ""
+"<br/>\n"
+"    Please feel free to contact me through this channel if you have any "
+"questions. *Regards*\n"
+"    <br/>\n"
+"    *Note:* Remember that this message is informative, request your formal "
+"document\n"
+"    <br/>"
+msgstr ""
+"<br/>\n"
+"No dude en ponerse en contacto conmigo a través de esta plataforma si tiene "
+"alguna pregunta. * Saludos *\n"
+"<br/>\n"
+"* Nota: * Recuerde que este mensaje es informativo, solicite su documento "
+"formal\n"
+"<br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid ""
+"<br/>\n"
+"*Qty:*"
+msgstr ""
+"<br/>\n"
+"*Cantidad:*"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid ""
+"<br/>\n"
+"<span>*Customer Address:*</span>"
+msgstr ""
+"<br/>\n"
+"<span> * Dirección del cliente: * </span>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid ""
+"<br/>\n"
+"Please feel free to contact me through this channel if you have any "
+"questions.*Regards*\n"
+"<br/>\n"
+"*Note:* Remember that this message is informative, request your formal "
+"document\n"
+"<br/>"
+msgstr ""
+"<br/>\n"
+"No dude en ponerse en contacto conmigo a través de esta plataforma si tiene "
+"alguna pregunta. * Saludos *\n"
+"<br/>\n"
+"* Nota: * Recuerde que este mensaje es informativo, solicite su documento "
+"formal\n"
+"<br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid ""
+"<br/><br/>\n"
+"            <span>*Hi Dear*</span>\n"
+"            <br/>"
+msgstr ""
+"<br/><br/>\n"
+"            <span>*Hola, Estimado.*</span>\n"
+"            <br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid ""
+"<br/><br/>\n"
+"    <span>*Hi Dear*</span>\n"
+"    <br/>"
+msgstr ""
+"<br/><br/>\n"
+"    <span>*Hola, Estimado.*</span>\n"
+"    <br/>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid ""
+"<br/><br/>\n"
+"<span>*Hi Dear*</span>\n"
+"<br/>\n"
+"<span>In the following message, details of your Delivery products #</span>"
+msgstr ""
+"<br/><br/>\n"
+"<span>*Hola, Estimado.*</span>\n"
+"<br/>\n"
+"<span>En el siguiente mensaje, estaran los detalles de sus productos de "
+"entrega</span>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid "<span>Next, details of your Pro-Forma Invoice # </span>"
+msgstr ""
+"<span>A continuacion, estos son los detalles de su factura Pro-Forma</span>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Subtotal</strong>"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.send_whatsapp_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__category
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_form
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_tree
+msgid "Category"
+msgstr "Categoria"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model,name:whatsapp_integration_gtica.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__create_uid
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__create_date
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__default_messege_id
+msgid "Default Messege"
+msgstr "Mensaje predeterminado"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.ui.menu,name:whatsapp_integration_gtica.whatsapp_default_config
+msgid "Default Whatsapp"
+msgstr "WhatsApp predeterminado"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__whatsapp_default__category__delivery
+msgid "Delivery"
+msgstr "Entrega"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__display_name
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid "For *Client*:"
+msgstr "Para *Cliente*:"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__format_message
+msgid "Format Message"
+msgstr "Formato de mensaje"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__format_visible_context
+msgid "Format Visible Context"
+msgstr "Formato de contexto visible"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.send_whatsapp_view_form
+msgid "Format messege"
+msgstr "Formato de mensaje"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__id
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__id
+msgid "ID"
+msgstr "ID"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid "In the following link, details of your Order #"
+msgstr "En el siguiente enlace estaran los detalles de su orden #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+msgid "In the following link, details of your Quotation, #"
+msgstr "En el siguiente enlace estaran los detalles de su presupuesto, #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote_link
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_stock_picking
+msgid "Info the *"
+msgstr "Informacion el *"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__whatsapp_default__category__invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_form
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model,name:whatsapp_integration_gtica.model_account_move
+msgid "Journal Entries"
+msgstr "Asientos contables"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp____last_update
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificacion el"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__write_uid
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__write_date
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualizacion en"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__send_whatsapp__format_message__link
+msgid "Link Url"
+msgstr "Link Url"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__message
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__default_messege
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_form
+msgid "Message Default"
+msgstr "Mensaje predeterminado"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model,name:whatsapp_integration_gtica.model_whatsapp_default
+msgid "Message default in Whatsapp"
+msgstr "Mensaje predeterminado en Whatsapp"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_tree
+msgid "Message template"
+msgstr "Plantilla de mensajes"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__mobile
+msgid "Mobile"
+msgstr "Telefono"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid "Next, details of your Cancelled Invoice #"
+msgstr "A continuacion, estos son los detalles de su factura cancelada #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid "Next, details of your Credit Note #"
+msgstr "A continuacion, estos son los detalles de su nota de credito #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid "Next, details of your Draft Invoice #"
+msgstr "A continuación, estos son los detalles de su factura en borrador #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid "Next, details of your Invoice #"
+msgstr "A continuacion, estos son los detalles de su factura #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+msgid "Next, details of your Order #"
+msgstr "A continuacion, estos son los detalles de su orden #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_quote
+msgid "Next, details of your Quotation, #"
+msgstr "A continuación, estos son los detalles de su presupuesto, #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid "Next, details of your Vendor Bill #"
+msgstr "A continuación, estos son los detalles de su factura de proveedor #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.template_invoice_link
+msgid "Next, details of your Vendor Credit Note #"
+msgstr ""
+"A continuación, estos son los detalles de su Nota de crédito de proveedor #"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_picking_form_extend
+msgid "Notification Whatsapp"
+msgstr "Notificacion de WhatsApp"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.send_whatsapp_view_form
+msgid "Number Whatsapp"
+msgstr "Numero de WhatsApp"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__whatsapp_default__category__other
+msgid "Other"
+msgstr "Otro"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_send_whatsapp__partner_id
+msgid "Partner"
+msgstr "Socio"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__whatsapp_default__category__partner
+msgid "Partner/Contact"
+msgstr "Socio/Contacto"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__whatsapp_default__category__provider
+msgid "Provider"
+msgstr "Proveedor"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.send_whatsapp_view_form
+msgid "Quick replies"
+msgstr "Respuestas rapidas"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.send_whatsapp_view_form
+msgid "Quickly send  WhatsApp messages right from System."
+msgstr "Envíe mensajes de WhatsApp."
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__whatsapp_default__category__quote
+msgid "Quoting"
+msgstr ""
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.send_whatsapp_view_form
+msgid "Recipient"
+msgstr "Destinatario"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__whatsapp_default__category__sale
+msgid "Sale"
+msgstr "Ventas"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model,name:whatsapp_integration_gtica.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.send_whatsapp_view_form
+msgid "Send"
+msgstr "Enviar"
+
+#. module: whatsapp_integration_gtica
+#: code:addons/whatsapp_integration_gtica/models/models.py:0
+#: model:ir.actions.act_window,name:whatsapp_integration_gtica.send_whatsapp_form_action
+#: model:ir.model,name:whatsapp_integration_gtica.model_send_whatsapp
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.invoice_form_extend
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.send_whatsapp_view_form
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_order_form_extend
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_partner_form_extend
+#, python-format
+msgid "Send Whatsapp"
+msgstr "Enviar WhatsApp"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields.selection,name:whatsapp_integration_gtica.selection__send_whatsapp__format_message__txt
+msgid "Text Plan"
+msgstr "Plan de texto"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_tree
+msgid "Title"
+msgstr "TItulo"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,field_description:whatsapp_integration_gtica.field_whatsapp_default__name
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_form
+msgid "Title Template"
+msgstr "Titulo de la plantilla"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model,name:whatsapp_integration_gtica.model_stock_picking
+msgid "Transfer"
+msgstr "Albarán"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.ui.menu,name:whatsapp_integration_gtica.whatsapp_integration_gtica_menu_root
+msgid "Whatsapp Integration"
+msgstr "Integración de Whatsapp"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.actions.act_window,name:whatsapp_integration_gtica.action_whatsapp_default
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_form
+msgid "Whatsapp message default"
+msgstr "Mensaje predeterminado de Whatsapp"
+
+#. module: whatsapp_integration_gtica
+#: model_terms:ir.ui.view,arch_db:whatsapp_integration_gtica.view_whatsapp_default_form
+msgid "Whatsapp message template"
+msgstr "Plantilla de mensaje de WhatsApp"
+
+#. module: whatsapp_integration_gtica
+#: code:addons/whatsapp_integration_gtica/models/whatsapp.py:0
+#, python-format
+msgid "You must add mobil number in the partner form"
+msgstr "Debe agregar el número de móvil en el formulario de socio"
+
+#. module: whatsapp_integration_gtica
+#: model:ir.model.fields,help:whatsapp_integration_gtica.field_send_whatsapp__mobile
+msgid "use country mobile code without the + sign"
+msgstr "use el codigo móvil del pais sin el signo +"

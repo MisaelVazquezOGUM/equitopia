@@ -1,0 +1,169 @@
+<odoo>
+	<template id="contractos_view_data" name="Contactos view">
+		<t t-call="portal.frontend_layout">
+           <div class="container"> 
+			
+			<div class="card">
+				<div class="card-body">
+							<div class="row">
+						<div class="col-lg-6">
+							<strong>Nombre</strong>: <span t-esc="name"/>
+						</div>
+						<div class="col-lg-6">
+							<strong>Codigo</strong>: <span t-esc="code"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">				
+					<div class="card-header">
+					<h3>Informacion de propiedad</h3>	
+					</div>
+					<div class="card-body">
+						<div class="row">
+				        <div class="col-6">
+					    	<strong>Propiedad</strong>: <span t-esc="propiedad"/><br/>
+						    <strong>Manejandor</strong>: <span t-esc="manejando"/><br/>
+						    <strong>Moneda</strong>: <span t-esc="moneda"/>					
+						</div>
+						<div class="col-6">
+						  <strong>Inquilino</strong>: <span t-esc="inquilino"/><br/>
+						  <strong>Compañia</strong>: <span t-esc="compania"/>
+						</div>
+					</div>
+					</div>			
+			</div>
+			
+
+			<div class="card">
+				<div class="card-header">
+					<h3>Informacion tecnica</h3>
+				</div>
+				<div class="card-body">
+					<div class="row">				
+				<div class="col-6">
+				 <strong>Desposito</strong>: <span t-esc="deposito"/><br/>
+				 <strong>Desposito recivido Hecho</strong>: <span t-esc="despo_recivido"/><br/>	
+				 <strong>Contacto</strong>: <span t-esc="contacto"/><br/>
+				 <strong>Hora de entrada</strong>: <span t-esc="hora_entrada"/><br/>
+				 <strong>Hora de salida</strong>: <span t-esc="hora_salida"/>
+				</div>
+				<div class="col-6">
+					<strong>Fecha</strong>:<span t-esc="fecha"/><br/>
+				 <strong>Deposito regresado </strong>: <span t-esc="despo_regreso"/><br/>	
+				 <strong>Desposito regresado Hecho</strong>: <span t-esc="desp_cantregreso"/><br/>
+				 <strong>Tipo de Tarifa</strong>: <span t-esc="tipotarifa"/><br/>				 
+				 <strong>Entrega de accesos</strong>: <span t-esc="usuario_accesos"/><br/>	
+				 <strong>Email</strong>: <span t-esc="email"/><br/>
+				 <strong>Teléfono</strong>: <span t-esc="telefono"/>
+				</div>
+			</div>
+				</div>
+			</div>
+
+			
+
+			<div class="card">
+				<div class="card-header">
+					<h3>Control de fechas</h3>
+				</div>
+				<div class="card-body">
+					<div class="row">						
+						<div class="col-6">
+							<strong>Check in</strong>: <span t-esc="check_in"/><br/>
+						 <strong>Check in hecho</strong>: <span t-esc="banedera_in_real"/>
+						</div>
+						<div class="col-6">
+							<strong>Check out</strong>: <span t-esc="chech_out"/><br/>
+						 <strong>Check out hecho</strong>:<span t-esc="banedera_out_real"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header">
+				 <h3>Informacion de commision</h3>	
+				</div>
+				<div class="card-body">
+				     <div class="row">	
+				        <div class="col-6">
+				         <strong>Fecuencia</strong>: <span t-esc="frecuencia"/>	
+				        </div>			
+				        <div class="col-6">
+				          <strong>Total de renta</strong>: <span t-esc="totalrenta"/>	
+				        </div>					
+						
+					</div>
+				</div>
+			</div>
+
+			
+			<!-- <div class="row">
+				<h3>Informacion de penalidad</h3>
+			</div> -->
+
+			<div class="card">
+				<div class="card-header">
+				 <h3>horario de alquiler</h3>	
+				</div>
+				<div class="card-body">
+				    <table class="table">
+					<thead>
+						<tr>
+						<th>H/P</th>
+						<th>Fecha</th>
+						<th>Cantidad</th>
+						<th>Penalidad</th>
+						<th>Pago Hecho</th>
+						<th>Pendiente</th>
+						<th>Factura</th>
+				     	</tr>
+					</thead>
+					<tbody>
+						<tr t-foreach='rent_schedule' t-as='o'>
+							<td><t t-esc="o['hecho_pago']"/></td>
+							<td><t t-esc="o['start_date']"/></td>
+							<td><t t-esc="o['amount']"/></td>
+							<td><t t-esc="o['pen_amt']"/></td>
+							<td><t t-esc="o['cheque_detail']"/></td>
+							<td><t t-esc="o['inv']"/></td>
+							<td><t t-esc="o['note']"/></td>
+						</tr>
+					</tbody>
+				</table>	
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+				   <h3>Mantenimientos</h3>	
+				</div>
+				<div class="card-body">
+					<table class="table">
+					<thead>
+						<tr>
+						<th>Nombre</th>
+						<th>Equipo</th>
+						<th>Frecuencia</th>
+						<th>Costo</th>
+						
+				     	</tr>
+					</thead>
+					<tbody>
+						<tr t-foreach='mantenimientos' t-as='o'>
+							<td><t t-esc="o['name']"/></td>
+							<td><t t-esc="o['tems']"/></td>
+							<td><t t-esc="o['frequency']"/></td>
+							<td><t t-esc="o['cost']"/></td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+
+			</div>
+			
+		</div>
+		</t>
+	</template>
+</odoo>

@@ -3,7 +3,7 @@
 		<template id="report_invoice_custom_property" inherit_id="account.report_invoice_document">
             <xpath expr="//div[@class='page']/div[1]/div[2]" position="after">
             	<div class="col-auto mw-100 mb-2" t-if="o.numero_pagos" name="numero_pagos">
-                            <strong>Pagos:</strong>
+                            <strong>Payments:</strong>
                             <p class="m-0" t-field="o.numero_pagos"/>
                 </div>              
              

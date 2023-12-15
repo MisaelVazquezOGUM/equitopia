@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="cookies_bar" inherit_id="website.layout" name="Cookies Bar">
+    <xpath expr="//footer" position="after">
+        <div id="website_cookies_bar" t-if="website.cookies_bar" class="s_popup o_snippet_invisible" data-name="Cookies Bar" data-vcss="001" data-invisible="1">
+            <div class="modal s_popup_bottom s_popup_no_backdrop o_cookies_discrete"
+                 data-show-after="500"
+                 data-display="afterDelay"
+                 data-consents-duration="999"
+                 data-focus="false"
+                 data-backdrop="false"
+                 data-keyboard="false"
+                 tabindex="-1"
+                 role="dialog">
+                <div class="modal-dialog d-flex s_popup_size_full">
+                    <div class="modal-content oe_structure">
+                        <section class="o_colored_level o_cc o_cc1 discrete">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-8 pt16 pb16">
+                                        <p class="m-0">We use cookies to provide you a better user experience.</p>
+                                    </div>
+                                    <div class="col-lg-4 pt16 pb16 text-right">
+                                        <a href="/cookie-policy" class="o_cookies_bar_text_policy btn  bizople_button_4 btn-outline-secondary btn-md">Cookie Policy</a>
+                                        <a href="#" role="button" onclick="GetLocalValue()" class="js_close_popup agree o_cookies_bar_text_button btn btn-primary btn-md">I agree</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="o_colored_level classic">
+                            <div class="container">
+                                <div class="row justify-content-between">
+                                    <div class="col-lg-6 pt16 pb16">
+                                        <h2>Respecting your privacy is our priority.</h2>
+                                        <p class="pt3">We use cookies to provide you a better user experience.</p>
+                                        <p>We use them to store info about your habits on our website. It will helps us to provide you the very best experience and customize what you see.<br></br>
+                                        By clicking on this banner, you give us permission to collect data.</p>
+                                    </div>
+                                    <div class="col-lg-3 pt16 pb16 button">
+                                        <a href="#" role="button" onclick="GetLocalValue()" class="js_close_popup o_cookies_bar_text_button btn btn-primary btn-lg">I agree</a>
+                                        <a href="/cookie-policy" class="o_cookies_bar_text_policy btn bizople_button_4 btn-outline-secondary btn-lg">Cookie Policy</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="o_colored_level popup">
+                            <div class="text-center container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <img src="/web/image/website/1/logo/250x250" class="img img-fluid mb-4" alt="website logo"/>
+                                        <h3>Respecting your privacy is our priority.</h3>
+                                        <p class="cookie_bar_text_priamry">We use cookies to provide you a better user experience.</p>
+                                        <p class="cookie_bar_text_secondary">We use them to store info about your habits on our website. It will helps us to provide you the very best experience and customize what you see.<br></br>
+                                        By clicking on this banner, you give us permission to collect data.</p>
+                                        <a href="/cookie-policy" class="o_cookies_bar_text_policy btn bizople_button_4 btn-outline-secondary btn-lg">Cookie Policy</a>
+                                        <a href="#" role="button"  onclick="GetLocalValue()" class="js_close_popup o_cookies_bar_text_button btn btn-primary btn-lg">I agree</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </xpath>
+</template>
+</odoo>

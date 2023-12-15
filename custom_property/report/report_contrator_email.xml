@@ -5,190 +5,188 @@
             <t t-call="web.html_container">
                 <t t-call="web.external_layout">
                     <div class="page">
-							<!--inici codigo-->
-							
-							<h1 style="text-align:center;"><strong> DETALLES DE CONTRATO</strong></h1>
-							<br/>
-							<h4 style="text-decoration: underline;">Información de contrato</h4>
-							<br/>
-							<div class = "container" style="left: 400px;">
-								<div class = "row">
-									<div class = "col" style="width: 45%">
-										<div class="card" style="width: 20rem;">
-											<td><h5 class="card-title" style="font-size: 16px;">Contrato: <t t-esc="doc.name"/> <t t-esc="doc.code"/></h5></td>
-											<h5 class="card-title" style="font-size: 16px;">Propiedad: </h5>
-											<td class="card-text"><t style="font-size: 14px;" t-esc="doc.property_id.name"/></td><br/>
-											<br/>
-											<h5 class="card-title" style="font-size: 16px;">Inquilino: <t t-esc="doc.tenant_id.name"/></h5>
-											<h5 class="card-title" style="font-size: 16px;">Contacto: <t t-esc="doc.contact_id.name"/></h5>
-											<h5 class="card-title" style="font-size: 16px;">Correo: <t t-esc="doc.email"/></h5>
-											<h5 class="card-title" style="font-size: 16px;">Teléfono: <t t-esc="doc.telefono"/></h5>
-										</div>
-									</div>
-									<!--Card 2-->
-									<div class = "row">
-										<div class = "col" style="width: 45%">
-											<div class="card" style="width: 20rem;">
-												<td><h5 class="card-title" style="font-size: 16px;">Tipo de alquiler: 
-												<t t-esc="{'1':'Tarifa Normal','2':'Tarifa Alta','3':'Tarifa baja'}[doc.tipo_tarifa]"/></h5></td>
-												<td><h5 class="card-title" style="font-size: 16px;">Alquiler total:   <t t-esc="doc.total_rent"/></h5></td>
-												<td><h5 class="card-title" style="font-size: 16px;">Moneda: <t t-esc="doc.currency_id.name"/></h5></td>
-												<td ><h5 class="card-title" style="font-size: 16px;">Gerente de cuenta: <t style="font-size: 16px;"  t-esc="doc.manager_id.name"/></h5></td>
-												<td><h5 class="card-title" style="font-size: 16px;">Compañia: <t style="font-size: 15px;" t-esc="doc.company_id.name"/></h5></td>
-												
-											</div>
-										</div>
-									</div>
-								</div>
-							<!--Card3-->
-							<br/>
-							<div class = "container"><!--checar/centrar div/-->
-								<div class = "row">
-									<div class = "col" style="width: 45%">
-										<div class="card" style="width: 20rem;">
-											<h5 class="card-title">Fecha de Contrato: </h5> 
-											<td class="card-text"><t style="font-size: 15px;" t-esc="doc.ten_date" /></td>
-											<!-- <h5 class="card-title">Fecha final: </h5>
-											<td class="card-text"><t style="font-size: 15px;" t-esc="doc.date" /></td> -->
-										</div>
-									</div>
-									<!--Card 4-->
-									<div class = "row">
-										<div class = "col" style="width: 45%">
-											<div class="card" style="width: 20rem;">
-													<h5 class="card-title" style="text-decoration: underline;">Información de Penalizaciones</h5>
-													<td><h5 class="card-title" style="font-size: 16px;">Multa %: <t t-esc="doc.penalty"/></h5></td>
-													<td><h5 class="card-title" style="font-size: 16px;">Recuento de multas por día: <t t-esc="doc.penalty_day"/></h5></td>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-								<br/>
-						<section>
-						<!--TABLA #1-->
-							<h4 style="text-decoration: underline;">Información sobre el alquiler</h4>
-							<br/>
-							<table class="table">
-							<thead class="thead-dark">
-									<tr>
-										<th scope="col">Check in</th>
-										<th scope="col">Check out</th>
-										<th scope="col">Importe de renta</th>
-										<th scope="col">Depósito recibido</th>
-										<th scope="col">Depósito devuelto</th>
-										<th scope="col">Costo mantenimiento</th>
+                        <!--inicio código-->
+                        
+                        <h1 style="text-align:center;"><strong> CONTRACT DETAILS</strong></h1>
+                        <br/>
+                        <h4 style="text-decoration: underline;">Contract Information</h4>
+                        <br/>
+                        <div class="container" style="left: 400px;">
+                            <div class="row">
+                                <div class="col" style="width: 45%">
+                                    <div class="card" style="width: 20rem;">
+                                        <td><h5 class="card-title" style="font-size: 16px;">Contract: <t t-esc="doc.name"/> <t t-esc="doc.code"/></h5></td>
+                                        <h5 class="card-title" style="font-size: 16px;">Property: </h5>
+                                        <td class="card-text"><t style="font-size: 14px;" t-esc="doc.property_id.name"/></td><br/>
+                                        <br/>
+                                        <h5 class="card-title" style="font-size: 16px;">Tenant: <t t-esc="doc.tenant_id.name"/></h5>
+                                        <h5 class="card-title" style="font-size: 16px;">Contact: <t t-esc="doc.contact_id.name"/></h5>
+                                        <h5 class="card-title" style="font-size: 16px;">Email: <t t-esc="doc.email"/></h5>
+                                        <h5 class="card-title" style="font-size: 16px;">Phone: <t t-esc="doc.telefono"/></h5>
+                                    </div>
+                                </div>
+                                <!--Card 2-->
+                                <div class="row">
+                                    <div class="col" style="width: 45%">
+                                        <div class="card" style="width: 20rem;">
+                                            <td><h5 class="card-title" style="font-size: 16px;">Rental Type: 
+                                            <t t-esc="{'1':'Normal Rate','2':'High Rate','3':'Low Rate'}[doc.tipo_tarifa]"/></h5></td>
+                                            <td><h5 class="card-title" style="font-size: 16px;">Total Rent:   <t t-esc="doc.total_rent"/></h5></td>
+                                            <td><h5 class="card-title" style="font-size: 16px;">Currency: <t t-esc="doc.currency_id.name"/></h5></td>
+                                            <td ><h5 class="card-title" style="font-size: 16px;">Account Manager: <t style="font-size: 16px;"  t-esc="doc.manager_id.name"/></h5></td>
+                                            <td><h5 class="card-title" style="font-size: 16px;">Company: <t style="font-size: 15px;" t-esc="doc.company_id.name"/></h5></td>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--Card3-->
+                        <br/>
+                        <div class="container"><!--checar/centrar div/-->
+                            <div class="row">
+                                <div class="col" style="width: 45%">
+                                    <div class="card" style="width: 20rem;">
+                                        <h5 class="card-title">Contract Date: </h5> 
+                                        <td class="card-text"><t style="font-size: 15px;" t-esc="doc.ten_date" /></td>
+                                        <!-- <h5 class="card-title">End Date: </h5>
+                                        <td class="card-text"><t style="font-size: 15px;" t-esc="doc.date" /></td> -->
+                                    </div>
+                                </div>
+                                <!--Card 4-->
+                                <div class="row">
+                                    <div class="col" style="width: 45%">
+                                        <div class="card" style="width: 20rem;">
+                                                <h5 class="card-title" style="text-decoration: underline;">Penalty Information</h5>
+                                                <td><h5 class="card-title" style="font-size: 16px;">Penalty %: <t t-esc="doc.penalty"/></h5></td>
+                                                <td><h5 class="card-title" style="font-size: 16px;">Penalty Count per Day: <t t-esc="doc.penalty_day"/></h5></td>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <br/>
+                    <section>
+                    <!--TABLE #1-->
+                        <h4 style="text-decoration: underline;">Rental Information</h4>
+                        <br/>
+                        <table class="table">
+                        <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Check-in</th>
+                                    <th scope="col">Check-out</th>
+                                    <th scope="col">Rental Amount</th>
+                                    <th scope="col">Deposit Received</th>
+                                    <th scope="col">Deposit Returned</th>
+                                    <th scope="col">Maintenance Cost</th>
 
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td t-if="doc.chech_in"><span t-esc="context_timestamp(doc.chech_in).strftime('%d-%m-%Y %H:%M')"/></td>
-										<td t-if="doc.chech_out"><span t-esc="context_timestamp(doc.chech_out).strftime('%d-%m-%Y %H:%M')"/></td>
-										<td t-if="doc.total_rent"><t t-esc="doc.total_rent"/></td>
-										<td t-if="doc.deposit"><t t-esc="doc.deposit"/></td>
-										<td t-if="doc.amount_return"><t t-esc="doc.amount_return"/></td>
-										<td t-if="doc.deposit_received">X</td>
-										<td t-if="doc.main_cost"><t t-esc="doc.main_cost"/></td>
-									</tr>
-							</tbody>
-							</table>
-						</section>
-						<section>
-						<!--TABLA 4-->
-						<h4 style="text-decoration: underline;">Horario de alquiler</h4>
-						<span t-esc ="doc.is_landlord_rent"/>
-						<!-- <t t-if =""> -->
-							<table class="table">
-								<thead class="thead-dark">
-									<tr>
-										<th scope="col">H/P</th>
-										<th scope="col">Fecha</th>
-										<th scope="col">Importe</th>
-										<th scope="col">Monto de multa</th>
-										<th scope="col">Pagó hecho</th>
-										<th scope="col">Pagó Pendiente</th>
-										<th scope="col">Detalle de cheque</th>
-										<th scope="col">Factura</th>
-										<th scope="col">Notas</th>
-										<th scope="col">Pagados</th>
-										<th scope="col">Publicado</th>
-									</tr>
-								</thead>
-								<tbody>
-									<t t-foreach="doc.rent_schedule_ids" t-as="temp">
-										<tr>
-										<!-- <th scope = "row">1</th> -->
-											<td><t t-esc="temp.hecho_pago"/></td> 
-											<td><t t-esc="temp.start_date"/></td>
-											<td><t t-esc="temp.amount" t-options="{'widget': 'monetary','display_currency':doc.currency_id}"/></td>
-											<td><t t-esc="temp.penalty_amount"/></td>
-											<td><t t-esc="temp.payment_echo"/></td>
-											<td><t t-esc="temp.pen_amt"/></td>
-											<td><t t-esc="temp.cheque_detail"/></td>
-											<td><t t-esc="temp.invc_id.name"/></td>
-											<td><t t-esc="temp.note"/></td>
-											<td t-if="temp.move_check">X</td>
-											<td t-if="temp.inv">X</td>
-										</tr>
-									</t>
-								</tbody>
-							</table>
-						<!-- </t> -->
-						</section>
-						<section>
-						<!--TABLA 5-->
-						<h4 style="text-decoration: underline;">Mantenimiento periódico</h4><!--CORREGUIR MULTI-->
-							<table class="table">
-								<thead class="thead-dark">
-									<tr>
-										<th scope="col">Nombre</th>
-										<th scope="col">Equipo</th>
-										<th scope="col">Frecuencia</th>
-										<th scope="col">Costó</th>
-										<th scope="col">Aplicar cargos</th>
-										<th scope="col">Categoría</th>
-										
-										
-									</tr>
-								</thead>
-								<tbody>
-									<t t-foreach="doc.cost_id" t-as="temp"><!--completar-->
-										<tr>
-										<th scope = "row">1</th>
-										<td><t t-esc="temp.name"/></td>
-										<td><t t-esc="temp.team"/></td>
-										<td><t t-esc="temp.frequency"/></td>
-										<td><t t-esc="temp.cost"/></td>
-										<td><t t-esc="temp.charge"/></td>
-										<td><t t-esc="temp.category"/></td>
-										<!--<td><t t-esc="temp.maint_type.name"/></td>   -->
-										</tr>
-									</t>
-								</tbody>
-							</table>
-						</section>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td t-if="doc.chech_in"><span t-esc="context_timestamp(doc.chech_in).strftime('%d-%m-%Y %H:%M')"/></td>
+                                    <td t-if="doc.chech_out"><span t-esc="context_timestamp(doc.chech_out).strftime('%d-%m-%Y %H:%M')"/></td>
+                                    <td t-if="doc.total_rent"><t t-esc="doc.total_rent"/></td>
+                                    <td t-if="doc.deposit"><t t-esc="doc.deposit"/></td>
+                                    <td t-if="doc.amount_return"><t t-esc="doc.amount_return"/></td>
+                                    <td t-if="doc.deposit_received">X</td>
+                                    <td t-if="doc.main_cost"><t t-esc="doc.main_cost"/></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section>
+                    <!--TABLE 4-->
+                    <h4 style="text-decoration: underline;">Rental Schedule</h4>
+                    <span t-esc ="doc.is_landlord_rent"/>
+                    <!-- <t t-if =""> -->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">H/P</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Penalty Amount</th>
+                                    <th scope="col">Payment Made</th>
+                                    <th scope="col">Payment Pending</th>
+                                    <th scope="col">Cheque Detail</th>
+                                    <th scope="col">Invoice</th>
+                                    <th scope="col">Notes</th>
+                                    <th scope="col">Paid</th>
+                                    <th scope="col">Published</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <t t-foreach="doc.rent_schedule_ids" t-as="temp">
+                                    <tr>
+                                    <!-- <th scope = "row">1</th> -->
+                                        <td><t t-esc="temp.hecho_pago"/></td> 
+                                        <td><t t-esc="temp.start_date"/></td>
+                                        <!-- <td><t t-esc="temp.amount" t-options="{'widget': 'monetary'}"/></td> -->
+                                        <td><t t-esc="temp.penalty_amount"/></td>
+                                        <td><t t-esc="temp.payment_echo"/></td>
+                                        <td><t t-esc="temp.pen_amt"/></td>
+                                        <td><t t-esc="temp.cheque_detail"/></td>
+                                        <td><t t-esc="temp.invc_id.name"/></td>
+                                        <td><t t-esc="temp.note"/></td>
+                                        <td t-if="temp.move_check">X</td>
+                                        <td t-if="temp.inv">X</td>
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
+                    <!-- </t> -->
+                    </section>
+                    <section>
+                    <!--TABLE 5-->
+                    <h4 style="text-decoration: underline;">Periodic Maintenance</h4><!--CORREGIR MULTI-->
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Team</th>
+                                    <th scope="col">Frequency</th>
+                                    <th scope="col">Cost</th>
+                                    <th scope="col">Apply Charges</th>
+                                    <th scope="col">Category</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <t t-foreach="doc.cost_id" t-as="temp"><!--completar-->
+                                    <tr>
+                                    <th scope = "row">1</th>
+                                    <td><t t-esc="temp.name"/></td>
+                                    <td><t t-esc="temp.team"/></td>
+                                    <td><t t-esc="temp.frequency"/></td>
+                                    <td><t t-esc="temp.cost"/></td>
+                                    <td><t t-esc="temp.charge"/></td>
+                                    <td><t t-esc="temp.category"/></td>
+                                    <!--<td><t t-esc="temp.maint_type.name"/></td>   -->
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
+                    </section>
 
-						<section class="row">
-						<br/>
-							<div class="col-6">
-								<strong>Terminos y condiciones %</strong>: 
-								<t t-esc="doc.description"/><br/>
-										
-							</div>
-							<div class="col-6">
-								<strong>Notas</strong>: 
-								<t t-esc="doc.duration_cover"/><br/>
-										
-							</div>
+                    <section class="row">
+                    <br/>
+                        <div class="col-6">
+                            <strong>Terms and Conditions %</strong>: 
+                            <t t-esc="doc.description"/><br/>
+                                    
+                        </div>
+                        <div class="col-6">
+                            <strong>Notes</strong>: 
+                            <t t-esc="doc.duration_cover"/><br/>
+                                    
+                        </div>
 
-						</section>
+                    </section>
 
-						</div>
-					</div>
+                    </div>
+                </div>
                 </t>
             </t>
         </template>
     </data>
 </odoo>
-

@@ -51,5 +51,5 @@ class Contratos(models.Model):
 class Factura(models.Model):
     _inherit = 'account.move'
 
-    is_commission = fields.Boolean(string="is commission?")
+    is_commission = fields.Boolean(string="Es una comisión?")
 

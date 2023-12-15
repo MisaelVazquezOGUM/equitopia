@@ -1,0 +1,128 @@
+<odoo>
+   <template id="propretary_calendary_show_data" name="My property calendary">
+    <t t-call="portal.frontend_layout">
+        <div class="container">
+         <input type="hidden" id="calendary_data" value="cl"/>
+         <div class="d-flex flex-row-reverse">
+                <div class="p-2">
+                   <a class="btn btn-primary"  href="/my_properties"><i class="fa fa-home"></i></a>
+                </div>
+            </div> 
+
+            <h1 style="text-align: center;">Calendario de reservaciones de propiedades</h1>    
+            <input type="hidden" id="users" name="users" t-att-value="request.session.uid"/>
+            <div class="row">
+              <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                  <button type="btn" style="display:none" id="siguiente" name="siguiente">1</button>
+                  <button type="btn" style="display:none" id="atraz" name="atraz">0</button>
+                  <input type="text" id="fecha_search" name="fecha_search"  style="display:none"/>
+                  <div id="data_propiedad">                    
+                  </div> 
+                 <!--  <div id="total_total"><div>  -->      
+                 
+              </div>
+              <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12" id='fullcalendar_property'></div>
+              <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12">
+                <div class="card">
+                <label for="property_search">Selecciona una propiedad</label>
+                <div id="property_search">                  
+                </div>   
+                            
+                 </div>
+              </div>              
+            </div>
+                    
+         
+           <!-- Modal -->
+            <div class="modal fade" id="modalcalendario" tabindex="-1" role="dialog" aria-labelledby="modalcalendario" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="titleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      X
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                    <input id="item_id"  name='item_id' type='hidden' readonly="1"/>  
+                    <div class="row">
+                      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="form-group">
+                      <label for="item_evento">Evento</label>
+                      <input id="item_evento"  class="form-control o_website_form_input item_evento" name='evento' type='text' readonly="1"/>
+                      <small>Nombre de la alerta</small>
+                    </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                      <label for="item_fecha_inicio">Fecha Inicio</label>
+                      <input id='item_fecha_inicio' type='text' class="form-control o_website_form_input item_fecha_inicio" name='item_fecha_inicio' readonly="1"/>
+                      <small>Fecha de Inicio</small>
+                    </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                      <label for="item_fecha_fin">Fecha fin</label>
+                      <input id='item_fecha_fin' type='text' class="form-control o_website_form_input item_fecha_fin" name='fecha_fecha_fin' readonly="1"/>
+                      <small>Fecha de Inicio</small>
+                    </div>
+                      </div>
+                    </div>  
+
+                    <div class="row">
+                      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="form-group">
+                      <label for="item_descrip">Descripción</label>
+                      <input id="item_descrip"  class="form-control o_website_form_input item_descrip" name='item_descrip' type='text' readonly="1"/>
+                      <small>Descripción</small>
+                    </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                      <label for="item_propiedad">Propiedad</label>
+                      <input id='item_propiedad' type='text' class="form-control o_website_form_input item_propiedad" name='item_propiedad' readonly="1"/>
+                      <small>Propiedad</small>
+                    </div>
+                      </div>
+                       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="form-group">
+                       <a class="btn btn-primary pull-left" id="item_mas">
+                        <i class="fas fa-link"></i></a>  
+                    </div>
+                      </div>
+                      
+                    </div>    
+
+                    <div class="row">
+                       <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                            <div class="form-group">
+                            <label for="item_progamado">Progamado</label>
+                            <input id="item_progamado"  class="form-control o_website_form_input item_progamado" name='item_progamado' type='text' readonly="1"/>
+                            <small>Programado</small>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                            <div class="form-group">
+                          <label for="item_recibido">Recibido</label>
+                          <input id="item_recibido"  class="form-control o_website_form_input item_recibido"  name='item_recibido' type='text' readonly="1"/>
+                          <small>Recibido</small>
+                        </div>
+                      </div>
+                    </div>      
+                    
+                  </form>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--termina modal-->
+        </div>
+     </t>
+   </template>
+</odoo>

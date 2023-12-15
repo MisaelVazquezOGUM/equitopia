@@ -30,8 +30,8 @@
       <field name="inherit_id" ref="property_landlord_management.landlord_analytic_view_form_id"/>
       <field name="arch" type="xml">
         <xpath expr="//button[@name='landlord_button_close']" position="after">
-          <button name="action_tenancy_send" string="Send email" type="object" icon="fa-envelope" class="oe_highlight" />
-          <button name="action_invoice_tenancy" string="Bill everything" type="object" icon="fa-list-ol" class="oe_highlight"/>
+          <button name="action_tenancy_send" string="Send Email" type="object" icon="fa-envelope" class="oe_highlight" />
+          <button name="action_invoice_tenancy" string="Bill all" type="object" icon="fa-list-ol" class="oe_highlight"/>
         </xpath>
       </field>
     </record>
@@ -141,7 +141,7 @@
         </xpath>
         <xpath expr="//button[@name='button_close']" position="after">
           <button name="action_invoice_payment" string="Bill All" type="object" icon="fa-list-ol" class="oe_highlight"/>
-
+          <!-- <button name="generate_and_send_report" string="Send WhatsApp" type="object" icon="fa-whatsapp" class="oe_highlight"/> -->
         </xpath>
         <xpath expr="//field[@name='rent_schedule_ids']/tree/field[@name='start_date']" position="before">
           <field name="hecho_pago"/>
@@ -168,6 +168,7 @@
                 <field name="chech_in_realizado" class="oe_inline" readonly="1" force_save="1"/>
               </div>
               <field name="tipo_tarifa" required="1"/>
+              <field name="spetial_cost" attrs="{'invisible': [('tipo_tarifa', '!=', '4')]}"/>
             </group>
             <group>
               <field name="chech_out" widget="daterange" options="{'related_start_date':'chech_in'}" required="1" /> 
@@ -178,6 +179,9 @@
               </div>
             </group>
           </group>
+          <button string="Check Availability   " type="object" name="action_show_events" class="oe_stat_button btn-primary" icon="fa-calendar" attrs="{'invisible': [('count_reg', '=', 0)]}" style="width: 100%;">
+              <field string="Occupied dates" name="count_reg" widget="statinfo"/>
+          </button>
         </xpath>
 
       </field>
@@ -229,5 +233,52 @@
       </field>
     </record>
 
+    <record id="name_view_calendar_event_tree_inherited" model="ir.ui.view">
+            <field name="name">name.view.calendar.event.tree.inherited</field>
+            <field name="model">calendar.event</field>
+            <field name="inherit_id" ref="calendar.view_calendar_event_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//tree[@decoration-bf='message_needaction==True']" position="attributes">
+                    <attribute name="string">Reservations</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_calendar_event_inherited_calendar" model="ir.ui.view">
+            <field name="name">view.calendar.event.inherited.calendar</field>
+            <field name="model">calendar.event</field>
+            <field name="inherit_id" ref="calendar.view_calendar_event_calendar"/>
+            <field name="arch" type="xml">
+                <xpath expr="//calendar[@js_class='attendee_calendar']" position="attributes">
+                    <attribute name="string">Reservations</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_calendar_event_inherited_calendar_form" model="ir.ui.view">
+            <field name="name">view.calendar.event.inherited.calendar.form</field>
+            <field name="model">calendar.event</field>
+            <field name="inherit_id" ref="calendar.view_calendar_event_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form" position="attributes">
+                    <attribute name="string">Reservations</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_calendar_event_inherited_calendar_search" model="ir.ui.view">
+            <field name="name">view.calendar.event.inherited.calendar.search</field>
+            <field name="model">calendar.event</field>
+            <field name="inherit_id" ref="calendar.view_calendar_event_search"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="attributes">
+                    <attribute name="string">Reservations</attribute>
+                </xpath>
+            </field>
+        </record>
+        
+        <record id="calendar.action_calendar_event" model="ir.actions.act_window">
+            <field name="name">Reservations</field>
+        </record>
   </data>
 </odoo>

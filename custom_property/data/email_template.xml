@@ -2,38 +2,38 @@
 <odoo>
 	<data>
 		<record id="email_template_contrato" model="mail.template">
-			<field name="name">Enviar: contrato/inquilino</field>
+			<field name="name">Send: contract/tenant</field>
 			<field name="model_id" ref="custom_property.model_account_analytic_account"/>
 			<field name="email_from">${object.manager_id.email_formatted |safe}</field>
 			<field name="email_to">${object.tenant_id.email},${object.entrega_acceso_id.email}</field>
-			<field name="subject">Contrato ref(${object.name or 'n/a'})</field>
+			<field name="subject">Contract ref(${object.name or 'n/a'})</field>
 			<field name="body_html" type="html">
 				<div>
-					Contratro ${object.name} de ${object.tenant_id.name}
+					Contract ${object.name} of ${object.tenant_id.name}
 					<br/><br/>
-					Se envia el contrato adjunto
+					The contract is attached
 				</div>
 			</field>
 			<field name="report_template" ref="report_contraro"/>
-			<field name="report_name">Contrato ${object.name}</field>
+			<field name="report_name">Contract ${object.name}</field>
 			
 		</record>
 
 		<record id="email_template_contrato_tenancy" model="mail.template">
-			<field name="name">Enviar: contrato/propietario</field>
+			<field name="name">Send: contract/owner</field>
 			<field name="model_id" ref="custom_property.model_account_analytic_account"/>
 			<field name="email_from">${object.manager_id.email_formatted |safe}</field>
 			<field name="email_to">${object.property_owner_id.email},${object.contact_id.email}</field>
-			<field name="subject">Contrato ref(${object.name or 'n/a'})</field>
+			<field name="subject">Contract ref(${object.name or 'n/a'})</field>
 			<field name="body_html" type="html">
 				<div>
-					Contratro ${object.name} de ${object.property_owner_id.name}
+					Contract ${object.name} of ${object.property_owner_id.name}
 					<br/><br/>
-					Se envia el contrato adjunto
+					The contract is attached
 				</div>
 			</field>
 			<field name="report_template" ref="report_contraro"/>
-			<field name="report_name">Contrato ${object.name}</field>
+			<field name="report_name">Contract ${object.name}</field>
 			
 		</record>
 	</data>

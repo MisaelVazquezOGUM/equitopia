@@ -75,7 +75,7 @@ class Landlord_partner_list(models.Model):
     partner_property_ids = fields.One2many(
         'property.usuers',
         'line_property_id',
-        string='User Properties',
+        string='Propiedades de Usuario',
     )
 
     def ver_propiedades(self):        

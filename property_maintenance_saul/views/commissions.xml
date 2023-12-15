@@ -33,7 +33,7 @@
 
     <!-- Menus -->
     <record id="action_commission_custom" model="ir.actions.act_window">
-      <field name="name">Comisiones (por contrato)</field>
+      <field name="name">Comissions (per contract)</field>
       <field name="type">ir.actions.act_window</field>
       <field name="res_model">account.analytic.account</field>
       <field name="view_mode">tree</field>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="vouge_corporate_theme_common_header_new1" inherit_id="portal.frontend_layout" name="Header One" active="False">
+		<xpath expr="//header" position="replace">
+			<header id="vouge_header_one" t-attf-class="vouge_header_one o_affix_enabled">
+				<div class="oe_structure oe_structure_solo o_editable" id="oe_structure_header_contact_1">
+		            <section class="s_text_block top-header pt8 pb8">
+		                <div class="container">
+		                    <div class="row align-items-center text-center ">
+		                    	<div class="col-3 mobile-sidebar-toggle d-block d-md-none">
+									<button type="button" id="show-sidebar" class="btn btn-md d-block d-md-none">
+										<span class="ti ti-view-grid text-secondary fa-2x"></span>
+									</button>
+								</div>
+		                    	<div class="col-9 col-md-4 col-lg-3 text-right text-md-left">
+		                    		<div>
+	                					<a href="/" t-attf-class="navbar-brand logo #{_link_class}">
+								            <span t-field="website.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name"/>
+								        </a>
+		                    		</div>
+		                    	</div>
+		                    	
+		                    	<div class="col-md-3 col-lg-6">
+		                    		<div class="top-header-contact mx-auto d-none d-lg-flex" id="">
+										<ul class=" mx-auto d-inline-block my-0 pl-0">
+											<li class="nav-item">
+												<a class="nav-link d-inline-flex">
+													<div class="contact-icon mr8 my-auto">
+														<i class="icon lnr lnr-phone-handset fa-2x"></i>
+													</div>
+													<div class="contact-data">
+														<small class="text-muted">Requesting a Call:</small>
+														<h5 class="text" t-esc="res_company.phone"></h5>
+													</div>
+												</a>
+											</li>
+											<!-- <li class="nav-item">
+												<a class="nav-link d-inline-flex">
+													<div class="contact-icon mr8">
+														<i class="icon lnr lnr-clock"></i>
+													</div>
+													<div class="contact-data">
+														<small>Monday-Saturday</small>
+														<h6 class="text">9am-8pm</h6>
+													</div>
+												</a>
+											</li> -->
+											<li class="nav-item">
+												<a class="nav-link d-inline-flex">
+													<div class="contact-icon mr8 my-auto">
+														<i class="icon lnr lnr-map-marker fa-2x"></i>
+													</div>
+													<div class="contact-data">
+														<small class="text-muted" t-esc="res_company.street"/>
+														<h5 class="text" t-esc="res_company.city"></h5>
+													</div>
+												</a>
+											</li>
+											
+										</ul>
+									</div>
+		                    	</div>
+		                    	<div class="col-md-5 col-lg-3 text-right">
+		                    		<div class="header-media text-right d-none d-md-inline-flex">
+										<a class="link text-primary" t-att-href="website.social_facebook"
+											t-if="website.social_facebook" target="_blank">
+											<i class="fa fa-facebook" />
+										</a>
+										<a class="link text-primary" t-att-href="website.social_twitter"
+											t-if="website.social_twitter" target="_blank">
+											<i class="fa fa-twitter" />
+										</a>
+										<a class="link text-primary" t-att-href="website.social_linkedin"
+											t-if="website.social_linkedin" target="_blank">
+											<i class="fa fa-linkedin" />
+										</a>
+										<a class="link text-primary" t-att-href="website.social_youtube"
+											t-if="website.social_youtube" target="_blank">
+											<i class="fa fa-youtube-play" />
+										</a>
+										<a class="link text-primary " t-att-href="website.social_instagram"
+											t-if="website.social_instagram" target="_blank">
+											<i class="fa fa-instagram"></i>
+										</a>
+										<div class="login_nav">
+								            <t t-call="vouge_corporate_theme_common.user_dropdown">
+								                <t t-set="_icon" t-value="true"/>
+								                <t t-set="_user_name" t-value="false"/>
+								                <t t-set="_item_class" t-value="'nav-item dropdown '"/>
+								                <t t-set="_link_class" t-value="'nav-link'"/>
+								                <t t-set="_dropdown_menu_class" t-value="'position-absolute'"/>
+								            </t>
+										</div>
+									</div>
+		                    	</div>
+		                    </div>
+		                </div>
+		            </section>
+		        </div>
+		        <nav data-name="Navbar" id="vouge-header-new-1" class="navbar navbar-expand-lg o_colored_level shadow-sm d-block p-0">
+		            <div class="bottom-header">
+		            	<div id="top_menu_container" class="container">
+							<div class="row align-items-center">
+								<div class="col-md-8 col-lg-9 header-left">
+									<!-- <div class="mobile-sidebar-toggle d-block d-md-none">
+										<button type="button" id="show-sidebar" class="btn btn-sm btn-dark d-block d-md-none">
+											<span class="ti ti-view-grid text-secondary"></span>
+										</button>
+									</div> -->
+									<nav class="navbar navbar-expand-md p-0 d-none d-md-block" id="bizople-header-new1">
+										<div class="collapse navbar-collapse " id="header_new1-menuitem">
+											<ul class="nav navbar-nav " id="top_menu">
+												<t t-foreach="website.menu_id.child_id" t-as="submenu">
+													<t t-call="website.submenu">
+														<t t-set="item_class" t-value="'nav-item'" />
+														<t t-set="link_class" t-value="'nav-link'" />
+													</t>
+												</t>
+											</ul>
+										</div>
+									</nav>
+								</div>
+								<div class="col-md-4 col-lg-3 d-none d-md-block header-right">
+									<div class="s_btn text-right" data-name="Button">
+	    								<a href="#" class="btn btn-primary btn-lg">Make An Appointment
+	    									<span class="fa fa-long-arrow-right pl-1 fa-1x"/>
+	    								</a>
+	        						</div>
+								</div>
+							</div>
+			            </div>
+		            </div>
+		        </nav>
+			</header>
+				<!-- <t t-call="vouge_corporate_theme_common.bizople_mbl_side_bar"/> -->
+		</xpath>
+		<xpath expr="//header" position="after">
+			<div class="d-block d-md-none">
+				<t t-call="vouge_corporate_theme_common.bizople_mobile_bottom_icon_bar"/>
+			</div>
+		</xpath>
+	</template>
+
+	<template id="header_new1_extended_container" inherit_id="vouge_corporate_theme_common.vouge_corporate_theme_common_header_new1" name="Extended Size" customize_show="True" active="False">
+		<xpath expr="//div[@id='oe_structure_header_contact_1']/section[hasclass('top-header')]/div[hasclass('container')]" position="attributes">
+			<attribute name="class" add="extended-container" separator=" "/>
+		</xpath>
+		<xpath expr="//nav[@id='vouge-header-new-1']/div[hasclass('bottom-header')]/div[hasclass('container')]" position="attributes">
+			<attribute name="class" add="extended-container" separator=" "/>
+		</xpath>
+	</template>
+
+	<template id="vouge_header_new1_login_option" inherit_id="vouge_corporate_theme_common.vouge_corporate_theme_common_header_new1" name="Login Option" customize_show="True" active="False">
+		<xpath expr="//div[hasclass('header-media')]" position="inside">
+			<!-- <a href="#" class="nav-link dropdown-toggle acc-dropdown" data-toggle="dropdown">
+				<span t-ignore="true" t-if="not user_id._is_public()">
+					<t t-call="vouge_corporate_theme_common.portal_frontend_user"/>
+				</span>
+				<span groups="base.group_public">
+					<span class="icon icon-User text-secondary align-middle"></span>
+				</span>
+			</a>
+			<div class="dropdown-menu js_usermenu" role="menu">
+				<div class="main-content text-center" t-ignore="true" t-if="not user_id._is_public()">
+					<div class="text-center font-weight-bold">
+						<span t-esc="user_id.name[:23] + '...' if user_id.name and len(user_id.name) &gt; 25 else user_id.name" />
+					</div>
+					<a t-attf-href="/my/home" role="menuitem" class="dropdown-item my-acc text-center">My Account</a>
+					<t t-call="vouge_corporate_theme_common.my_address_link"/>
+					<a id="o_logout" class="dropdown-item text-center"
+						t-attf-href="/web/session/logout?redirect=/"
+						role="menuitem">Logout</a>
+				</div>
+				<div groups="base.group_public" class="text-center">
+					<a class="dropdown-item" t-attf-href="/web/login">
+						<span>Sign in</span>
+					</a>
+					<a class="dropdown-item" t-attf-href="/web/signup">
+						<span>Register</span>
+					</a>
+				</div>
+			</div> -->
+			<xpath expr="//t[@t-call='vouge_corporate_theme_common.user_dropdown']" position="before">
+	            <t t-call="vouge_corporate_theme_common.placeholder_user_sign_in">
+	                <t t-set="_item_class" t-value="'nav-item'"/>
+	                <t t-set="_link_class" t-value="'nav-link'"/>
+	            </t>
+			</xpath>
+		</xpath>
+	</template>
+</odoo>

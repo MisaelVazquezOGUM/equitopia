@@ -39,7 +39,7 @@
 		    <field name="name">custom_graph_multiple_bar</field>
 		    <field name="model">graph.state.result</field>
 		    <field name="arch" type="xml">
-		    	<graph string="Estado de resultados"  stacked="False" type="bar">
+		    	<graph string="Income statement"  stacked="False" type="bar">
 		    		    <field name="property_id"/>
 		    		    <field name="fecha_report" interval="month"/>
 		    		    <field name="rentas_efectivas"/>
@@ -55,7 +55,7 @@
 		    <field name="name">custom_graph_pivote</field>
 		    <field name="model">graph.state.result</field>
 		    <field name="arch" type="xml">
-		    	<pivot string="Estado de resultados" >
+		    	<pivot string="Income statement" >
 		    		    <field name="property_id"/>
 		    		    <field name="fecha_report" type="row"/>
 		    		    <field name="rentas_efectivas" type="measure"/>

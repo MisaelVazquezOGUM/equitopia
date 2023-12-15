@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <!-- <t t-name="vouge_corporate_theme_common.bizcommon_dynamic_product_slider">
+        <div aria-hidden="true" aria-labelledby="myModalLabel" t-attf-class="modal#{technical ? ' o_technical_modal' : ''}#{fullscreen ? ' o_modal_full': ''}" contenteditable="False" role="dialog" style="z-index:1050">
+            <div class="modal-dialog">
+                <div class="modal-content" id="s_product_slider_filter">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Products Slider</h4>
+                        <button class="close" data-dismiss="modal" type="button">x</button>
+                    </div>
+                    <div class="modal-body" contenteditable="false">
+                        <form class="form-horizontal" role="form">
+                            <div class="row">
+                                <label class="col-sm-3 control-label" for="slider_filter">Filter</label>
+                                <div class="form-group col-sm-9">
+                                    <select class="form-control" id="slider_filter" name="slider_filter"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal" id="prod_sub_data">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+    <t t-name="vouge_corporate_theme_common.bizcommon_dynamic_category_slider">
+        <div aria-hidden="true" aria-labelledby="myModalLabel" t-attf-class="modal#{technical ? ' o_technical_modal' : ''}#{fullscreen ? ' o_modal_full': ''}" contenteditable="False" role="dialog" style="z-index:1050">
+            <div class="modal-dialog">
+                <div class="modal-content" id="s_media_block_modal">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Category Slider Configuration</h4>
+                        <button class="close" data-dismiss="modal" type="button">x</button>
+                    </div>
+                    <div class="modal-body" contenteditable="false">
+                        <form class="form-horizontal" role="form">
+                            <div class="row">
+                                <label class="col-sm-3 control-label" for="slider_filter">Filter</label>
+                                <div class="form-group col-sm-9">
+                                    <select class="form-control" id="slider_filter" name="slider_filter"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal" id="cat_sub_data">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+    <t t-name="vouge_corporate_theme_common.bizcommon_dynamic_brand_slider">
+        <div aria-hidden="true" aria-labelledby="myModalLabel" t-attf-class="modal#{technical ? ' o_technical_modal' : ''}#{fullscreen ? ' o_modal_full': ''}" contenteditable="False" role="dialog" style="z-index:1050">
+            <div class="modal-dialog">
+                <div class="modal-content" id="s_media_block_modal">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Brand Slider Configuration</h4>
+                        <button class="close" data-dismiss="modal" type="button">x</button>
+                    </div>
+                    <div class="modal-body" contenteditable="false">
+                        <form class="form-horizontal" role="form">
+                            <div class="row">
+                                <label class="col-sm-3 control-label" for="slider_filter">Filter</label>
+                                <div class="form-group col-sm-9">
+                                    <select class="form-control" id="slider_filter" name="slider_filter"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal" id="brand_sub_data">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+    <t t-name="vouge_corporate_theme_common.multi_product_custom_slider_block">
+        <div aria-hidden="true" aria-labelledby="myModalLabel" t-attf-class="modal#{technical ? ' o_technical_modal' : ''}#{fullscreen ? ' o_modal_full': ''}" contenteditable="False" role="dialog" style="z-index:1050">
+            <div class="modal-dialog">
+                <div class="modal-content" id="s_media_block_modal">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Multi Tab Product Slider Configuration</h4>
+                        <button class="close" data-dismiss="modal" type="button">x</button>
+                    </div>
+                    <div class="modal-body" contenteditable="false">
+                        <form class="form-horizontal container-fluid" role="form">
+                            <div class="row">
+                                <label for="slider_filter" class="col-sm-3 control-label">Filter</label>
+                                <div class="form-group col-sm-9">
+                                    <select id="slider_filter" class="form-control" name="slider_filter">
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal" id="snippnet_submit">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t> -->
+    <t t-name="vouge_corporate_theme_common.bizcommon_blog_slider_block">
+        <div aria-hidden="true" aria-labelledby="myModalLabel" t-attf-class="modal#{technical ? ' o_technical_modal' : ''}#{fullscreen ? ' o_modal_full': ''}" contenteditable="False" role="dialog" style="z-index:1050" tabindex="1">
+            <div class="modal-dialog">
+                <div class="modal-content" id="s_blog_slider_filter">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Blog Slider</h4>
+                        <button class="close" data-dismiss="modal" type="button">x</button>
+                    </div>
+                    <div class="modal-body" contenteditable="false">
+                        <form class="form-horizontal container-fluid" role="form">
+                            <div class="row">
+                                <label class="col-sm-3 control-label" for="blog_slider_filter">Type</label>
+                                <div class="form-group col-sm-9">
+                                    <select class="form-control" id="blog_slider_filter" name="blog_slider_filter"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" id="cancel">Cancel</button>
+                        <button class="btn btn-danger" data-dismiss="modal" id="blog_sub_data">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>

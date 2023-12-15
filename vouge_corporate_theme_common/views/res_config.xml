@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.load.more</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <div id="website_settings" position="inside">
+               
+                <div class="col-12 col-lg-6 o_setting_box">
+                	<div class="o_setting_right_pane">
+                        <label string="Login/Signup Page Banner Image" for="login_page_banner_image"/>
+                        <div class="text-muted">
+                            Login/Signup Page Banner Image
+                        </div>
+                        <field name="login_page_banner_image" class="w-35 mt-2" widget="image"/>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-lg-6 o_setting_box">
+                	<div class="o_setting_right_pane">
+                        <label string="Website Footer Logo" for="website_footer_logo"/>
+                        <div class="text-muted">
+                            Website Footer Logo
+                        </div>
+                        <field name="website_footer_logo" class="w-35 mt-2" widget="image"/>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 o_setting_box">
+                	<div class="o_setting_right_pane">
+                        <label string="Transparent Header Logo" for="transparent_header_logo"/>
+                        <div class="text-muted">
+                            Transparent Header Logo
+                        </div>
+                        <field name="transparent_header_logo" class="w-35 mt-2" widget="image"/>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <div class="o_setting_right_pane">
+                        <label string="Sidebar Menu Logo" for="sidebar_logo"/>
+                        <div class="text-muted">
+                            Sidebar Menu Logo
+                        </div>
+                        <field name="sidebar_logo" class="w-35 mt-2" widget="image"/>
+                    </div>
+                </div>
+            </div>
+            <div id="social_default_image_setting" position="after">
+                <div class="col-12 col-lg-6 o_setting_box" id="website_cookies_bar_setting">
+                    <div class="o_setting_left_pane">
+                        <field name="website_cookies_bar"/>
+                    </div>
+                    <div class="o_setting_right_pane">
+                        <label for="website_cookies_bar"/>
+                        <span class="fa fa-lg fa-globe" title="Values set here are website-specific." groups="website.group_multi_website"/>
+                        <div class="text-muted">
+                            Display a customizable cookies bar on your website.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <data>
+        <record model="ir.ui.view" id="res_lang_flag_image">
+            <field name="name">res.lang.flag.image</field>
+            <field name="model">res.lang</field>
+            <field name="inherit_id" ref="base.res_lang_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='active']" position="after">
+                    <newline />
+                    <field name="lang_flag" widget='image'></field>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

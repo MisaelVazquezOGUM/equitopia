@@ -58,7 +58,7 @@ class TenancyRentSchedule(models.Model):
         string='End Date',
         help='End Date.')
     cheque_detail = fields.Char(
-        string='Check Detail',
+        string='Cheque Detail',
         size=30)
     move_check = fields.Boolean(
         compute='compute_move_check',

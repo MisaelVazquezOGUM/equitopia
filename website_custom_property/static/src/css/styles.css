@@ -1,0 +1,84 @@
+:root {
+ --ancho-cicular:200px;
+ --alto-circular:170px;
+ 
+}
+
+
+.conteniner_custom{
+	width: 800px;
+	/*padding-right: 50px;*/
+	padding-left: 25px;
+	padding-top: 70px;
+	width: 95%;
+
+}
+
+
+.conteiner_header{
+	width: 800px;
+	padding-left: 25px;
+	width: 95%;
+	padding-top: 5px;
+}
+
+.conteiner_body{
+    width: 800px;
+	padding-left: 25px;
+	width: 95%;
+	padding-top: 5px;	
+}
+
+
+.calendar_dinamico{
+	max-width: 100% !important;
+  height: auto !important;
+}
+
+
+.graficas_dinamicas{
+  max-width: auto !important;
+  height: auto !important;
+}
+
+.graficas_v2{
+  max-width: auto !important;
+  height: auto !important;
+}
+
+.td_width{
+  width: 180px;
+}
+.td_widthcircle{
+ width: 220px;
+}_
+
+/*.graficarmetricas{
+	width: 400px !important;
+	height: 4000px !important;
+}*/
+
+.color_card{
+	background-color: #AFF7A7;
+
+	border-top: red;
+}
+
+.informacion_mensual{
+	width: 700px;
+	height: 100px;
+}
+
+.informacion_history{
+ 	height: 150px;	
+}
+
+
+/*
+.mini-cal{
+	  font-family: Verdana, sans-serif;
+
+	  background: #C8C3C3 !important;
+    color: #EEE708 !important;
+}
+calTbody*/

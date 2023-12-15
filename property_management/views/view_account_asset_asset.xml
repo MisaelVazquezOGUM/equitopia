@@ -55,7 +55,7 @@
                             <field name="gfa_meter"/>
                             <field name="gfa_feet"/>
                             <!--<field name="unit_price" widget="monetary" options="{'currency_field': 'currency_id'}"/>-->
-                            <field name="total_price" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                            <field name="total_price" string="Total cost of ownership" widget="monetary" options="{'currency_field': 'currency_id'}"/>
                             <field name="ground_rent" widget="monetary" options="{'currency_field': 'currency_id'}"/>
                             <field name="rent_type_id" widget="selection" colspan="2"/>
                             <field name="active"/>

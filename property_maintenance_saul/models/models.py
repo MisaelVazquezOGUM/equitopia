@@ -52,7 +52,7 @@ class AccountAssetModified(models.Model):
 class MaintenanceNames(models.Model):
     _name = 'maintenance.names'
 
-    name = fields.Char(string='Maintenance name')
+    name = fields.Char(string='Nombre de mantenimiento')
     maintenances = fields.One2many('maintenance.request', inverse_name='name')
 
 
@@ -68,12 +68,9 @@ class MaintenanceProperty(models.Model):
 
     name = fields.Many2one('maintenance.names')
     team_id = fields.Many2one('maintenance.team', string="Responsible team")
-    cost = fields.Float(string="Costo")
-    # frequency = fields.Selection([('once', 'Unico'), ('Daily', 'Diario'), ('Weekly', 'Semanal'), ('Monthly', 'Mensual'), ('semestre', 'Semestral'), ('Yearly', 'Anual')], default='once', string="Frecuencia")
-    # to_charge = fields.Selection([('tenant','Inquilino'),('landlord','Propietario'),('admin','Administrador')], string="A cuenta de quien")
-    frequency = fields.Selection([('once', 'One-time'), ('Daily', 'Daily'), ('Weekly', 'Weekly'), ('Monthly', 'Monthly'), ('semestre', 'Semi-annual'), ('Yearly', 'Yearly')], default='once', string="Frequency")
-    to_charge = fields.Selection([('tenant','Tenant'),('landlord','Landlord'),('admin','Administrator')], string="Charge To")
-
+    cost = fields.Float(string="Cost")
+    frequency = fields.Selection([('once', 'Once'), ('Daily', 'Daily'), ('Weekly', 'Weekly'), ('Monthly', 'Monthly'), ('semestre', 'Semi-Annual'), ('Yearly', 'Annual')], default='once', string="Frequency")
+    to_charge = fields.Selection([('tenant', 'Tenant'), ('landlord', 'Landlord'), ('admin', 'Administrator')], string="Charge To")
     category = fields.Many2one('maintenance.category', string='Category')
     is_service = fields.Boolean(default=False, string='Is it a service?')
     property_id = fields.Many2one('account.asset.asset')
@@ -85,13 +82,12 @@ class MaintenanceRequestInherit(models.Model):
     name = fields.Many2one('maintenance.names')
     team_id = fields.Many2one('maintenance.team', string="Responsible team")
     cost = fields.Float(string="Cost")
-    # frequency = fields.Selection([('once', 'Unico'), ('Daily', 'Diario'), ('Weekly', 'Semanal'), ('Monthly', 'Mensual'), ('semestre', 'Semestral'), ('Yearly', 'Anual')], default='once', string="Frecuencia")
-    # to_charge = fields.Selection([('tenant','Inquilino'),('landlord','Propietario'),('admin','Administrador')], string="A cuenta de quien")
-    frequency = fields.Selection([('once', 'One-time'), ('Daily', 'Daily'), ('Weekly', 'Weekly'), ('Monthly', 'Monthly'), ('semestre', 'Semi-annual'), ('Yearly', 'Yearly')], default='once', string="Frequency")
-    to_charge = fields.Selection([('tenant','Tenant'),('landlord','Landlord'),('admin','Administrator')], string="Charged To")
+    frequency = fields.Selection([('once', 'Once'), ('Daily', 'Daily'), ('Weekly', 'Weekly'), ('Monthly', 'Monthly'), ('semestre', 'Semi-Annual'), ('Yearly', 'Annual')], default='once', string="Frequency")
+    to_charge = fields.Selection([('tenant', 'Tenant'), ('landlord', 'Landlord'), ('admin', 'Administrator')], string="Charge To")
     category = fields.Many2one('maintenance.category', string='Category')
-    charge = fields.Boolean(string="Apply Tenant Charge")
-    is_service = fields.Boolean(default=False, string='Is it a Service?')
+    charge = fields.Boolean(string="Apply charge to tenant")
+    is_service = fields.Boolean(default=False, string='Is it a service?')
+
     maintenance_contract_id= fields.Many2one('maintenance.contract')
     is_for_tenant = fields.Boolean(default=False)
 

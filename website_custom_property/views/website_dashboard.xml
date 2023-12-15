@@ -1,0 +1,188 @@
+<odoo>
+   <template id="my_properties_content">
+
+               <div class="w-100" id="context">
+                   <section>
+                       <div class="conteniner_custom">
+                           <input type="hidden" id="users" name="users" t-att-value="request.session.uid"/>
+                           <div class="row">
+                               <div class="col-lg-4">
+                                   <h1 class="font-weight-bold mb-0">Bienvenido</h1>
+                                   <h3><span><t t-esc="name"/></span></h3>
+                                   <p class="load text-muted">Resiva la ultima informacion</p>
+                               </div>
+
+                               <div class="col-lg-2 ml-auto">
+                                   <label class="text-muted" for="propiead_haber">Selecciona Propiedad</label>                         
+                                   <span id="propiead_haber"></span>
+                               </div>
+                               <div class="col-lg-2 ml-auto" size="1">
+                                <label class="text-muted" for="buscardeano">Selecciona Año</label>
+                                <input type="text" class="form-control" placeholder="Año" name="buscardeano" 
+                                    id="buscardeano"/>
+                               </div>
+                               <div class="col-lg-2 ml-auto">
+                                   <label class="text-muted" for="select_meses">Selecciona Mes</label>
+                                   <select class="form-control" id="select_meses" size="1">
+                                        <option t-att-value="1">Enero</option>
+                                        <option t-att-value="2">Febrero</option>
+                                        <option t-att-value="3">Marzo</option>
+                                        <option t-att-value="4">Abril</option>
+                                        <option t-att-value="5">Mayo</option>
+                                        <option t-att-value="6">Junio</option>
+                                        <option t-att-value="7">Julio</option>
+                                        <option t-att-value="8">Agosto</option>
+                                        <option t-att-value="9">Septiembre</option>
+                                        <option t-att-value="10">Octubre</option>
+                                        <option t-att-value="11">Noviembre</option>
+                                        <option t-att-value="12">Dicembre</option>
+                                    </select>
+                               </div>
+                                <div class="col-mx-2 ml-auto">                                    
+                                 <a class="my-3"  href="/clock_alert"><i
+                                  class="fas fa-clock" style="font-size:24px"></i>
+                                  <span class="text-center" style="color:red;" 
+                                  id="clock_alert_count">&#160;&#160;&#160;</span></a>   
+                                 <!-- <a class="my-3"  id="calendary_show" 
+                                    href="/propiedades/calendario"><i class="fas fa-calendar" 
+                                    style="font-size:24px"></i></a> -->
+                                 <a class="my-3" href="/property/dashbord">
+                                    <i class="fa fa-print" style="font-size:24px"></i></a>
+
+
+                                 </div>
+                            </div>
+                       </div>
+                   </section>
+               </div>
+    <div id="print_button">      
+      
+
+                <section>
+                    <div class="conteiner_header">
+                    <div class="row">  
+                        <div class="col-lg-8 my-3">
+                            <div class="card rounded-0">
+                            <div class="card-header">
+                                <h4 class="font-weight-bold text-center">Información Mensual</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <!--Mensual-->
+                              <div class="col-lg-3 my-3">
+                                <div class="mx-auto">
+                                   <h6 class="text-muted">Rentas programada</h6>
+                                   <input type="hidden" id="input_programado" 
+                                    name="input_programado" />
+                                   <h6 id="programado" class="font-weight-bold"></h6>
+                                   <!-- <h6 id="procent_no_efectivo" class="text-success">50.50%</h6> -->
+                                </div>
+                              </div>
+                              <div class="col-lg-2 my-3">
+                                  <div class="mx-auto">                                   
+                                        <h6 class="text-muted">Rentas efectivas</h6>
+                                        <input type="hidden" id="input_total_recibido" name="input_total_recibido"/>
+                                        <h6 id="total_recibido" class="font-weight-bold"></h6>       
+                                        <!-- <h6 id="porcent_efectivo" class="text-success">50.50%</h6> -->
+                                    </div>
+                              </div>
+                              <div class="col-lg-3 my-3">
+                                <div class="mx-auto">                                   
+                                    <h6 class="text-muted">Total Mantenimiento</h6>
+                                    <h6 id="total_mantenimiento" class="font-weight-bold"></h6>
+                                    <!-- <h6 class="text-success">50.50%</h6> -->
+                                </div>
+                                  
+                              </div>
+                              <div class="col-lg-2 my-3">
+                                   <div class="mx-auto">                                   
+                                        <h6 class="text-muted">Total pago de servicios</h6>
+                                        <h6 id="total_servicios" class="font-weight-bold"></h6>
+                                        <!-- <h6 class="text-success">50.50%</h6> -->
+                                     </div>  
+                              </div>
+                              <div class="col-lg-2 my-3">
+                                 <div class="mx-auto">                                   
+                                          <h6 class="text-muted">Ingresos Netos</h6>
+                                          <h6 id="ingreso_neto" class="font-weight-bold"></h6>
+                                          
+                                          <!-- <h6 class="text-success">50.50%</h6> -->
+                                         </div>
+                              </div>
+                                    
+                                </div>
+                            </div>
+                            
+                            <div class='informacion_mensual'  id='informacion_mensual'>
+                           
+                            
+                        </div>
+
+                            
+                        </div>
+                        </div>
+                        <div class="col-lg-4 my-3">     
+                           <div class="card rounded-0">
+                              <div class="card-header">
+                                <h4 class="font-weight-bold text-center">Información Historica</h4>
+                            </div>
+                              <div class="card-body">
+                                  <div class="row">
+                                      <!--historico-->
+                                      <div class="col-lg-6 my-3">
+                                        <div class="mx-auto">                                   
+                                            <h6 class="text-muted">Rentas cobradas</h6>
+                                            <input type="hidden" id="input_global_mes_cobrado" 
+                                    name="input_global_mes_cobrado" />
+                                            <h5 id="global_mes_cobrado" class="font-weight-bold"></h5>
+                                            <!-- <h6 id="porcent_cobrado" class="text-success">50.50%</h6> -->
+                                          </div>    
+                                       </div>
+                                       <div class="col-lg-6 my-3">
+                                                     <div class="mx-auto">                                   
+                                                           <h6 class="text-muted">Rentas ha cobrar</h6>
+                                                           <input type="hidden" id="input_global_mes_pen_cobrado" name="input_global_mes_pen_cobrado" />
+                                                           <h5 id="global_mes_pen_cobrado" class="font-weight-bold"></h5>
+                                                           <!-- <h6 id="porcent_pend_cobro" class="text-success">50.50%</h6> -->
+                                                     </div> 
+                                                 </div>
+                                  </div>
+                                  <div class='informacion_history'  id='informacion_history'></div>
+                           
+                              </div>
+                               </div>
+                           </div>
+                   </div>
+               </div>
+               </section>
+               <section class="bg-grey">
+                   <div class="conteiner_body">
+                      <div class="table-responsive-lg">
+                        <table class="table table-bordered">
+                                  <thead>
+                                      <th class="text-left td_width ">Propiedad</th>
+                                      <th class="text-center td_widthcircle">Informacion</th>
+                                      <th class="text-center td_widthcircle">Porcentaje de Ocupacion</th>
+                                      <th class="text-center">Celendario</th>
+                                      <th class="text-center">Métricas</th> 
+                                  </thead>
+                                  <tbody id="table_result">                                   
+                                  </tbody>
+                              </table>    
+                      </div>                       
+                      
+                   </div>
+               </section>
+               
+
+               <section>
+                   <div class="conteiner_body">                       
+                       <small>Favor desmarcar la o las propiedades a visualizar</small>
+                       <div  id="grafica_barras"></div> 
+                   </div>
+               </section>       
+
+                
+     </div>          
+   </template>
+</odoo>

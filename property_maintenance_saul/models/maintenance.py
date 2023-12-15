@@ -17,14 +17,14 @@ class MaintenanceTeamModified(models.Model):
 class MaintenanceNames(models.Model):
     _name = 'maintenance.names'
 
-    name = fields.Char(string='Maintenance name')
+    name = fields.Char(string='Nombre de mantenimiento')
     maintenances = fields.One2many('maintenance.request', inverse_name='name')
 
 
 class MaintenanceCategory(models.Model):
     _name = 'maintenance.category'
 
-    name = fields.Char(string='Category name')
+    name = fields.Char(string='Nombre de la categoria')
     maintenances = fields.One2many('maintenance.request', inverse_name='name')
 
 
@@ -62,15 +62,14 @@ class MaintenanceContract(models.Model):
 
     name = fields.Many2one('maintenance.names', string='Name', required=True)
     maintenance_requests = fields.One2many('maintenance.request', inverse_name='maintenance_contract_id')
-    charge = fields.Boolean(string="Apply charge to Tenant")
+    charge = fields.Boolean(string="Apply Charge")
     analytic_id = fields.Many2one('account.analytic.account')
-    #property_id = fields.Many2one('account.asset.asset', string='Property')
     property_id = fields.Many2one(
+        comodel_name='account.asset.asset',
         string='Property',
-        related='analytic_id.property_id',
-        readonly=False,
-        help="si funciona."
-    )
+        copy=False,
+        readonly=True,
+        help="Name of the property.")
     cost = fields.Float(string='Cost', required=True)
     team = fields.Many2one('maintenance.team', string='Responsible team') #,compute='_compute_team', )
     frequency = fields.Selection([('once', 'Only'),('Daily', 'Daily'), ('Weekly', 'Weekly'), ('Monthly', 'Monthly'), ('Semestral', 'Biannual'), ('Yearly', 'Annual')], string="Frequency")
@@ -78,12 +77,16 @@ class MaintenanceContract(models.Model):
     schedule_date = fields.Datetime('Scheduled Date', required=True)
     is_service = fields.Boolean(default=False, string='Is it a service?')
 
+    @api.onchange('name')
+    def _onchange_analytic_id(self):
+        if self.analytic_id:
+            self.property_id = self.analytic_id.property_id
+
     @api.onchange('team')
     def update_teams(self):
         for rec in self:
             for request in rec.maintenance_requests:
                 request.team = rec.team.id
-            
 
 
 class AccountAnalyticModified(models.Model):

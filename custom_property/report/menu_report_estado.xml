@@ -3,11 +3,11 @@
     <report
       id="report_estado_propiedad"
       model="estado.result"
-      string="Estado de propiedad"
+      string="Ownership status"
       report_type="qweb-pdf"
       name="custom_property.report_estado_propiedad_general"
       file="custom_property.report_estado_propiedad_general"
-      print_report_name="'Reporte - %s' % (object.property_id.name)"/>
+      print_report_name="'Report - %s' % (object.property_id.name)"/>
 
       <template id="report_estado_propiedad_general">
         <t t-call="web.html_container">

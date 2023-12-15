@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_biz_blog_slider_web_designer,access_biz_blog_slider_web_designer,model_biz_blog_slider,website.group_website_publisher,1,1,1,1
+
+access_biz_blog_slider,access_biz_blog_slider,model_biz_blog_slider,,1,0,0,0

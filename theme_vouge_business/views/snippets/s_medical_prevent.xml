@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_prevent" name="Right Equipments">
+		<section class="business-medical-prevent">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h2>Prevent The Spread Of Virus</h2>
+							<p>EXPLORE AND FIND RIGHT EQUIPMENTS</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div id="medical-prevent-carousel" class="carousel bs-slider slide  control-round indicators-line pt32" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			          		<div class="carousel-item active">
+				            	<div class="container-fluid">
+			            			<div class="row">
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+				            </div>
+				           <div class="carousel-item">
+				            	<div class="container-fluid">
+			            			<div class="row">
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+				            </div>
+				            <div class="carousel-item">
+				            	<div class="container-fluid">
+			            			<div class="row">
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center op-1">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+				            </div>
+				            <div class="carousel-item">
+				            	<div class="container-fluid">
+			            			<div class="row">
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-4 col-md-4 p-0 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img op-1">
+			            							<img src="/theme_vouge_business/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+				            </div>
+			          	</div>
+			          	<div class="slider-control">
+		              		<a class="left carousel-control-prev text-white font-14" data-target="#medical-prevent-carousel" role="button" data-slide="prev">
+			                	<span class="fa fa-angle-left"/>
+			               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+			              	</a>
+			              	<a class="right carousel-control-next text-white font-14" data-target="#medical-prevent-carousel" role="button" data-slide="next">
+			                	<span class="fa fa-angle-right"/>
+			                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+			              	</a>
+			            </div>
+		        	</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

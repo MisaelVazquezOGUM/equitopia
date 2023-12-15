@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_two_pricing_plan" name="Pricing Plans">
+		<section class="app2-pricing-plan">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="heading">
+							<h4>Our Pricing Plans</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-4">
+						<section class="pricing-table bg1">
+							<div class="pricing-header">
+								<div class="main-price">
+									<h5>Basic</h5>
+									<h3>
+										<span class="rate">$10</span>
+										<span class="meta"> / month</span>
+									</h3>
+								</div>
+							</div>
+							<div class="pricing-content">
+								<div class="pricing-feature">
+									<ul>
+										<li>15 versions</li>
+										<li>All files included</li>
+										<li>Custom design and coding</li>
+										<li>Money back guarantee</li>
+										<li>24/7 support</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-footer">
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-light bizople_button">Select This</a>
+        						</div>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<section class="pricing-table bg2">
+							<div class="pricing-header">
+								<div class="main-price">
+									<h5>Popular Plan</h5>
+									<h3>
+										<span class="rate">$20</span>
+										<span class="meta"> / month</span>
+									</h3>
+								</div>
+							</div>
+							<div class="pricing-content">
+								<div class="pricing-feature">
+									<ul>
+										<li>15 versions</li>
+										<li>All files included</li>
+										<li>Custom design and coding</li>
+										<li>Money back guarantee</li>
+										<li>24/7 support</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-footer">
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-light bizople_button">Select This</a>
+        						</div>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<section class="pricing-table bg3">
+							<div class="pricing-header">
+								<div class="main-price">
+									<h5>Business Plan</h5>
+									<h3>
+										<span class="rate">$100</span>
+										<span class="meta"> / month</span>
+									</h3>
+								</div>
+							</div>
+							<div class="pricing-content">
+								<div class="pricing-feature">
+									<ul>
+										<li>15 versions</li>
+										<li>All files included</li>
+										<li>Custom design and coding</li>
+										<li>Money back guarantee</li>
+										<li>24/7 support</li>
+									</ul>
+								</div>
+							</div>
+							<div class="pricing-footer">
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-light bizople_button">Select This</a>
+        						</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

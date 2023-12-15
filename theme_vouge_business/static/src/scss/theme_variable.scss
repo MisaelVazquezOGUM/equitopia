@@ -1,0 +1,172 @@
+$primarycolor: #419183 !default;
+$secondarycolor: #1b1b1b !default;
+$primarygamma:  #79425f !default;
+$ptextcolor: #6a6c72 !default;
+$itsolution-1: #3b3663 !default;
+$itsolution-2: #685ae8 !default;
+$app-1: #462768 !default;
+$app-2: #5d4ab4 !default;
+$medical: #47b6e6 !default;
+$snowboard-1: #1231b4 !default;
+$snowboard-2: #29b0ed !default;
+$seo-color: #4e28bc;
+$charity-1: #ff9c81;
+$charity-2: #0f7dcc;
+$autoparts: #ff2d37;
+$organic: #daffdc;
+$organic2: #f26d25;
+$cyber-security: #0aabff;
+$cyber-security-2: #5128ff;
+$real-estate: #03b5c3;
+$travel: #3fd0d4;
+
+$header1-top-header: #fff;
+$header1-bottom-header: #ffffff;
+$header1-bottom-header-text: #1b1b1b;
+$header1-top-header-text: #ffffff;
+
+
+/* -------------------------- Main Colors ------------------------*/
+$o-theme-color-palettes: (
+    (
+        'alpha': $primarycolor,
+        'beta': $secondarycolor,
+        'gamma': $primarygamma,
+        'delta': #0b1f52,
+        'epsilon': #ff9c81,
+        'itsolution-1':$itsolution-1,
+        'itsolution-2':$itsolution-2,
+        'app-1':$app-1,
+        'app-2':$app-2,
+        'medical':$medical,
+        'snowboard-1':$snowboard-1,
+        'snowboard-2':$snowboard-2,
+        'seo-color':$seo-color,
+        'charity-1':$charity-1,
+        'charity-2':$charity-2,
+        'autoparts':$autoparts,
+        'organic':$organic,
+        'organic2':$organic2,
+        'cyber-security':$cyber-security,
+        'cyber-security-2':$cyber-security-2,
+        'real-estate':$real-estate,
+        'travel':$travel,
+
+        'header1-top-header':$header1-top-header,
+        'header1-bottom-header':$header1-bottom-header,
+        'header1-bottom-header-text':$header1-bottom-header-text,
+        'header1-top-header-text':$header1-top-header-text,
+
+        //'header2-top-header': #419183,
+        'header2-middle-header': #ffffff,
+        'header2-middle-header-text': #1b1b1b,
+        'header2-top-header-text': #ffffff,
+
+        'header3-top-header': #ffffff,
+        //'header3-middle-header': #ffffff,
+        //'header3-bottom-header': #419183,
+        'header3-bottom-header-text': #ffffff,
+        'header3-top-header-text': #333333,
+
+        'header8-top-header': rgba(255, 255, 255, 0),
+        'header8-top-header-text': #1b1b1b,
+
+        'header9-top-header': rgba(255, 255, 255, 0),
+        'header9-bottom-header': #ffffff,
+        'header9-top-header-text': #419183,
+        'header9-bottom-header-text': #1b1b1b,
+
+        'header10-top-header': #1b1b1b,
+        'header10-bottom-header': rgba(255, 255, 255, 0),
+        'header10-top-header-text': #ffffff,
+        'header10-bottom-header-text': #1b1b1b,
+
+        'footer1-top-footer': #ffffff,
+        'footer1-middle-footer': #ffffff,
+        'footer1-copyright-footer': #419183,
+
+        'footer2-top-footer': #1b1b1b,
+        'footer2-middle-footer': #1b1b1b,
+        'footer2-copyright-footer': #1b1b1b,
+
+        'footer3-top-footer': #419183,
+        'footer3-middle-footer': #ffffff,
+        'footer3-copyright-footer': #ffffff,
+
+        'footer4-top-footer': #ffffff,
+        'footer4-copyright-footer': #e5e5e5,
+
+        'footer5-top-footer': #ffffff,
+        'footer5-copyright-footer': #e5e5e5,
+
+        'footer6-top-footer': #419183,
+        'footer6-middle-footer': #1b1b1b,
+        'footer6-copyright-footer': #323232,
+
+        'footer8-top-footer': #212121,
+        'footer8-copyright-footer': #0a0a0a,
+    ),
+);
+/* -------------------------- Text Colors ------------------------*/
+$o-color-palettes: (
+    (
+        'body': null, // Default to bootstrap
+        'menu': #F9F9F9,
+        'footer': #F9F9F9,
+        'text': #6d7175,
+        'h1':  #202430,
+        'h2':  #202430,
+        'h3':  #202430,
+        'h4':  #202430,
+        'h5':  #202430,
+        'h6':  #202430,
+    ),
+);
+/* -------------------------- State Colors ------------------------*/
+$success:       #00b115 !default;
+$info:          #ffaa50 !default;
+$warning:       #ff5050 !default;
+$danger:        #900000 !default;
+
+
+/* -------------------------- fonts -----------------------------*/
+
+$o-theme-fonts: (
+    ('Nunito'),
+    ('Poppins'),
+    ('Jost', sans-serif),
+    ('Rubik'),
+    ('Montserrat', sans-serif),
+    ('Roboto', sans-serif),
+    ('Open Sans', sans-serif),
+    ('Source Sans Pro', sans-serif),
+    ('Raleway', sans-serif),
+    ('Noto Serif', serif),
+    ('Arvo', Times, serif),
+);
+$o-theme-font-urls: (
+    'Nunito:400,400i,500,500i,600,600i,700,700i',
+    'Poppins:400,400i,500,500i,600,600i,700,700i',
+    'Jost:400,400i,500,500i,600,600i,700,700i',
+    'Rubik:400,400i,500,500i,600,600i,700,700i',
+    'Montserrat:400,400i,700,700i',
+    'Roboto:400,400i,700,700i',
+    'Open+Sans:400,400i,700,700i',
+    'Source+Sans+Pro:400,400i,700,700i',
+    'Raleway:400,400i,700,700i',
+    'Noto+Serif:400,400i,700,700i',
+    'Arvo:400,400i,700,700i',
+);
+$o-theme-font-names: (
+    'Nunito',
+    'Poppins',
+    'Jost',
+    'Rubik',
+    'Montserrat',
+    'Roboto',
+    'Open Sans',
+    'Source Sans Pro',
+    'Raleway',
+    'Noto Serif',
+    'Arvo',
+);

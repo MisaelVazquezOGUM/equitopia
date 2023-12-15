@@ -1,0 +1,269 @@
+.real-estate-home-banner{
+	background-size: cover;
+	padding: 250px 0px;
+	background-position: center;
+	position: relative;
+	.banner-content{
+		margin-top:50px;
+		text-align :center;
+		h2{
+			color: #ffffff;
+		    font-size: 26px;
+		    font-weight: 100;
+		    text-transform: uppercase;
+		}
+		h1{
+			color: #ffffff;
+		    font-family: "Poppins", Sans-serif;
+		    font-size: 104px;
+		    font-weight: 600;
+		    letter-spacing: -3px;
+		    text-transform: uppercase;
+		}
+		p{
+			color: rgba(255,255,255,0.73);
+			line-height: 1.8em;
+			font-size: 21px;
+		}
+		.s_btn{
+			.btn{
+			    font-weight: 500;
+			    line-height: 1em;
+			    letter-spacing: 0.7px;
+			    border-radius: 3px;
+			    padding: 18px 40px 18px 40px;
+			    font-size:16px;
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding:100px 0;
+		.banner-content{
+			h1{
+				font-size: 50px;
+			}
+			.btn{
+				margin-top:20px;
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		padding:150px 0;
+		.banner-content{
+			h1{
+				font-size: 90px;
+			}
+		}
+	}
+}
+.real-estate-about-us{
+	padding:100px 0;
+	h2{
+		color: #033537;
+	    font-family: "Playfair Display", Sans-serif;
+	    font-size: 45px;
+	    font-weight: 400;
+	    text-transform: capitalize;
+	    line-height: 1.4em;
+	}
+	p{
+	    font-size: 18px;
+	    font-weight: 400;
+	    color: #5A5A5A;
+	}
+	.btn-link{
+		font-size: 18px;
+	    font-weight: 500;
+	    text-transform: uppercase;
+	    color: #033537;
+	    border-bottom: 2px solid #ffce47;
+	    border-radius: 0px;
+	    padding: 0px 0px 5px 0px;
+	    text-decoration:none;
+	    &:hover{
+	    	border-bottom: 2px solid theme-color('real-estate');
+	    }
+	}
+	@media (max-width: 767.98px) {
+		padding:70px 0;
+		text-align:center;
+		h2{
+			font-size: 24px;
+			text-align:center;
+		}
+		p{
+			text-align:center;
+		}
+		.btn{
+			margin-top:20px;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		text-align:center;
+		padding:70px 0;
+	}
+}
+.real-estate-counters{
+	border-bottom: 1px solid #d5d9dd;
+	padding: 60px 0px;
+	position: relative;
+	.counter-box{
+		text-align: center;
+		.heading{
+			color: theme-color('real-estate');
+		    font-family: "Montserrat", Sans-serif;
+		    font-size: 62px;
+		    font-weight: 400;
+		}
+		p{
+			text-align: center;
+		    font-size: 19px;
+		    font-weight: 400;
+		    color: #666;
+		    line-height: 2.5;
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding:70px 0;
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		padding:70px 0;
+	}
+}
+.real-estate-tetx-image{
+	padding:100px 0;
+	.text{
+		span{
+			color: #878c92;
+		    font-size: 15px;
+		    font-weight: 300;
+		    text-transform: uppercase;
+		}
+		h3{
+			color: #000000;
+		    font-size: 45px;
+		    font-weight: 900;
+		    line-height: 1.2em;
+		    margin-top:40px;
+		    margin-bottom:20px;
+		}
+		p{
+			color: #000000;
+		    font-size: 16px;
+		    font-weight: 300;
+		    line-height: 1.8em;
+		}
+	}
+	.image{
+		img{
+    		border-radius: 3px;
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding:70px 0;
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		padding:70px 0;
+		.text{
+			h3{
+				font-size: 40px;
+			}
+		}
+	}
+}
+.real-estate-properties{
+	border-top: 1px solid #d5d9dd;
+	padding: 60px 0px;
+	position: relative;
+	.heading{
+		padding-bottom:30px;
+		.text h4{
+			color: #000000;
+		    font-size: 32px;
+		    font-weight: 900;
+		    line-height: 1.2em;
+		}
+		.button{
+			.btn{
+				font-weight: 500;
+			    line-height: 1em;
+			    letter-spacing: 0.7px;
+			    border-radius: 3px;
+			    padding: 14px 34px;
+			    font-size:16px;
+			}
+		}
+	}
+	.image{
+		position: relative;
+		background: #000;
+	    background-color: rgba(0, 0, 0, 0.4);
+	    background-blend-mode: darken;
+	    margin-bottom: 30px;
+	    border-radius: 3px;
+	    &:hover{
+	    	background-color: rgba(0, 0, 0, 0.2);
+	    }
+		img{
+    		overflow: hidden;
+    		mix-blend-mode: darken;
+		    position: relative;
+		}
+		.info{
+			position: absolute;
+		    left: 0;
+		    right: 0;
+		    margin: auto;
+		    text-align: center;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    -webkit-transform: translateY(-50%);
+		    -moz-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		    h4{
+		    	font-weight: 700;
+		    	text-align: center;
+    			color: #fff;
+    			font-size:21px;
+		    }
+		    p{
+    			color: #fff;
+    			font-size:16px;
+		    }
+		}
+	}
+	@media (max-width: 767.98px) {
+		.heading{
+			padding: 0 10px 30px;
+		}
+	}
+}
+.real-estate-press{
+	border-top: 1px solid #d5d9dd;
+	padding: 60px 0px;
+	position: relative;
+	.heading{
+		padding-bottom:30px;
+		.text h4{
+			color: #000000;
+		    font-size: 32px;
+		    font-weight: 900;
+		    line-height: 1.2em;
+		}
+	}
+	.image{
+		margin-bottom:20px;
+		text-align:center;
+		img{
+			filter: brightness( 100% ) contrast( 0% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+		}
+	}
+	@media (max-width: 767.98px) {
+		.heading{
+			padding: 0 10px 30px;
+		}
+		.image{
+			margin-bottom:50px;
+		}
+	}
+}

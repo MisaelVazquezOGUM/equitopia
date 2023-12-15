@@ -1,0 +1,974 @@
+.business-medical-home-banner{
+	.carousel-item{
+		background-size: cover;
+		background-position: center;
+		padding: 200px 0;
+	}
+	.banner-content{
+		span{
+			color: theme-color('medical');
+			letter-spacing: 0;
+    		font-size: 30px ;
+    		text-transform: uppercase;
+		    line-height: 30px;
+		}
+		h1{
+			color: #555555;
+			margin: 30px 0;
+			font-size: 90px;
+		    font-weight: 600;
+		    letter-spacing: 0;
+		    position: relative;
+		    text-transform: capitalize;
+		}
+		.btn{
+			padding: 11px 40px;
+		    font-size: 18px;
+		    text-transform: capitalize;
+		    font-weight: 400;
+		    line-height: normal;
+		}
+	}
+	.slider-control{
+		.carousel-control-prev , .carousel-control-next{
+			width: 10% !important;
+			z-index:3;
+			color: #388890;
+			span{
+			    font-size: 50px;
+    			color: #388890;
+			    z-index: 10;
+			    font-weight: 600;
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+		.carousel-item{
+			padding: 25px 0 !important;
+		}
+		.banner-content{
+			h1{
+				font-size: 25px;
+				margin: 10px 0;
+			}
+			.btn{
+				padding: 8px 20px;
+			    font-size: 14px;
+			}
+		}
+		.slider-control{
+			.carousel-control-prev , .carousel-control-next{
+				span{
+					font-size:35px;
+				}
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.carousel-item{
+			padding: 60px 0 !important;
+		}
+		.banner-content{
+			h1{
+				font-size: 35px;
+				margin: 20px 0;
+			}
+		}
+	}
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+		.carousel-item{
+			padding: 80px 0 !important;
+		}
+		.banner-content{
+			h1{
+				font-size: 40px;
+			}
+			p{
+				font-size: 25px;
+				span{
+					font-size: 25px;
+				}
+			}
+		}
+	}
+}
+.business-medical-features{
+	background-color: #fbf8f3;
+	padding: 20px 0;
+	.feature-box{
+	    width: 100%;
+	    justify-content: center;
+	    margin: auto;
+	    position: relative;
+	    .service-image{
+	    	font-size:40px;
+	    	color: #555555;
+	    }
+	    .service-info{
+	    	text-align: left;
+		    margin-left: 16px;
+		    padding: 5px 0;
+	    	h2{
+	    		color: #555555;
+	    		margin-bottom: 3px;
+	    		font-size: 18px;
+	    		font-weight: bold;
+	    	}
+	    	p{
+	    		color: #808c8d;
+	    		margin: 0;
+	    		font-size: 16px;
+	    	}
+	    }
+	}
+	@media (max-width: 767.98px) {
+		.feature-box  {
+			display:block !important;
+			margin-bottom:20px;
+			text-align:center;
+			 .service-image{
+			 	margin-bottom:10px;
+			 }
+			  .service-info{
+			  	text-align:center;
+			  }
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.feature-box  {
+			display:block !important;
+			margin-bottom:20px;
+			text-align:center;
+			 .service-image{
+			 	margin-bottom:10px;
+			 }
+			  .service-info{
+			  	text-align:center;
+			  }
+		}
+	}
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+		.feature-box  {
+			display:block !important;
+			margin-bottom:20px;
+			text-align:center;
+			 .service-image{
+			 	margin-bottom:10px;
+			 }
+			  .service-info{
+			  	text-align:center;
+			  }
+		}
+	}
+}
+.business-medical-services{
+	padding:50px 0;
+	.heading{
+		text-align:center;
+		margin-bottom:40px;
+		h2{
+			color: theme-color('medical');
+			line-height: 1.1;
+			font-size: 40px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin-bottom: 15px;
+		}
+		p{
+			color: #555555;
+			font-size: 16px;
+    		position: relative;
+    		letter-spacing: 5px;
+    		text-transform: uppercase;
+		}
+	}
+	.service-box{
+		text-align: center;
+
+		.service-image{
+		    margin: 0 auto 15px;
+		    text-align: center;
+		    border-radius: 100%;
+
+		    img{
+		    	border-radius: 100%;
+			    border: 20px solid #dae7e4;
+			    transition: all 0.4s ease-in-out;
+		    }
+		    &:hover{
+		    	img {
+				    border: 20px solid theme-color('medical');
+				    transition: all 0.4s ease-in-out;
+				}
+		    }
+		}
+		.service-info{
+			h4{
+				margin-bottom: 10px;
+			    font-size: 24px;
+			    font-weight: bold;
+    			letter-spacing: 0em;
+			}
+			p{
+				color: #808c8d;
+				font-size: 16px;
+			}
+		}
+	}
+}
+.business-medical-prevent{
+	padding:50px 0;
+	.heading{
+		text-align:center;
+		margin-bottom:40px;
+		h2{
+			color: theme-color('medical');
+			line-height: 1.1;
+			font-size: 40px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin-bottom: 15px;
+		}
+		p{
+			color: #555555;
+			font-size: 16px;
+    		position: relative;
+    		letter-spacing: 5px;
+    		text-transform: uppercase;
+		}
+	}
+	.carousel-inner{
+		.service-img{
+			opacity: 0.08;
+		}
+		.op-1{
+			opacity: 1 !important;
+		}
+	}
+	.slider-control{
+		.carousel-control-prev , .carousel-control-next{
+		    width: 8%;
+			span{
+				background-color: #ffffff;
+			    border: 2px solid #dae7e4;
+			    color: #555555;
+			    border-radius: 100px;
+			    height: 70px;
+			    line-height: 70px;
+			    width: 70px;
+			    z-index: 1;
+			    font-size: 20px;
+			    font-weight:600;
+			    &:hover{
+			    	background-color: #dae7e4;
+				    color: #555555;
+				    border: 2px solid #dae7e4;
+			    }
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+		.slider-control{
+			.carousel-control-prev , .carousel-control-next{
+			    width: 15%;
+				span{
+				    height: 40px;
+				    line-height: 36px;
+				    width: 40px;
+				}
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.slider-control{
+			.carousel-control-prev , .carousel-control-next{
+			    width: 15%;
+			}
+		}
+	}
+}
+.business-medical-Durability{
+	.heading{
+		text-align:center;
+		margin-bottom:40px;
+		h2{
+			color: theme-color('medical');
+			line-height: 1.1;
+			font-size: 40px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin-bottom: 15px;
+		}
+		p{
+			color: #555555;
+			font-size: 16px;
+    		position: relative;
+    		letter-spacing: 5px;
+    		text-transform: uppercase;
+		}
+	}
+	.image{
+	    margin-bottom: 90px;
+	}
+	.Durability-content{
+		padding: 30px 0;
+    	margin: 0;
+    	.icon-img1{
+    		position: relative;
+			left: 10%;
+    		margin-bottom: 20px;
+    	}
+    	.icon-img2{
+    		position: relative;
+			right: 10%;
+    		margin-bottom: 20px;
+    	}
+    	.info{
+    		.title{
+    			color: #555555;
+    			margin-bottom: 10px;
+    			font-size: 20px;
+    			font-weight: bold;
+    			position: relative;
+
+				&:before {
+				    content: "";
+				    float: right;
+				    display: inline-block;
+				    width: 80px;
+				    height: 1px;
+				    top: 0;
+				    left: 0;
+				    margin-top: 10px;
+				    margin-left: 0px;
+				    background-color: #000000;
+				}
+				&:after{
+					content: "";
+				    float: right;
+				    width: 10px;
+				    height: 10px;
+				    position: absolute;
+				    top: 5px;
+				    right: 0;
+				    margin: 0 auto;
+				    border-radius: 50%;
+				    background-color: #000000;
+				}
+    		}
+    		.t-right{
+    			&:before{
+    				float: left;
+    			}
+    			&:after{
+    				float: left;
+				    right: auto;
+				    left: 0;
+    			}
+    		}
+    		p{
+    			color: #808c8d;
+    			font-size: 16px;
+    		}
+    	}
+	}
+	@media (max-width: 767.98px) {
+		.Durability-content{
+			.icon-img2 , .icon-img{
+				text-align: center;
+				right:0;
+				left:0;
+			}
+			.info{
+				text-align: center !important;
+				.title:before , .title:after {
+					content:unset !important;
+				}
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.Durability-content{
+			.icon-img2 , .icon-img{
+				text-align: center;
+				right:0;
+				left:0;
+			}
+			.info{
+				text-align: center !important;
+				.title:before , .title:after {
+					content:unset !important;
+				}
+			}
+		}
+	}
+	
+}
+.business-medical-contamination{
+	text-align: center;
+	padding: 80px 0px;
+    .s_parallax_bg{
+    	background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	    background-attachment: fixed;
+    }
+    .s_title{
+    	p{
+    		color: #555555;letter-spacing: 7px;
+		    text-transform: uppercase;
+		    font-size: 18px;
+		    margin-bottom: 10px;	
+    	}
+    	h2{
+    		padding: 15px 0;
+		    margin-bottom: 40px;
+		    font-weight:600;
+		    font-size: 56px;
+		    text-transform: inherit;
+		    color:theme-color('medical');
+    	}
+    	.btn{
+			padding: 11px 40px;
+		    font-size: 18px;
+		    text-transform: capitalize;
+		    font-weight: 400;
+		    line-height: normal;
+		}
+    }
+    @media (max-width: 767.98px) {
+    	.s_title{
+    		h2{
+    			font-size: 30px;
+    		}
+    	}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.s_title{
+    		h2{
+    			font-size: 35px;
+    		}
+    	}
+	}
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+		.s_title{
+    		h2{
+    			font-size: 45px;
+    		}
+    	}
+	}
+}
+.business-medical-Protection{
+	padding:80px 0;
+	.heading{
+		text-align:center;
+		margin-bottom:40px;
+		h2{
+			color: theme-color('medical');
+			line-height: 1.1;
+			font-size: 40px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin-bottom: 15px;
+		}
+		p{
+			color: #555555;
+			font-size: 16px;
+    		position: relative;
+    		letter-spacing: 5px;
+    		text-transform: uppercase;
+		}
+	}
+	.content{
+		h2{
+			color: #555555;
+			font-size: 24px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin: 0 0 15px;
+		}
+		p{
+			color: #808c8d;
+    		font-size: 17px;
+		}
+	}
+}
+.business-medical-supplies{
+	padding: 80px 0px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .heading{
+		text-align:center;
+		margin-bottom:40px;
+		h2{
+			color: theme-color('medical');
+			line-height: 1.1;
+			font-size: 40px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin-bottom: 15px;
+		}
+		p{
+			color: #555555;
+			font-size: 16px;
+    		position: relative;
+    		letter-spacing: 5px;
+    		text-transform: uppercase;
+		}
+	}
+    .supplies-inner{
+    	width: 100%;
+    	text-align: center;
+    	background-color: #ffffff;
+    	&:hover{
+    		 .number span{
+    		 	background-color: theme-color('medical');
+				color: #ffffff;
+    		 }
+    	}
+    }
+    .supplies-content{
+    	
+    	margin: 0;
+	    padding: 40px 30px;
+	    box-shadow: 0 1.063rem 2.188rem rgba(3,13,29,0.03);
+	    .number span{
+	    	display: inline-block;
+		    border-radius: 100%;
+		    margin-bottom: 20px;
+		    width: 60px;
+		    height: 60px;
+		    line-height: 60px;
+		    background-color: #dae7e4;
+		    color: #555555;
+		    transition: all 0.4s ease-in-out;
+	    }
+	    h4{
+	    	font-size: 24px;
+	    	color: #555555;
+	    	font-weight: bold;
+	    }
+	    p{
+	    	color: #808c8d;
+	    	font-size: 16px;
+	    }
+	    .btn{
+	    	margin-top: 20px;
+	    	letter-spacing: 0.5px;
+	    	padding: 10px 40px;
+	    	text-decoration: none;
+	    	font-size: 17px;
+	    	transition: all 0.4s ease-in-out;
+	    	span{
+	    		font-weight:600;
+	    	}
+	    }
+    }
+    @media (max-width: 767.98px) {
+    	.supplies-content{
+    		margin-bottom:20px;
+    	}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.supplies-content{
+    		padding:23px;
+    		.btn{
+    			padding:0;
+    		}
+    	}
+	}
+}
+.business-medical-innovative{
+	padding:50px 0;
+	.heading{
+		text-align:center;
+		margin-bottom:40px;
+		h2{
+			color: theme-color('medical');
+			line-height: 1.1;
+			font-size: 40px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin-bottom: 15px;
+		}
+		p{
+			color: #555555;
+			font-size: 16px;
+    		position: relative;
+    		letter-spacing: 5px;
+    		text-transform: uppercase;
+		}
+	}
+	.innovative-content{
+		.content{
+			margin: 10px;
+			padding-top:50px;
+			.text-right{
+				margin-right:20px;
+			}
+			.text-left{
+				margin-left:20px;
+			}
+			.info{
+				h4{
+					color: #555555;
+					margin-bottom: 10px;
+	    			font-size: 20px;
+	    			font-weight: bold;
+	    		}
+	    		p{
+	    			color: #808c8d;
+	    			font-size: 16px;
+	    		}
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		 [class*="col-"]{
+		 	padding:0 !important;
+		 }
+		.innovative-content{
+			.content{
+				.text-right {
+				    margin-right: 10px;
+				}
+				.text-left {
+				    margin-left: 10px;
+				}
+				.info{
+
+				}
+			}
+		}
+	}
+}
+.business-medical-images{
+	.image1{
+		width:60%;
+	}
+	.image2{
+		width:40%;
+	}
+	.content{
+		overflow: hidden;
+		.image{
+			position: relative;
+		    width: 100%;
+		    overflow: hidden;
+			img{
+				display: block;
+			    -webkit-transition: all 1.5s ease;
+			    -moz-transition: all 1.5s ease;
+			    -ms-transition: all 1.5s ease;
+			    -o-transition: all 1.5s ease;
+			    transition: all 1.5s ease;
+			    width: 100%;
+			}
+			&:before{
+				position: absolute;
+			    left: 0;
+			    right: 0;
+			    z-index: 1;
+			    content: "";
+			    float: left;
+			    width: 0%;
+			    height: 0%;
+			    background-color: rgba(0, 0, 0, 0.7);
+			    -webkit-transition: all 0.3s ease-in-out;
+			    -moz-transition: all 0.3s ease-in-out;
+			    -ms-transition: all 0.3s ease-in-out;
+			    -o-transition: all 0.3s ease-in-out;
+			    transition: all 0.3s ease-in-out;
+			}
+			&:hover{
+				&:before{
+					width: 100%;
+    				height: 100%;
+				}
+				img{
+					-webkit-transform: scale(1.2);
+				    -moz-transform: scale(1.2);
+				    -moz-transform: scale(1.2);
+				    transform: scale(1.2);
+				}
+				.info{
+					opacity: 1 !important;
+				}
+			}
+		}
+		
+		.info{
+			opacity: 0;
+		    z-index: 2;
+		    position: absolute;
+		    padding-right: 50px;
+		    padding-left: 50px;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    -webkit-transform: translateY(-50%);
+		    -moz-transform: translateY(-50%);
+		    -moz-transform: translateY(-50%);
+		    transition: all 0.35s linear;
+
+		    h6 {
+			    margin-bottom: 20px;
+			    font-size: 20px;
+			    color: #ffffff;
+			}
+			h2 {
+			    margin-bottom: 20px;
+			    font-weight: 400;
+			    line-height: .9;
+			    letter-spacing: 0.5px;
+			    font-size: 40px;
+			    color: #ffffff;
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+		.image1{
+			width:100%;
+		}
+		.image2{
+			width:100%;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.content{
+			.info{
+				h6{
+					font-size: 14px;
+				}
+				h2{
+					font-size: 24px;
+    				margin-bottom: 15px;
+				}
+			}
+		}
+	}
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+		.content{
+			.info{
+				h6{
+					font-size: 14px;
+				}
+				h2{
+					font-size: 24px;
+    				margin-bottom: 15px;
+				}
+			}
+		}
+	}
+}
+.editor_enable{
+	.business-medical-images{
+		.image{
+			&:before{
+				width: 0% !important;
+			    height: 0% !important;
+			}
+			.info{
+				opacity: 1 !important;
+			}
+		}
+	}
+}
+.business-medical-accordian{
+	padding: 80px 0px;
+    .s_parallax_bg{
+    	background-repeat: no-repeat;
+	    background-size: cover;
+        background-position: 86.77% 52.28%;
+	    background-attachment: fixed;
+    }
+    .heading{
+		text-align:center;
+		margin-bottom:40px;
+		h2{
+			color: theme-color('medical');
+			line-height: 1.1;
+			font-size: 40px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin-bottom: 15px;
+		}
+		p{
+			color: #555555;
+			font-size: 16px;
+    		position: relative;
+    		letter-spacing: 5px;
+    		text-transform: uppercase;
+		}
+	}
+    .collapse-accordion{
+		.card{
+			margin-bottom: 10px;
+			 border: none;
+			 background-color: unset !important;
+			 
+		}
+		.card-header{
+			background-color: unset !important;
+			padding: 0 !important;
+			border-bottom: 1px solid #dae7e4 !important;
+		}
+		.card-title {
+		    font-size: 16px;
+		    font-weight: 600;
+		    margin: 0;
+		    color:theme-color('secondary');
+		   
+		}
+		a {
+		    display: block;
+		    border: none;
+		    cursor: pointer;
+		    padding: 12px 20px;
+		    position: relative;
+		    color:#555555;
+		    background-color: transparent;
+		    font-size:18px;
+		    padding-left:0 !important;
+		    border-bottom: 1px solid #dae7e4;
+		}
+		a:not(.collapsed) {
+		    border-bottom: none !important;
+		}
+		a:hover{
+			 color:theme-color('medical') !important;
+		}
+		.content-body{
+			padding: 1rem !important;
+			border-radius:0;
+			font-size:16px;
+			border: none !important;
+			color:#555;
+		}
+		.fa , .icon , .icofont , .lnr, .lni , .ri , .ti {
+			font-size:18px;
+		}
+		.fa-plus{
+			display:none;
+		}
+		.collapsed{
+			.fa-minus{
+				display:none;
+			}
+			.fa-plus{
+				display:contents !important;
+			}
+		}
+	}
+}
+.business-medical-welcome{
+	padding:50px 0;
+	.heading{
+		text-align:center;
+		margin-bottom:40px;
+		h2{
+			color: theme-color('medical');
+			line-height: 1.1;
+			font-size: 40px;
+			font-weight: bold;
+		    letter-spacing: 0em;
+		    margin-bottom: 15px;
+		}
+		p{
+			color: #555555;
+			font-size: 16px;
+    		position: relative;
+    		letter-spacing: 5px;
+    		text-transform: uppercase;
+		}
+	}
+	.content-inner{
+		border: 1px solid #dae7e4;
+		position: relative;
+	    margin-bottom: 20px;
+	    padding: 40px 40px 40px 125px;
+	    border-radius: 10px;
+	    position: relative;
+	    margin-bottom: 20px;
+	    padding: 50px;
+	    border-radius: 10px;
+	    &:hover{
+	    	border: 1px solid theme-color('medical') !important;
+	    	.content-info{
+	    		h2{
+					color: theme-color('medical') !important
+				}
+	    	}
+	    }
+	}
+	.content-img{
+		margin-right:20px;
+		display: inline-table;
+		color: #555555;
+	}
+	.content-info{
+		display:inline-block;
+		h6{
+			color: #555555;
+			margin-bottom: 5px;
+			font-weight: normal;
+		    letter-spacing: 5px;
+		    font-size: 16px;
+		}
+		h2{
+			color: #555555;
+			margin-bottom: 20px;
+		    font-weight: bold;
+		    -webkit-transition: all 0.3s ease-in-out;
+		    -moz-transition: all 0.3s ease-in-out;
+		    -ms-transition: all 0.3s ease-in-out;
+		    -o-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+		    font-size: 30px;
+		}
+		p{
+			color: #808c8d;
+			font-size: 16px;
+			margin:0;
+		}
+		.s_btn{
+			position:absolute;
+			bottom: -12%;
+
+			.btn{
+				padding: 10px 40px;
+			    font-size: 17px;
+			    border-radius: 5px;
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+		.content-inner{
+			margin-bottom: 50px;
+	    	padding: 30px;
+		}
+		.content-info{
+			.s_btn{
+				bottom: -10%;
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		.content-inner{
+			margin-bottom: 40px;
+		}
+	}
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+		.content-inner{
+			padding:40px;
+		}
+	}
+}
+.editor_enable{
+	.business-medical-images .content .image:before {
+		position:unset !important;
+	}
+}

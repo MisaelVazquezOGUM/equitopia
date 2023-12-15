@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_travel_bags" name="Pack Your Bags">
+		<section class="travel-packup">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-xl-6 col-lg-8 col-md-8">
+						<div class="heading">
+							<span>Top Cities</span>
+							<h1>Pack Your Bags</h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div id="travel-packup-carousel" class="carousel bs-slider slide  control-round indicators-line w-100" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			            	<div class="carousel-item active">
+		            			<div class="row justify-content-center">
+		            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+		            					<div class="packup-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/travel-city1.jpg" />
+												<div class="info">
+													<h6>France</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+			            						</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+		            					<div class="packup-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/travel-city2.jpg" />
+												<div class="info">
+													<h6>France</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+			            						</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+		            					<div class="packup-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/travel-city3.jpg" />
+												<div class="info">
+													<h6>France</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+			            						</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+		            					<div class="packup-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/travel-city4.jpg" />
+												<div class="info">
+													<h6>France</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+			            						</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+			            	</div>
+			            	<div class="carousel-item">
+		            			<div class="row justify-content-center">
+		            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+		            					<div class="packup-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/travel-city5.jpg" />
+												<div class="info">
+													<h6>France</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+			            						</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+		            					<div class="packup-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/travel-city6.jpg" />
+												<div class="info">
+													<h6>France</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+			            						</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+		            					<div class="packup-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/travel-city7.jpg" />
+												<div class="info">
+													<h6>France</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+			            						</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+		            					<div class="packup-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/travel-city8.jpg" />
+												<div class="info">
+													<h6>France</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+			            						</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+			            	</div>
+			            
+			          	</div>
+			          	<div class="slider-control">
+		              		<a class="left carousel-control-prev font-14" data-target="#travel-packup-carousel" role="button" data-slide="prev">
+			                	<span class="fa fa-angle-left"/>
+			               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+			              	</a>
+			              	<a class="right carousel-control-next font-14" data-target="#travel-packup-carousel" role="button" data-slide="next">
+			                	<span class="fa fa-angle-right"/>
+			                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+			              	</a>
+			            </div>
+		        	</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_cyber_security_clients" name="Our Clients">
+		<section class="cyber-security-partners" style="background-image: url('/theme_vouge_business/static/src/img/cs-partner-bg.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<span>Our Clients</span>
+						<h2>Our Work Clients</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3">
+						<div class="partner-member">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="partner-member">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="partner-member">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand3.png" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="partner-member">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand4.png" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="partner-member">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand5.png" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="partner-member">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand6.png" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="partner-member">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="partner-member">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

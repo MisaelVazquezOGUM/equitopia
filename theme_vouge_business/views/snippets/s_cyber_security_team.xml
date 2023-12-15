@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_cyber_security_team" name="Our Team">
+		<section class="cyber-security-team" style="background-image: url('/theme_vouge_business/static/src/img/cs-team-bg.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<span>Our Team</span>
+						<h2>Our Best Team</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="team-content">
+							<div class="team-image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team1.png" />
+								<ul class="social-icons">
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-facebook" />
+										</a>
+									</li>
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-twitter" />
+										</a>
+									</li>
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-linkedin" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="team-info">
+								<h4>Paul Williams</h4>
+								<span>Company CEO</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="team-content">
+							<div class="team-image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team2.png" />
+								<ul class="social-icons">
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-facebook" />
+										</a>
+									</li>
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-twitter" />
+										</a>
+									</li>
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-linkedin" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="team-info">
+								<h4>Anita Oliver</h4>
+								<span>Project Manager</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="team-content">
+							<div class="team-image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team3.png" />
+								<ul class="social-icons">
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-facebook" />
+										</a>
+									</li>
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-twitter" />
+										</a>
+									</li>
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-linkedin" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="team-info">
+								<h4>Andrew Petersons</h4>
+								<span>Web Developer</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="team-content">
+							<div class="team-image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team4.png" />
+								<ul class="social-icons">
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-facebook" />
+										</a>
+									</li>
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-twitter" />
+										</a>
+									</li>
+									<li>
+										<a class="link" href="#">
+											<i class="fa fa-linkedin" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="team-info">
+								<h4>Jessy Pinkman</h4>
+								<span>Graphic Designer</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="assets_backend_tabla_tickets" name="custom_property_assets" inherit_id="web.assets_backend">
+   <xpath expr="." position="inside">
+      <link rel="stylesheet" href="/custom_property/static/src/css/style.css"/>
+   </xpath>
+   <xpath expr="script[last()]" position="after">
+      <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+   </xpath>
+</template>
+</odoo>

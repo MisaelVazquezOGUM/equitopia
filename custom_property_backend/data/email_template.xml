@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<odoo>
+	<data>
+		<record id="email_template_depositos_de_inquilino" model="mail.template">
+			<field name="name">Send: send email tenant deposit</field>
+			<field name="model_id" ref="account.model_account_payment"/>
+			<field name="email_from">${object.company_id.email_formatted |safe}</field>
+			<field name="email_to">${object.partner_id.email}</field>
+			<field name="subject">Correo ref(${object.partner_id.name or 'n/a'})</field>
+			<field name="body_html" type="html">
+				
+				<div>
+                    deposito del inquilino ${object.journal_id.name} de ${object.property_id.name}
+                    <br/><br/>
+                    
+                </div>
+                <div class = "row">
+                    <div class = "col-6"> 
+                    Tipo de pago ${object.payment_type}
+                    Tipo de empresa ${object.partner_type}
+                    Socio ${object.partner_id.name}
+                    Importe${object.amount}
+                    Fecha ${object.payment_date}
+                    </div>
+                    
+                    <div class = "col-6">
+                    
+                    Circular ${object.communication}
+                    Contrato inquilino ${object.tenancy_id.name}
+                    propiedad ${object.property_id.name}
+                    Importe adeudo ${object.amount_due}
+                    Fecha ${object.payment_date}
+                    </div>
+
+                </div>
+
+			</field>
+		<field name="report_template" ref="account.action_report_payment_receipt"/>
+			<field name="report_name">Correo ${object.name}</field>
+		</record> 
+
+	</data>
+</odoo>

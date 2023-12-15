@@ -1,0 +1,127 @@
+<odoo>
+	<data>
+
+
+
+		<!--+++++++++++++++++++++++++++++++++FORM+++++++++++++++++++++++++++++++++++++--> 
+	    <record model="ir.ui.view" id="custom_estado_resultado_from_view">
+	            <field name="name">custom_estado_resultado.form_view</field>
+	            <field name="model">estado.result</field>
+	            <field name="arch" type="xml">
+	                <form>
+						<br/>
+						<header>
+							<button string="Generate Invoice of Commission" name="generate_invoice_to_supplier" attrs="{'invisible': [('invoice_com_id','!=',False)]}" type="object" icon="fa-file" class="oe_highlight"/>
+							<button string="View Invoice" attrs="{'invisible': [('invoice_com_id','=',False)]}" name="view_record_invoice" icon="fa-file-o" type="object" class="oe_highlight"/>
+							<button string="Update Record" name="update_this_record" type="object" icon="fa-level-down" class="oe_highlight"/>
+							<field name="invoice_com_id" invisible="1"/>
+						</header>
+	                    <sheet>
+	                         	                    
+	                    	<div class="oe_title">
+								<h1>
+									<label for="ingresos_netos"></label>
+									<field name="ingresos_netos" string="Net Income" widget="monetary" options="{'currency_field': 'currency_id'}" readonly="1" force_save="1"/>
+								</h1>
+                    		</div>
+							<widget name="web_ribbon" title="Preview" 
+								attrs="{'invisible': [('preview', '=', True)]}"/>
+ 
+
+	                    	<field name="imagen" widget="image" class="oe_avatar" options="{'size': [120, 120]}" nolabel="1"/>
+	                    	<group>
+	                    		<field name="mes_estado" nolabel="1" readonly="1" force_save="1" style="font-size: 16px;"/>
+	                    		<field name="mes_num" invisible="1" force_save="1"/>
+	                    	</group>
+	                        <group>
+	                            <group string="General">
+	                                <field name="property_id" string="Property" options="{'no_create_edit':True, 'no_create':True}"/>
+	                                <field name="company_id" string="Company" force_save="1" readonly="1"/>
+	                                <field name="currency_id" string="Currency" force_save="1"  invisible="1"/>
+	                                <field name="fecha_report" string="Report Date" readonly="0" force_save="1"/>
+	                                <field name="manager_id" readonly="1" force_save="1"/>
+	                                <field name="owner_id" readonly="1" force_save="1"/>
+	                                <field name="estado" string="State" readonly="1" force_save="1"/>
+	                                <field name="foreport" force_save="1"/>
+	                                <field name="preview" invisible="1" force_save="1"/>
+	                                <field name="reservaciones" string="Reservations"/>
+	                            </group>
+	                            <group>
+									<group>
+										<h3 class="o_horizontal_separator">Rent</h3>
+										<field name="rent_cronograma" string="Scheduled Rentals" widget="monetary" force_save="1" options="{'currency_field': 'currency_id'}" readonly="1"/>
+										<field name="rent_efectivo" string="Effective Income" widget="monetary" force_save="1" options="{'currency_field': 'currency_id'}" readonly="1"/>
+										<h3 class="o_horizontal_separator">Occupancy Rate</h3>
+										<br/>
+										<label for="dias_libres"/>
+										<div>
+											<field name="dias_libres" string="Free" class="oe_inline" force_save="1" readonly="1"/> <span class="ml8">Days</span>
+											<field name="porcent_libre" widget="percentpie"/>
+										</div>
+										<label for="dias_ocupados" />
+										<div>
+											<field name="dias_ocupados" string="Not free" class="oe_inline" force_save="1" readonly="1"/> <span class="ml8">Days</span>
+											<field name="procetaje_ocupado"  widget="percentpie"/>	                  
+										</div>  
+									</group>
+								</group>
+	                            
+	                        </group>
+	                         <group>
+	                         	<group string="Bills">
+		                            <field name="mantenimientos" string="Maintenance" widget="monetary" force_save="1" options="{'currency_field': 'currency_id'}" readonly="1"/>
+		                            <field name="servicios" string="Services" widget="monetary" force_save="1" options="{'currency_field': 'currency_id'}" readonly="1"/>
+		                            <field name="otros_gastos" string="Other Expenses" widget="monetary" force_save="1" options="{'currency_field': 'currency_id'}" readonly="1"/>
+		                            <field name="comisiones" string="Commissions" widget="monetary" force_save="1" options="{'currency_field': 'currency_id'}" readonly="1"/>
+	                            </group>
+	                        	<group string="Historical">
+	                        	<field name="rent_cobradas" string="Rents Collected" widget="monetary" options="{'currency_field': 'currency_id'}" readonly="1" force_save="1"/>
+	                            </group>  
+	                            
+	                        </group>
+							<notebook>
+								<page string="Espense Table">
+									<field name="expense_table_ids">
+										<tree default_order="date_exp">
+											<field name="date_exp"/>
+											<field name="name_exp" />
+											<field name="type_move" />
+											<field name="enter_pay" attrs="{'invisible': [('enter_pay', '=', 0.0)]}" sum="Total1"/>
+											<field name="exit_pay" attrs="{'invisible': [('exit_pay', '=', 0.0)]}" sum="Total2"/>
+										</tree>
+										<form readonly="1">
+											<sheet>
+												<group>
+													<field name="date_exp"/>
+													<field name="name_exp" />
+													<field name="type_move" />
+													<field name="enter_pay" attrs="{'invisible': [('enter_pay', '=', 0.0)]}"/>
+													<field name="exit_pay" attrs="{'invisible': [('exit_pay', '=', 0.0)]}"/>
+													<field name="invoice_id" />
+												</group>
+											</sheet>
+										</form>
+									</field>
+								</page>
+							</notebook>                        
+	                    </sheet>
+	                </form>	                
+	            </field>
+	    </record>
+	 <!--++++++++++++++++++++++++++++TREE++++++++++++++++++++++++++++++++++++++++-->
+	  <record id="custom_estado_resultado_tree" model="ir.ui.view">
+	    <field name="name">custom_estado_resultado.tree</field>
+	    <field name="model">estado.result</field>
+	    <field name="arch" type="xml">
+	    	<tree>
+	    		<field name="fecha_report"/>
+	    		<field name="mes_estado" force_save="1"/>
+	    		<field name="property_id"/>
+	    		<field name="enviado"/>	    	
+	    		<field name="foreport"/>
+	    	</tree>
+	    </field>
+	   </record>
+	
+	</data>
+</odoo>

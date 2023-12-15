@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_styles" name="Yoga Styles">
+		<section class="yoga-service pt32 pb96">
+			<div class="container extended-container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="content text-center">
+							<div class="icon"><img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-icon2.png" /></div>
+							<h4 class="text-primary">All Yoga Styles</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="content text-center">
+							<div class="icon"><img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-icon1.png" /></div>
+							<h4 class="text-primary">All Yoga Styles</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="content text-center">
+							<div class="icon"><img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-icon3.png" /></div>
+							<h4 class="text-primary">All Yoga Styles</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

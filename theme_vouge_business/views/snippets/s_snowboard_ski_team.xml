@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_team" name="Our Professionals">
+		<section class="snowboeard-team">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="title text-center">
+						<span>Meet Our</span>
+						<h2>Professionals</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="team-content">
+							<section class="team-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional1.jpg');">
+								<div class="info-wrap">
+									<div class="information">
+										<section class="info-img" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional1.jpg');">
+										</section>
+										<section class="content-info">
+											<div class="info">
+												<h6>Paul Williams</h6>
+												<span>Snowboarder</span>
+												<div class="social-icons">
+													<a class="link" href="#">
+														<i class="fa fa-facebook" />
+													</a>
+													<a class="link" href="#">
+														<i class="fa fa-twitter" />
+													</a>
+													<a class="link" href="#">
+														<i class="fa fa-instagram"></i>
+													</a>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="team-content">
+							<section class="team-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional2.jpg');">
+								<div class="info-wrap">
+									<div class="information">
+										<section class="info-img" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional2.jpg');">
+										</section>
+										<section class="content-info">
+											<div class="info">
+												<h6>Anita Oliver</h6>
+												<span>Skier</span>
+												<div class="social-icons">
+													<a class="link" href="#">
+														<i class="fa fa-facebook" />
+													</a>
+													<a class="link" href="#">
+														<i class="fa fa-twitter" />
+													</a>
+													<a class="link" href="#">
+														<i class="fa fa-instagram"></i>
+													</a>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="team-content">
+							<section class="team-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional3.jpg');">
+								<div class="info-wrap">
+									<div class="information">
+										<section class="info-img" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional3.jpg');">
+										</section>
+										<section class="content-info">
+											<div class="info">
+												<h6>Andrew Petersons</h6>
+												<span>Skier</span>
+												<div class="social-icons">
+													<a class="link" href="#">
+														<i class="fa fa-facebook" />
+													</a>
+													<a class="link" href="#">
+														<i class="fa fa-twitter" />
+													</a>
+													<a class="link" href="#">
+														<i class="fa fa-instagram"></i>
+													</a>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="team-content">
+							<section class="team-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional4.jpg');">
+								<div class="info-wrap">
+									<div class="information">
+										<section class="info-img" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional4.jpg');">
+										</section>
+										<section class="content-info">
+											<div class="info">
+												<h6>Jessy Pinkman</h6>
+												<span>Skater</span>
+												<div class="social-icons">
+													<a class="link" href="#">
+														<i class="fa fa-facebook" />
+													</a>
+													<a class="link" href="#">
+														<i class="fa fa-twitter" />
+													</a>
+													<a class="link" href="#">
+														<i class="fa fa-instagram"></i>
+													</a>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

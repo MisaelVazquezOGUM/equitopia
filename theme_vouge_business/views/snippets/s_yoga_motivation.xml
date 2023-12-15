@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_motivation" name="Motivation">
+		<section class="yoga-clear-mind pb64">
+			<div class="container extended-container">
+				<div class="row">
+					<div class="col-md-6 green-bg">
+						<div class="content">
+							<div class="yoga-icon"><img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-icon.png" /></div>
+							<h4>Yoga keeps motivating us</h4>
+							<h2 class="text-primary">Relaxes Body &amp; Mind</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis.</p>
+							<p class="m-0">Sed molestie augue ac aliquam laoreet. Aenean a lacus congue, aliquet massa ut, feugiat diam. Donec sodales augue a nisl dignissim finibus.</p>
+						</div>
+					</div>
+					<div class="col-md-6 p-0">
+						<section class="bg-image h-100" style="background-image: url('/theme_vouge_business/static/src/img/yoga-clear-mind.jpg');">
+							<div class="play-icon">
+								<a href="#">
+									<span class="fa text-primary fa-play-circle fa-4x"></span>
+								</a>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

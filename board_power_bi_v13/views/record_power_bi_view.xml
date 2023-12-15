@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data noupdate="1">
+        <record id="record_board_power_bi" model="board.power.bi">
+            <field name="name"></field>
+            <field name="power_bi_general">True</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<odoo>
+<data>
+ <record id="custom_property_backend_tenancy_form_button_inheriti" model="ir.ui.view">
+    <field name="name">custom_property_backend_tenancy_form_button.inheriti</field>
+    <field name="model">account.payment</field>
+    <field name="inherit_id" ref="account.view_account_payment_form"/>
+    <field name="arch" type="xml">         
+         <xpath expr="//button[@name='cancel']" position="after">
+                <button name = "action_quotation_send" type = "object" string = "Send by mail" icon="fa-envelope" class = "oe_highlight"/>
+         </xpath>
+   </field>
+   </record>
+</data>
+</odoo>

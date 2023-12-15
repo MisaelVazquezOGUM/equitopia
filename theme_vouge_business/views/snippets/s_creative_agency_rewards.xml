@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_creative_agency_rewards" name="Our Rewards">
+		<section class="creative-awards">
+			<div class="container extended-container">
+				<div class="row">
+					<div class="col-lg-5 col-md-12">
+						<div class="award-content">
+							<h2>Our <span> Rewards </span>and Publications</h2>
+							<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at. Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 ml-auto">
+						<div class="content">
+							<h5>Awards</h5>
+							<ul>
+								<li>Morbi malesuada</li>
+								<li>Vivamus ut ullamcorper</li>
+								<li>Suspendisse metus nisi</li>
+								<li>Iaculis sit amet</li>
+								<li>Maecenas non sem mauris</li>
+								<li>Aliquet volutpat elit</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="content">
+							<h5>Publications</h5>
+							<ul>
+								<li>Morbi malesuada</li>
+								<li><span>Vivamus ut ullamcorper</span></li>
+								<li>Suspendisse metus nisi</li>
+								<li><span>Iaculis sit amet</span></li>
+								<li>Maecenas non sem mauris</li>
+								<li>Aliquet <span>volutpat elit</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

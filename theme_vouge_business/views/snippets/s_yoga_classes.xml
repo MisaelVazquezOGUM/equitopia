@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_classes" name="Browse Classes">
+		<section class="yoga-classes pt32 pb32">
+			<div class="container extended-container">
+				<div class="heading-content text-center pb64">
+					<div class="icon">
+						<span class="fa fa-book fa-4x"/>
+					</div>
+					<h2 class="text-primary">Browse Classes</h2>
+					<p class="w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis.</p>
+				</div>
+				<div class="row image-boxes text-center m-md-0">
+					<div class="col-md-4 p-md-0 mb-5">
+						<div class="image mb-4">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes6.jpg" />
+						</div>
+						<h6>Hatha Yoga</h6>
+						<p class="m-0">with John Doe</p>
+					</div>
+					<div class="col-md-4 p-md-0 mb-5">
+						<div class="image mb-4">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes2.jpg" />
+						</div>
+						<h6>Ashtanga Yoga</h6>
+						<p class="m-0">with John Doe</p>
+					</div>
+					<div class="col-md-4 p-md-0 mb-5">
+						<div class="image mb-4">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes3.jpg" />
+						</div>
+						<h6>Power Yoga</h6>
+						<p class="m-0">with John Doe</p>
+					</div>
+					<div class="col-md-4 p-md-0 mb-5">
+						<div class="image mb-4">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes4.jpg" />
+						</div>
+						<h6>Restorative Yoga</h6>
+						<p class="m-0">with John Doe</p>
+					</div>
+					<div class="col-md-4 p-md-0 mb-5">
+						<div class="image mb-4">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes5.jpg" />
+						</div>
+						<h6>Prenatal Yoga</h6>
+						<p class="m-0">with John Doe</p>
+					</div>
+					<div class="col-md-4 p-md-0 mb-5">
+						<div class="image mb-4">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes1.jpg" />
+						</div>
+						<h6>Vinyasa Yoga</h6>
+						<p class="m-0">with John Doe</p>
+					</div>
+				</div>
+				<div class="s_btn text-center pt16 pb16" data-name="Button">
+					<a href="#" class="btn btn-primary rounded-circle btn-lg shadow">Browse Courses</a>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

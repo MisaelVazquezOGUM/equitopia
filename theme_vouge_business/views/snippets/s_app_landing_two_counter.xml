@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_two_counter" name="Counter">
+		<section class="app2-counter">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-md-10 col-10">
+						<section class="row counter-content">
+							<div class="col-lg-3 col-md-3">
+								<div class="counter-box">
+									<h4 class="heading">
+										<span class="counter">576</span>
+										<span>M</span>
+									</h4>
+									<p>Total Downloads</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="counter-box">
+									<h4 class="heading">
+										<span class="counter">86</span>
+										<span>%</span>
+									</h4>
+									<p>Page Speed</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="counter-box">
+									<h4 class="heading">
+										<span class="counter">12</span>
+										<span>+</span>
+									</h4>
+									<p>Years Top Rated App</p>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="counter-box">
+									<h4 class="heading">
+										<span class="counter">389</span>
+										<span>M</span>
+									</h4>
+									<p>Happy Clients</p>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

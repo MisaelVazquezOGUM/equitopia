@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_protection" name="Germs Protection">
+		<section class="business-medical-Protection">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h2>99%+ Germs Protection</h2>
+							<p>MEDICALLY TESTED AND CERTIFIED</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div class="content">
+							<h2>Top-Class Safety Equipments</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui. Proin gravida tristique gravida. Curabitur at neque aliquet, blandit sem eu, pulvinar urna.</p>
+							<p>Vestibulum non vestibulum dui. Proin gravida tristique gravida. Curabitur at neque aliquet, blandit sem eu, pulvinar urna. Morbi condimentum leo quam, vel feugiat mauris posuere et. Mauris vitae congue massa, in imperdiet lectus.</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="image">
+							<img src="/theme_vouge_business/static/src/img/medical-equipment.jpg" class="img img-fluid"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

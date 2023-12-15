@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_charity_aboutus" name="About Us">
+		<section class="charity-aboutus">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-5 col-md-5">
+						<div class="about-content">
+							<h4>About Us</h4>
+							<h2>Our Demanding Requirement is to Help People in Need</h2>
+						</div>
+					</div>
+					<div class="col-lg-7 col-md-7">
+						<div class="about-content">
+							<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</h6>
+
+							<p>Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor. Donec hendrerit semper massa dignissim dignissim. Ut pretium ullamcorper mi, sit amet pellentesque nisl. Donec commodo ullamcorper eros. Proin vel hendrerit nibh. Phasellus non sapien sed magna venenatis posuere vel sit amet nisl.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

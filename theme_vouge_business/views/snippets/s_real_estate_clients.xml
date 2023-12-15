@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_real_estate_clients" name="Out Clients">
+		<section class="real-estate-press">
+			<div class="container">
+				<div class="row">
+					<div class="heading">
+						<div class="text">
+							<h4>In The Press</h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3">
+						<div class="image text-center">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="image text-center">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="image text-center">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand3.png" />
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<div class="image text-center">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand4.png" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

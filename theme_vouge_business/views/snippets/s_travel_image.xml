@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_travel_image" name="Image">
+		<section class="tarvel-paris pb32 pt32">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="image text-center">
+						<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/travel.png" />
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

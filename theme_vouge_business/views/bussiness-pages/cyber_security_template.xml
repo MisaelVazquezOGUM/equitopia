@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="cyber_security_template" model="ir.ui.view">
+		<field name="name">Cyber Security Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.cyber_security_template</field>
+		<field name="arch" type="xml">
+			<t name="Cyber Security Template" t-name="theme_vouge_business.cyber_security_template">
+				<t t-call="website.layout">
+					<div class="oe_structure oe_empty" id="wrap">
+						<section class="cyber-security-banner pt160 pb136" style="background-image: url('/theme_vouge_business/static/src/img/cyber-security-banner.png');">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-lg-6 col-md-12 mb-4">
+										<div class="content">
+											<h3>Cyber Security helps to protect data</h3>
+											<h1>Cyber Security Ensures that your <span>Business is Safe</span></h1>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quaerat est, a labore excepturi rem sed eius facere error! Dolore in perspiciatis porro dolor debitis</p>
+											<div class="s_btn" data-name="Button">
+		            							<a href="#" class="btn btn-light rounded-circle btn-lg mr-3">Learn More</a>
+		            							<a href="#" class="video-bnt mr-3"><span class="fa fa-play fa-1x"/></a>
+		            							Watch Demo
+		            						</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12">
+										<div class="image text-center">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/cyber-security-banner-image.png" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="cyber-security-plateform">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-lg-6 mb-4">
+										<div class="image text-center">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/cs-platform.png" />
+										</div>
+									</div>
+									<div class="col-lg-6 mb-4 mb-lg-0">
+										<div class="content">
+											<span>Cyber Security helps to protect data</span>
+											<h2>Bizople develop creative solutions for companies of all niches</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi, molestias repellat excepturi nobis eum culpa voluptates dolorem dolorum et Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi.</p>
+										</div>
+										<div class="list-items">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="item">
+														<span class="fa fa-check-square-o fa-1x mr-3"/>
+														<h3>Error Tolerance</h3>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="item">
+														<span class="fa fa-check-square-o fa-1x mr-3"/>
+														<h3>Smart support</h3>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="item">
+														<span class="fa fa-check-square-o fa-1x mr-3"/>
+														<h3>Tunnelling</h3>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="item">
+														<span class="fa fa-check-square-o fa-1x mr-3"/>
+														<h3>Real-time records</h3>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="item">
+														<span class="fa fa-check-square-o fa-1x mr-3"/>
+														<h3>Metal case</h3>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="item">
+														<span class="fa fa-check-square-o fa-1x mr-3"/>
+														<h3>Fast shortcuts</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="cyber-security-features" style="background-image: url('/theme_vouge_business/static/src/img/cyber-security-why-choose.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="heading text-center">
+										<span>OUR FEATURES</span>
+										<h2> Why Choose Us</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-4 col-md-4">
+										<section class="feature-content">
+											<div class="feature-icon">
+												<span class="icon icon-Folder fa-4x"/>
+											</div>
+											<h6>Manage Your Workflow</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<section class="feature-content">
+											<div class="feature-icon">
+												<span class="icon icon-Shield fa-4x"/>
+											</div>
+											<h6>Analytics and Insights</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<section class="feature-content">
+											<div class="feature-icon">
+												<span class="icon icon-Timer fa-4x"/>
+											</div>
+											<h6>Organize Your Deadlines</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="cyber-security-work" style="background-image: url('/theme_vouge_business/static/src/img/cs-work-bg.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="heading text-center">
+										<span>How IT Works</span>
+										<h2>Our Work Process</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+									</div>
+								</div>
+								<div class="row align-items-center pb32">
+									<div class="col-lg-6 mb-4 mb-lg-0">
+										<div class="content">
+											<div class="service-block">
+												<div class="content-block d-flex">
+													<div class="work-icon">
+														<span class="lnr lnr-laptop-phone fa-3x"/>
+													</div>
+													<div class="work-info">
+														<h3>Smart reconition and neural technologies</h3>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+													</div>
+												</div>
+											</div>
+											<div class="service-block">
+												<div class="content-block d-flex">
+													<div class="work-icon">
+														<span class="lnr lnr-cloud-sync fa-3x"/>
+													</div>
+													<div class="work-info">
+														<h3>State of art hardware applied to the user experience </h3>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+													</div>
+												</div>
+											</div>
+											<div class="service-block">
+												<div class="content-block d-flex">
+													<div class="work-icon">
+														<span class="lnr lnr-thumbs-up fa-3x"/>
+													</div>
+													<div class="work-info">
+														<h3>Great and experienced team from ten countries</h3>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+													</div>
+												</div>
+											</div>
+											<div class="service-block">
+												<div class="content-block d-flex">
+													<div class="work-icon">
+														<span class="lnr lnr-earth fa-3x"/>
+													</div>
+													<div class="work-info">
+														<h3>Smart reconition and neural technologies</h3>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="image text-center">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/how it work.png" />
+										</div>
+									</div>
+								</div>
+								<div class="row align-items-center pt32">
+									<div class="col-lg-6">
+										<div class="image text-center">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/how it work 2.png" />
+										</div>
+									</div>
+									<div class="col-lg-6 mb-4 mb-lg-0">
+										<div class="heading mb32">
+											<span>Cyber Security helps to protect data</span>
+											<h2 class="title">Bizople develop creative solutions for companies of all niches</h2>
+											<p class="w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi, molestias repellat excepturi nobis eum culpa voluptates dolorem dolorum et.</p>
+										</div>
+										<div class="content">
+											<div class="service-block">
+												<div class="content-block d-flex">
+													<div class="work-icon2">
+														<span class="fa fa-check fa-2x"/>
+													</div>
+													<div class="work-info">
+														<h3>Generate traffic and revenues</h3>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+													</div>
+												</div>
+											</div>
+											<div class="service-block">
+												<div class="content-block d-flex">
+													<div class="work-icon2">
+														<span class="fa fa-check fa-2x"/>
+													</div>
+													<div class="work-info">
+														<h3>Increase the conversions rate</h3>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+													</div>
+												</div>
+											</div>
+											<div class="service-block">
+												<div class="content-block d-flex">
+													<div class="work-icon2">
+														<span class="fa fa-check fa-2x"/>
+													</div>
+													<div class="work-info">
+														<h3>Automate the repeating processes</h3>
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="cyber-security-features our-service">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="heading text-center">
+										<span>Our Services</span>
+										<h2 class="text-white">What We Serve</h2>
+										<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-4 col-md-6">
+										<section class="feature-content2 text-center">
+											<div class="feature-icon">
+												<span class="ti ti-desktop fa-3x"/>
+											</div>
+											<h6>Cloud hosting</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<section class="feature-content2 text-center">
+											<div class="feature-icon">
+												<span class="ti ti-shield fa-3x"/>
+											</div>
+											<h6>Quantum engine</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<section class="feature-content2 text-center">
+											<div class="feature-icon">
+												<span class="ti ti-cloud-up fa-3x"/>
+											</div>
+											<h6>Windows systems</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<section class="feature-content2 text-center">
+											<div class="feature-icon">
+												<span class="ti ti-world fa-3x"/>
+											</div>
+											<h6>Paralles processors</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<section class="feature-content2 text-center">
+											<div class="feature-icon">
+												<span class="ti ti-info-alt fa-3x"/>
+											</div>
+											<h6>Dedicated panel</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<section class="feature-content2 text-center">
+											<div class="feature-icon">
+												<span class="ti ti-lock fa-3x"/>
+											</div>
+											<h6>Desktop solutions</h6>
+											<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+										</section>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="cyber-security-faq" style="background-image: url('/theme_vouge_business/static/src/img/cs-faq-bg.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="heading text-center">
+										<span>FAQ</span>
+										<h2>Frequently Asked Questions</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+									</div>
+								</div>
+								<div class="row align-items-center">
+									<div class="col-lg-6">
+										<div class="image text-center">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/faq.png" />
+										</div>
+									</div>
+									<div class="col-lg-6 mb-4 mb-lg-0">
+										<div class="collapse-accordion mt16 accordion" id="accordionExample">
+											<div class="card">
+												<div class="card-header">
+													<div class="card-title">
+														<a class="card-link" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1"> 
+												     	What can you help me with?
+														</a>
+													</div>
+												</div>
+												<div class="collapse show mt8" id="collapse1" data-parent="#accordionExample">
+													<p class=" content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?</p>
+												</div>
+											</div>
+											<div class="card">
+												<div class="card-header">
+													<div class="card-title">
+														<a class="card-link collapsed" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">How do I create a product with you?
+														</a>
+													</div>
+												</div>
+												<div class="collapse mt8" id="collapse2" data-parent="#accordionExample">
+													<p class=" content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?</p>
+												</div>
+											</div>
+											<div class="card">
+												<div class="card-header">
+													<div class="card-title">
+														<a class="card-link collapsed" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3"> Should I create a mobile or a web app?
+														</a>
+													</div>
+												</div>
+												<div class="collapse mt8" id="collapse3" data-parent="#accordionExample">
+													<p class=" content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?
+													</p>
+												</div>
+											</div>
+											<div class="card">
+												<div class="card-header">
+													<div class="card-title">
+														<a class="card-link collapsed" data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">What do I need to know before contacting you?
+														</a>
+													</div>
+												</div>
+												<div class="collapse mt8" id="collapse4" data-parent="#accordionExample">
+													<p class=" content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="cyber-security-team" style="background-image: url('/theme_vouge_business/static/src/img/cs-team-bg.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="heading text-center">
+										<span>Our Team</span>
+										<h2>Our Best Team</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-3 col-md-6">
+										<div class="team-content">
+											<div class="team-image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team1.png" />
+												<ul class="social-icons">
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-facebook" />
+														</a>
+													</li>
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-twitter" />
+														</a>
+													</li>
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-linkedin" />
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="team-info">
+												<h4>Paul Williams</h4>
+												<span>Company CEO</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="team-content">
+											<div class="team-image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team2.png" />
+												<ul class="social-icons">
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-facebook" />
+														</a>
+													</li>
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-twitter" />
+														</a>
+													</li>
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-linkedin" />
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="team-info">
+												<h4>Anita Oliver</h4>
+												<span>Project Manager</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="team-content">
+											<div class="team-image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team3.png" />
+												<ul class="social-icons">
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-facebook" />
+														</a>
+													</li>
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-twitter" />
+														</a>
+													</li>
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-linkedin" />
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="team-info">
+												<h4>Andrew Petersons</h4>
+												<span>Web Developer</span>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="team-content">
+											<div class="team-image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team4.png" />
+												<ul class="social-icons">
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-facebook" />
+														</a>
+													</li>
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-twitter" />
+														</a>
+													</li>
+													<li>
+														<a class="link" href="#">
+															<i class="fa fa-linkedin" />
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="team-info">
+												<h4>Jessy Pinkman</h4>
+												<span>Graphic Designer</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="cyber-security-partners" style="background-image: url('/theme_vouge_business/static/src/img/cs-partner-bg.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="heading text-center">
+										<span>Our Clients</span>
+										<h2>Our Work Clients</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-3 col-md-3">
+										<div class="partner-member">
+											<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="partner-member">
+											<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="partner-member">
+											<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand3.png" />
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="partner-member">
+											<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand4.png" />
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="partner-member">
+											<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand5.png" />
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="partner-member">
+											<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand6.png" />
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="partner-member">
+											<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="partner-member">
+											<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+					</div>
+				</t>
+			</t>
+		</field>
+	</record>
+	<record id="cyber_security_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/cyber-security</field>
+		<field name="view_id" ref="cyber_security_template" />
+	</record>
+</odoo>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_one_why_choose" name="Why Choose Us">
+		<section class="app-why-choose-this" style="background-image: url('/theme_vouge_business/static/src/img/app-why-choose-bg.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="title">
+							<span>why choose us</span>
+							<h3>Born for marketing and seo teams</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipi labore et dolore magscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-lg-4 col-md-12">
+						<section class="why-choose-content">
+							<div class="why-icon">
+								<span class="fa fa-cogs" />
+							</div>
+							<div class="info">
+								<h4>Cloud hosting</h4>
+								<p>Interdum iusto pulvinar consequuntur augue optio repellat fugarus expedita fusce.</p>
+							</div>
+						</section>
+						<section class="why-choose-content">
+							<div class="why-icon">
+								<span class="fa fa-check-circle-o" />
+							</div>
+							<div class="info">
+								<h4>Quantum engine</h4>
+								<p>Interdum iusto pulvinar consequuntur augue optio repellat fugarus expedita fusce.</p>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-4 col-md-12 mb-3">
+						<div class="image">
+							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/app-why-choose.png" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<section class="why-choose-content">
+							<div class="why-icon">
+								<span class="fa fa-comments-o" />
+							</div>
+							<div class="info">
+								<h4>Dedicated panel</h4>
+								<p>Interdum iusto pulvinar consequuntur augue optio repellat fugarus expedita fusce.</p>
+							</div>
+						</section>
+						<section class="why-choose-content">
+							<div class="why-icon">
+								<span class="fa fa-user-secret" />
+							</div>
+							<div class="info">
+								<h4>Paralles processors</h4>
+								<p>Interdum iusto pulvinar consequuntur augue optio repellat fugarus expedita fusce.</p>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

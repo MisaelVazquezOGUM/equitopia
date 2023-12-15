@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_travel_snippet" name="Travel">
+		<section class="s_travel_snippet">
+			<div class="oe_structure"/>
+			<section class="travel-home-banner">
+				<div id="travel-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/travel-banner1.jpg');">
+		            		<div class="container extended-container">
+		            			<div class="justify-content-center">
+	            					<div class="banner-content text-center">
+	            						<span>Let's travel</span>
+	            						<h2 class="text-white">Travel and Discover</h2>
+	            						<div class="strip">
+	            							<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula dolor. Aenean massa. Cum sociis Theme</p>
+	            						</div>
+	            					</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/travel-banner2.jpg');">
+		            		<div class="container extended-container">
+		            			<div class="justify-content-center">
+	            					<div class="banner-content text-center">
+	            						<span>Let's travel</span>
+	            						<h2 class="text-white">Beach is Heaven</h2>
+	            						<div class="strip">
+	            							<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula dolor. Aenean massa. Cum sociis Theme</p>
+	            						</div>
+	            					</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		          	</div>
+			        <div class="slider-control">
+	              		<a class="left carousel-control-prev text-white font-14" data-target="#travel-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-angle-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next text-white font-14" data-target="#travel-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-angle-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+	        	</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="travel-holidays">
+				<div class="container extended-container">
+					<div class="row justify-content-center">
+						<div class="col-xl-6 col-lg-8 col-md-10">
+							<div class="heading">
+								<span>Choose Your</span>
+								<h1>Summer Holiday</h1>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image-rounded">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img1.jpg" />
+								</div>
+								<div class="text">
+									<h3>Spain</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img2.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Tarragona</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star-half-o mr-1"/>
+											<span class="mr-1">5.0</span>
+											<span class="mr-1">Good</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$1740</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img3.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Madrid</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star mr-1"/>
+											<span class="mr-1">7.0</span>
+											<span class="mr-1">Superb</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$1100</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img4.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Barcelona</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star-half-o mr-1"/>
+											<span class="mr-1">5.3</span>
+											<span class="mr-1">Good</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$840</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img5.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Kaohsiung</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star mr-1"/>
+											<span class="mr-1">8.0</span>
+											<span class="mr-1">Superb</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$963</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img6.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Taipei</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star-half-o mr-1"/>
+											<span class="mr-1">5.0</span>
+											<span class="mr-1">Good</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$2130</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img7.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Tainan</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star mr-1"/>
+											<span class="mr-1">7.3</span>
+											<span class="mr-1">Superb</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$999</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image-rounded">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img8.jpg" />
+								</div>
+								<div class="text">
+									<h3>Taiwan</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image-rounded">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img9.jpg" />
+								</div>
+								<div class="text">
+									<h3>Bali</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img10.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Ubud</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star-half-o mr-1"/>
+											<span class="mr-1">6.0</span>
+											<span class="mr-1">Good</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$888</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img11.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Seminyak</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star mr-1"/>
+											<span class="mr-1">9.0</span>
+											<span class="mr-1">Superb</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$966</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb32">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-img12.jpg" />
+								</div>
+								<div class="info">
+									<div class="title">
+										<h3>Denpasar</h3>
+									</div>
+									<div class="d-flex">
+										<div class="rating">
+											<span class="fa fa-star-half-o mr-1"/>
+											<span class="mr-1">6.7</span>
+											<span class="mr-1">Good</span>
+										</div>
+										<div class="price ml-auto">
+											<span>$999</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="tarvel-paris pb32 pt32">
+				<div class="container extended-container">
+					<div class="row justify-content-center">
+						<div class="image text-center">
+							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel.png" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="travel-parallax parallax s_parallax_is_fixed">
+				<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/travel-discover-bg.jpg');"/>
+		        <div class="container extended-container">
+		        	<div class="row justify-content-center">
+		        		<div class="col-xl-6 col-lg-8 col-md-10">
+							<div class="heading">
+								<span>Travel &amp; Discover</span>
+								<h1 class="title1">Cultural Cities</h1>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-discover.jpg" />
+							</a>
+							<div class="video-btn text-center">
+								<a href="#" class="video">
+									<span class="fa fa-play"/>
+								</a>
+							</div>
+						</div>
+					</div>
+		        </div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="travel-service">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="service-content">
+								<div class="service-icon">
+									<span class="icon icon-DSLRCamera fa-4x"/>
+								</div>
+								<div class="info">
+									<h5>Photography</h5>
+									<p>Vivamus ut ullamcorper diam Vestibulum elit lacus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-content">
+								<div class="service-icon">
+									<span class="icon icon-Pointer fa-4x"/>
+								</div>
+								<div class="info">
+									<h5>Sightseeing</h5>
+									<p>Vivamus ut ullamcorper diam Vestibulum elit lacus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-content">
+								<div class="service-icon">
+									<span class="icon icon-House fa-4x"/>
+								</div>
+								<div class="info">
+									<h5>Shopping</h5>
+									<p>Vivamus ut ullamcorper diam Vestibulum elit lacus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="service-content">
+								<div class="service-icon">
+									<span class="icon icon-WorldWide fa-4x"/>
+								</div>
+								<div class="info">
+									<h5>Hotel &amp; Resort</h5>
+									<p>Vivamus ut ullamcorper diam Vestibulum elit lacus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="travel-testimonial">
+				<div class="container">
+					<div id="travel-testimonial-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			            	<div class="carousel-item active">
+		            			<div class="position-relative justify-content-center">
+		            				<div class="col-xl-12 col-lg-12 col-md-12">
+		            					<div class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<p>"Dolor ipsum dolor sit amet, consectetuer adipiscing elit. Lorem commodo ligula eg dolor. Lorem Aenean msa. Cum sociis natoque"</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</div>
+		            				</div>
+			            		</div>
+			            	</div>
+			            	<div class="carousel-item">
+		            			<div class="position-relative justify-content-center">
+		            				<div class="col-xl-12 col-lg-12 col-md-12">
+		            					<div class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis" </p>
+		            							<span>Anita Oliver</span>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+			            	</div>
+			          	</div>
+			          	<div class="slider-control">
+		              		<a class="left carousel-control-prev font-14" data-target="#travel-testimonial-carousel" role="button" data-slide="prev">
+			                	<span class="fa fa-angle-left"/>
+			               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+			              	</a>
+			              	<a class="right carousel-control-next font-14" data-target="#travel-testimonial-carousel" role="button" data-slide="next">
+			                	<span class="fa fa-angle-right"/>
+			                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+			              	</a>
+			            </div>
+		        	</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="travel-mediterranean" style="background-image: url('/theme_vouge_business/static/src/img/travel-mediterranean-bg.jpg');">
+				<div class="container extended-container">
+					<div class="row justify-content-center">
+						<div class="col-xl-6 col-lg-8 col-md-10">
+							<div class="heading">
+								<span>The Memorable</span>
+								<h1>Seaside Countries</h1>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-4">
+							<div class="content">
+								<div class="image">
+									<div class="label">
+										<span>50% Off</span>
+									</div>
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-mediterranean1.jpg" />
+									<div class="info">
+										<h4>Moscow</h4>
+										<span>$1990</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="content">
+								<div class="image">
+									<div class="label">
+										<span>Special Offer</span>
+									</div>
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-mediterranean2.jpg" />
+									<div class="info">
+										<h4>Maldives</h4>
+										<span>$5300</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-mediterranean3.jpg" />
+									<div class="info">
+										<h4>Abu Dhabi</h4>
+										<span>$2560</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="travel-reviews" style="background-image: url('/theme_vouge_business/static/src/img/travel-testimonial-bg.jpg');">
+				<div class="container extended-container">
+					<div class="row justify-content-center">
+						<div class="col-xl-6 col-lg-8 col-md-10">
+							<div class="heading">
+								<span>Our Top</span>
+								<h1>Traveler Reviews</h1>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div id="travel-reviews-carousel" class="carousel bs-slider slide  control-round indicators-line w-100" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			            	<div class="carousel-item active">
+		            			<div class="row">
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team3.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            			</div>
+			            	</div>
+			            	<div class="carousel-item">
+		            			<div class="row">
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team4.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            			</div>
+			            	</div>
+			            	<div class="carousel-item">
+		            			<div class="row">
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team3.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team4.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            				<div class="col-xl-4 col-lg-4 col-md-4">
+		            					<section class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h4>Maldives</h4>
+		            							<ul>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            								<li><span class="fa fa-star"/></li>
+		            							</ul>
+		            							<p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+		            							<span>Paul Williams</span>
+		            						</div>
+		            					</section>
+		            				</div>
+		            			</div>
+			            	</div>
+			          	</div>
+			          	<ol class="carousel-indicators">
+						    <li class="active" data-slide-to="0" data-target="#travel-reviews-carousel">
+						    </li>
+						    <li class="" data-slide-to="1" data-target="#travel-reviews-carousel">
+						    </li>
+						    <li class="" data-slide-to="2" data-target="#travel-reviews-carousel">
+						    </li>
+						</ol>
+		        	</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="travel-destination" style="background-image: url('/theme_vouge_business/static/src/img/travel-destination-bg.jpg');">
+				<div class="container extended-container">
+					<div class="row justify-content-center">
+						<div class="col-xl-6 col-lg-8 col-md-8">
+							<div class="heading">
+								<span>Choose Your</span>
+								<h1>Travel Destination</h1>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-4">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-destination1.jpg" />
+								</div>
+								<div class="icons">
+									<span class="fa fa-star"/>
+								</div>
+								<div class="text">
+									<h3>Netherlands</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-destination2.jpg" />
+								</div>
+								<div class="text">
+									<h3>Greece</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="images-content">
+								<div class="image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/travel-destination3.jpg" />
+								</div>
+								<div class="text">
+									<h3>Italy</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="travel-packup">
+				<div class="container extended-container">
+					<div class="row justify-content-center">
+						<div class="col-xl-6 col-lg-8 col-md-8">
+							<div class="heading">
+								<span>Top Cities</span>
+								<h1>Pack Your Bags</h1>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div id="travel-packup-carousel" class="carousel bs-slider slide  control-round indicators-line w-100" data-ride="carousel" data-pause="hover" data-interval="7000">
+				          	<div class="carousel-inner" role="listbox">
+				            	<div class="carousel-item active">
+			            			<div class="row justify-content-center">
+			            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+			            					<div class="packup-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/travel-city1.jpg" />
+													<div class="info">
+														<h6>France</h6>
+				            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+				            						</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+			            					<div class="packup-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/travel-city2.jpg" />
+													<div class="info">
+														<h6>France</h6>
+				            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+				            						</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+			            					<div class="packup-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/travel-city3.jpg" />
+													<div class="info">
+														<h6>France</h6>
+				            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+				            						</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+			            					<div class="packup-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/travel-city4.jpg" />
+													<div class="info">
+														<h6>France</h6>
+				            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+				            						</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+				            	</div>
+				            	<div class="carousel-item">
+			            			<div class="row justify-content-center">
+			            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+			            					<div class="packup-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/travel-city5.jpg" />
+													<div class="info">
+														<h6>France</h6>
+				            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+				            						</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+			            					<div class="packup-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/travel-city6.jpg" />
+													<div class="info">
+														<h6>France</h6>
+				            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+				            						</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+			            					<div class="packup-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/travel-city7.jpg" />
+													<div class="info">
+														<h6>France</h6>
+				            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+				            						</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-xl-3 col-lg-6 col-md-6 text-center">
+			            					<div class="packup-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/travel-city8.jpg" />
+													<div class="info">
+														<h6>France</h6>
+				            							<p>Lorem ipsum dolor sit amet, consectetuer</p>
+				            						</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+				            	</div>
+				            
+				          	</div>
+				          	<div class="slider-control">
+			              		<a class="left carousel-control-prev font-14" data-target="#travel-packup-carousel" role="button" data-slide="prev">
+				                	<span class="fa fa-angle-left"/>
+				               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+				              	</a>
+				              	<a class="right carousel-control-next font-14" data-target="#travel-packup-carousel" role="button" data-slide="next">
+				                	<span class="fa fa-angle-right"/>
+				                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+				              	</a>
+				            </div>
+			        	</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+		</section>
+	</template>
+
+</odoo>

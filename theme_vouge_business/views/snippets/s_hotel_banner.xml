@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_hotel_banner" name="Home Banner">
+		<section class="hotel-home-banner">
+			<div id="hotel-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+	          	<div class="carousel-inner" role="listbox">
+	            	
+	            	<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/hotel-banner1.jpg');">
+	            		<div class="container extended-container">
+        					<div class="banner-content text-center">
+        						<span>
+        							<img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/>
+        						</span>
+        						<h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+        						<p>The Luxurious Hotel &amp; Resort Reservation</p>
+        						<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+        						</div>
+        					</div>
+	            		</div>
+	            	</div>
+	            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/hotel-banner2.jpg');">
+	            		<div class="container extended-container">
+        					<div class="banner-content text-center">
+        						<span>
+        							<img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/>
+        						</span>
+        						<h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+        						<p>The Luxurious Hotel &amp; Resort Reservation</p>
+        						<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+        						</div>
+        					</div>
+	            		</div>
+	            	</div>
+	            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/hotel-banner3.jpg');">
+	            		<div class="container extended-container">
+        					<div class="banner-content text-center">
+        						<span>
+        							<img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/>
+        						</span>
+        						<h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+        						<p>The Luxurious Hotel &amp; Resort Reservation</p>
+        						<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+        						</div>
+        					</div>
+	            		</div>
+	            	</div>
+	          	</div>
+		        <div class="slider-control">
+              		<a class="left carousel-control-prev text-white font-14" data-target="#hotel-carousel" role="button" data-slide="prev">
+	                	<span class="fa fa-long-arrow-left"/>
+	               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+	              	</a>
+	              	<a class="right carousel-control-next text-white font-14" data-target="#hotel-carousel" role="button" data-slide="next">
+	                	<span class="fa fa-long-arrow-right"/>
+	                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+	              	</a>
+	            </div>
+        	</div>
+		</section>
+	</template>
+
+</odoo>

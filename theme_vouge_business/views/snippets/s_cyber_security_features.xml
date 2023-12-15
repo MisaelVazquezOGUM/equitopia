@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_cyber_security_features" name="Our Features">
+		<section class="cyber-security-features" style="background-image: url('/theme_vouge_business/static/src/img/cyber-security-why-choose.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<span>OUR FEATURES</span>
+						<h2> Why Choose Us</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<section class="feature-content">
+							<div class="feature-icon">
+								<span class="icon icon-Folder fa-4x"/>
+							</div>
+							<h6>Manage Your Workflow</h6>
+							<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+						</section>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<section class="feature-content">
+							<div class="feature-icon">
+								<span class="icon icon-Shield fa-4x"/>
+							</div>
+							<h6>Analytics and Insights</h6>
+							<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+						</section>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<section class="feature-content">
+							<div class="feature-icon">
+								<span class="icon icon-Timer fa-4x"/>
+							</div>
+							<h6>Organize Your Deadlines</h6>
+							<p>Lorem ipsum dolor sit amet, adipiscing elit. Nulla neque quam, maxi ut ac cu msan ut, posuere sit Lorem ipsum qu.</p>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

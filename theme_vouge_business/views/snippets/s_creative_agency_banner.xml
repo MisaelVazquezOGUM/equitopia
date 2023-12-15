@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_creative_agency_banner" name="Home Banner">
+		<section class="creative-agency-home-banner">
+			<div id="creative-agency-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+	          	<div class="carousel-inner" role="listbox">
+	          		<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/creative-banner1.jpg');">
+	          			<div class="container extended-container">
+      						<div class="banner-content">
+      							<h2>We do it with <br></br><span>Precision</span></h2>
+      							<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+        						</div>
+      						</div>
+	          			</div>
+		            </div>
+		            <div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/creative-banner2.jpg');">
+		            	<div class="container extended-container">
+      						<div class="banner-content">
+      							<h2>Books Bring <br></br>Our  <span>Smile</span></h2>
+      							<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+        						</div>
+      						</div>
+	          			</div>
+		            </div>
+		            <div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/creative-banner3.jpg');">
+		            	<div class="container extended-container">
+      						<div class="banner-content">
+      							<h2>We just made <br></br> it  <span>Awesome</span></h2>
+      							<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+        						</div>
+      						</div>
+	          			</div>
+		            </div>
+	          	</div>
+	          	<ol class="carousel-indicators">
+		            <li data-target="#creative-agency-carousel" data-slide-to="0" class="active"/>
+		            <li data-target="#creative-agency-carousel" data-slide-to="1"/>
+		            <li data-target="#creative-agency-carousel" data-slide-to="2"/>
+		        </ol>
+        	</div>
+		</section>
+	</template>
+
+</odoo>

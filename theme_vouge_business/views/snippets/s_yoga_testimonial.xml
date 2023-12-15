@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_testimonial" name="Testimonial">
+		<section class="yoga-testimonial pt96 pb96" style="background-image: url('/theme_vouge_business/static/src/img/yoga-testimonial-bg.jpg');">
+			<div class="container extended-container">
+				<div class="heading pb48">
+					<h2 class="text-primary w-lg-75">Testimonial</h2>
+					<p class="w-lg-75">Our customer's review about us</p>
+				</div>
+				<div id="business-yoga-testimonial-carousel" class="business-yoga-testimonial-carousel carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	<div class="carousel-item active">
+		            		<div class="row">
+		            			<div class="col-md-6 mb-4 mb-md-0">
+		            				<section class="testimonial-box bg-white">
+		            					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet.</p>
+		            					<div class="customer d-flex align-items-center">
+		            						<div class="image">
+		            							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team2.png" />
+		            						</div>
+		            						<div class="info">
+		            							<h6>Tina Williamson</h6>
+		            							<span>Customer</span>
+		            						</div>
+		            					</div>
+		            				</section>
+		            			</div>
+		            			<div class="col-md-6 mb-4 mb-md-0">
+		            				<section class="testimonial-box bg-white">
+		            					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet.</p>
+		            					<div class="customer d-flex align-items-center">
+		            						<div class="image">
+		            							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team1.png" />
+		            						</div>
+		            						<div class="info">
+		            							<h6>Tina Williamson</h6>
+		            							<span>Customer</span>
+		            						</div>
+		            					</div>
+		            				</section>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item">
+		            		<div class="row">
+		            			<div class="col-md-6 mb-4 mb-md-0">
+		            				<section class="testimonial-box bg-white">
+		            					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet.</p>
+		            					<div class="customer d-flex align-items-center">
+		            						<div class="image">
+		            							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team3.png" />
+		            						</div>
+		            						<div class="info">
+		            							<h6>Randall Lewis</h6>
+		            							<span>Customer</span>
+		            						</div>
+		            					</div>
+		            				</section>
+		            			</div>
+		            			<div class="col-md-6 mb-4 mb-md-0">
+		            				<section class="testimonial-box bg-white">
+		            					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet.</p>
+		            					<div class="customer d-flex align-items-center">
+		            						<div class="image">
+		            							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team4.png" />
+		            						</div>
+		            						<div class="info">
+		            							<h6>Doris Cole</h6>
+		            							<span>Customer</span>
+		            						</div>
+		            					</div>
+		            				</section>
+		            			</div>
+		            		</div>
+		            	</div>
+		          	</div>
+			        <div class="slider-control d-none d-lg-block">
+	              		<a class="left carousel-control-prev font-14" data-target="#business-yoga-testimonial-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-long-arrow-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next font-14" data-target="#business-yoga-testimonial-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-long-arrow-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+	        	</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

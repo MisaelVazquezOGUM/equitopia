@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="real_estate_template" model="ir.ui.view">
+		<field name="name">Real Estate Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.real_estate_template</field>
+		<field name="arch" type="xml">
+			<t name="Real Estate Template" t-name="theme_vouge_business.real_estate_template">
+				<t t-call="website.layout">
+					<div class="oe_structure oe_empty real-estate-extended-container" id="wrap">
+						<section class="real-estate-home-banner" style="background-image: url('/theme_vouge_business/static/src/img/real-estate-banner.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="d-inline-block">
+										<div class="banner-content">
+											<h2>los angeles's #1 Estate Agency</h2>
+											<h1>Vouge Estate</h1>
+											<p>You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</p>
+											<div class="s_btn mt32" data-name="Button">
+		            							<a href="#" class="btn1 btn btn-real-estate bizople_button">View Our Listings</a>
+		            							<a href="#" class="btn btn-light bizople_button">Search the MLS</a>
+		            						</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="real-estate-about-us">
+							<div class="container">
+								<div class="row align-items-center justify-content-center">
+									<div class="col-lg-6 col-md-12">
+										<h2>We Will help you find the home of your choice.</h2>
+									</div>
+									<div class="col-lg-6 col-md-12">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu. Aenean finibus condimentum odio, ac tincidunt lectus sagittis efficitur.</p>
+										<div class="s_btn mt32" data-name="Button">
+	            							<a href="#" class="btn btn-link bizople_button">About Us<span class="fa fa-caret-right ml-2"/></a>
+	            						</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="real-estate-counters">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-4 col-md-4">
+										<div class="counter-box">
+											<h4 class="heading">
+												<span class="counter">846</span>
+												<span>+</span>
+											</h4>
+											<p>Happy Customers</p>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<div class="counter-box">
+											<h4 class="heading">
+												<span class="counter">760</span>
+												<span>+</span>
+											</h4>
+											<p>5-Star Rating</p>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<div class="counter-box">
+											<h4 class="heading">
+												<span class="counter">958</span>
+												<span>+</span>
+											</h4>
+											<p>Questions Answered</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="real-estate-tetx-image">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-lg-6 col-md-6">
+										<div class="text">
+											<span>Vouge Estate Realty </span>
+											<h3>Let us help you find the home of your dreams.</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu. Aenean finibus condimentum odio, ac tincidunt lectus sagittis efficitur.  Vivamus ut ullamcorper diam. Vestibulum et elit lacus.</p>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6">
+										<div class="image">
+											<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/real-estate-text-image.png" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="real-estate-properties">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="heading d-flex align-items-center w-100">
+											<div class="text">
+												<h4>Popular Properties</h4>
+											</div>
+											<div class="button ml-auto">
+												<div class="s_btn" data-name="Button">
+			            							<a href="#" class="btn1 btn btn-outline-real-estate bizople_button">View All</a>
+			            						</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-8 col-md-12">
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/properties-big1.png" />
+												<div class="info">
+													<h4>Los Angeles</h4>
+													<p>Vouge Estate</p>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/properties1.png" />
+												<div class="info">
+													<h4>San Francisco</h4>
+													<p>Vouge Estate</p>
+												</div>
+											</a>
+										</div>
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/properties2.png" />
+												<div class="info">
+													<h4>Sacramento</h4>
+													<p>Vouge Estate</p>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/properties3.png" />
+												<div class="info">
+													<h4>Oakland</h4>
+													<p>Vouge Estate</p>
+												</div>
+											</a>
+										</div>
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/properties4.png" />
+												<div class="info">
+													<h4>Bakersfield</h4>
+													<p>Vouge Estate</p>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-8 col-md-12">
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/properties-big2.png" />
+												<div class="info">
+													<h4>Riverside</h4>
+													<p>Vouge Estate</p>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="real-estate-press">
+							<div class="container">
+								<div class="row">
+									<div class="heading">
+										<div class="text">
+											<h4>In The Press</h4>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-3 col-md-3">
+										<div class="image text-center">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="image text-center">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="image text-center">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/furniture-brand3.png" />
+											</a>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-3">
+										<div class="image text-center">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/furniture-brand4.png" />
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+					</div>
+				</t>
+			</t>
+		</field>
+	</record>
+	<record id="real_estate_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/real-estate</field>
+		<field name="view_id" ref="real_estate_template" />
+	</record>
+</odoo>

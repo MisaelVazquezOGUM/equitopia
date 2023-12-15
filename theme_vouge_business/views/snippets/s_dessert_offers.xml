@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_offers" name="Best Offers">
+		<section class="dessert-promotions parallax s_parallax_is_fixed">
+			<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/dessert-promotion-bg.png');"/>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-md-10">
+						<section class="content-inner">
+							<div class="title">
+								<p>Take a look to this weeks offer</p>
+								<h2>This Week Offers</h2>
+							</div>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="list-items">
+										<section class="list">
+											<div class="row">
+												<div class="col-md-9 col-9">
+													<h3>Vanilla Soft Cone</h3>
+													<p>Duis aute irure dolor into</p>
+												</div>
+												<div class="col-md-3 col-3">
+													<div class="text">9$</div>
+												</div>
+											</div>
+										</section>
+										<section class="list">
+											<div class="row">
+												<div class="col-md-9 col-9">
+													<h3>Strawberry Scoop</h3>
+													<p>Lorem ipsum dolor sito</p>
+												</div>
+												<div class="col-md-3 col-3">
+													<div class="text">10$</div>
+												</div>
+											</div>
+										</section>
+										<section class="list">
+											<div class="row">
+												<div class="col-md-9 col-9">
+													<h3>Chocolate Brownie with ice cream</h3>
+													<p>Sunt in culpa qui deserunt</p>
+												</div>
+												<div class="col-md-3 col-3">
+													<div class="text">12$</div>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<div class="list-items">
+										<section class="list">
+											<div class="row">
+												<div class="col-md-9 col-9">
+													<h3>Vanilla Soft Cone</h3>
+													<p>Duis aute irure dolor into</p>
+												</div>
+												<div class="col-md-3 col-3">
+													<div class="text">9$</div>
+												</div>
+											</div>
+										</section>
+										<section class="list">
+											<div class="row">
+												<div class="col-md-9 col-9">
+													<h3>Strawberry Scoup</h3>
+													<p>Lorem ipsum dolor sito</p>
+												</div>
+												<div class="col-md-3 col-3">
+													<div class="text">10$</div>
+												</div>
+											</div>
+										</section>
+										<section class="list">
+											<div class="row">
+												<div class="col-md-9 col-9">
+													<h3>Chocolate Brownie with ice cream</h3>
+													<p>Sunt in culpa qui deserunt</p>
+												</div>
+												<div class="col-md-3 col-3">
+													<div class="text">12$</div>
+												</div>
+											</div>
+										</section>
+									</div>
+								</div>
+							</div>
+							<div class="row mt48 justify-content-center">
+								<div class="col-md-2 mb16">
+									<div class="image">
+										<img src="/theme_vouge_business/static/src/img/dessert-menu1.png" class="img img-fluid"/>
+									</div>
+								</div>
+								<div class="col-md-2 mb16">
+									<div class="image">
+										<img src="/theme_vouge_business/static/src/img/dessert-menu2.png" class="img img-fluid"/>
+									</div>
+								</div>
+								<div class="col-md-2 mb16">
+									<div class="image">
+										<img src="/theme_vouge_business/static/src/img/dessert-menu3.png" class="img img-fluid"/>
+									</div>
+								</div>
+								<div class="col-md-2 mb16">
+									<div class="image">
+										<img src="/theme_vouge_business/static/src/img/dessert-menu4.png" class="img img-fluid"/>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

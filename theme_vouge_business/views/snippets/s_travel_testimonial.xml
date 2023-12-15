@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_travel_testimonial" name="Testimonial">
+		<section class="travel-testimonial">
+			<div class="container">
+				<div id="travel-testimonial-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	<div class="carousel-item active">
+	            			<div class="position-relative justify-content-center">
+	            				<div class="col-xl-12 col-lg-12 col-md-12">
+	            					<div class="client-content">
+	            						<div class="image">
+	            							<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+	            						</div>
+	            						<div class="client-info">
+	            							<p>"Dolor ipsum dolor sit amet, consectetuer adipiscing elit. Lorem commodo ligula eg dolor. Lorem Aenean msa. Cum sociis natoque"</p>
+	            							<span>Paul Williams</span>
+	            						</div>
+	            					</div>
+	            				</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item">
+	            			<div class="position-relative justify-content-center">
+	            				<div class="col-xl-12 col-lg-12 col-md-12">
+	            					<div class="client-content">
+	            						<div class="image">
+	            							<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+	            						</div>
+	            						<div class="client-info">
+	            							<p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis" </p>
+	            							<span>Anita Oliver</span>
+	            						</div>
+	            					</div>
+	            				</div>
+	            			</div>
+		            	</div>
+		          	</div>
+		          	<div class="slider-control">
+	              		<a class="left carousel-control-prev font-14" data-target="#travel-testimonial-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-angle-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next font-14" data-target="#travel-testimonial-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-angle-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+	        	</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

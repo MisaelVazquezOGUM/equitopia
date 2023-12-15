@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_real_estate_properties" name="Properties">
+		<section class="real-estate-properties">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="heading d-flex align-items-center w-100">
+							<div class="text">
+								<h4>Popular Properties</h4>
+							</div>
+							<div class="button ml-auto">
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn1 btn btn-outline-real-estate bizople_button">View All</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-md-12">
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/properties-big1.png" />
+								<div class="info">
+									<h4>Los Angeles</h4>
+									<p>Vouge Estate</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/properties1.png" />
+								<div class="info">
+									<h4>San Francisco</h4>
+									<p>Vouge Estate</p>
+								</div>
+							</a>
+						</div>
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/properties2.png" />
+								<div class="info">
+									<h4>Sacramento</h4>
+									<p>Vouge Estate</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/properties3.png" />
+								<div class="info">
+									<h4>Oakland</h4>
+									<p>Vouge Estate</p>
+								</div>
+							</a>
+						</div>
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/properties4.png" />
+								<div class="info">
+									<h4>Bakersfield</h4>
+									<p>Vouge Estate</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-12">
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/properties-big2.png" />
+								<div class="info">
+									<h4>Riverside</h4>
+									<p>Vouge Estate</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

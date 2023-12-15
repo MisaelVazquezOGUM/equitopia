@@ -1,0 +1,4302 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* property_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-18 21:11+0000\n"
+"PO-Revision-Date: 2022-08-18 21:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: property_management
+#: model:mail.template,body_html:property_management.mail_tenant_rent
+msgid ""
+"\n"
+"            \n"
+"            <p> Dear ${object.tenancy_id.tenant_id.name}<br/> \n"
+"               Your rent is scheduled on ${object.start_date}. So please pay before the due date.<br/></p>\n"
+"                From<br/>\n"
+"                ${object.tenancy_id.property_id.property_manager.name}\n"
+"            \n"
+"        "
+msgstr ""
+"\n"
+"            \n"
+"            <p> Estimado ${object.tenancy_id.tenant_id.name}<br/>\n"
+"               Su alquiler está programado para el ${object.start_date}. Así que pague antes de la fecha de vencimiento.<br/></p>\n"
+"                De:<br/>\n"
+"                ${objeto.tenancy_id.property_id.property_manager.name}\n"
+"            \n"
+"        "
+
+#. module: property_management
+#: code:addons/property_management/models/crm_lead.py:0
+#, python-format
+msgid " Please select country!"
+msgstr "¡Seleccione el país!"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__meeting_count
+msgid "# Meetings"
+msgstr "# Reuniones"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__task_count
+msgid "# Tasks"
+msgstr "# Tareas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr "# facturas de proveedores"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.extenal_layout_footer_r
+#: model_terms:ir.ui.view,arch_db:property_management.external_layout_footer_p
+msgid "&amp;bull;"
+msgstr ""
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__video_url
+msgid "//www.youtube.com/embed/mwuPTI8AT7M?rel=0"
+msgstr ""
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__rent_type__name__10
+msgid "10"
+msgstr ""
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__ten_year_roi
+msgid "10 year ROI"
+msgstr "R.Inv en 10 años"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__ten_year_roi
+msgid "10 year Return of Investment."
+msgstr "Retorno de la inversión en 10 años."
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__rent_type__name__11
+msgid "11"
+msgstr ""
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__rent_type__name__12
+msgid "12"
+msgstr ""
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_asset_kanban_view
+msgid ""
+"<b>Address :\n"
+"                                                </b>"
+msgstr ""
+"<b>Dirección :\n"
+"                                                </b>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_asset_kanban_view
+msgid ""
+"<b>Furnishing :\n"
+"                                                    </b>"
+msgstr ""
+"<b>Mobiliario:\n"
+"                                                    </b>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_asset_kanban_view
+msgid ""
+"<b>Type :\n"
+"                                                    </b>"
+msgstr ""
+"<b>Tipo:\n"
+"                                                    </b>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_asset_kanban_view
+msgid "<span title=\"menu_toggle\" class=\"fa fa-bars fa-lg\"/>"
+msgstr ""
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "<strong>Date :</strong>"
+msgstr "<strong>Fecha :</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+msgid "<strong>Expenditure</strong>"
+msgstr "<strong>Gastos</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_document_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+#: model_terms:ir.ui.view,arch_db:property_management.report_safety_certificate
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+msgid "<strong>From:</strong>"
+msgstr "<strong>De:</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+msgid "<strong>Income</strong>"
+msgstr "<strong>Ingresos</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "<strong>Journal :</strong>"
+msgstr "<strong>Diario :</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "<strong>Name :</strong>"
+msgstr "<strong>Nombre :</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "<strong>Partner Name :</strong>"
+msgstr "<strong>Nombre del socio :</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+msgid "<strong>Property name :</strong>"
+msgstr "<strong>Nombre de la propiedad :</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+msgid "<strong>Property</strong>"
+msgstr "<strong>Propiedad</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "<strong>Reference :</strong>"
+msgstr "<strong>Referencia :</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+msgid "<strong>Tenant name :</strong>"
+msgstr "<strong>Nombre del inquilino:</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_document_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+#: model_terms:ir.ui.view,arch_db:property_management.report_safety_certificate
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+msgid "<strong>To:</strong>"
+msgstr "<strong>Para:</strong>"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "<u>Account Move Report</u>"
+msgstr "<u>Informe de movimientos de cuentas</u>"
+
+#. module: property_management
+#: model:ir.module.category,description:property_management.module_category_property
+msgid "Access rights of PMS"
+msgstr "Derechos de acceso de PMS"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_account_move
+msgid "Account Entry"
+msgstr "Entrada de la cuenta"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Account History"
+msgstr "Historial de la cuenta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__manager_id
+msgid "Account Manager"
+msgstr "Gerente de Cuentas"
+
+#. module: property_management
+#: model:ir.actions.report,name:property_management.report_account_move_property
+msgid "Account Move"
+msgstr "Asiento contable"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_account_payable_id
+msgid "Account Payable"
+msgstr "Cuenta por pagar"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__acc_pay_dep_rec_id
+msgid "Account Payment"
+msgstr "Pago en cuenta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Cuenta por cobrar"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_move__source
+msgid "Account Source"
+msgstr "Origen de la cuenta"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Accounting"
+msgstr "Contabilidad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Accounting Entries"
+msgstr "Asientos contables"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report__active
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report__active
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report__active
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__active
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__active_lang_count
+msgid "Active Lang Count"
+msgstr "Recuento de idioma activo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de excepción de actividad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__activity_state
+msgid "Activity State"
+msgstr "Estado de la actividad"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__duration_cover
+msgid "Additional Notes"
+msgstr "Notas adicionales"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__note
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__note
+msgid "Additional Notes."
+msgstr "Notas adicionales."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__description
+msgid "Additional Terms and Conditions"
+msgstr "Términos y condiciones adicionales"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__additional_info
+msgid "Additional info"
+msgstr "Información adicional"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Additional notes..."
+msgstr "Notas adicionales."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Address"
+msgstr "Dirección"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__type
+msgid "Address Type"
+msgstr "Tipo de dirección"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_res_partner__agent
+#: model:ir.model.fields,field_description:property_management.field_res_users__agent
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__agent
+msgid "Agent"
+msgstr "Agente"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_res_users__tenant_ids
+msgid "All Tenants"
+msgstr "Todos los inquilinos"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+"Todos los correos electrónicos y documentos enviados a este contacto serán "
+"traducidos a este idioma."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__amount
+msgid "Amount"
+msgstr "Importe"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Amount Deposit"
+msgstr "Depósito"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_payment_form2_inherit
+msgid "Amount Due"
+msgstr "Importe adeudado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__amount_fee_paid
+msgid "Amount of Fee Paid"
+msgstr "Importe de la tarifa pagado"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_account_analytic_account
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__property_insurance__payment_mode_type__yearly
+msgid "Annually"
+msgstr "Anualmente"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Are you sure you want to Cancel?"
+msgstr "¿Estás seguro de que quieres cancelar?"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.wizard_book_available_form_view
+msgid ""
+"Are you sure, you want to change the property status from Booked to "
+"Available ?"
+msgstr "¿Estás seguro de que quieres cerrar?"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_account_asset_asset
+#: model:ir.model.fields,field_description:property_management.field_account_move__asset_id
+#: model:ir.model.fields,help:property_management.field_account_move__asset_id
+msgid "Asset"
+msgstr "Activo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report__name
+msgid "Asset Name"
+msgstr "Nombre del activo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_room__assets_ids
+msgid "Assets"
+msgstr "Activos secundarios"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_room__attach
+msgid "Attach Bathroom"
+msgstr "Incluir baño"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__contract_attachment
+msgid "Attachment"
+msgstr "Archivo adjunto"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_attachment_count
+msgid "Attachment Count"
+msgstr "Contador de adjuntos"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__state__draft
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Available"
+msgstr "Disponible"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__sales_rates
+msgid "Average Sale/Lease price from property phase per Month."
+msgstr ""
+"Precio promedio de venta / precio de arrendamiento mensual de la propiedad  "
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__operational_costs
+msgid "Average of total operational budget and total rent."
+msgstr "Promedio del presupuesto operativo total y alquiler total."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__bank_account_count
+msgid "Bank"
+msgstr "Banco"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__bank_ids
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__bathroom
+msgid "Bathrooms"
+msgstr "Baños"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__bedroom
+msgid "Bedrooms"
+msgstr "Dormitorios"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_phase__start_date
+msgid "Beginning Date"
+msgstr "Fecha de inicio"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__is_blacklisted
+msgid "Blacklist"
+msgstr "Lista negra"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_book_available
+msgid "Book Available"
+msgstr "Reserva disponible"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_book_available_wiz
+msgid "Book Available Wizard"
+msgstr "Asistente para reservar disponible"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__state__book
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Booked"
+msgstr "Reservados"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__state__new_draft
+msgid "Booking Open"
+msgstr "Reserva Abierta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_bounce
+msgid "Bounce"
+msgstr "Rebote"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__can_publish
+msgid "Can Publish"
+msgstr "Puede publicar"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__state__cancel
+#: model_terms:ir.ui.view,arch_db:property_management.document_expiry_report
+#: model_terms:ir.ui.view,arch_db:property_management.income_expenditure_report
+#: model_terms:ir.ui.view,arch_db:property_management.property_per_location_wiz
+#: model_terms:ir.ui.view,arch_db:property_management.safety_certificate_report
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report1
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_tenant_report
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_crm_make_contract
+#: model_terms:ir.ui.view,arch_db:property_management.view_crm_make_sale
+#: model_terms:ir.ui.view,arch_db:property_management.view_renew_tenancy_wizard
+#: model_terms:ir.ui.view,arch_db:property_management.wizard_book_available_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Cancel Tenancy"
+msgstr "Cancelar arrendamiento"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_analytic_account__state__cancelled
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: property_management
+#: code:addons/property_management/models/account.py:0
+#, python-format
+msgid "Cannot create unbalanced journal entry."
+msgstr "No se puede crear una entrada de diario descuadrada"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__name
+#: model_terms:ir.ui.view,arch_db:property_management.report_safety_certificate
+msgid "Certificate"
+msgstr "Certificado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__channel_ids
+msgid "Channels"
+msgstr "Canales"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+"Comprobar si el contacto es una empresa, de lo contrario es una persona"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__multi_prop
+msgid "Check this box Multiple property."
+msgstr "Marque esta casilla para múltiples propiedades."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_res_partner__agent
+#: model:ir.model.fields,help:property_management.field_res_users__agent
+#: model:ir.model.fields,help:property_management.field_tenant_partner__agent
+msgid "Check this box if this contact is a Agent."
+msgstr "Marque esta casilla si este contacto es un agente."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_res_partner__tenant
+#: model:ir.model.fields,help:property_management.field_res_users__tenant
+#: model:ir.model.fields,help:property_management.field_tenant_partner__tenant
+msgid "Check this box if this contact is a tenant."
+msgstr "Marque esta casilla si este contacto es dueño."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Marque esta casilla si este contacto es un empleado."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_crm_make_sale_wiz__close
+msgid ""
+"Check this to close the opportunity after             having created the "
+"sales order."
+msgstr ""
+"Marque esta casilla para cerrar la oportunidad después de haber creado el "
+"pedido de ventas."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_crm_make_contract__close
+msgid ""
+"Check this to close the opportunity after having created the         sales "
+"order."
+msgstr ""
+"Marque esta casilla para cerrar la oportunidad después de haber creado el "
+"pedido de ventas."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__cheque_detail
+msgid "Cheque Detail"
+msgstr "Detalle del cheque"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_search
+msgid "Child Properties"
+msgstr "Propiedades secundarias"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Child Property"
+msgstr "Propiedades secundarias"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__child_ids
+msgid "Children Assets"
+msgstr "Activos secundarios"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__city
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__city
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.report_property_per_location1
+msgid "City"
+msgstr "Ciudad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz__close
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_analytic_account__state__close
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.analytic_kanban_view
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_tree
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Code"
+msgstr "Código"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__color
+msgid "Color"
+msgstr ""
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__color
+msgid "Color Index"
+msgstr "Índice de color"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entidad Comercial"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_phase__commercial_tax
+msgid "Commercial Tax (in %)"
+msgstr "Impuesto sobre el comercio (en %)"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Empresas que se refieren a socio"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__company_id
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__company2_id
+msgid "Management Company"
+msgstr "Compañia Gestora"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_phase__company_income
+msgid "Company Income Tax CIT (in %)"
+msgstr "Impuesto sobre la Renta de la compañía (en %)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__company_name
+msgid "Company Name"
+msgstr "Nombre de la empresa"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__commercial_company_name
+msgid "Company Name Entity"
+msgstr "Nombre de la entidad de la compañía"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__company_type
+msgid "Company Type"
+msgstr "Tipo de empresa"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__partner_gid
+msgid "Company database ID"
+msgstr "ID de la compañía"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__contact_address
+msgid "Complete Address"
+msgstr "Dirección completa"
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_configuration_main
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__construction_cost
+msgid "Construction Cost"
+msgstr "Costo de construcción"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_res_partner
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__contact_id
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__contact_id
+#: model:ir.model.fields,field_description:property_management.field_property_utility__contact_id
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__child_ids
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__contact_id
+msgid "Contact Name"
+msgstr "Nombre del contacto"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_safety_certificate
+msgid "Contact Person"
+msgstr "Persona de contacto"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__contact_id
+msgid "Contact person name."
+msgstr "Nombre de la persona de contacto."
+
+#. module: property_management
+#: code:addons/property_management/models/crm_lead.py:0
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__contract
+#, python-format
+msgid "Contract"
+msgstr "Contrato"
+
+#. module: property_management
+#: model:ir.actions.report,name:property_management.action_report_contract_expiry
+msgid "Contract Expiry"
+msgstr "Vencimiento del contrato"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_contract_expiry_report
+#: model:ir.model,name:property_management.model_report_property_management_report_contract_expiry
+msgid "Contract Expiry Report"
+msgstr "Informe de vencimiento del contrato"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Contract Information"
+msgstr "Información del contrato"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__contract_attachment
+msgid "Contract document attachment for selected property"
+msgstr ""
+"Datos adjuntos al documento de contrato para la propiedad seleccionada"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_crm_make_contract
+#: model_terms:ir.ui.view,arch_db:property_management.view_crm_make_sale
+msgid "Convert to Quotation"
+msgstr "Convertir a cotización"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__payment_token_count
+msgid "Count Payment Token"
+msgstr "Contar token de pago"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+"Contador del número de correos electrónicos rebotados para este contacto"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__country_id
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__country_id
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Country"
+msgstr "País"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_crm_make_contract
+#: model_terms:ir.ui.view,arch_db:property_management.crm_lead_form_opportunity_inherit_button
+msgid "Create Contract"
+msgstr "Crear contrato"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.crm_lead_form_opportunity_inherit_button
+msgid "Create Quotation"
+msgstr "Crear cotización"
+
+#. module: property_management
+#: model_terms:ir.actions.act_window,help:property_management.action_tenant_detail_view
+msgid "Create Tenant keep track."
+msgstr "Crear seguimiento del inquilino."
+
+#. module: property_management
+#: model_terms:ir.actions.act_window,help:property_management.action_tenant_detail_view
+msgid "Create a Tenant Details"
+msgstr "Crear Reporte del Inquilino"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_book_available_wiz__create_uid
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report__create_uid
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__create_uid
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz__create_uid
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report__create_uid
+#: model:ir.model.fields,field_description:property_management.field_income_report__create_uid
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__create_uid
+#: model:ir.model.fields,field_description:property_management.field_place_type__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_per_location__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_phase__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_photo__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_room__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_type__create_uid
+#: model:ir.model.fields,field_description:property_management.field_property_utility__create_uid
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__create_uid
+#: model:ir.model.fields,field_description:property_management.field_rent_type__create_uid
+#: model:ir.model.fields,field_description:property_management.field_room_assets__create_uid
+#: model:ir.model.fields,field_description:property_management.field_room_type__create_uid
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report__create_uid
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__create_uid
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__create_uid
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__create_uid
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__create_uid
+#: model:ir.model.fields,field_description:property_management.field_tenant_wizard_mail__create_uid
+#: model:ir.model.fields,field_description:property_management.field_utility__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_book_available_wiz__create_date
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report__create_date
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__create_date
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz__create_date
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report__create_date
+#: model:ir.model.fields,field_description:property_management.field_income_report__create_date
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__create_date
+#: model:ir.model.fields,field_description:property_management.field_place_type__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_per_location__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_phase__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_photo__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_room__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_type__create_date
+#: model:ir.model.fields,field_description:property_management.field_property_utility__create_date
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__create_date
+#: model:ir.model.fields,field_description:property_management.field_rent_type__create_date
+#: model:ir.model.fields,field_description:property_management.field_room_assets__create_date
+#: model:ir.model.fields,field_description:property_management.field_room_type__create_date
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report__create_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__create_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__create_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__create_date
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__create_date
+#: model:ir.model.fields,field_description:property_management.field_tenant_wizard_mail__create_date
+#: model:ir.model.fields,field_description:property_management.field_utility__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "Credit"
+msgstr "Crédito"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__credit_limit
+msgid "Credit Limit"
+msgstr "Límite de crédito"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__currency_id
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__currency_id
+msgid "Currency"
+msgstr "Divisa"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__current_tenant_id
+msgid "Current Tenant"
+msgstr "Inquilino actual"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__partner_id
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz__partner_id
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_stock_customer
+msgid "Customer Location"
+msgstr "Ubicación de cliente"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr "Condiciones de pago del cliente"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__customer_rank
+msgid "Customer Rank"
+msgstr "Clasificación de clientes"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Customers Details"
+msgstr "Detalles de los clientes"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__ten_date
+#: model:ir.model.fields,field_description:property_management.field_room_assets__date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__start_date
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__date
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Date"
+msgstr "Fecha"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "Debit"
+msgstr "Débito"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_res_company__default_password
+msgid "Default Password"
+msgstr "Contraseña predeterminada"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__trust
+msgid "Degree of trust you have in this debtor"
+msgstr "Grado de confianza que tienes en este deudor"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_asset_kanban_view
+msgid "Delete"
+msgstr "Borrar"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.crm_lead_form_inherit_property
+msgid "Demand Info"
+msgstr "Información sobre la demanda"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__deposit
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+msgid "Deposit"
+msgstr "Depósito"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Deposit Receive"
+msgstr "Depósito recibido"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__deposit_received
+msgid "Deposit Received?"
+msgstr "¿Depósito recibido?"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#, python-format
+msgid "Deposit Return"
+msgstr "Devolución de depósito"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__amount_return
+msgid "Deposit Returned"
+msgstr "Depósito devuelto"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__amount_return
+msgid "Deposit Returned amount for Tenancy."
+msgstr "Depósito Importe devuelto para el arrendamiento."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__deposit_return
+msgid "Deposit Returned?"
+msgstr "¿Depósito devuelto?"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__deposit
+msgid "Deposit amount for tenancy."
+msgstr "Monto del depósito para el arrendamiento."
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "Deposit amount should be positive."
+msgstr "El monto del depósito debe ser positivo."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__move_id
+msgid "Depreciation Entry"
+msgstr "Entrada de depreciación"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__description
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__name
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__photos_description
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__name
+#: model:ir.model.fields,field_description:property_management.field_property_photo__photos_description
+#: model:ir.model.fields,field_description:property_management.field_room_assets__name
+#: model_terms:ir.ui.view,arch_db:property_management.report_document_expiry
+msgid "Description"
+msgstr "Descripción"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "Details of Journal Items."
+msgstr "Detalles de las partidas del diario."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_payment__amount_due
+msgid "Display Due amount of Customer"
+msgstr "Mostrar la cantidad adeudada de cliente"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_book_available_wiz__display_name
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__display_name
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz__display_name
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_income_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__display_name
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_place_type__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_per_location__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_phase__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_photo__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_room__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_type__display_name
+#: model:ir.model.fields,field_description:property_management.field_property_utility__display_name
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__display_name
+#: model:ir.model.fields,field_description:property_management.field_rent_type__display_name
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_contract_expiry__display_name
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_document_expiry__display_name
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_income_expenditure__display_name
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_property_per_location1__display_name
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_safety_certificate__display_name
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_tenancy_by_property__display_name
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_tenancy_by_tenant__display_name
+#: model:ir.model.fields,field_description:property_management.field_room_assets__display_name
+#: model:ir.model.fields,field_description:property_management.field_room_type__display_name
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__display_name
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__display_name
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__display_name
+#: model:ir.model.fields,field_description:property_management.field_tenant_wizard_mail__display_name
+#: model:ir.model.fields,field_description:property_management.field_utility__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__distance
+msgid "Distance (Km)"
+msgstr "Distancia (Km)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__contract_attachment_ids
+msgid "Document"
+msgstr "Documento"
+
+#. module: property_management
+#: model:ir.actions.report,name:property_management.action_report_document_expiry
+#: model:ir.ui.menu,name:property_management.menu_document_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_document_expiry
+msgid "Document Expiry"
+msgstr "Caducidad del documento"
+
+#. module: property_management
+#: code:addons/property_management/wizard/document_expiry_report.py:0
+#: model:ir.actions.act_window,name:property_management.action_document_expiry
+#: model:ir.model,name:property_management.model_document_expiry_report
+#: model:ir.model,name:property_management.model_report_property_management_report_document_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.document_expiry_report
+#, python-format
+msgid "Document Expiry Report"
+msgstr "Informe de caducidad del documento"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__duration_cover
+msgid "Duration of Cover"
+msgstr "Duración de la cobertura"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__ew
+msgid "EW"
+msgstr ""
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__facing__east
+msgid "East"
+msgstr "Este"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_asset_kanban_view
+msgid "Edit"
+msgstr "Editar"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+"Cualquiera de los clientes (no un usuario), cualquiera de los usuarios "
+"compartidos. Indicado que el socio actual es un cliente sin acceso o con un "
+"acceso limitado creado para compartir datos."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__email
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__email_send
+msgid "Email Send"
+msgstr "Enviar correo electrónico"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.extenal_layout_footer_r
+#: model_terms:ir.ui.view,arch_db:property_management.external_layout_footer_p
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__date
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__end_date
+#: model:ir.model.fields,field_description:property_management.field_property_phase__end_date
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__end_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__end_date
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__end_date
+msgid "End Date."
+msgstr "Fecha final."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report__end_date
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report__end_date
+#: model:ir.model.fields,field_description:property_management.field_income_report__end_date
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report__end_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__end_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__end_date
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+msgid "End date"
+msgstr "Fecha final"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "End date must be greater than start date."
+msgstr "La fecha de finalización debe ser mayor que la fecha de inicio."
+
+#. module: property_management
+#: code:addons/property_management/models/crm_lead.py:0
+#, python-format
+msgid "End date should be grater then Start Date!"
+msgstr "¡La fecha de finalización debería ser mayor que la fecha de inicio!"
+
+#. module: property_management
+#: code:addons/property_management/wizard/contract_expiry_report.py:0
+#: code:addons/property_management/wizard/document_expiry_report.py:0
+#: code:addons/property_management/wizard/income_report.py:0
+#: code:addons/property_management/wizard/renew_tenancy.py:0
+#: code:addons/property_management/wizard/safety_certificate_report.py:0
+#: code:addons/property_management/wizard/tenancy_property_report.py:0
+#: code:addons/property_management/wizard/tenancy_tenant_report.py:0
+#, python-format
+msgid "End date should be greater than Start Date!"
+msgstr "¡La fecha de finalización debería ser mayor que la fecha de inicio!"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Enter Terms and Conditions..."
+msgstr "Ingrese términos y condiciones..."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__account_move_line_ids
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__account_move_ids
+msgid "Entries"
+msgstr "Entradas"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.inherited_view_partner_form_tenant_id
+msgid "Es inquilino"
+msgstr "Es inquilino"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__x_new_field_PD4084728297010183
+msgid "Es un Desarrollador"
+msgstr "Es un Desarrollador"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__x_new_field_PD02367895639048956
+msgid "Es un Inversionista"
+msgstr "Es un Inversionista"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__x_new_field_PD07543454748384892
+msgid "Es un Propietario"
+msgstr "Es un Propietario"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+msgid "Estado"
+msgstr "Es un Propietario"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+msgid "Expenditure :"
+msgstr "Gasto:"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__expense_account_id
+msgid "Expense Account"
+msgstr "Cuenta de gastos"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__expense_account_id
+msgid "Expense Account of Property."
+msgstr "Cuenta de Gastos de la Propiedad."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__date
+msgid "Expiration Date"
+msgstr "Fecha de caducidad"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "Expiration date should be grater then Start Date!"
+msgstr ""
+"¡La fecha de vencimiento debe ser más ralladora que la fecha de inicio!"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__expiry_date
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__expiry_date
+#: model:ir.model.fields,field_description:property_management.field_property_utility__expiry_date
+#: model_terms:ir.ui.view,arch_db:property_management.report_document_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_safety_certificate
+msgid "Expiry Date"
+msgstr "Fecha de caducidad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__facing
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__facing
+msgid "Facing"
+msgstr "Frente a"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Fecha"
+msgstr "Fecha"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+"Campo utilizado para almacenar el número de teléfono desinfectado. Ayuda a "
+"acelerar las búsquedas y comparaciones."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__doc_name
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__doc_name
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__doc_name
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__doc_name
+#: model:ir.model.fields,field_description:property_management.field_property_photo__doc_name
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__doc_name
+msgid "Filename"
+msgstr "Nombre del archivo"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_renew_tenancy_wizard
+msgid "Fill up Start date, End date and Periods To Renew Tenancy."
+msgstr ""
+"Rellene la fecha de inicio, la fecha de finalización y los períodos para "
+"renovar el arrendamiento."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Fiscal Information"
+msgstr "Información Fiscal"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_account_position_id
+msgid "Fiscal Position"
+msgstr "Posición fiscal"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__room_assets__type__fixed
+msgid "Fixed Assets"
+msgstr "Activos Fijos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__floor
+msgid "Floor"
+msgstr "Piso"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_floor_plans
+msgid "Floor Plans"
+msgstr "Planos del piso"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__floor_plans_ids
+msgid "Floor Plans "
+msgstr "Planos del piso"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Formato de la dirección de correo electrónico \"Nombre <email@domain>\""
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__email_formatted
+msgid "Formatted Email"
+msgstr "Correo electrónico con formato"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__furnished__full_furnished
+msgid "Full Furnished"
+msgstr "Completamente amueblado"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Furnish Type"
+msgstr "Tipo de mobiliario"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__furnished
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__furnished
+#: model:ir.model.fields,help:property_management.field_crm_lead__furnished
+msgid "Furnishing"
+msgstr "Muebles"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__furnished
+msgid "Furnishing."
+msgstr "Muebles"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_gfa_report_all
+#: model:ir.ui.menu,name:property_management.menu_report_gfa
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_graph
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_pivot
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_search
+msgid "GFA Analysis"
+msgstr "Análisis del área (p2)"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_gfa_analysis_report
+msgid "GFA Analysis Report"
+msgstr "Informe de análisis de área (p2)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__gfa_feet
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report__gfa_feet
+msgid "GFA(Sqft)"
+msgstr "Área (p2)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__gfa_meter
+msgid "GFA(m)"
+msgstr "Área (m2)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__partner_latitude
+msgid "Geo Latitude"
+msgstr "Latitud geográfica"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__partner_longitude
+msgid "Geo Longitude"
+msgstr "Longitud geográfica"
+
+#. module: property_management
+#: code:addons/property_management/models/account_asset_asset.py:0
+#, python-format
+msgid "Go to website"
+msgstr "Ir al sitio web"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__gfa_meter
+msgid "Gross floor area in Meter."
+msgstr "Superficie bruta en Metro."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__gfa_feet
+msgid "Gross floor area in Square feet."
+msgstr "Superficie bruta en pies cuadrados."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__ground_rent
+msgid "Ground Rent"
+msgstr "Alquiler de terrenos"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__ground_rent
+msgid "Ground rent of Property."
+msgstr "Alquiler de terreno de la propiedad."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Group By..."
+msgstr "Agrupar por…"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Group by..."
+msgstr "Agrupar por…"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr "Tiene entradas no conciliadas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_room__height
+msgid "Height"
+msgstr "Altura"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_room_view_tree
+msgid "Height (m)"
+msgstr "Altura (m)"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "History"
+msgstr "Historial"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_book_available_wiz__id
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report__id
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__id
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz__id
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report__id
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report__id
+#: model:ir.model.fields,field_description:property_management.field_income_report__id
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__id
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report__id
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report__id
+#: model:ir.model.fields,field_description:property_management.field_place_type__id
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__id
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__id
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__id
+#: model:ir.model.fields,field_description:property_management.field_property_per_location__id
+#: model:ir.model.fields,field_description:property_management.field_property_phase__id
+#: model:ir.model.fields,field_description:property_management.field_property_photo__id
+#: model:ir.model.fields,field_description:property_management.field_property_room__id
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__id
+#: model:ir.model.fields,field_description:property_management.field_property_type__id
+#: model:ir.model.fields,field_description:property_management.field_property_utility__id
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__id
+#: model:ir.model.fields,field_description:property_management.field_rent_type__id
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_contract_expiry__id
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_document_expiry__id
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_income_expenditure__id
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_property_per_location1__id
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_safety_certificate__id
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_tenancy_by_property__id
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_tenancy_by_tenant__id
+#: model:ir.model.fields,field_description:property_management.field_room_assets__id
+#: model:ir.model.fields,field_description:property_management.field_room_type__id
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report__id
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__id
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__id
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__id
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__id
+#: model:ir.model.fields,field_description:property_management.field_tenant_wizard_mail__id
+#: model:ir.model.fields,field_description:property_management.field_utility__id
+msgid "ID"
+msgstr ""
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__im_status
+msgid "IM Status"
+msgstr "Estado de mensajería instantánea"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una excepción de actividad."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__id_attachment
+msgid "Identity Proof"
+msgstr "Prueba de identidad"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__message_needaction
+#: model:ir.model.fields,help:property_management.field_tenant_partner__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si se marca, los nuevos mensajes requieren su atención."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__message_has_error
+#: model:ir.model.fields,help:property_management.field_tenant_partner__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcada, algunos mensajes tienen error de entrega."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__team_id
+msgid ""
+"If set, this Sales Team will be used for sales and assignations related to "
+"this partner"
+msgstr ""
+"Si se establece, este equipo de ventas se utilizará para ventas y "
+"asignaciones relacionadas con este socio."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__is_blacklisted
+#: model:ir.model.fields,help:property_management.field_tenant_partner__phone_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+"Si la dirección de correo electrónico está en la lista negra, el contacto ya"
+" no recibirá correos masivos, de ninguna lista."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__image_1920
+msgid "Image"
+msgstr "Imagen"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__image_1024
+msgid "Image 1024"
+msgstr "Imagen 1024"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__image_128
+msgid "Image 128"
+msgstr "Imagen 128"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__image_256
+msgid "Image 256"
+msgstr "Imagen 256"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__image_512
+msgid "Image 512"
+msgstr "Imagen 512"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "In Active"
+msgstr "En activo"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_analytic_account__state__open
+msgid "In Progress"
+msgstr "En curso"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid ""
+"In order to Renew a Tenancy, Please make all related Rent Schedule entries "
+"posted."
+msgstr ""
+"Para renovar un arrendamiento, haga que se publiquen todas las entradas "
+"relacionadas con el Programa de alquiler."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+msgid "Income :"
+msgstr "Ingreso :"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__income_acc_id
+msgid "Income Account"
+msgstr "Cuenta de Ingresos"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__income_acc_id
+msgid "Income Account of Property."
+msgstr "Cuenta de ingresos de la Propiedad."
+
+#. module: property_management
+#: model:ir.actions.report,name:property_management.action_report_income_expenditure
+#: model:ir.ui.menu,name:property_management.menu_income_expenditure
+msgid "Income Expenditure"
+msgstr "Ingresos Gastos"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_income_expenditure
+#: model:ir.model,name:property_management.model_report_property_management_report_income_expenditure
+#: model_terms:ir.ui.view,arch_db:property_management.income_expenditure_report
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+msgid "Income Expenditure Report"
+msgstr "Informe de ingresos y gastos"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_income_report
+msgid "Income Report"
+msgstr "Informe de ingresos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__industry_id
+msgid "Industry"
+msgstr "Industria"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Inquilino"
+msgstr "Inquilino"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__property_insurance_ids
+msgid "Insurance"
+msgstr "Seguro"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__contact
+msgid "Insurance Comapny"
+msgstr "Compañía de Seguros"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_analytic_account__deposit_scheme_type__insurance
+msgid "Insurance-based"
+msgstr "Basado en seguros"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__invc_id
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__invc_id
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__invoice_warn
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr ""
+"Las direcciones de factura y entrega se utilizan en los pedidos de "
+"ventas. Las direcciones privadas solo son visibles para los usuarios "
+"autorizados."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__inv
+msgid "Invoiced?"
+msgstr "¿Facturado?"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__invoice_ids
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__is_buy
+msgid "Is Buy"
+msgstr "Es compra"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__demand
+msgid "Is Demand"
+msgstr "Es la demanda"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_is_follower
+msgid "Is Follower"
+msgstr "Es seguidor"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_sale_order__is_property
+#: model:ir.model.fields,field_description:property_management.field_sale_order_line__is_property
+msgid "Is Property"
+msgstr "Es propiedad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__is_property
+msgid "Is Property?"
+msgstr "¿Es propiedad?"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__is_published
+msgid "Is Published"
+msgstr "Está publicado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__is_rent
+msgid "Is Rent"
+msgstr "Se Renta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__is_company
+msgid "Is a Company"
+msgstr "Es una empresa"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_utility__issue_date
+msgid "Issuance Date"
+msgstr "Fecha de emisión"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__main_cost
+msgid "Its shows overall cost of recurring maintenance"
+msgstr "Muestra el coste global del mantenimiento recurrente"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__function
+msgid "Job Position"
+msgstr "Puesto de trabajo"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__journal_item_count
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Journal Items"
+msgstr "Elementos del diario"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_acc_move_prop
+msgid "Label"
+msgstr "Etiqueta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_book_available_wiz____last_update
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract____last_update
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz____last_update
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_income_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_nearby_property____last_update
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_place_type____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_attachment____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_insurance____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_per_location____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_phase____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_photo____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_room____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_type____last_update
+#: model:ir.model.fields,field_description:property_management.field_property_utility____last_update
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy____last_update
+#: model:ir.model.fields,field_description:property_management.field_rent_type____last_update
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_contract_expiry____last_update
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_document_expiry____last_update
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_income_expenditure____last_update
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_property_per_location1____last_update
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_safety_certificate____last_update
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_tenancy_by_property____last_update
+#: model:ir.model.fields,field_description:property_management.field_report_property_management_report_tenancy_by_tenant____last_update
+#: model:ir.model.fields,field_description:property_management.field_room_assets____last_update
+#: model:ir.model.fields,field_description:property_management.field_room_type____last_update
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule____last_update
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report____last_update
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner____last_update
+#: model:ir.model.fields,field_description:property_management.field_tenant_wizard_mail____last_update
+#: model:ir.model.fields,field_description:property_management.field_utility____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_book_available_wiz__write_uid
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report__write_uid
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__write_uid
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz__write_uid
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report__write_uid
+#: model:ir.model.fields,field_description:property_management.field_income_report__write_uid
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__write_uid
+#: model:ir.model.fields,field_description:property_management.field_place_type__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_per_location__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_phase__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_photo__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_room__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_type__write_uid
+#: model:ir.model.fields,field_description:property_management.field_property_utility__write_uid
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__write_uid
+#: model:ir.model.fields,field_description:property_management.field_rent_type__write_uid
+#: model:ir.model.fields,field_description:property_management.field_room_assets__write_uid
+#: model:ir.model.fields,field_description:property_management.field_room_type__write_uid
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report__write_uid
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__write_uid
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__write_uid
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__write_uid
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__write_uid
+#: model:ir.model.fields,field_description:property_management.field_tenant_wizard_mail__write_uid
+#: model:ir.model.fields,field_description:property_management.field_utility__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_book_available_wiz__write_date
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report__write_date
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__write_date
+#: model:ir.model.fields,field_description:property_management.field_crm_make_sale_wiz__write_date
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report__write_date
+#: model:ir.model.fields,field_description:property_management.field_income_report__write_date
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__write_date
+#: model:ir.model.fields,field_description:property_management.field_place_type__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_per_location__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_phase__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_photo__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_room__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_type__write_date
+#: model:ir.model.fields,field_description:property_management.field_property_utility__write_date
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__write_date
+#: model:ir.model.fields,field_description:property_management.field_rent_type__write_date
+#: model:ir.model.fields,field_description:property_management.field_room_assets__write_date
+#: model:ir.model.fields,field_description:property_management.field_room_type__write_date
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report__write_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__write_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__write_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__write_date
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__write_date
+#: model:ir.model.fields,field_description:property_management.field_tenant_wizard_mail__write_date
+#: model:ir.model.fields,field_description:property_management.field_utility__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr "Última notificación marcada como leída desde el calendario"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__last_time_entries_checked
+msgid ""
+"Last time the invoices & payments matching was performed for this partner. "
+"It is set either if there's not at least an unreconciled debit and an "
+"unreconciled credit or if you click the \"Done\" button."
+msgstr ""
+"La última vez que se realizó la conciliación de facturas y pagos para este "
+"socio. Se establece si no hay al menos un débito no conciliado y un crédito "
+"no conciliado o si hace clic en el botón \"Listo\"."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr "Fecha de coincidencia de facturas y pagos más recientes"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__latitude
+msgid "Latitude"
+msgstr "Latitud"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__latitude
+msgid "Latitude of the place."
+msgstr "Latitud del lugar."
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "Iniciativa/Oportunidad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_room__length
+msgid "Length"
+msgstr "Longitud"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_room_view_tree
+msgid "Length (m)"
+msgstr "Longitud (m)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__image
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__longitude
+msgid "Longitude"
+msgstr "Longitud"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__longitude
+msgid "Longitude of the place."
+msgstr "Longitud del lugar."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Archivo adjunto principal"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__maint_account_id
+msgid "Maintenance Account"
+msgstr "Cuenta de mantenimiento"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__main_cost
+msgid "Maintenance Cost"
+msgstr "Costo de mantenimiento"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_crm_make_sale
+msgid "Make Quotation"
+msgstr "Hacer cotización"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_crm_make_sale_wiz
+msgid "Make Sale"
+msgstr "Hacer venta"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_crm_make_contract
+msgid "Make sales"
+msgstr "Realizar ventas"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__acc_pay_dep_rec_id
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__acc_pay_dep_ret_id
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__manager_id
+msgid "Manager of Tenancy."
+msgstr "Gerente de Arrendamientos."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__close
+msgid "Mark Won"
+msgstr "Marcar como ganado"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_tenant_wizard_mail
+msgid "Mass Mailing"
+msgstr "Envío masivo de correos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__max_bathroom
+msgid "Max Bathroom Require"
+msgstr "Maximos Baños Requerido"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__max_bedroom
+msgid "Max Bedroom Require"
+msgstr "Dormitorio máximos requerido"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__max_price
+msgid "Max Price"
+msgstr "Precio máximo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__meeting_ids
+msgid "Meetings"
+msgstr "Reuniones"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de entrega de mensajes"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__invoice_warn_msg
+msgid "Message for Invoice"
+msgstr "Mensaje para factura"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__purchase_warn_msg
+msgid "Message for Purchase Order"
+msgstr "Mensaje para pedidos de compra"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__sale_warn_msg
+msgid "Message for Sales Order"
+msgstr "Mensaje para pedido de ventas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__picking_warn_msg
+msgid "Message for Stock Picking"
+msgstr "Mensaje para movimientos de inventario"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__min_bathroom
+msgid "Min. Bathroom Require"
+msgstr "Mínimos baños requerido"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__min_bedroom
+msgid "Min. Bedroom Require"
+msgstr "Mínimos dormitorios requerido"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__min_price
+msgid "Min. Price"
+msgstr "Precio mínimo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_res_partner__mobile
+#: model:ir.model.fields,field_description:property_management.field_res_users__mobile
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__mobile
+msgid "Mobile"
+msgstr "Móvil"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__property_insurance__payment_mode_type__monthly
+#: model:ir.model.fields.selection,name:property_management.selection__rent_type__renttype__monthly
+msgid "Monthly"
+msgstr "Mensual"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__room_assets__type__movable
+msgid "Movable Assets"
+msgstr "Bienes muebles"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__multi_prop
+msgid "Multiple Property"
+msgstr "Multiples propiedades"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__name
+#: model:ir.model.fields,field_description:property_management.field_property_room__name
+#: model:ir.model.fields,field_description:property_management.field_property_type__name
+#: model:ir.model.fields,field_description:property_management.field_room_type__name
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__name
+#: model:ir.model.fields,field_description:property_management.field_utility__name
+#: model_terms:ir.ui.view,arch_db:property_management.property_room_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__property_id
+msgid "Name of Property."
+msgstr "Nombre de la Propiedad."
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_nearby_property
+msgid "Nearby Property"
+msgstr "Nombre de la Propiedad."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__nearby_ids
+msgid "Nearest Property"
+msgstr "Propiedad cercana"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_analytic_account__state__draft
+msgid "New"
+msgstr "Nuevo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Fecha límite de la próxima actividad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
+
+#. module: property_management
+#: code:addons/property_management/wizard/crm_make_sale.py:0
+#, python-format
+msgid "No address(es) defined for this customer."
+msgstr "No hay direcciones definidas para este cliente."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__no_of_towers
+msgid "No of Towers"
+msgstr "Número de Edificios"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__furnished__none
+msgid "None"
+msgstr "Ninguna"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__email_normalized
+msgid "Normalized Email"
+msgstr "Correo electrónico normalizado"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__facing__north
+msgid "North"
+msgstr "Norte"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__note
+#: model:ir.model.fields,field_description:property_management.field_property_room__note
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__note
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__comment
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_room_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__floor
+msgid "Number of Floors."
+msgstr "Numero de pisos."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__no_of_property
+msgid "Number of Properties Per Floor."
+msgstr "Número de Propiedades por Piso."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__no_of_towers
+msgid "Number of Towers."
+msgstr "Número de Edificios"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leídos"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_occupancy_performance_report
+#: model:ir.ui.menu,name:property_management.menu_report_occupancy_performance
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_graph
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_report_pivot
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_search
+msgid "Occupancy Performance Analysis"
+msgstr "Análisis de rendimiento de ocupación"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_occupancy_performance_report
+msgid "Occupancy Performance Report"
+msgstr "Informe de rendimiento de ocupación"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__occupancy_rates
+msgid "Occupancy Rate"
+msgstr "Tasa de ocupación"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_phase__occupancy_rate
+msgid "Occupancy Rate (in %)"
+msgstr "Tasa de ocupación (en %)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report__occupancy_rates
+msgid "Occupancy Rates"
+msgstr "Tasas de ocupación"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_res_partner__occupation
+#: model:ir.model.fields,field_description:property_management.field_res_users__occupation
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__occupation
+msgid "Occupation"
+msgstr "Ocupación"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__state__normal
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "On Lease"
+msgstr "En Arrendamiento"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+msgid "Open"
+msgstr "Abierto"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Open Deposit Return"
+msgstr "Devolver depósito"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_operational_costs_report
+msgid "Operational Cost Report"
+msgstr "Informe de costos operativos"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.view_action_operational_costs_graph
+#: model:ir.ui.menu,name:property_management.menu_report_operational_costs
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_graph1
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_report_pivot
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_search
+msgid "Operational Costs Analysis"
+msgstr "Análisis de costos operativos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__operational_costs
+msgid "Operational Costs(%)"
+msgstr "Costos operativos(%)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report__operational_costs
+msgid "Operational costs(%)"
+msgstr "Costos operativos(%)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__opportunity_ids
+msgid "Opportunities"
+msgstr "Oportunidades"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__opportunity_count_ids
+msgid "Opportunities Count"
+msgstr "Recuento de oportunidades"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__opportunity_count
+msgid "Opportunity"
+msgstr "Oportunidad"
+
+#. module: property_management
+#: code:addons/property_management/wizard/crm_make_sale.py:0
+#, python-format
+msgid ""
+"Opportunity has been <b>converted</b> to                             the "
+"quotation <em>%s</em>."
+msgstr "La oportunidad se ha <b>convertido</b> a la cotización <em>%s</em>."
+
+#. module: property_management
+#: code:addons/property_management/models/crm_lead.py:0
+#, python-format
+msgid ""
+"Opportunity has been <b>converted</b> to the                     Contract "
+"<em>%s</em>."
+msgstr "La oportunidad se ha <b>convertido</b> al contrato <em>%s</em>."
+
+#. module: property_management
+#: code:addons/property_management/wizard/crm_make_sale.py:0
+#, python-format
+msgid "Opportunity: %s"
+msgstr "Oportunidad: %s"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__room_assets__type__other
+msgid "Other Assets"
+msgstr "Otros activos"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.extenal_layout_footer_r
+#: model_terms:ir.ui.view,arch_db:property_management.external_layout_footer_p
+msgid "Page:"
+msgstr "Página:"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__paid
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Paid"
+msgstr "Pagado"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Paid Tenant Rent"
+msgstr "Alquiler de inquilino pagado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__parent_path
+msgid "Parent Path"
+msgstr "Ruta principal"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_search
+msgid "Parent Properties"
+msgstr "Propiedades padre"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__parent_id
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report__parent_id
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report__parent_id
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report__parent_id
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Parent Property"
+msgstr "Propiedad padre"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__parent_name
+msgid "Parent name"
+msgstr "Nombre del padre"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__parking
+msgid "Parking"
+msgstr "Estacionamiento"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__parent_id
+msgid "Partner"
+msgstr "Socio"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__contract_ids
+msgid "Partner Contracts"
+msgstr "Contratos de socios"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr "Socio con el ID de impuestos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__debit_limit
+msgid "Payable Limit"
+msgstr "Límite por pagar"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__payment_mode_type
+msgid "Payment Term"
+msgstr "Términos de pago"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__payment_token_ids
+msgid "Payment Tokens"
+msgstr "Token de pago"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__penalty_a
+msgid "Penalty"
+msgstr "Multa"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Pending"
+msgstr "Pendiente"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__pen_amt
+msgid "Pending Ammount."
+msgstr "Importe pendiente."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__pen_amt
+msgid "Pending Amount"
+msgstr "Monto pendiente"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__property_phase_ids
+msgid "Phase"
+msgstr "Fase"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__phone_blacklisted
+msgid "Phone Blacklisted"
+msgstr "Teléfono en la lista negra"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.extenal_layout_footer_r
+#: model_terms:ir.ui.view,arch_db:property_management.external_layout_footer_p
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__property_photo_ids
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__photos
+#: model:ir.model.fields,field_description:property_management.field_property_photo__photos
+msgid "Photos"
+msgstr "Fotos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_room__image
+msgid "Picture"
+msgstr "Imagen"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_place_type_view
+#: model:ir.model,name:property_management.model_place_type
+#: model:ir.model.fields,field_description:property_management.field_place_type__name
+#: model:ir.ui.menu,name:property_management.menu_place_type
+#: model_terms:ir.ui.view,arch_db:property_management.place_type_form
+#: model_terms:ir.ui.view,arch_db:property_management.place_type_tree
+msgid "Place Type"
+msgstr "Tipo de lugar"
+
+#. module: property_management
+#: code:addons/property_management/models/account_asset_asset.py:0
+#, python-format
+msgid ""
+"Please Configure Income                                 Account from "
+"Property!"
+msgstr "¡Configure la cuenta de ingresos de la propiedad!"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "Please Enter Deposit amount."
+msgstr "Ingrese el monto del depósito."
+
+#. module: property_management
+#: code:addons/property_management/models/res_partner.py:0
+#, python-format
+msgid "Please Enter Valid Email Id!"
+msgstr "Por favor ingrese una dirección de correo electrónico válida."
+
+#. module: property_management
+#: code:addons/property_management/models/res_partner.py:0
+#, python-format
+msgid "Please Enter Valid Mobile Number!"
+msgstr "¡Ingrese un número de teléfono móvil válido!"
+
+#. module: property_management
+#: code:addons/property_management/wizard/renew_tenancy.py:0
+#, python-format
+msgid "Please Insert End Date Greater Than Start Date!"
+msgstr "¡Inserte una fecha de finalización mayor que la fecha de inicio!"
+
+#. module: property_management
+#: code:addons/property_management/models/account_asset_asset.py:0
+#, python-format
+msgid "Please Insert GFA(Sqft)."
+msgstr "Por favor insertar área(p2)"
+
+#. module: property_management
+#: code:addons/property_management/models/account_asset_asset.py:0
+#, python-format
+msgid "Please Insert Owner Name!"
+msgstr "¡Inserte el nombre del propietario!"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__policy_no
+msgid "Policy Number"
+msgstr "Número de policía"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__move_check
+msgid "Posted"
+msgstr "Publicado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__premium
+msgid "Premium"
+msgstr ""
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_product_pricelist
+msgid "Pricelist"
+msgstr "Lista de precios"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.document_expiry_report
+#: model_terms:ir.ui.view,arch_db:property_management.income_expenditure_report
+#: model_terms:ir.ui.view,arch_db:property_management.property_per_location_wiz
+#: model_terms:ir.ui.view,arch_db:property_management.safety_certificate_report
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report1
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_tenant_report
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_property_assets
+#: model_terms:ir.ui.view,arch_db:property_management.property_view_asset_tree
+#: model_terms:ir.ui.view,arch_db:property_management.property_view_asset_tree1
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_hirarch_tree
+msgid "Properties"
+msgstr "Propiedades"
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_properties_per_location
+msgid "Properties Per Location"
+msgstr "Propiedades por ubicación"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_property_assets_view
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__property_id
+#: model:ir.model.fields,field_description:property_management.field_account_move__property_id
+#: model:ir.model.fields,field_description:property_management.field_account_move_line__property_id
+#: model:ir.model.fields,field_description:property_management.field_account_payment__property_id
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__property_id
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__property_id
+#: model:ir.model.fields,field_description:property_management.field_property_attachment__property_id
+#: model:ir.model.fields,field_description:property_management.field_property_floor_plans__property_id
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__property_id
+#: model:ir.model.fields,field_description:property_management.field_property_phase__property_id
+#: model:ir.model.fields,field_description:property_management.field_property_photo__property_id
+#: model:ir.model.fields,field_description:property_management.field_property_room__property_id
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__property_id
+#: model:ir.model.fields,field_description:property_management.field_property_utility__property_id
+#: model:ir.model.fields,field_description:property_management.field_room_assets__room_id
+#: model:ir.model.fields,field_description:property_management.field_sale_order_line__property_id
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__property_id
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__property_id
+#: model:ir.module.category,name:property_management.module_category_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_document_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_property_per_location1
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_search
+msgid "Property"
+msgstr "Propiedad"
+
+#. module: property_management
+#: model:res.groups,comment:property_management.group_property_agent
+#: model:res.groups,name:property_management.group_property_agent
+msgid "Property Agent"
+msgstr "Agente de propiedad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_property_graph_view
+msgid "Property Analysis"
+msgstr "Análisis de propiedades"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_attachment
+msgid "Property Attachment"
+msgstr "Adjunto de propiedad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_attachment_view_tree
+msgid "Property Attachment Details"
+msgstr "Detalles adjuntos a la propiedad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_certificate_view_tree
+msgid "Property Certificate Details"
+msgstr "Detalles del certificado de propiedad"
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_property_sub
+msgid "Property Details"
+msgstr "Detalles de la propiedad"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_create_hierarchy_property_id
+#: model:ir.ui.menu,name:property_management.menu_create_h_property2
+msgid "Property Hierarchy"
+msgstr "Jerarquía de propiedades"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Property Information"
+msgstr "Información de la propiedad"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_insurance
+msgid "Property Insurance"
+msgstr "Seguro de propiedad"
+
+#. module: property_management
+#: model:ir.actions.report,name:property_management.action_report_property_per_location1
+msgid "Property Location"
+msgstr "Ubicación de la propiedad"
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_property_main
+msgid "Property Management"
+msgstr "Administración de la propiedad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.wizard_book_available_form_view
+msgid "Property Management System"
+msgstr "Sistema de gestión de la propiedad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__property_manager
+#: model:res.groups,comment:property_management.group_property_manager
+#: model:res.groups,name:property_management.group_property_manager
+msgid "Property Manager"
+msgstr "Administrador de la propiedad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report__name
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report__name
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_safety_certificate
+msgid "Property Name"
+msgstr "Nombre de la propiedad"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_move__property_id
+#: model:ir.model.fields,help:property_management.field_account_move_line__property_id
+#: model:ir.model.fields,help:property_management.field_account_payment__property_id
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__property_id
+msgid "Property Name."
+msgstr "Nombre de la propiedad"
+
+#. module: property_management
+#: model:res.groups,comment:property_management.group_property_owner
+#: model:res.groups,name:property_management.group_property_owner
+msgid "Property Owner"
+msgstr "Nombre de la propiedad."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__no_of_property
+msgid "Property Per Floors."
+msgstr "Propiedad Por Pisos."
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_per_location
+#: model_terms:ir.ui.view,arch_db:property_management.property_per_location_wiz
+#: model_terms:ir.ui.view,arch_db:property_management.report_property_per_location1
+msgid "Property Per Location"
+msgstr "Propiedad por ubicación"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_property_per_location
+#: model_terms:ir.ui.view,arch_db:property_management.property_per_location_wiz
+msgid "Property Per Location Report"
+msgstr "Informe de propiedad por ubicación"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_phase
+msgid "Property Phase"
+msgstr "Fase de Propiedad"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_photo
+msgid "Property Photo"
+msgstr "Foto de la propiedad"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_room
+msgid "Property Room"
+msgstr "Renta de Propiedad"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_safety_certificate
+msgid "Property Safety Certificate"
+msgstr "Certificado de seguridad de la propiedad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__state_id
+msgid "Property State"
+msgstr "Estado de la propiedad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+msgid "Property Tenancy"
+msgstr "Tenencia de la propiedad"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_property_type_view
+#: model:ir.model,name:property_management.model_property_type
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__type_id
+#: model:ir.model.fields,field_description:property_management.field_crm_lead__type_id
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report__type_id
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report__type_id
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report__type_id
+#: model:ir.model.fields,help:property_management.field_crm_lead__type_id
+#: model:ir.ui.menu,name:property_management.menu_property_type
+#: model_terms:ir.ui.view,arch_db:property_management.property_type_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_type_tree
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_search
+msgid "Property Type"
+msgstr "Tipo de propiedad"
+
+#. module: property_management
+#: model:res.groups,comment:property_management.group_property_user
+msgid "Property User"
+msgstr "Usuario de la propiedad"
+
+#. module: property_management
+#: model:res.groups,name:property_management.group_property_user
+msgid "Property User Or Tenant"
+msgstr "Usuario o arrendatario de la propiedad"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_property_utility
+msgid "Property Utility"
+msgstr "Utilidad de propiedad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Property View"
+msgstr "Vista de la propiedad"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_report_property_management_report_property_per_location1
+msgid "Property per Location Report"
+msgstr "Informe de propiedad por ubicación"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+msgid "Propiedad"
+msgstr ""
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Purchase"
+msgstr "Compra"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_gfa_analysis_report__date
+#: model:ir.model.fields,field_description:property_management.field_occupancy_performance_report__date
+#: model:ir.model.fields,field_description:property_management.field_operational_costs_report__date
+msgid "Purchase Date"
+msgstr "Fecha de compra"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__pur_instl_chck
+msgid "Purchase Installment Check"
+msgstr "Cheque de cuotas de compra"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_gfa_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_occupancy_performance_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_operational_costs_search
+msgid "Purchase Month"
+msgstr "Mes de compra"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__purchase_warn
+msgid "Purchase Order"
+msgstr "Mes de compra"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__purchase_order_count
+msgid "Purchase Order Count"
+msgstr "Contador de ordenes de compra"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_room_assets__qty
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: property_management
+#: code:addons/property_management/wizard/crm_make_sale.py:0
+#: code:addons/property_management/wizard/crm_make_sale.py:0
+#, python-format
+msgid "Quotation"
+msgstr "Presupuesto"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__roi
+msgid "ROI"
+msgstr "Rinv"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__roi
+msgid ""
+"ROI ( Return On Investment ) = ( Total Tenancy rent - Total         "
+"maintenance cost ) / Total maintenance cost."
+msgstr ""
+"ROI (Retorno de la inversión) = (Renta total de arrendamiento - Costo total "
+"de mantenimiento) / Costo total de mantenimiento."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__is_readonly
+msgid "Readonly"
+msgstr "Solo lectura"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__recurring
+msgid "Recurring"
+msgstr "recurrencia"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__code
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__ref
+#: model:ir.model.fields,field_description:property_management.field_property_utility__ref
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__ref
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__company_id
+msgid "Related Company"
+msgstr "Compañía vinculada"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_res_users__tenant_id
+msgid "Related Tenant"
+msgstr "Inquilino relacionado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_utility__note
+msgid "Remarks"
+msgstr "Observaciones"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.view_renew_tenancy_wizard
+msgid "Renew"
+msgstr "Renovar"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_renew_tenancy
+msgid "Renew Tenancy"
+msgstr "Renovar arrendamiento"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_renew_tenancy_wizz_wizz
+#: model_terms:ir.ui.view,arch_db:property_management.view_renew_tenancy_wizard
+msgid "Renew Tenancy Wizard"
+msgstr "Asistente para renovar arrendamiento"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_calendar
+msgid "Rent"
+msgstr "Renta"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__amount
+msgid "Rent Amount."
+msgstr "Precio del alquiler."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__rent_entry_chck
+msgid "Rent Entries Check"
+msgstr "Comprobación de entradas de alquiler"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_rent_type__name
+msgid "Rent Period"
+msgstr "Período de alquiler"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__rent_schedule_ids
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_form
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_tree
+msgid "Rent Schedule"
+msgstr "Facturas de alquiler"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_move__schedule_date
+msgid "Rent Schedule Date."
+msgstr "Fecha de programación de alquiler."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Rent Schedule Details"
+msgstr "Detalles del programación de alquiler"
+
+#. module: property_management
+#: model:mail.template,subject:property_management.mail_tenant_rent
+msgid "Rent Schedule on ${object.start_date}"
+msgstr "Horario de alquiler en ${object.start_date}"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_rent_type_view
+#: model:ir.model,name:property_management.model_rent_type
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__rent_type_id
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__rent_type_id
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__rent_type_id
+#: model:ir.model.fields,field_description:property_management.field_rent_type__renttype
+#: model:ir.ui.menu,name:property_management.menu_rent_type
+#: model_terms:ir.ui.view,arch_db:property_management.rent_type_form
+#: model_terms:ir.ui.view,arch_db:property_management.rent_type_tree
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+msgid "Rent Type"
+msgstr "Tipo de alquiler"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "Rent amount should be positive."
+msgstr "El monto del alquiler debe ser positivo."
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_report_sub
+msgid "Reporting"
+msgstr "Informes"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__website_id
+msgid "Restrict publishing to this website."
+msgstr "Restringir la publicación a este sitio web."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__revenue
+msgid "Revenue"
+msgstr "Ingresos"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_room_assets
+#: model_terms:ir.ui.view,arch_db:property_management.room_assets_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.room_assets_view_tree
+msgid "Room Assets"
+msgstr "Activos de la sala"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_room_view_form
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "Room Details"
+msgstr "Detalles de la habitación"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_room_type_view
+#: model:ir.model,name:property_management.model_room_type
+#: model:ir.model.fields,field_description:property_management.field_property_room__type_id
+#: model:ir.ui.menu,name:property_management.menu_room_type
+#: model_terms:ir.ui.view,arch_db:property_management.room_type_form
+#: model_terms:ir.ui.view,arch_db:property_management.room_type_tree
+#: model_terms:ir.ui.view,arch_db:property_management.utility_form
+#: model_terms:ir.ui.view,arch_db:property_management.utility_tree
+msgid "Room Type"
+msgstr "Tipo de habitación"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__room_ids
+#: model_terms:ir.ui.view,arch_db:property_management.property_room_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_room_view_tree
+msgid "Rooms"
+msgstr "Habitaciones"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__state__open
+msgid "Running"
+msgstr "Correr"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: property_management
+#: model:ir.actions.report,name:property_management.action_report_safety_certificate
+#: model:ir.model,name:property_management.model_report_property_management_report_safety_certificate
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__safety_certificate_ids
+msgid "Safety Certificate"
+msgstr "Habitaciones"
+
+#. module: property_management
+#: code:addons/property_management/wizard/safety_certificate_report.py:0
+#: model:ir.ui.menu,name:property_management.menu_safety_certificate
+#: model_terms:ir.ui.view,arch_db:property_management.report_safety_certificate
+#, python-format
+msgid "Safety Certificate Expiry"
+msgstr "Caducidad del certificado de seguridad"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_safety_certificate_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.safety_certificate_report
+msgid "Safety Certificate Expiry Report"
+msgstr "Informe de caducidad del certificado de seguridad"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_safety_certificate_report
+#: model_terms:ir.ui.view,arch_db:property_management.safety_certificate_report
+msgid "Safety Certificate Report"
+msgstr "Informe de certificado de seguridad"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__state__close
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:property_management.view_property_gantt
+msgid "Sale"
+msgstr "Venta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__sale_instl_chck
+msgid "Sale Installment Check"
+msgstr "Cheque de cuotas de venta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__sale_order_count
+msgid "Sale Order Count"
+msgstr "Recuento de órdenes de venta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__sale_price
+msgid "Sale Price"
+msgstr "Precio de venta"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__sale_price
+msgid "Sale price of the Property."
+msgstr "Precio de venta de la Propiedad."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Sales & Purchases"
+msgstr "Ventas y Compras"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_sale_order
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__sale_order_ids
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__sales_rates
+msgid "Sales Rate"
+msgstr "Tasa de ventas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__team_id
+msgid "Sales Team"
+msgstr "Tasa de ventas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__sale_warn
+msgid "Sales Warnings"
+msgstr "Advertencias de venta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_phase__lease_price
+msgid "Sales/lease Price Per Month"
+msgstr "Precio de venta/alquiler por mes"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__user_id
+msgid "Salesperson"
+msgstr "vendedor"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__phone_sanitized
+msgid "Sanitized Number"
+msgstr "Número desinfectado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_move__schedule_date
+msgid "Schedule Date"
+msgstr "Fecha de programacion"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Schedule Rent"
+msgstr "Programar Renta"
+
+#. module: property_management
+#: model:ir.actions.server,name:property_management.scheduler_email_tenant_rent_scheduled_ir_actions_server
+#: model:ir.cron,cron_name:property_management.scheduler_email_tenant_rent_scheduled
+#: model:ir.cron,name:property_management.scheduler_email_tenant_rent_scheduled
+msgid "Scheduled Rent"
+msgstr "Renta Programada"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.utility_type_view_search
+msgid "Search Place Type"
+msgstr "Buscar tipo de lugar"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_type_view_search
+#: model_terms:ir.ui.view,arch_db:property_management.rent_type_view_search
+#: model_terms:ir.ui.view,arch_db:property_management.room_type_view_search
+msgid "Search Property"
+msgstr "Buscar propiedad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_search
+msgid "Search Tenant"
+msgstr "Buscar inquilino"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Search Tenant Rent"
+msgstr "Buscar Inquilino Alquiler"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__invoice_warn
+#: model:ir.model.fields,help:property_management.field_tenant_partner__picking_warn
+#: model:ir.model.fields,help:property_management.field_tenant_partner__purchase_warn
+#: model:ir.model.fields,help:property_management.field_tenant_partner__sale_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+"Al seleccionar la opción \"Advertencia\", se notificará al usuario con el "
+"mensaje. Al seleccionar \"Mensaje de bloqueo\", se generará una excepción "
+"con el mensaje y se bloqueará el flujo. El mensaje debe escribirse en el "
+"siguiente campo."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__self
+msgid "Self"
+msgstr "Uno mismo"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__property_insurance__payment_mode_type__semi_annually
+msgid "Semi Annually"
+msgstr "Semestral"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__furnished__semi_furnished
+msgid "Semi Furnished"
+msgstr "Semi amueblado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__send_whatsapp
+msgid "Send Whatsapp"
+msgstr "Enviar Whatsapp"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_rent_type__sequence_in_view
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: property_management
+#: code:addons/property_management/models/property.py:0
+#, python-format
+msgid "Sequence should be Unique!"
+msgstr "¡La secuencia debe ser única!"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__partner_share
+msgid "Share Partner"
+msgstr "Compartir socio"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__signup_expiration
+msgid "Signup Expiration"
+msgstr "Compartir socio"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__signup_token
+msgid "Signup Token"
+msgstr "Ficha de registro"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__signup_type
+msgid "Signup Token Type"
+msgstr "Tipo de token de registro"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__signup_valid
+msgid "Signup Token is Valid"
+msgstr "El token de registro es válido"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__signup_url
+msgid "Signup URL"
+msgstr "URL de registro"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__simulation_date
+msgid "Simulation Date"
+msgstr "Fecha de simulación"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__simulation_date
+msgid "Simulation Date."
+msgstr "Fecha de simulación"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__simulation_name
+msgid "Simulation Name"
+msgstr "Nombre de la simulación"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__state__sold
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "Sold"
+msgstr "Vendido"
+
+#. module: property_management
+#: code:addons/property_management/models/crm_lead.py:0
+#, python-format
+msgid ""
+"Sorry! Can not Convert to opportunity because                 Contact Name "
+"or Email is Missing!"
+msgstr ""
+"¡Lo siento! ¡No se puede convertir en oportunidad porque falta el nombre de "
+"contacto o el correo electrónico!"
+
+#. module: property_management
+#: code:addons/property_management/wizard/crm_make_sale.py:0
+#, python-format
+msgid ""
+"Sorry! This property is                                             already "
+"sold!"
+msgstr "¡Lo siento! ¡Esta propiedad ya está vendida!"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_move__source
+msgid "Source from where account move created."
+msgstr "Fuente desde donde se creó el movimiento de la cuenta."
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__facing__south
+msgid "South"
+msgstr "Sur"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Start"
+msgstr "comienzo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__date_start
+#: model:ir.model.fields,field_description:property_management.field_crm_make_contract__date_start
+#: model:ir.model.fields,field_description:property_management.field_property_insurance__start_date
+#: model:ir.model.fields,field_description:property_management.field_renew_tenancy__start_date
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__start_date
+msgid "Start Date."
+msgstr "Fecha de inicio."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_contract_expiry_report__start_date
+#: model:ir.model.fields,field_description:property_management.field_document_expiry_report__start_date
+#: model:ir.model.fields,field_description:property_management.field_income_report__start_date
+#: model:ir.model.fields,field_description:property_management.field_safety_certificate_report__start_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_property_report__start_date
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__start_date
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__state
+#: model:ir.model.fields,field_description:property_management.field_property_per_location__state_id
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__state_id
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_search
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_property_per_location1
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_asset_search
+msgid "State"
+msgstr "Estado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Estado basado en actividades\n"
+"Atrasado: la fecha de vencimiento ya pasó\n"
+"Hoy: la fecha de la actividad es hoy\n"
+"Planeado: Actividades futuras."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__picking_warn
+msgid "Stock Picking"
+msgstr "Movimiento de inventario"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__street
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Street..."
+msgstr "Calle"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__street2
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Street2..."
+msgstr "Calle2"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_property_per_location1
+msgid "Sub Property"
+msgstr "Subpropiedad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_purchase_currency_id
+msgid "Supplier Currency"
+msgstr "Moneda del proveedor"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__supplier_rank
+msgid "Supplier Rank"
+msgstr "Rango del proveedor"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.extenal_layout_footer_r
+#: model_terms:ir.ui.view,arch_db:property_management.external_layout_footer_p
+msgid "TIN:"
+msgstr "Número de identificación del contribuyente"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.document_expiry_report
+#: model_terms:ir.ui.view,arch_db:property_management.safety_certificate_report
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report1
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_tenant_report
+msgid "Table View"
+msgstr "Vista de tabla"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__category_id
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__tenancy_cancelled
+msgid "Tenancy Cancelled"
+msgstr "Contrato de arrendamiento cancelado"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__task_ids
+msgid "Tasks"
+msgstr "Tareas"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__vat
+msgid "Tax ID"
+msgstr "ID de Impuesto"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__opportunity_count_ids
+msgid "Technical field used for stat button"
+msgstr "Campo técnico utilizado para el botón de estadísticas"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_analytic_account__state__template
+msgid "Template"
+msgstr "Plantilla"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_move__new_tenancy_id
+#: model:ir.model.fields,field_description:property_management.field_account_payment__tenancy_id
+#: model:ir.model.fields,field_description:property_management.field_property_utility__tenancy_id
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__tenancy_id
+msgid "Tenancy"
+msgstr "Contrato de alquiler"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Tenancy #"
+msgstr "Contrato de alquiler"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_property_report_tenancy
+#: model:ir.actions.report,name:property_management.action_report_tenancy_by_property
+#: model:ir.ui.menu,name:property_management.menu_tenancy_property
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report1
+msgid "Tenancy By Property"
+msgstr "Contrato de alquiler por propiedad"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_report_property_management_report_tenancy_by_tenant
+#: model:ir.ui.menu,name:property_management.menu_tenancy_tenant
+msgid "Tenancy By Tenant"
+msgstr "Contrato de arrendamiento por parte del inquilino"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__contract_attachment
+msgid "Tenancy Contract"
+msgstr "Contrato de alquiler"
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_contract_expiry
+msgid "Tenancy Contract Expiary"
+msgstr "Expiración del contrato de alquiler"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report
+msgid "Tenancy Contract Expiary Report"
+msgstr "Informe de vencimiento del contrato de alquiler"
+
+#. module: property_management
+#: code:addons/property_management/wizard/contract_expiry_report.py:0
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#, python-format
+msgid "Tenancy Contract Expiry"
+msgstr "Expiración del contrato de alquiler"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__tenancy_ids
+#: model:ir.model.fields,help:property_management.field_tenant_partner__tenancy_ids
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_tree
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Tenancy Details"
+msgstr "Detalles del alquiler"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_tenant
+msgid "Tenancy Details By Tenant"
+msgstr "Detalles del alquiler por inquilino"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report
+msgid "Tenancy Expiary Report"
+msgstr "Informe de vencimiento del alquiler"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Tenancy Information"
+msgstr "Información sobre el alquiler"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__acc_pay_dep_ret_id
+msgid "Tenancy Manager"
+msgstr "Administrador del alquiler"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.analytic_kanban_view
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_tree
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+#: model_terms:ir.ui.view,arch_db:property_management.view_account_move_form_inherit_id
+msgid "Tenancy Name"
+msgstr "Nombre del alquiler"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_payment__tenancy_id
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__tenancy_id
+msgid "Tenancy Name."
+msgstr "Nombre del alquiler"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__tenancy_property_ids
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "Tenancy Property"
+msgstr "Propiedad en alquiler"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_tenancy_property_report
+msgid "Tenancy Property Report"
+msgstr "Informe de propiedad de arrendamiento"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "Tenancy Renew Wizard"
+msgstr "Asistente de renovación de arrendamiento"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__rent
+msgid "Tenancy Rent"
+msgstr "Renta"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_tenancy_rent
+#: model:ir.model,name:property_management.model_tenancy_rent_schedule
+#: model:ir.ui.menu,name:property_management.menu_tenancy_rent
+msgid "Tenancy Rent Schedule"
+msgstr "Horario de alquiler de tenencia"
+
+#. module: property_management
+#: code:addons/property_management/wizard/tenancy_property_report.py:0
+#, python-format
+msgid "Tenancy Report By Property"
+msgstr "Informe de tenencia por propiedad"
+
+#. module: property_management
+#: code:addons/property_management/wizard/tenancy_tenant_report.py:0
+#: model:ir.actions.act_window,name:property_management.action_tenant_report_tenancy
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_tenant_report
+#, python-format
+msgid "Tenancy Report By Tenant"
+msgstr "Informe de arrendamiento por arrendatario"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_tenancy_tenant_report
+msgid "Tenancy Tenant Report"
+msgstr "Informe de arrendatario"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_report_property_management_report_tenancy_by_property
+msgid "Tenancy by Property"
+msgstr "Tenencia por Propiedad"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_property_report1
+msgid "Tenancy by Property report"
+msgstr "Informe de tenencia por propiedad"
+
+#. module: property_management
+#: model:ir.actions.report,name:property_management.action_report_tenancy_by_tenant
+msgid "Tenancy by Tenant"
+msgstr "Tenencia por inquilino"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_tenant_report
+msgid "Tenancy by Tenant report"
+msgstr "Informe de arrendamiento por arrendatario"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__ten_date
+msgid "Tenancy contract creation date."
+msgstr "Fecha de creación del contrato de arrendamiento."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__date
+msgid "Tenancy contract end date."
+msgstr "Fecha de finalización del contrato de arrendamiento."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__date_start
+msgid "Tenancy contract start date ."
+msgstr "Fecha de inicio del contrato de arrendamiento."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__rent
+msgid "Tenancy rent for selected property per Month."
+msgstr "Renta de arrendamiento para la propiedad seleccionada por mes."
+
+#. module: property_management
+#: code:addons/property_management/models/tenancy_rent_schedule.py:0
+#, python-format
+msgid "Tenancy(Rent) Cost"
+msgstr "Costo de tenencia (alquiler)"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__tenant_id
+#: model:ir.model.fields,field_description:property_management.field_res_partner__tenant
+#: model:ir.model.fields,field_description:property_management.field_res_users__tenant
+#: model:ir.model.fields,field_description:property_management.field_tenancy_rent_schedule__rel_tenant_id
+#: model:ir.model.fields,field_description:property_management.field_tenancy_tenant_report__tenant_id
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__tenant
+msgid "Tenant"
+msgstr "Inquilino"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_search
+msgid "Tenant Company"
+msgstr "Empresa inquilina"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_tenant_detail_view
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__tenant_ids
+#: model:ir.ui.menu,name:property_management.menu_tenant_details_sub
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_tree
+msgid "Tenant Details"
+msgstr "Detalles del inquilino"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+#: model_terms:ir.ui.view,arch_db:property_management.report_contract_expiry
+#: model_terms:ir.ui.view,arch_db:property_management.report_tenancy_by_property
+msgid "Tenant Name"
+msgstr "Nombre del inquilino"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__tenant_id
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__rel_tenant_id
+msgid "Tenant Name of Tenancy."
+msgstr "Nombre del Contratop de Alquiler del inquilino"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_tenant_partner
+msgid "Tenant Partner"
+msgstr "Socio inquilino"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Tenant Rent in this month"
+msgstr "Alquiler del inquilino en este mes"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_property_analytic_view
+#: model:ir.ui.menu,name:property_management.menu_tenancy
+msgid "Tenant Tenancy"
+msgstr "Contrato de alquiler "
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_tenant_detail
+msgid "Tenants"
+msgstr "Inquilinos"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Tenencia"
+msgstr "Contrato de alquiler"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Terms & Conditions"
+msgstr "Términos y condiciones"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Terms and Conditions"
+msgstr "Términos y condiciones"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+"El Número de Identificación Fiscal. Complételo si el contacto está sujeto a "
+"impuestos gubernamentales. Se utiliza en algunas declaraciones legales."
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "The deposit amount must be strictly positive."
+msgstr "El monto del depósito debe ser estrictamente positivo."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_account_position_id
+msgid ""
+"The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+"La posición fiscal determina los impuestos/cuentas utilizadas para este "
+"contacto."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__website_url
+msgid "The full URL to access the document through the website."
+msgstr "La URL completa para acceder al documento a través del sitio web."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__user_id
+msgid "The internal user in charge of this contact."
+msgstr "El usuario interno a cargo de este contacto."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__has_unreconciled_entries
+msgid ""
+"The partner has at least one unreconciled debit and credit since last time "
+"the invoices & payments matching was performed."
+msgstr ""
+"El socio tiene al menos un débito y un crédito sin conciliar desde la última"
+" vez que se realizó la conciliación de facturas y pagos."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_stock_customer
+msgid ""
+"The stock location used as destination when sending goods to this contact."
+msgstr ""
+"Ubicación usada como destino cuando se envían mercancías a este contacto."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_stock_supplier
+msgid ""
+"The stock location used as source when receiving goods from this contact."
+msgstr ""
+"Ubicación usada como origen cuando se reciben mercancías a este contacto."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "This Month"
+msgstr "Este mes"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_account_payable_id
+msgid ""
+"This account will be used instead of the default one as the payable account "
+"for the current partner"
+msgstr ""
+"Esta cuenta se utilizará en lugar de la predeterminada como cuenta de pago "
+"para el socio actual"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_account_receivable_id
+msgid ""
+"This account will be used instead of the default one as the receivable "
+"account for the current partner"
+msgstr ""
+"Esta cuenta se utilizará en lugar de la predeterminada como cuenta por "
+"cobrar para el socio actual"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_purchase_currency_id
+msgid ""
+"This currency will be used, instead of the default one, for purchases from "
+"the current partner"
+msgstr ""
+"Esta moneda será usada, además de la moneda base, para realizar compras a "
+"este contacto."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__image
+msgid ""
+"This field holds the image used as logo for the brand, limited to "
+"1024x1024px."
+msgstr ""
+"Este campo contiene la imagen utilizada como logo de la marca, limitada a "
+"1024x1024px."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+"Este campo se usa para buscar en la dirección de correo electrónico, ya que "
+"el campo de correo electrónico principal puede contener más que "
+"estrictamente una dirección de correo electrónico."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_supplier_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
+msgstr ""
+"Este término de pago se utilizará en lugar del predeterminado para órdenes "
+"de compra y facturas de proveedores."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
+msgstr ""
+"Este término de pago se utilizará en lugar del predeterminado para órdenes "
+"de venta y facturas de clientes."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+"Esta lista de precios se utilizará, en lugar de la predeterminada, para las "
+"ventas al socio actual"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__tz
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__tz_offset
+msgid "Timezone offset"
+msgstr "Compensación de zona horaria"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_search_view
+msgid "Tipo de renta"
+msgstr "Tipo de renta"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__title
+msgid "Title"
+msgstr "Título"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_analytic_account__state__pending
+msgid "To Renew"
+msgstr "Para renovar"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__simulation
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Total Amount"
+msgstr "Cantidad total"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Total Credit"
+msgstr "Crédito total"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__total_credit_amt
+msgid "Total Credit Amount"
+msgstr "Cantidad de crédito total"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_form
+msgid "Total Debit"
+msgstr "Débito Total"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__total_debit_amt
+msgid "Total Debit Amount"
+msgstr "Monto de débito total"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__total_deb_cre_amt
+msgid "Total Expenditure"
+msgstr "Gasto total"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.report_income_expenditure
+msgid "Total Income :"
+msgstr "Ingresos totales :"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__total_invoiced
+msgid "Total Invoiced"
+msgstr "Total facturado"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__occupancy_rates
+msgid "Total Occupancy rate of Property."
+msgstr "Tasa de ocupación total de la propiedad."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__debit
+msgid "Total Payable"
+msgstr "Total a pagar"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__total_price
+msgid "Total Price"
+msgstr "Precio total"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__total_price
+msgid ""
+"Total Price of Property, \n"
+"Total Price = Unit Price *         GFA (Sqft)."
+msgstr ""
+"Precio total de la propiedad,\n"
+"Precio total = Precio unitario * Área (m2)."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_payment__amount_due
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__credit
+msgid "Total Receivable"
+msgstr "Total de cuentas por cobrar"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__total_rent
+#: model_terms:ir.ui.view,arch_db:property_management.analytic_kanban_view
+#: model_terms:ir.ui.view,arch_db:property_management.property_analytic_view_tree
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "Total Rent"
+msgstr "Alquiler total"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__credit
+msgid "Total amount this customer owes you."
+msgstr "Monto total que este cliente te debe."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Importe total que debe pagar a este proveedor."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__total_rent
+msgid "Total rent of this Tenancy."
+msgstr "Renta total de este Arrendamiento."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__township
+#: model_terms:ir.ui.view,arch_db:property_management.report_property_per_location1
+msgid "Township"
+msgstr "Municipio"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__deposit_received
+msgid "True if deposit amount received for current Tenancy."
+msgstr ""
+"Verdadero si se recibió el monto del depósito para el arrendamiento actual."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_analytic_account__deposit_return
+msgid "True if deposit amount returned for current Tenancy."
+msgstr ""
+"Verdadero si se devolvió el monto del depósito para el arrendamiento actual."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenancy_rent_schedule__paid
+msgid "True if this rent is paid by tenant"
+msgstr "Verdadero si esta renta la paga el inquilino"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_nearby_property__type
+#: model:ir.model.fields,field_description:property_management.field_room_assets__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_analytic_account__deposit_scheme_type
+msgid "Type of Scheme"
+msgstr "Tipo de esquema"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción registrada."
+
+#. module: property_management
+#: model:ir.ui.menu,name:property_management.menu_types_main
+msgid "Types"
+msgstr "Tipos"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__type_id
+msgid "Types of property."
+msgstr "Tipos de propiedad"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__unit_price
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__unit_price
+msgid "Unit Price Per Sqft."
+msgstr "Precio unitario por pie cuadrado."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenancy_rent_schedule_search
+msgid "Unpaid Tenant Rent"
+msgstr "Renta de inquilino no pagada"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leídos"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_res_users
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__user_ids
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__utility_ids
+msgid "Utilities"
+msgstr "Utilidades"
+
+#. module: property_management
+#: model:ir.model,name:property_management.model_utility
+#: model:ir.model.fields,field_description:property_management.field_property_utility__utility_id
+msgid "Utility"
+msgstr "Utilidad"
+
+#. module: property_management
+#: model:ir.actions.act_window,name:property_management.action_utility_view
+#: model:ir.ui.menu,name:property_management.menu_utility
+msgid "Utility Type"
+msgstr "Tipo de utilidad"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__currency_id
+msgid "Utility field to express amount currency"
+msgstr "Campo de utilidad para expresar cantidad moneda"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_stock_supplier
+msgid "Vendor Location"
+msgstr "Ubicación de proveedor"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr "Condiciones de pago del proveedor"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__video_url
+msgid "Video URL"
+msgstr "URL del vídeo"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__website_published
+msgid "Visible on current website"
+msgstr "Visible en el sitio web actual"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__visitor_ids
+msgid "Visitors"
+msgstr "Visitantes"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__website_id
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__website
+msgid "Website Link"
+msgstr "Enlace al sitio web"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__website_url
+msgid "Website URL"
+msgstr "URL del sitio web"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.extenal_layout_footer_r
+#: model_terms:ir.ui.view,arch_db:property_management.external_layout_footer_p
+msgid "Website:"
+msgstr "Sitio web:"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__rent_type__renttype__weekly
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_safety_certificate__weeks
+msgid "Weeks"
+msgstr "Semanas"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__account_asset_asset__facing__west
+msgid "West"
+msgstr "Oeste"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_account_asset_asset__state
+msgid ""
+"When an asset is created, the status is 'Draft'.\n"
+"If the asset is confirmed, the status goes in 'Running' and the depreciation lines can be posted in the accounting.\n"
+"You can manually close an asset when the depreciation is over. If the last line of depreciation is posted, the asset automatically goes in that status."
+msgstr ""
+"Cuando se crea un activo, el estado es 'Borrador'.\n"
+"Si se confirma el activo, el estado pasa a 'En ejecución' y las líneas de depreciación se pueden contabilizar en la contabilidad.\n"
+"Puede cerrar manualmente un activo cuando termine la depreciación. Si se registra la última línea de depreciación, el activo pasa automáticamente a ese estado."
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_tenant_partner__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+"Cuando se imprimen documentos y se exportan/importan datos, los valores de la hora se calculan según esta zona horaria.\n"
+"Si la zona horaria no está configurada, se utiliza el UTC (Tiempo Universal Coordinado).\n"
+"En cualquier otro caso, los valores de la hora se calculan según el desfase horario de su cliente web."
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_property_room__width
+msgid "Width"
+msgstr "Ancho"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_room_view_tree
+msgid "Width (m)"
+msgstr "Ancho (m)"
+
+#. module: property_management
+#: model:ir.model.fields.selection,name:property_management.selection__rent_type__renttype__yearly
+msgid "Yearly"
+msgstr "Anual"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.wizard_book_available_form_view
+msgid "Yes"
+msgstr "Sí"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid ""
+"You cannot delete Tenancy record, if any related Rent                     "
+"Schedule entries are in posted."
+msgstr ""
+"No puede eliminar el registro de tenencia si se han publicado entradas "
+"relacionadas con el programa de alquiler."
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "You cannot delete a tenancy record which is in \"%s\" state."
+msgstr ""
+"No puede eliminar un registro de tenencia que se encuentra en el estado "
+"\"%s\"."
+
+#. module: property_management
+#: code:addons/property_management/models/account_asset_asset.py:0
+#, python-format
+msgid "You cannot delete property which contract is in Progress or Booked."
+msgstr ""
+"No puede eliminar propiedades cuyo contrato está en Progreso o Reservado."
+
+#. module: property_management
+#: code:addons/property_management/models/tenant_partner.py:0
+#, python-format
+msgid "You cannot delete tenant while there are active tenant tenancy."
+msgstr ""
+"No puede eliminar un arrendatario mientras haya una tenencia de arrendatario"
+" activa."
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "ZIP"
+msgstr "Zip"
+
+#. module: property_management
+#: model:ir.model.fields,field_description:property_management.field_account_asset_asset__zip
+#: model:ir.model.fields,field_description:property_management.field_tenant_partner__zip
+msgid "Zip"
+msgstr "Zip"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_crm_make_contract
+#: model_terms:ir.ui.view,arch_db:property_management.view_crm_make_sale
+msgid "_Create"
+msgstr "_Crear"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.tenant_partner_kanban_view
+msgid "at"
+msgstr "en"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.property_tenant_view_form
+msgid "e.g. +32.81.81.37.00"
+msgstr "por ejemplo, +32.81.81.37.00"
+
+#. module: property_management
+#: model:ir.model.fields,help:property_management.field_crm_lead__email_send
+msgid "it is checked when email is send"
+msgstr "Se marca cuando se envía el correo electrónico"
+
+#. module: property_management
+#: model_terms:ir.ui.view,arch_db:property_management.view_crm_make_contract
+#: model_terms:ir.ui.view,arch_db:property_management.view_crm_make_sale
+#: model_terms:ir.ui.view,arch_db:property_management.view_renew_tenancy_wizard
+#: model_terms:ir.ui.view,arch_db:property_management.wizard_book_available_form_view
+msgid "or"
+msgstr "o"
+
+#. module: property_management
+#: code:addons/property_management/models/account_analytic_account.py:0
+#, python-format
+msgid "Deposit Received"
+msgstr "Deposito Recibido"
+
+#. module: custom_property
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "Get Location"
+msgstr "Obtener ubicación"
+
+#. module: custom_property
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "End of Cycle"
+msgstr "Fin de ciclo"

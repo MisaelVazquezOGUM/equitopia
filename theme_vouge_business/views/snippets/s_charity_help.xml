@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_charity_help" name="How To Help Them">
+		<section class="charity-help-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-lg-12 col-md-12">
+						<div class="help-content">
+							<div class="heading">
+								<h4>Lorem Ipsum</h4>
+								<h2>How To Help Them?</h2>
+							</div>
+							<div class="text">
+								<p>Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor. Proin vel hendrerit nibh. Phasellus non sapien sed magna venenatis</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-8 col-lg-12 col-md-12">
+						<div class="row">
+							<div class="col-lg-4 col-md-4">
+								<div class="help-feature">
+									<div class="help-image">
+										<a href="#">
+											<img src="/theme_vouge_business/static/src/img/charity-help1.png" class="img img-fluid"/>
+										</a>
+									</div>
+									<div class="help-content">
+										<h4>Give Love</h4>
+										<p>Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<div class="help-feature">
+									<div class="help-image">
+										<a href="#">
+											<img src="/theme_vouge_business/static/src/img/charity-help2.png" class="img img-fluid"/>
+										</a>
+									</div>
+									<div class="help-content">
+										<h4>Donations</h4>
+										<p>Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<div class="help-feature">
+									<div class="help-image">
+										<a href="#">
+											<img src="/theme_vouge_business/static/src/img/charity-help3.png" class="img img-fluid"/>
+										</a>
+									</div>
+									<div class="help-content">
+										<h4>Volunteering</h4>
+										<p>Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

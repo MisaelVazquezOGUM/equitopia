@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_care" name="Safety Care">
+		<section class="business-medical-services">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h2>What makes the Cure?</h2>
+							<p>Germs Free and Safety</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-4 col-xl-4 mb-4 ">
+						<div class="service-box">
+							<div class="service-image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/medical-difference1.jpg" />
+							</div>
+							<div class="service-info">
+								<h4>Thermometer</h4>
+								<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xl-4 mb-4 ">
+						<div class="service-box">
+							<div class="service-image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/medical-difference2.jpg" />
+							</div>
+							<div class="service-info">
+								<h4>Safety Kit</h4>
+								<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-xl-4 mb-4 ">
+						<div class="service-box">
+							<div class="service-image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/medical-difference3.jpg" />
+							</div>
+							<div class="service-info">
+								<h4>Medical Gloves</h4>
+								<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

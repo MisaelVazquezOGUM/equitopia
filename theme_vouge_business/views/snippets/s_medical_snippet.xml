@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_snippet" name="Medical">
+		<section class="s_medical_snippet">
+			<div class="oe_structure"/>
+			<section class="business-medical-home-banner">
+				<div id="business-medical-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/medical-banner2.jpg');">
+		            		<div class="container-fluid">
+		            			<div class="row position-relative">
+		            				<div class="col-md-8 col-8">
+		            					<div class="banner-content text-center">
+		            						<span>Safety First</span>
+		            						<h1 class="title1">Medical N95<br></br> Mask</h1>
+		            						<div class="s_btn" data-name="Button">
+		            							<a href="#" class="btn btn-medical bizople_button">Shop Now</a>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/medical-banner3.jpg');">
+		            		<div class="container-fluid">
+		            			<div class="row position-relative">
+		            				<div class="col-md-8 col-8 offset-md-4">
+		            					<div class="banner-content text-center">
+		            						<span>Home Equipments</span>
+		            						<h1 class="title1">Equipments For Anykind<br></br> of Emergency</h1>
+		            						<div class="s_btn" data-name="Button">
+		            							<a href="#" class="btn btn-medical bizople_button">View Collection</a>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/medical-banner1.jpg');">
+		            		<div class="container-fluid">
+		            			<div class="row position-relative justify-content-center">
+		            				<div class="col-md-8 col-8">
+		            					<div class="banner-content text-center">
+		            						<span>Medical Equipment's</span>
+		            						<h1 class="title1 text-dark">For Professional Doctor<br></br>&amp; Physician</h1>
+		            						<div class="s_btn" data-name="Button">
+		            							<a href="#" class="btn btn-medical bizople_button">View Products</a>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		          	</div>
+			        <div class="slider-control">
+	              		<a class="left carousel-control-prev text-white font-14" data-target="#business-medical-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-angle-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next text-white font-14" data-target="#business-medical-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-angle-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+	        	</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-features">
+				<div class="container">
+					<div class="row service-section ">
+						<div class="col-md-4 col-xl-4">
+							<div class="feature-box d-flex align-items-center">
+								<div class="service-image">
+									<span class="fa fa-truck"></span>
+								</div>
+								<div class="service-info">
+									<h2>Free Shipping</h2>
+									<p>For orders Above $20</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xl-4 ">
+							<div class="feature-box d-flex align-items-center">
+								<div class="service-image">
+									<span class="fa fa-percent"></span>
+								</div>
+								<div class="service-info">
+									<h2>Special Discounts</h2>
+									<p>Save Big on Every Purchase</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xl-4 ">
+							<div class="feature-box d-flex align-items-center">
+								<div class="service-image">
+									<span class="fa fa-home"></span>
+								</div>
+								<div class="service-info">
+									<h2>24/7 Helpline</h2>
+									<p>Call Anytime Anyday</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-services">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-8">
+							<div class="heading">
+								<h2>What makes the Cure?</h2>
+								<p>Germs Free and Safety</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-md-4 col-xl-4 mb-4 ">
+							<div class="service-box">
+								<div class="service-image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/medical-difference1.jpg" />
+								</div>
+								<div class="service-info">
+									<h4>Thermometer</h4>
+									<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xl-4 mb-4 ">
+							<div class="service-box">
+								<div class="service-image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/medical-difference2.jpg" />
+								</div>
+								<div class="service-info">
+									<h4>Safety Kit</h4>
+									<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-xl-4 mb-4 ">
+							<div class="service-box">
+								<div class="service-image">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/medical-difference3.jpg" />
+								</div>
+								<div class="service-info">
+									<h4>Medical Gloves</h4>
+									<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-prevent">
+				<div class="container-fluid">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-8">
+							<div class="heading">
+								<h2>Prevent The Spread Of Virus</h2>
+								<p>EXPLORE AND FIND RIGHT EQUIPMENTS</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div id="medical-prevent-carousel" class="carousel bs-slider slide  control-round indicators-line pt32" data-ride="carousel" data-pause="hover" data-interval="7000">
+				          	<div class="carousel-inner" role="listbox">
+				          		<div class="carousel-item active">
+					            	<div class="container-fluid">
+				            			<div class="row">
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            			</div>
+				            		</div>
+					            </div>
+					           <div class="carousel-item">
+					            	<div class="container-fluid">
+				            			<div class="row">
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            			</div>
+				            		</div>
+					            </div>
+					            <div class="carousel-item">
+					            	<div class="container-fluid">
+				            			<div class="row">
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center op-1">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            			</div>
+				            		</div>
+					            </div>
+					            <div class="carousel-item">
+					            	<div class="container-fluid">
+				            			<div class="row">
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            				<div class="col-lg-4 col-md-4 p-0 mb24">
+				            					<div class="text-center">
+				            						<div class="service-img op-1">
+				            							<img src="/theme_vouge_business/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+				            						</div>
+				            					</div>
+				            				</div>
+				            			</div>
+				            		</div>
+					            </div>
+				          	</div>
+				          	<div class="slider-control">
+			              		<a class="left carousel-control-prev text-white font-14" data-target="#medical-prevent-carousel" role="button" data-slide="prev">
+				                	<span class="fa fa-angle-left"/>
+				               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+				              	</a>
+				              	<a class="right carousel-control-next text-white font-14" data-target="#medical-prevent-carousel" role="button" data-slide="next">
+				                	<span class="fa fa-angle-right"/>
+				                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+				              	</a>
+				            </div>
+			        	</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-Durability">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-8">
+							<div class="heading">
+								<h2>Comfortable. Durable. Safe</h2>
+								<p>DURABLE &amp; SAFE FACE MASKS</p>
+							</div>
+						</div>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-md-3">
+							<div class="Durability-content text-left">
+								<div class="info">
+									<h4 class="title">Anti-Pollution</h4>
+									<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								</div>
+							</div>
+							<div class="Durability-content text-left">
+								<div class="info">
+									<h4 class="title">Virus Protect</h4>
+									<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/medical-mask.png" class="img img-fluid"/>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3">
+							<div class="Durability-content text-right">
+								<div class="info">
+									<h4 class="title t-right">Air Filter</h4>
+									<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								</div>
+							</div>
+							<div class="Durability-content text-right">
+								<div class="info">
+									<h4 class="title t-right">Strap Adjust</h4>
+									<p>Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-contamination parallax s_parallax_is_fixed">
+				<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/medical-basic-health.jpg'); background-position: 50% 0;"/>
+		        <div class="container">
+		            <div class="row s_nb_column_fixed justify-content-center">
+		                <div class="col-lg-8 col-md-8 s_title" data-name="Title">
+		                   <p>Protect against Deadly Virus</p>
+		                   <h2>Basic Germs and Virus Protection Set</h2>
+    						<div class="s_btn" data-name="Button">
+    							<a href="#" class="btn btn-medical bizople_button">View More</a>
+    						</div>
+		                </div>
+		            </div>
+		        </div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-Protection">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-8">
+							<div class="heading">
+								<h2>99%+ Germs Protection</h2>
+								<p>MEDICALLY TESTED AND CERTIFIED</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="content">
+								<h2>Top-Class Safety Equipments</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui. Proin gravida tristique gravida. Curabitur at neque aliquet, blandit sem eu, pulvinar urna.</p>
+								<p>Vestibulum non vestibulum dui. Proin gravida tristique gravida. Curabitur at neque aliquet, blandit sem eu, pulvinar urna. Morbi condimentum leo quam, vel feugiat mauris posuere et. Mauris vitae congue massa, in imperdiet lectus.</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/medical-equipment.jpg" class="img img-fluid"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-supplies" style="background-image: url('/theme_vouge_business/static/src/img/medical-branded.jpg');">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-8">
+							<div class="heading">
+								<h2>Certified Medical Supplies</h2>
+								<p>SPEND LESS SAVE MORE</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-4 col-md-4">
+							<section class="supplies-inner">
+								<div class="supplies-content">
+									<div class="number">
+										<span>1</span>
+									</div>
+									<h4>Vaccines</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+									<a href="#" class="btn btn-link">More about us <span class="fa fa-angle-right ml-2"/></a>
+								</div>
+							</section>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<section class="supplies-inner">
+								<div class="supplies-content">
+									<div class="number">
+										<span>2</span>
+									</div>
+									<h4>N95 Masks</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+									<a href="#" class="btn btn-link">More about us <span class="fa fa-angle-right ml-2"/></a>
+								</div>
+							</section>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<section class="supplies-inner">
+								<div class="supplies-content">
+									<div class="number">
+										<span>3</span>
+									</div>
+									<h4>PPI Kits</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+									<a href="#" class="btn btn-link">More about us <span class="fa fa-angle-right ml-2"/></a>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-innovative">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-8">
+							<div class="heading">
+								<h2>World Class Quality &amp; Feature</h2>
+								<p>PROTECTIVE KIT</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-4 col-md-4">
+							<div class="innovative-content">
+								<div class="content d-flex">
+									<div class="info text-right">
+										<h4>Safety Goggle</h4>
+										<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									</div>
+									<div class="icon">
+										<img class="img img-responsive"
+										src="/theme_vouge_business/static/src/img/medical-icons1.png" />
+									</div>
+								</div>
+							</div>
+							<div class="innovative-content">
+								<div class="content d-flex">
+									<div class="info text-right">
+										<h4>Surgical Cap</h4>
+										<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									</div>
+									<div class="icon">
+										<img class="img img-responsive"
+										src="/theme_vouge_business/static/src/img/medical-icons2.png" />
+									</div>
+								</div>
+							</div>
+							<div class="innovative-content">
+								<div class="content d-flex">
+									<div class="info text-right">
+										<h4>N95 Mask</h4>
+										<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									</div>
+									<div class="icon">
+										<img class="img img-responsive"
+										src="/theme_vouge_business/static/src/img/medical-icons3.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="image text-center">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/medical-doc.png" />
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="innovative-content">
+								<div class="content d-flex">
+									<div class="icon">
+										<img class="img img-responsive"
+										src="/theme_vouge_business/static/src/img/medical-icons4.png" />
+									</div>
+									<div class="info text-left">
+										<h4>Sanitizer</h4>
+										<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									</div>
+								</div>
+							</div>
+							<div class="innovative-content">
+								<div class="content d-flex">
+									<div class="icon">
+										<img class="img img-responsive"
+										src="/theme_vouge_business/static/src/img/medical-icons5.png" />
+									</div>
+									<div class="info text-left">
+										<h4>Medical Gloves</h4>
+										<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									</div>
+								</div>
+							</div>
+							<div class="innovative-content">
+								<div class="content d-flex">
+									<div class="icon">
+										<img class="img img-responsive"
+										src="/theme_vouge_business/static/src/img/medical-icons6.png" />
+									</div>
+									<div class="info text-left">
+										<h4>Saftey Boots</h4>
+										<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-images">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-8 col-md-8">
+							<div class="row">
+								<div class="image1 p-0">
+									<div class="content">
+										<div class="image">
+											<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/medical-gallary1.jpg" />
+											<div class="info">
+												<h6>Monthly Checkups</h6>
+												<h2>Protect Yourself From Deadly Germs</h2>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="image2 p-0">
+									<div class="content">
+										<div class="image">
+											<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/medical-gallary2.jpg" />
+											<div class="info">
+												<h6>Laboratory Testing Kits</h6>
+												<h2>Test Tubes</h2>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="image2 p-0">
+									<div class="content">
+										<div class="image">
+											<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/medical-gallary3.jpg" />
+											<div class="info">
+												<h6>Covid-19 Test</h6>
+												<h2>Test Tubes</h2>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="image1 p-0">
+									<div class="content">
+										<div class="image">
+											<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/medical-gallary4.jpg" />
+											<div class="info">
+												<h6>Investigating Small Organisms</h6>
+												<h2>Micro Biopsy</h2>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="row">
+								<div class="col-lg-12 p-0">
+									<div class="content">
+										<div class="image">
+											<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/medical-gallary5.jpg" />
+											<div class="info">
+												<h6>Disposable</h6>
+												<h2>Medical Masks</h2>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-accordian parallax s_parallax_is_fixed">
+				<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/medical-accordian.jpg');"/>
+		        <div class="container">
+		        	<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-8">
+							<div class="heading">
+								<h2>What our customers say about our products</h2>
+								<p>PROTECTION TO GERMS</p>
+							</div>
+						</div>
+					</div>
+		            <div class="row">
+		                <div class="col-lg-6 col-md-6 ml-auto">
+		                	<div class="collapse-accordion mt16 accordion" id="accordionExample">
+								<div class="card">
+									<div class="card-header">
+										<div class="card-title">
+											<a class="card-link" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1"> 
+									     	Medically Tested
+										     <span class="collapse-icons ml-auto float-right">
+			                                	<i class="fa fa-plus"></i>
+			                                	<i class="fa fa-minus"></i>
+			                                </span>
+											</a>
+										</div>
+									</div>
+									<div class="collapse show mt8" id="collapse1" data-parent="#accordionExample">
+										<p class=" content-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui.</p>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<div class="card-title">
+											<a class="card-link collapsed" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">Medically Certified
+										     <span class="collapse-icons ml-auto float-right">
+			                                	<i class="fa fa-plus"></i>
+			                                	<i class="fa fa-minus"></i>
+			                                </span>
+											</a>
+										</div>
+									</div>
+									<div class="collapse mt8" id="collapse2" data-parent="#accordionExample">
+										<p class=" content-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui.</p>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<div class="card-title">
+											<a class="card-link collapsed" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3"> World-Class Products
+										     <span class="collapse-icons ml-auto float-right">
+			                                	<i class="fa fa-plus"></i>
+			                                	<i class="fa fa-minus"></i>
+			                                </span>
+											</a>
+										</div>
+									</div>
+									<div class="collapse mt8" id="collapse3" data-parent="#accordionExample">
+										<p class=" content-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui.
+										</p>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<div class="card-title">
+											<a class="card-link collapsed" data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">99% Germs Free
+										     <span class="collapse-icons ml-auto float-right">
+			                                	<i class="fa fa-plus"></i>
+			                                	<i class="fa fa-minus"></i>
+			                                </span>
+											</a>
+										</div>
+									</div>
+									<div class="collapse mt8" id="collapse4" data-parent="#accordionExample">
+										<p class=" content-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui.
+										</p>
+									</div>
+								</div>
+							</div>
+		                </div>
+		            </div>
+		        </div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="business-medical-welcome">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-md-12">
+							<div class="heading">
+								<h2>Welcome to our 24/7 helpline service</h2>
+								<p>CALL ANY TIME ANY DAY WHEN YOU NEED HELP</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-12">
+							<div class="content-inner">
+								<div class="content-body d-flex">
+									<div class="content-img">
+										<span class="icon icon-Phone2 fa-4x"/>
+									</div>
+									<div class="content-info">
+										<h6>Make Appointment</h6>
+										<h2>Call Us Now</h2>
+										<p>This Number is Toll Free</p>
+										<p>+1 (650) 691-3277</p>
+										<div class="s_btn" data-name="Button">
+	            							<a href="#" class="btn btn-medical bizople_button">Know More <span class="fa fa-angle-right ml-2"/></a>
+	            						</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="content-inner">
+								<div class="content-body d-flex">
+									<div class="content-img">
+										<span class="icon icon-MessageRight fa-4x"/>
+									</div>
+									<div class="content-info">
+										<h6>Have any Query?</h6>
+										<h2>Talk TO Us Now</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis.</p>
+										<div class="s_btn" data-name="Button">
+	            							<a href="#" class="btn btn-medical bizople_button">Contact<span class="fa fa-angle-right ml-2"/></a>
+	            						</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+		</section>
+	</template>
+
+</odoo>

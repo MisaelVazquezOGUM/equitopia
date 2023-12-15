@@ -1,0 +1,27 @@
+<odoo>
+  <data>
+ <!--TREE-->
+  <record id="custom_property_sin_constraint_tree_inheriti" model="ir.ui.view">
+    <field name="name">custom_property_sin_constraint_tree.inheriti</field>
+    <field name="model">rent.type</field>
+    <field name="inherit_id" ref="property_management.rent_type_tree"/>
+    <field name="arch" type="xml">  
+    	 <xpath expr="//field[@name='sequence_in_view']" position="replace">      
+         </xpath>
+    </field>
+   </record>
+    <!--FORM-->
+
+     <record id="custom_property_sin_constraint_form_inheriti" model="ir.ui.view">
+    <field name="name">custom_property_sin_constraint_form.inheriti</field>
+    <field name="model">rent.type</field>
+    <field name="inherit_id" ref="property_management.rent_type_form"/>
+    <field name="arch" type="xml">  
+       <xpath expr="//field[@name='sequence_in_view']" position="replace">      
+         </xpath>
+    </field>
+   </record>
+
+  
+  </data>
+</odoo>

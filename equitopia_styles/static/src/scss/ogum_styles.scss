@@ -1,0 +1,891 @@
+$color--1: #01338c;
+$color--2: #012869;
+$color--3: #A1A588;
+$color--4: #f2f2f2;
+$color--5: #e9e9e9;
+$color--6: #f9f9f9;
+$kanban: #f9f9f9;
+$color--7: #2f2f2f;
+$color--8: #4bcff700;
+$color--9: #2b62c2;
+$color--10: #4c6fad;
+
+body{
+    background-color:#f9f9f9 !important;
+}
+html .o_web_client > .o_action_manager > .o_action{
+    background-color: #f9f9f9 !important;
+}
+
+.o_main_navbar{
+    // border-radius: 18px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow:  5px 5px 10px #bebebe,
+                 -5px -5px 10px #f9f9f9;
+    width: 100% !important;
+    margin: auto !important;
+    margin-top: 5px !important;
+    .o_menu_apps{
+        li{
+            background-color: #01338c !important;
+            // border-radius: 12px 0 0 12px;
+            a{
+                color: #f7f7f7;
+                &:hover{
+                    color: #f7f7f7;
+                    border-radius: 12px 0 0 12px;
+                    background-color: $color--7;
+                }
+            }
+            // Menu de APPS
+            .dropdown-menu{
+                margin-top: 12px !important;
+                .dropdown-item {
+                    width: 25% !important;
+                    img{
+                        border-radius: 100% !important;
+                    }
+                    span{
+                        color: #111111 !important;
+                        margin-top: 12px !important;
+                        padding: 2px;
+                        border-radius: 2px;
+                        width: 100% !important;
+                        text-align: center !important;
+                    }
+                }
+            }
+        }
+    }
+    .o_menu_brand{
+        // background-color: #e11d2b;
+        padding-left: 18px;
+        padding-right: 18px;
+        color: $color--2 !important;
+        // -webkit-clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+        // clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+        &:hover{
+            background-color: #ac363e;
+            color: #f7f7f7 !important;
+        }
+    }
+    .o_menu_sections li *{
+        color: $color--2;
+    }
+    .o_menu_sections li{
+        background: none !important;
+        border-bottom: 4px solid $color--8 !important;
+        &:hover{
+            border-bottom: 4px solid $color--1 !important;
+        }
+        .dropdown-menu{
+            margin-top: 5%;
+            border-radius: 12px;
+            // border: 2px solid $color--3;
+            background: #f2f2f2;
+            box-shadow:  5px 5px 9px #d1c3bd,
+                        -5px -5px 9px #f9f9f9;
+            a:hover{
+                background-color: $color--1 !important;
+                color: #f2f2f2 !important;
+                span{
+                    background: none !important;
+                    color: #f2f2f2 !important;
+                }
+            }
+            .dropdown-header{
+                background-color: $color--1;
+                span{
+                    color: $color--4;
+                }
+            }
+            a[role="menuitem"]{
+                width: 100% !important;
+            }
+        }
+    }
+    .o_menu_sections li a{
+        background: none !important;
+    }
+    .o_menu_systray{
+        li{
+            a{
+                color: $color--7 !important;
+            }
+        }
+    }
+    .o_menu_systray li a{
+        border-bottom: 4px solid $color--8 !important;
+        &:hover{
+            background: none !important;
+            color: $color--7;
+            border-bottom: 4px solid $color--1 !important;
+        }
+    }
+}
+
+.o_main_navbar .o_menu_systray .show .dropdown-toggle{
+    background: none !important;
+    a{
+        background-color: $color--1 !important;
+    }
+}
+
+.o_user_menu{
+    .dropdown-menu{
+        .dropdown-item{
+            width: 100% !important;
+            &:hover{
+                background-color: $color--1 !important;
+                border-bottom: 2px solid #00000000;
+                color: #f2f2f2 !important;
+            }
+        }
+    }
+}
+
+// Botones Primarios y secundarios
+.btn-primary{
+    background-color: $color--1 !important;
+    border-style: none;
+    border-radius: 1px;
+    padding: 8px !important;
+    &:hover{
+        background-color: $color--9 !important;
+    }
+}
+
+.o_button_import{
+    background-color: #A1A588 !important;
+    border-style: none;
+    border-radius: 1px;
+    padding: 8px !important;
+    &:hover{
+        background-color: #c4e2eb !important;
+    }
+}
+
+// Panel de herramientas
+.o_control_panel{
+    border-radius: 18px;
+    background: $kanban !important;
+    box-shadow:  5px 5px 10px #c9c5bb,
+                -5px -5px 10px #f9f9f9;
+    border: 1px solid #f2f2f2;
+    margin-top: 12px !important;
+    width: 98%;
+    margin: auto;
+    .o_form_statusbar{
+        background-color: #f9f9f9 !important;
+    }
+    .breadcrumb{
+        background: none !important;
+        .breadcrumb-item{
+            color: $color--2 !important;
+            padding: 2px;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+            font-size: 16px;
+            &:last-child::before{
+                content: "▶ ";
+                color: $color--9;
+                padding-right: 5px;
+                padding-left: 12px;
+            }
+        }
+    }
+    .o_cp_sidebar{
+        .o_dropdown_toggler_btn{
+            border-style: none;
+            background-color: $color--9;
+            color: $color--4;
+        }
+    }
+}
+
+.o_form_statusbar{
+    width: 98%;
+    margin: auto;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    background-color: #f9f9f9 !important;
+}
+
+button[title="Estado actual"]{
+    padding-left: 18px !important;
+    padding-right: 12px !important;
+    background-color: #dadada !important;
+}
+
+// Etiqueta de Búsqueda
+.o_searchview{
+    background: none !important;
+}
+.o_searchview_input{
+    background: none !important;
+    color: $color--2 !important;
+}
+.o_searchview_input_container{
+    border-style: none !important;
+    .o_searchview_facet{
+        padding: 4px !important;
+        border-radius: 4px;
+        background-color: $color--9 !important;
+        color: $color--4 !important;
+        .o_searchview_facet_label{
+            background: $color--9 !important;
+            border-style: none;
+            border-radius: 4px;
+        }
+    }
+}
+
+// Botones de acción
+.fa-download, .fa-bar-chart-o, .fa-area-chart, .fa-pie-chart, .fa-database{
+    border-radius: 6px;
+    background: #f2f2f2 !important;
+    box-shadow:  5px 5px 9px #f2f2f2,
+                -5px -5px 9px #f9f9f9;
+    &:hover{
+        background-color: #dfdfdf !important;
+    }
+}
+.o_cp_right{
+    border-radius: 6px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 12px #d7d7d7,
+             -5px -5px 12px #e9e9e9;
+    .active{
+        background: #e0e0e0;
+        box-shadow:  5px 5px 10px #bebebe,
+             -5px -5px 10px #ffffff;
+    }
+    .btn-secondary{
+        background-color: #f2f2f2;
+        border-style: none;
+        &:hover{
+            background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+        }
+        span:nth-child(1){
+            font-size: 16px;
+        }
+        .o_dropdown_menu{
+            .o_menu_item{
+                .dropdown-item{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+// Sidebar
+.mk_apps_sidebar_panel{
+    // width: 180px !important;
+    z-index: 150 !important;
+    margin-top: 12px;
+    border-radius: 0 8px 0 0;
+}
+
+.mk_apps_sidebar_panel *{
+    transition: all 0.1s ease !important;
+}
+.mk_apps_sidebar_panel{
+    // background-image: linear-gradient(to bottom, #f4f2ef, #f5f2f0, #f4f2f2, #f3f2f2, #f2f2f2);
+    // background-image: linear-gradient(to left bottom, #aa8d60, #b69b6d, #c3a97b, #cfb789, #dcc597, #ddc698, #dec799, #dfc89a, #d4bc8e, #c9b082, #bfa576, #b4996b);
+    background-image: linear-gradient(to right top, #01338c, #002f7f, #012c72, #032865, #062458);
+    box-shadow:  5px 5px 10px #c9c5bb,
+    -5px -5px 10px #f9f9f9;
+    li{  
+        border-bottom: 1px solid #0041b3 !important;
+        border-style: dashed !important;
+        a{
+            border-left: 5px solid #01338c !important;
+            &:hover{
+                // background-color: #0445b6 !important;
+                background-color: #f2f2f2 !important;
+                border-left: 5px solid #bb0722 !important;
+                span{
+                    // color: $color--4 !important;
+                    color: $color--1 !important;
+                    &::before{
+                        content: "▶ ";
+                        color: $color--1;
+                    }
+                }
+                img{
+                    -moz-transform: scale(1.7);
+                    -webkit-transform: scale(1.7);
+                    -o-transform: scale(1.7);
+                    -ms-transform: scale(1.7);
+                    transform: scale(1.7);
+                }
+            }
+            img{
+                margin-top: 4px !important;
+                border-radius: 100%;
+            }
+            span{
+                width: 90% !important;
+                color: $color--4;
+                padding-top: 4px;
+            }
+        }
+        
+    }
+}
+
+// Fondo general
+.o_action{
+    background-color: $color--6 !important;
+    width: 96%;
+    margin-left: auto;
+}
+
+// Vista Kanban
+.o_res_partner_kanban{
+    transition: all 0.1s ease !important;
+    .o_kanban_record{
+        border-radius: 18px;
+        background: $kanban;
+        box-shadow:  5px 5px 10px #c9c5bb,
+                    -5px -5px 10px #f9f9f9;
+        border: 1px solid #f2f2f2;
+        margin-top: 12px !important;
+        .o_kanban_image_fill_left{
+            border-radius: 8px 0 0 8px !important;
+            border-right: 2px solid $color--9;
+        }
+        * {
+            color: $color--1;
+        }
+        &:hover{
+            // background-color: $color--10 !important;
+            -moz-transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+        }
+    }    
+}
+
+.o_kanban_view{
+    background: none !important;
+    .o_kanban_header{
+        background-color: #f9f9f9 !important;
+        color: $color--1;
+        text-align: center;
+        .o_kanban_counter_progress{
+            border: 1px solid #ada591;
+            border-radius: 25px;
+        }
+    }
+    .dropdown-menu{
+        span, a{
+            color: $color--2 !important;
+        }
+    }
+    .oe_kanban_vignette{
+        border-radius: 18px;
+        background: $kanban;
+        box-shadow:  5px 5px 10px #c9c5bb,
+                    -5px -5px 10px #f9f9f9;
+        border: 1px solid #f2f2f2;
+        margin-top: 12px !important;
+        span, b{
+            color: $color--1;
+        }
+        .o_kanban_image{
+            transition: all 0.3s ease !important;
+            position: relative;
+            top: -25px;
+            width: 120px;
+            // border: 1px solid $color--2;
+            border-radius: 4px;
+            margin-right: 12px;
+            img{
+                border-radius: 4px;
+            }
+            &:hover{
+                -moz-transform: scale(1.5) translate(12px, 0px);
+                -webkit-transform: scale(1.5) translate(12px, 0px);
+                -o-transform: scale(1.5) translate(12px, 0px);
+                -ms-transform: scale(1.5) translate(12px, 0px);
+                transform: scale(1.5) translate(12px, 0px);
+            }
+        }
+    }
+}
+
+// Vista Lista
+.o_list_view{
+    .o_list_table tfoot{
+        background-color: rgb(207, 195, 163) !important;
+    }
+}
+
+.o_list_view tbody > tr.o_group_header{
+    background-image: linear-gradient(to left, #f5f5f5, #ededed, #e5e5e5, #dedede, #d6d6d6) !important;
+}
+
+.o_list_table{
+    margin-top: 2% !important;
+    width: 95%;
+    margin: auto;
+    thead{
+        position: sticky;
+        top: 0;
+        z-index: 100 !important;
+        tr{
+            th{
+                background-color: $color--10 !important;
+                color: $color--4 !important;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 12px;
+                font-weight: normal;
+            }
+        }
+    }
+    tbody{
+        tr:nth-child(even){
+            background-color: #e5f1f5 !important; 
+            border-style: none;
+        }
+        tr:nth-child(odd){
+            background-color: #f7f7f7 !important;
+            border-style: none;
+        }
+        tr:hover{
+            // background-image: linear-gradient(to right, $color--9, #369bb9, #2e86a1, #267288, #1f5e71);
+            background-color: #ececec !important;
+            color: $color--2 !important;
+        }
+    }
+}
+
+// Formulario
+.o_form_sheet_bg{
+    background-color: #f9f9f9 !important;
+}
+
+.o_form_sheet{
+    border-radius: 18px;
+    background: #f5f2f2 !important;
+    // box-shadow:  5px 5px 10px #c9c5bb,
+                // -5px -5px 10px #f9f9f9 !important;
+    border: 1px solid #9ca6b9;
+    width: 80% !important;
+    margin-top: 25px !important;
+    margin: auto;
+}
+.o_form_view{
+    input, select, .o_field_number{
+        border-radius: 5px !important;
+        // padding-left: 12px;
+        // padding-right: 12px;
+        // box-shadow:  5px 5px 5px #ebe8e8,
+            // -5px -5px 5px #fffcfc;
+        border: 1px solid #9ca6b9;
+    }
+    label{
+        color: $color--1 !important;
+    }
+    .oe_button_box *{
+        color: $color--1 !important;
+    }
+    .nav-item{
+        .active{
+            background-color: #ac363e !important;
+            color: $color--4 !important;
+        }
+        a{
+            color: $color--1;
+        }
+    }
+    img{
+        transition: all 0.3s ease !important;
+        position: relative;
+        top: 25px;
+        width: 150px;
+        border: 1px solid $color--2;
+        border-radius: 4px;
+        margin-right: 12px;
+        img{
+            border-radius: 4px;
+        }
+        &:hover{
+            -moz-transform: scale(1.9);
+            -webkit-transform: scale(1.9);
+            -o-transform: scale(1.9);
+            -ms-transform: scale(1.9);
+            transform: scale(1.9);
+            -moz-transform: scale(1.9) translate(12px, 0px);
+            -webkit-transform: scale(1.9) translate(12px, 0px);
+            -o-transform: scale(1.9) translate(12px, 0px);
+            -ms-transform: scale(1.9) translate(12px, 0px);
+            transform: scale(1.9) translate(12px, 0px);
+        }
+    }
+    .o_horizontal_separator{
+        color: $color--1 !important;
+    }
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: $color--9 $color--6;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    // background: #e2cdc5;
+    border-radius: 33px;
+    background: #dccdc6;
+    box-shadow: inset 5px 5px 5px #bbaea8,
+                inset -5px -5px 5px #fdece4;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: $color--9;
+    border-radius: 10px;
+    border: 3px solid $color--6;
+  }
+
+//   Conversaciones
+.o_mail_discuss{
+    width: 98% !important;
+    height: 400px !important;
+    margin-top: 18px !important;
+    margin-bottom: 12px !important;
+    margin: auto;
+    border-radius: 18px 18px 18px 18px !important;
+    box-shadow:  5px 5px 10px #c9c5bb,
+                -5px -5px 10px #f9f9f9 !important;
+    border: 1px solid #f2f2f2;
+    .o_mail_thread_content{
+        .o_thread_message_core{
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            color: #202020 !important;
+            -webkit-box-shadow: 0px 5px 15px -2px rgba(0,0,0,0.27); 
+            box-shadow: 0px 5px 15px -2px rgba(0,0,0,0.27);
+            .o_mail_info {
+                color: #dadada !important;
+            }
+        }
+    }
+}
+.o_mail_thread{
+    background-color: #f4f2f1 !important;
+    width: 100% !important;
+    border-left: 1px solid #a0b482;
+    margin: auto;
+}
+.o_mail_discuss_sidebar{
+    background-image: linear-gradient(to bottom, #f4f2ef, #f5f2f0, #f4f2f2, #f3f2f2, #f2f2f2);
+    box-shadow:  5px 5px 10px #c9c5bb,
+    -5px -5px 10px #f9f9f9;
+    .o_mail_discuss_title_main, .o_mail_discuss_item{
+        &:hover{
+            background-color: #01338c !important;
+            span{
+                color: $color--4 !important;
+            }
+        }
+    }
+    .o_active{
+        background-color: #01338c !important;
+        span{
+            color: $color--4 !important;
+        }
+    }
+    span, b{
+        color: $color--1 !important;
+    }
+}
+
+// Configuración
+.oe_form_configuration{
+    background-color: #f9f9f9 !important;
+    border-radius: 18px !important;
+}
+.o_setting_container{
+    width: 98% !important;
+    height: 400px !important;
+    margin-top: 18px !important;
+    margin-bottom: 12px !important;
+    margin: auto;
+    border-radius: 18px 18px 18px 18px !important;
+    box-shadow:  5px 5px 10px #c9c5bb,
+                -5px -5px 10px #f9f9f9 !important;
+    border: 1px solid #f2f2f2;
+}
+.app_settings_block{
+    h2{
+        background-color: #3063bb !important;
+        color: $color--4 !important;
+    }
+    .btn-link{
+        color: $color--1 !important;
+        span{
+            text-decoration: underline;
+        }
+    }
+}
+.settings_tab{
+    background-image: linear-gradient(to bottom, #f4f2ef, #f5f2f0, #f4f2f2, #f3f2f2, #f2f2f2) !important;
+    .selected{
+        background-color: #01338c !important;
+        span{
+            color: $color--4 !important;
+        }
+    }
+    .tab{
+        &:hover{
+            background-color: #01338c !important;
+            span{
+                color: $color--4 !important;
+            }
+        }
+    }
+    span{
+        color: $color--1 !important;
+    }
+}
+
+// Buscador Show Menu
+.dropdown-menu{
+    .mk_search_container{
+        .mk_search_input{
+            .input-group{
+                .input-group-text{
+                    border-radius: 100% !important;
+                    margin-right: 12px;
+                }
+                input[type=text]{
+                    border-radius: 25px !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .dropdown-menu{
+        .dropdown-item {
+            width: 50% !important;
+            img{
+                border-radius: 100% !important;
+            }
+            span{
+                color: #111111 !important;
+                margin-top: 12px !important;
+                padding: 2px;
+                border-radius: 2px;
+                width: 100% !important;
+                text-align: center !important;
+            }
+        }
+    }
+}
+
+// Apps
+.o_modules_kanban{
+    .o_kanban_record{
+        border-radius: 18px;
+        background: $kanban;
+        box-shadow:  5px 5px 10px #c9c5bb,
+                    -5px -5px 10px #f9f9f9;
+        border: 1px solid #f2f2f2;
+        margin-top: 15px !important;
+        img{
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px -3px rgba(0,0,0,0.1);
+        }
+        span{
+            color: $color--10;
+        }
+    }
+}
+
+// div[data-id="car.repair"]{
+//     .o_kanban_header{
+//         display: none !important;
+//     }
+// }
+
+// Proyecto
+.o_project_kanban{
+    .o_kanban_record{
+        border-radius: 18px;
+        background: $kanban;
+        box-shadow:  5px 5px 10px #c9c5bb,
+                    -5px -5px 10px #f9f9f9;
+        border: 1px solid #f2f2f2;
+        span, a{
+            color: $color--1 !important;
+        }
+    }
+    .dropdown-menu{
+        span, a{
+            color: $color--2 !important;
+        }
+    }
+}
+
+.o_kanban_project_tasks{
+    .oe_kanban_card{
+        border-radius: 18px;
+        background: $kanban;
+        box-shadow:  5px 5px 10px #c9c5bb,
+                    -5px -5px 10px #f9f9f9;
+        border: 1px solid #f2f2f2;
+        span, a{
+            color: $color--1 !important;
+        }
+    }
+}
+
+// Inventario
+.o_stock_kanban{
+    .o_kanban_record{
+        border-radius: 18px;
+        background: $kanban;
+        box-shadow:  5px 5px 10px #c9c5bb,
+                    -5px -5px 10px #f9f9f9;
+        border: 1px solid #f2f2f2;
+        margin-top: 12px;
+        span, a{
+            color: $color--1 !important;
+        }
+        .btn-primary *{
+            color: #f9f9f9 !important;
+        }
+    }
+    .dropdown-menu{
+        span, a{
+            color: $color--2 !important;
+        }
+    }
+}
+
+// Chatter
+.o_chatter_topbar{
+    button{
+        color: $color--2 !important;
+    }
+    button:nth-child(1){
+        border-radius: 25px !important;
+        border: 2px solid $color--1;
+    }
+}
+
+.o_mail_thread_content{
+    .o_mail_not_discussion{
+        border-radius: 18px;
+        background: $kanban;
+        box-shadow:  5px 5px 10px #c9c5bb,
+                    -5px -5px 10px #f9f9f9;
+        border: 1px solid #f2f2f2;
+        p, td, span, li, i{
+            color: $color--1 !important;
+        }
+        span{
+            margin-top: 5px;
+            font-style: italic !important;
+        }
+        p{
+            margin-bottom: 12px;
+        }
+    }
+}
+
+// Facturación
+.o_kanban_dashboard{
+    .o_kanban_record{
+        border-radius: 18px;
+        background: $kanban;
+        box-shadow:  5px 5px 10px #c9c5bb,
+                    -5px -5px 10px #f9f9f9;
+        border: 1px solid #f2f2f2;
+        margin-top: 12px;
+        span, a{
+            color: $color--1;
+        }
+        button{
+            span{
+                color: $kanban !important;
+            }
+        }
+    }
+}
+
+// Chat
+.o_thread_window{
+    margin-bottom: 25px;
+    margin-right: 35px !important;
+    border-radius: 35px;
+    -webkit-box-shadow: 0px 5px 15px -2px rgba(0,0,0,0.27); 
+    box-shadow: 0px 5px 15px -2px rgba(0,0,0,0.27);
+    .o_thread_window_header{
+        background-color: #bb0722;
+        border-radius: 25px 25px 0 0;
+        padding: 12px;
+    }
+    .o_mail_thread{
+        width: 100% !important;
+        background-color: #f5f5f5 !important;
+    }
+    .o_thread_message_core{
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        color: #202020 !important;
+        -webkit-box-shadow: 0px 5px 15px -2px rgba(0,0,0,0.27); 
+        box-shadow: 0px 5px 15px -2px rgba(0,0,0,0.27);
+        .o_mail_info {
+            color: #dadada !important;
+        }
+    }
+}
+
+// Modal
+.modal-content{
+    border-radius: 6px !important;
+    background: #fff8f6;
+}
+
+// Productos
+.oe_kanban_global_click{
+    border-radius: 18px;
+    background: $kanban !important;
+    box-shadow:  5px 5px 10px #c9c5bb,
+                -5px -5px 10px #f9f9f9;
+    border: 1px solid #f2f2f2;
+    margin-top: 12px;
+    span, a{
+        color: $color--1 !important;
+    }
+}
+
+img[name="icon_name"]{
+    width: 15px !important;
+    top: 0 !important;
+    &:hover{
+        transform: none !important;
+    }
+}

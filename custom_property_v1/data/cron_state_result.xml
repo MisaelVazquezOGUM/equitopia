@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="update_state_res_mensual" model="ir.cron">
+     <field name="name">Actualizar Estado de Resultados mensual</field>
+     <field name="interval_number">1</field>     
+     <field name="interval_type">days</field>     
+     <field name="numbercall">-1</field> 
+     <field name="model_id" ref='model_estado_result'/> 
+     <field name="nextcall" >2022-12-01 08:59:59</field>  <!--el sistema resta 6hrs, no se porque...  pero esto se ejecuta a las 3am o 2:59am-->
+     <field name="priority">2</field>
+     <field name="code">
+       model.update_record()
+     </field>
+   </record>
+</odoo>

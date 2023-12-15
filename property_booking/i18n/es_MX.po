@@ -1,0 +1,1596 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* property_booking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-18 20:22+0000\n"
+"PO-Revision-Date: 2022-08-18 20:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__entry_count
+msgid "# Asset Entries"
+msgstr "# Entradas de activos"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__video_url
+msgid "//www.youtube.com/embed/mwuPTI8AT7M?rel=0"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__ten_year_roi
+msgid "10 year ROI"
+msgstr "Retorno de la inversión en 10 años"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__ten_year_roi
+msgid "10 year Return of Investment."
+msgstr "Retorno de la inversión en 10 años."
+
+#. module: property_booking
+#: model:ir.model.fields.selection,name:property_booking.selection__property_created__prefix3__4
+msgid "10001"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields.selection,name:property_booking.selection__property_created__prefix3__3
+msgid "1001"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields.selection,name:property_booking.selection__property_created__prefix3__2
+msgid "101"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_created_kanban_view
+msgid ""
+"<b>Address :\n"
+"                                                </b>"
+msgstr ""
+msgid ""
+"<b>Dirección :\n"
+"                                                </b>"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_created_kanban_view
+msgid ""
+"<b>Furnishing :\n"
+"                                                    </b>"
+msgstr ""
+" <b>Amueblamiento :\N -"
+"                                                    </b>"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_created_kanban_view
+msgid ""
+"<b>Type :\n"
+"                                                    </b>"
+msgstr ""
+"<b>Tipo :\n"
+"                                                    </b>"
+
+
+#. module: property_booking
+#: model:ir.model.fields.selection,name:property_booking.selection__property_created__prefix3__1
+msgid "ABCD"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__note
+msgid "Additional Notes."
+msgstr "Notas adicionales."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__account_analytic_id
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__analytic_tag_ids
+msgid "Analytic Tag"
+msgstr "Etiqueta analítica"
+
+#. module: property_booking
+#: model:ir.model,name:property_booking.model_account_asset_asset
+msgid "Asset"
+msgstr "Activo"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__name
+msgid "Asset Name"
+msgstr "Nombre del activo"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_attachment_count
+msgid "Attachment Count"
+msgstr "Cantidad de adjuntos"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__no_avl
+msgid "Available"
+msgstr "Disponible"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_account_asset_asset__available_property
+#: model:ir.model.fields,field_description:property_booking.field_property_created__available_property
+msgid "Available Property"
+msgstr "Propiedad Disponible"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__sales_rates
+msgid "Average Sale/Lease price from property phase per Month."
+msgstr "Precio medio de venta/arrendamiento de la fase inmobiliaria por mes."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__operational_costs
+msgid "Average of total operational budget and total rent."
+msgstr "Media del presupuesto operativo total y del alquiler total."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__bathroom
+msgid "Bathrooms"
+msgstr "Baños"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__bedroom
+msgid "Bedrooms"
+msgstr "Recámaras"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_account_asset_asset__book_property
+#: model:ir.model.fields,field_description:property_booking.field_property_created__book_property
+msgid "Book"
+msgstr "Libro"
+
+#. module: property_booking
+#: model:ir.ui.menu,name:property_booking.menu_create_property2
+msgid "Book Property"
+msgstr "Reservar Propiedad"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "C.P."
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Calle 2..."
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Calle..."
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.merge_property_view
+#: model_terms:ir.ui.view,arch_db:property_booking.property_parent_merge_wizard_view
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_wizard_form_view
+#: model_terms:ir.ui.view,arch_db:property_booking.view_wizz_wizz_wizard
+msgid "Cancel"
+msgstr "Cancelado"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__category_id
+msgid "Category"
+msgstr "Categoria"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__change_lable
+msgid "Change Label"
+msgstr "Cambiar etiqueta"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_sub_wizard__is_other
+msgid "Check if it is other property."
+msgstr "Comprueba si se trata de otra propiedad."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__child_ids
+msgid "Children Assets"
+msgstr "Activos de los hijos"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__method
+msgid ""
+"Choose the method to use to compute the amount of depreciation lines.\n"
+"  * Linear: Calculated on basis of: Gross Value / Number of Depreciations\n"
+"  * Degressive: Calculated on basis of: Residual Value * Degressive Factor"
+msgstr ""
+"Elija el método a utilizar para calcular el importe de las líneas de amortización.\n"
+"  * Lineal: Se calcula en base a: Valor bruto / Número de amortizaciones\n"
+"  * Degresivo: Calculado en base a: Valor Residual * Factor Degresivo"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__method_time
+msgid ""
+"Choose the method to use to compute the dates and number of entries.\n"
+"  * Number of Entries: Fix the number of entries and the time between 2 depreciations.\n"
+"  * Ending Date: Choose the time between 2 depreciations and the date the depreciations won't go beyond."
+msgstr ""
+"Elija el método a utilizar para calcular las fechas y el número de entradas.\n"
+"  * Número de entradas: Fije el número de entradas y el tiempo entre 2 amortizaciones.\n"
+"  * Fecha de finalización: Escoja el tiempo entre 2 depreciaciones y la fecha que las depreciaciones no pasarán."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__city
+msgid "City"
+msgstr "Ciudad"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Ciudad"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.actions.act_window,help:property_booking.action_create_property2
+msgid "Click to create Property Booking."
+msgstr "Haga clic para crear una reserva de propiedad."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_label__code
+msgid "Code"
+msgstr "Código"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_label__code
+msgid "Code For BHK"
+msgstr "Código para "
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_label_form
+msgid "Codigo para la etiqueta"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__color
+msgid "Color"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__method
+msgid "Computation Method"
+msgstr "Método de cálculo"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__construction_cost
+msgid "Construction Cost"
+msgstr "Coste de construcción"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__contact_id
+msgid "Contact Name"
+msgstr "Nombre de contacto"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Crear sub propiedad"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_merge_property_wizard__create_uid
+#: model:ir.model.fields,field_description:property_booking.field_property_created__create_uid
+#: model:ir.model.fields,field_description:property_booking.field_property_label__create_uid
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__create_uid
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__create_uid
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_merge_property_wizard__create_date
+#: model:ir.model.fields,field_description:property_booking.field_property_created__create_date
+#: model:ir.model.fields,field_description:property_booking.field_property_label__create_date
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__create_date
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__create_date
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__current_tenant_id
+msgid "Current Tenant"
+msgstr "Inquilino actual"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_label_tree
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_label_form
+msgid "Código"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__method_progress_factor
+msgid "Degressive Factor"
+msgstr "Factor Degresivo"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_created_kanban_view
+msgid "Delete"
+msgstr "Borrar"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__date_first_depreciation
+msgid "Depreciation Dates"
+msgstr "Fechas de amortización"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__depreciation_line_ids
+msgid "Depreciation Lines"
+msgstr "Líneas de amortización"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Descartar Subpropiedad"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Dirección"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_merge_property_wizard__display_name
+#: model:ir.model.fields,field_description:property_booking.field_property_created__display_name
+#: model:ir.model.fields,field_description:property_booking.field_property_label__display_name
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__display_name
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__display_name
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Disponible"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__contract_attachment_ids
+msgid "Document"
+msgstr "Documento"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_created_kanban_view
+msgid "Edit"
+msgstr "Editar"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Editar Subpropiedad"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "En arrendamiento"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__method_end
+msgid "Ending Date"
+msgstr "Fecha de finalización"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__account_move_ids
+msgid "Entries"
+msgstr "Entradas"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Estado"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_label_tree
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_property_created_tree
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_label_form
+msgid "Etiqueta"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__expense_account_id
+msgid "Expense Account"
+msgstr "Cuenta de gastos"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__expense_account_id
+msgid "Expense Account of Property."
+msgstr "Cuenta de gastos de la propiedad."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__facing
+msgid "Facing"
+msgstr "Frente a"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_wizz_wizz_wizard
+msgid "Filter"
+msgstr "Filtrar"
+
+#. module: property_booking
+#: code:addons/property_booking/models/property_booking.py:0
+#, python-format
+msgid "Filter Wizard"
+msgstr "Asistente de filtrado"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__first_depreciation_manual_date
+msgid "First Depreciation Date"
+msgstr "Primera fecha de amortización"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__floor
+msgid "Floor"
+msgstr "Piso"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__floor
+msgid "Floor No."
+msgstr "N° de piso"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__floor_plans_ids
+msgid "Floor Plans "
+msgstr "Planos del piso"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__floor_number
+msgid "Floor no"
+msgstr "N° de piso"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: property_booking
+#: model:ir.model.fields.selection,name:property_booking.selection__sub_wizard__furnish__full_furnished
+msgid "Full Furnished"
+msgstr "Completamente amueblado"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__furnished
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__furnish
+msgid "Furnishing"
+msgstr "Amueblado"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__furnished
+#: model:ir.model.fields,help:property_booking.field_sub_wizard__furnish
+msgid "Furnishing."
+msgstr "Amueblado"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__gfa_feet
+msgid "GFA(Sqft)"
+msgstr "Área (p2)"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__gfa_meter
+msgid "GFA(m)"
+msgstr "Área (m2)"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__value
+msgid "Gross Value"
+msgstr "Valor bruto"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__gfa_meter
+msgid "Gross floor area in Meter."
+msgstr "Superficie bruta en metros."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__gfa_feet
+msgid "Gross floor area in Square feet."
+msgstr "Superficie bruta en pies cuadrados."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__ground_rent
+msgid "Ground Rent"
+msgstr "Alquiler del terreno"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Ground rent"
+msgstr "Alquiler del terreno"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__ground_rent
+msgid "Ground rent of Property."
+msgstr "Alquiler de terreno de la propiedad."
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Group By..."
+msgstr "Agupar por"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_merge_property_wizard__id
+#: model:ir.model.fields,field_description:property_booking.field_property_created__id
+#: model:ir.model.fields,field_description:property_booking.field_property_label__id
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__id
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__id
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__message_needaction
+#: model:ir.model.fields,help:property_booking.field_property_created__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcada, los nuevos mensajes requieren su atención."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__message_has_error
+#: model:ir.model.fields,help:property_booking.field_property_created__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcada, algunos mensajes tienen un error de entrega."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__income_acc_id
+msgid "Income Account"
+msgstr "Cuenta de ingresos"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__income_acc_id
+msgid "Income Account of Property."
+msgstr "Cuenta de ingresos de la propiedad."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__prorata
+msgid ""
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the asset date (purchase date) instead of the first January / Start "
+"date of fiscal year"
+msgstr ""
+"Indica que el primer asiento de amortización para este activo debe "
+"realizarse a partir de la fecha del activo (fecha de compra) en lugar del "
+"primer enero / fecha de inicio del año fiscal"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__property_insurance_ids
+msgid "Insurance"
+msgstr "Seguros"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__invoice_id
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_is_follower
+msgid "Is Follower"
+msgstr "Es seguidor"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__is_other
+msgid "Is Shop"
+msgstr "Es la tienda"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Is una Sub Propiedad?"
+msgstr "¿Es una sub propiedad?"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__salvage_value
+msgid "It is the amount you plan to have that you cannot depreciate."
+msgstr "Es la cantidad que se prevé tener y que no se puede amortizar."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_account_asset_asset__available_property
+#: model:ir.model.fields,help:property_booking.field_property_created__available_property
+msgid "It shows how many properties are available"
+msgstr "Muestra el número de propiedades disponibles"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_account_asset_asset__book_property
+#: model:ir.model.fields,help:property_booking.field_property_created__book_property
+msgid "It shows how many properties are booked"
+msgstr "Muestra el número de propiedades reservadas"
+
+#. module: property_booking
+#: model:ir.actions.act_window,name:property_booking.action_property_label
+#: model:ir.ui.menu,name:property_booking.menu_property_label2
+msgid "Label"
+msgstr "Etiqueta"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__lable_bool
+msgid "Label Boolean"
+msgstr "Etiqueta Booleana"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_account_asset_asset__label_id
+#: model:ir.model.fields,field_description:property_booking.field_property_created__label_id
+msgid "Label Name"
+msgstr "Nombre de la etiqueta"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_merge_property_wizard____last_update
+#: model:ir.model.fields,field_description:property_booking.field_property_created____last_update
+#: model:ir.model.fields,field_description:property_booking.field_property_label____last_update
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard____last_update
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard____last_update
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_merge_property_wizard__write_uid
+#: model:ir.model.fields,field_description:property_booking.field_property_created__write_uid
+#: model:ir.model.fields,field_description:property_booking.field_property_label__write_uid
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__write_uid
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__write_uid
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_merge_property_wizard__write_date
+#: model:ir.model.fields,field_description:property_booking.field_property_created__write_date
+#: model:ir.model.fields,field_description:property_booking.field_property_label__write_date
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__write_date
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__write_date
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__write_date
+msgid "Last Updated on"
+msgstr "Actualizado el"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__latitude
+msgid "Latitude"
+msgstr "Latitud"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__latitude
+msgid "Latitude of the place."
+msgstr "Latitud del lugar."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__image
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__longitude
+msgid "Longitude"
+msgstr "Longitud"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__longitude
+msgid "Longitude of the place."
+msgstr "Longitud del lugar"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjunto principal"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__main_property_id
+msgid "Main Property"
+msgstr "Propiedad principal"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__maint_account_id
+msgid "Maintenance Account"
+msgstr "Cuenta de mantenimiento"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_parent_merge_wizard_view
+msgid "Merge"
+msgstr "Fusionar"
+
+#. module: property_booking
+#: model:ir.actions.act_window,name:property_booking.action_property_mergeing
+#: model_terms:ir.ui.view,arch_db:property_booking.merge_property_view
+#: model_terms:ir.ui.view,arch_db:property_booking.property_parent_merge_wizard_view
+msgid "Merge Properties"
+msgstr "Fusión de propiedades"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.merge_property_view
+msgid "Merge Properties Which are in draft Status"
+msgstr "Fusionar propiedades que están en estado de borrador"
+
+#. module: property_booking
+#: code:addons/property_booking/models/property_booking.py:0
+#, python-format
+msgid "Merge Property"
+msgstr "Fusionar la propiedad"
+
+#. module: property_booking
+#: model:ir.model,name:property_booking.model_merge_property_wizard
+msgid "Merge properties"
+msgstr "Fusión de propiedades"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_has_error
+msgid "Message Delivery error"
+msgstr "Error en la entrega del mensaje"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Mezclar Sub Propiedad"
+msgstr "Fusionar sub propiedad"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Municipio..."
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_account_asset_asset__label_id
+#: model:ir.model.fields,help:property_booking.field_property_created__label_id
+msgid "Name Of Label For Ex. 1-BHK , 2-BHK etc."
+msgstr "Nombre de la etiqueta Por Ej. 1-BHK , 2-BHK etc."
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_wizard_form_view
+msgid "Name Of Property"
+msgstr "Nombre de la propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__nearby_ids
+msgid "Nearest Property"
+msgstr "Propiedad más cercana"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_account_asset_asset__new_child_ids
+#: model:ir.model.fields,field_description:property_booking.field_property_created__new_child_ids
+msgid "New Children Assets"
+msgstr "Nuevos activos para los hijos"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__name_prop_name
+msgid "New Name Of Property"
+msgstr "Nuevo Nombre de la Propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_sub_wizard__name_prop_name
+msgid "New Name Of Property."
+msgstr "Nuevo Nombre de la Propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__no_of_towers
+msgid "No of Towers"
+msgstr "Número de Edificios"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_label_tree
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_label_form
+msgid "Nombre"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_label_form
+msgid "Nombre de BHK"
+msgstr "Nombre de la habitación"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_label_form
+msgid "Nombre de etiqueta:"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Nombre del dueño"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields.selection,name:property_booking.selection__sub_wizard__furnish__none
+msgid "None"
+msgstr "Ninguno"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__first_depreciation_manual_date
+msgid ""
+"Note that this date does not alter the computation of the first journal "
+"entry in case of prorata temporis assets. It simply changes its accounting "
+"date"
+msgstr ""
+"Obsérvese que esta fecha no altera el cómputo del primer diario "
+" en el caso de los activos prorata temporis. Simplemente cambia su fecha de contabilización "
+"fecha"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__note
+msgid "Notes"
+msgstr "Notas"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__floor_count
+msgid "Number Of Floor"
+msgstr "Número de Piso"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Number Of Floors"
+msgstr "Número de Pisos"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_wizard__floor_count
+msgid "Number Of Tower."
+msgstr "Número de Edificio"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de Acciones"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_label__name
+#: model:ir.model.fields,help:property_booking.field_property_label__name
+msgid "Number of BHK"
+msgstr "Número de habitaciones"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__method_number
+msgid "Number of Depreciations"
+msgstr "Número de amortizaciones"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__floor
+msgid "Number of Floors."
+msgstr "Número de pisos."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__method_period
+msgid "Number of Months in a Period"
+msgstr "Número de meses en un período"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__no_of_property
+msgid "Number of Properties Per Floor."
+msgstr "Número de viviendas por planta."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__no_of_towers
+msgid "Number of Towers."
+msgstr "Número de Edificios"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de errores"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de entrega"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes sin leer"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__occupancy_rates
+msgid "Occupancy Rate"
+msgstr "Índice de ocupación"
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/property_booking_wizard.py:0
+#, python-format
+msgid ""
+"Only Available state properties are allowed                         to be "
+"merged!"
+msgstr "Sólo se pueden fusionar las propiedades estatales disponibles."
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/merge_property_wizard.py:0
+#, python-format
+msgid ""
+"Only Available state properties are allowed to be                     "
+"merged!"
+msgstr "Sólo se pueden fusionar las propiedades estatales disponibles."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__operational_costs
+msgid "Operational Costs(%)"
+msgstr "Costes operativos(%)"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__parent_path
+msgid "Parent Path"
+msgstr "Ruta de los padres"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__parent_id
+msgid "Parent Property"
+msgstr "Propiedad Padre"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Parent Property Name"
+msgstr "Nombre de la Propiedad Padre"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__parent_property_rel
+msgid "Parent Property Relation"
+msgstr "Relación de la Propiedad Padre"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__parking
+msgid "Parking"
+msgstr "Estacionamiento"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__partner_id
+msgid "Partner"
+msgstr "Socio"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "País"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__property_phase_ids
+msgid "Phase"
+msgstr "Etapa"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__property_photo_ids
+msgid "Photos"
+msgstr "Fotos"
+
+#. module: property_booking
+#: code:addons/property_booking/models/property_booking.py:0
+#, python-format
+msgid "Please select Property which are Merged!"
+msgstr "Por favor, seleccione las propiedades que están fusionadas."
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/property_booking_wizard.py:0
+#, python-format
+msgid "Please select atleast one property for merge."
+msgstr "Por favor, seleccione al menos una propiedad para fusionar."
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/merge_property_wizard.py:0
+#, python-format
+msgid "Please select atleast two properties."
+msgstr "Por favor, seleccione al menos dos propiedades."
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/merge_property_wizard.py:0
+#: code:addons/property_booking/wizard/property_booking_wizard.py:0
+#, python-format
+msgid "Please select sub properties from the same Floors!"
+msgstr "¡Por favor, seleccione las subpropiedades de los mismos Pisos!"
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/property_booking_wizard.py:0
+#, python-format
+msgid ""
+"Please select sub properties from the same Parent                         "
+"property!"
+msgstr ""
+"Por favor, seleccione las subpropiedades de la misma propiedad principal."
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/merge_property_wizard.py:0
+#, python-format
+msgid ""
+"Please select sub properties from the same Parent                     "
+"property!"
+msgstr ""
+"Por favor, seleccione las subpropiedades de la misma propiedad principal."
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/merge_property_wizard.py:0
+#, python-format
+msgid ""
+"Please select sub properties. \n"
+"                         Not parent property!"
+msgstr ""
+"Por favor, seleccione las subpropiedades. \n"
+"                         No la propiedad principal."
+
+#. module: property_booking
+#: code:addons/property_booking/wizard/property_booking_wizard.py:0
+#, python-format
+msgid ""
+"Please select sub properties. \n"
+" Not                             parent property!"
+msgstr ""
+"Por favor, seleccione las subpropiedades. \n"
+"                         No la propiedad principal."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__prefix3
+msgid "Prefix For Property"
+msgstr "Prefijo de la propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__newtower
+msgid "Prefix Of Tower"
+msgstr "Prefijo del Edificio"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_wizard__tower
+msgid "Prefix Or First Letter Of Tower."
+msgstr "Prefijo o primera letra de la torre."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__prefix3
+msgid "Prefix Or Label For Property."
+msgstr "Prefijo o etiqueta para la propiedad."
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_parent_merge_wizard_view
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_wizard_form_view
+#: model_terms:ir.ui.view,arch_db:property_booking.view_wizz_wizz_wizard
+msgid "Properties"
+msgstr "Propiedades"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__new_prop_id
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__property_id
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Property"
+msgstr "Propiedad"
+
+#. module: property_booking
+#: model:ir.actions.act_window,name:property_booking.action_create_property2
+#: model:ir.ui.menu,name:property_booking.menu_sub_property_creation
+msgid "Property Booking"
+msgstr "Reserva de propiedad"
+
+#. module: property_booking
+#: model:ir.model,name:property_booking.model_property_created
+msgid "Property Created"
+msgstr "Propiedad creada"
+
+#. module: property_booking
+#: model:ir.actions.act_window,name:property_booking.action_sub_wizard_filter
+msgid "Property Filter"
+msgstr "Filtro de propiedades"
+
+#. module: property_booking
+#: model:ir.model,name:property_booking.model_property_label
+msgid "Property Lable"
+msgstr "Ficha de la propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__property_created_ids
+#: model:ir.model.fields,field_description:property_booking.field_sub_wizard__property_created_merged_ids
+msgid "Property Line"
+msgstr "Línea de la propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_parent_merge_wizard__new_property_created_ids
+msgid "Property Line123"
+msgstr "Línea 123 de la propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__property_manager
+msgid "Property Manager"
+msgstr "Administrador de la propiedad"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_parent_merge_wizard_view
+msgid "Property Merge"
+msgstr "Fusión de propiedades"
+
+#. module: property_booking
+#: model:ir.model,name:property_booking.model_property_parent_merge_wizard
+msgid "Property Parent Merge Wizard"
+msgstr "Asistente para la fusión de propiedades padres"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__no_of_property
+msgid "Property Per Floors."
+msgstr "Propiedad por pisos."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__state_id
+msgid "Property State"
+msgstr "Estado de la Propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__type_id
+msgid "Property Type"
+msgstr "Tipo de Propiedad"
+
+#. module: property_booking
+#: model:ir.model,name:property_booking.model_property_wizard
+msgid "Property Wizard"
+msgstr "Asistente de Propiedad"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_wizz_wizz_wizard
+msgid "Property Wizzard"
+msgstr "Asistente de Propiedad"
+
+#. module: property_booking
+#: code:addons/property_booking/models/property_booking.py:0
+#, python-format
+msgid "Property per floor and number of property should not be Zero!"
+msgstr "¡La propiedad por piso y el número de propiedad no deben ser Cero!"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Propiedad"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Propiedad padre"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_property_created_tree
+msgid "Propiedad principal relacionada"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__prorata
+msgid "Prorata Temporis"
+msgstr "Propiedad Temporal"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__pur_instl_chck
+msgid "Purchase Installment Check"
+msgstr "Cheque de compra a plazos"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__roi
+msgid "ROI"
+msgstr "Rinv"
+
+
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__code
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__rent_type_id
+msgid "Rent Type"
+msgstr "Tipo de Arrendamiento"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Reserva"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Reserva abierta"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Reserva de propiedad"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Reservado"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__value_residual
+msgid "Residual Value"
+msgstr "Valor Residual"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__revenue
+msgid "Revenue"
+msgstr "Ingresos"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__room_ids
+msgid "Rooms"
+msgstr "Habitaciones"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Error de entrega de SMS"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__safety_certificate_ids
+msgid "Safety Certificate"
+msgstr "Certificado de seguridad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__sale_instl_chck
+msgid "Sale Installment Check"
+msgstr "Cheque de venta a plazos"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__sale_price
+msgid "Sale Price"
+msgstr "Precio de venta"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__sale_price
+msgid "Sale price of the Property."
+msgstr "Precio de venta de la propiedad."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__sales_rates
+msgid "Sales Rate"
+msgstr "Índice de ventas"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__salvage_value
+msgid "Salvage Value"
+msgstr "Valor de reembolso"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__change_lable
+msgid "Select If you wan't to change label."
+msgstr "Seleccione Si desea cambiar de etiqueta."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__is_sub_property
+msgid "Select If your property Is Sub Property."
+msgstr "Seleccione si su propiedad es una subpropiedad."
+
+#. module: property_booking
+#: model:ir.model.fields.selection,name:property_booking.selection__sub_wizard__furnish__semi_furnished
+msgid "Semi Furnished"
+msgstr "Semiamueblado"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Separar Propiedades"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__simulation_date
+msgid "Simulation Date"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__simulation_date
+msgid "Simulation Date."
+msgstr "Fecha de la simulación"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__simulation_name
+msgid "Simulation Name"
+msgstr "Nombre de la simulación"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_property_created_tree
+msgid "Split Properties"
+msgstr "Propiedades divididas"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__state
+msgid "State"
+msgstr "Estado"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_wizard_form_view
+msgid "Sub Properties"
+msgstr "Subpropiedades"
+
+#. module: property_booking
+#: model:ir.actions.act_window,name:property_booking.action_create_sub_property
+#: model:ir.model.fields,field_description:property_booking.field_property_created__is_sub_property
+#: model:ir.ui.menu,name:property_booking.menu_create_sub_property2
+msgid "Sub Property"
+msgstr "Subpropiedad"
+
+#. module: property_booking
+#: model:ir.model,name:property_booking.model_sub_wizard
+msgid "Sub Property Wizard"
+msgstr "Asistente para la subpropiedad"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_wizard_form_view
+msgid "Sub Wizzard"
+msgstr "Submecanismo"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Sub propiedades"
+msgstr "Subpropiedades"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__tenancy_property_ids
+msgid "Tenancy Property"
+msgstr "Propiedad en alquiler"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__method_period
+msgid "The amount of time between two depreciations, in months"
+msgstr "El tiempo entre dos depreciaciones, en meses"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__method_number
+msgid "The number of depreciations needed to depreciate your asset"
+msgstr "El número de amortizaciones necesarias para depreciar su activo"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__date_first_depreciation
+msgid ""
+"The way to compute the date of the first depreciation.\n"
+"  * Based on last day of purchase period: The depreciation dates will be based on the last day of the purchase month or the purchase year (depending on the periodicity of the depreciations).\n"
+"  * Based on purchase date: The depreciation dates will be based on the purchase date.\n"
+msgstr ""
+"La forma de computar la fecha de la primera amortización.\n"
+"  * Basado en el último día del periodo de compra: Las fechas de amortización se basarán en el último día del mes de compra o del año de compra (dependiendo de la periodicidad de las amortizaciones).\n"
+"  * Basado en la fecha de compra: Las fechas de depreciación se basarán en la fecha de compra.\n"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__image
+msgid ""
+"This field holds the image used as logo for the brand, limited to "
+"1024x1024px."
+msgstr ""
+"Este campo contiene la imagen utilizada como logo de la marca, limitada a "
+"1024x1024px."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__method_time
+msgid "Time Method"
+msgstr "Método del tiempo"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Tipo de mobiliario"
+msgstr "Tipo de mobilirio"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__simulation
+msgid "Total Amount"
+msgstr "Cantidad total"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__occupancy_rates
+msgid "Total Occupancy rate of Property."
+msgstr "Tasa de ocupación total de la propiedad."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__total_price
+msgid "Total Price"
+msgstr "Precio total"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__total_price
+msgid ""
+"Total Price of Property, \n"
+"Total Price = Unit Price *         GFA (Sqft)."
+msgstr ""
+"Precio total de la propiedad,\n"
+"Precio total = Precio unitario * Área (p2)."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__total_prop_tower
+msgid "Total Tower"
+msgstr "Total de Edificios"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "Total torre"
+msgstr "Total de Edificios"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_wizard__tower
+msgid "Tower"
+msgstr "Edificio"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__tower_num
+msgid "Tower no"
+msgstr "Número de edificio"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__township
+msgid "Township"
+msgstr "Municipio"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__type_id
+msgid "Types of property."
+msgstr "Tipos de propiedad"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__unit_price
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__unit_price
+msgid "Unit Price Per Sqft."
+msgstr "Precio unitario por pie cuadrado."
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leídos"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_wizard_form_view
+msgid "Update"
+msgstr "Actualización"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__utility_ids
+msgid "Utilities"
+msgstr "Utilidades"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Vendido"
+msgstr ""
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_search
+msgid "Venta"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__video_url
+msgid "Video URL"
+msgstr "URL del vídeo"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__state
+msgid ""
+"When an asset is created, the status is 'Draft'.\n"
+"If the asset is confirmed, the status goes in 'Running' and the depreciation lines can be posted in the accounting.\n"
+"You can manually close an asset when the depreciation is over. If the last line of depreciation is posted, the asset automatically goes in that status."
+msgstr ""
+"Cuando se crea un activo, el estado es 'Borrador'.\n"
+"Si el activo se confirma, el estado pasa a \"En ejecución\" y las líneas de depreciación pueden ser contabilizadas en la contabilidad.\n"
+"Puede cerrar manualmente un activo cuando la depreciación haya terminado. Si se contabiliza la última línea de depreciación, el activo pasa automáticamente a ese estado."
+
+#. module: property_booking
+#: model:ir.actions.act_window,name:property_booking.action_property_wizz_wizz
+msgid "Wizard Wizard"
+msgstr "Asistente"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__zip
+msgid "Zip"
+msgstr ""
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__asset_id
+msgid "asset"
+msgstr "activo"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "available"
+msgstr "Disponible"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.view_property_created_form
+msgid "booked"
+msgstr "Reservado"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.property_created_kanban_view
+msgid "image"
+msgstr "Imagen"
+
+#. module: property_booking
+#: model_terms:ir.ui.view,arch_db:property_booking.merge_property_view
+#: model_terms:ir.ui.view,arch_db:property_booking.sub_wizard_form_view
+#: model_terms:ir.ui.view,arch_db:property_booking.view_wizz_wizz_wizard
+msgid "or"
+msgstr "o"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__parent_related
+msgid "parent property"
+msgstr "Propiedad padre"
+
+#. module: property_booking
+#: model:ir.model.fields,field_description:property_booking.field_property_created__prop_number
+msgid "property Number"
+msgstr "Número de propiedad."
+
+#. module: property_booking
+#: model:ir.model.fields,help:property_booking.field_property_created__prop_number
+msgid "property Number."
+msgstr "Número de propiedad."

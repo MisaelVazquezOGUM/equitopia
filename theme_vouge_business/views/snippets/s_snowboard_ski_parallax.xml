@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_parallax" name="Parallax">
+		<section class="snowboard-parallax parallax s_parallax_is_fixed">
+			<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/snow-ultimate.jpg');"/>
+	        <div class="container extended-container">
+	        	<div class="row">
+					<div class="d-inline-block">
+						<div class="content">
+							<span>Vouge Products @ 15.99</span>
+							<h2 class="title1">Get the Unique</h2>
+							<h2 class="title2">Snowboarding EXPERIENCE</h2>
+							<div class="s_btn mt32" data-name="Button">
+    							<a href="#" class="btn1 btn btn-snowboard-2 bizople_button">Browse Products</a>
+    							<a href="#" class="btn btn-snowboard-1 bizople_button">More Offers</a>
+    						</div>
+						</div>
+					</div>
+				</div>
+	        </div>
+		</section>
+	</template>
+
+</odoo>

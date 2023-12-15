@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_snippet" name="Yoga">
+		<section class="s_yoga_snippet">
+			<div class="oe_structure"/>
+			<section class="yoga-banner pt224 pb32" style="background-image: url('/theme_vouge_business/static/src/img/yoga-banner.jpg');">
+				<div class="container extended-container">
+					<div class="row align-items-center">
+						<div class="col-lg-7 col-md-6">
+							<div class="banner-image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-banner-image.png" />
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+							<div class="content">
+								<h1><span style="color: #404b48">Vouge.</span><br/><span style="color: #3bc3a9">Yoga</span><span style="color: #547770"> Classes</span></h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-primary rounded-circle btn-lg shadow">Browse Courses</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="yoga-clear-mind pb64">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-md-6 green-bg">
+							<div class="content">
+								<div class="yoga-icon"><img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-icon.png" /></div>
+								<h4>Yoga keeps motivating us</h4>
+								<h2 class="text-primary">Relaxes Body &amp; Mind</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis.</p>
+								<p class="m-0">Sed molestie augue ac aliquam laoreet. Aenean a lacus congue, aliquet massa ut, feugiat diam. Donec sodales augue a nisl dignissim finibus.</p>
+							</div>
+						</div>
+						<div class="col-md-6 p-0">
+							<section class="bg-image h-100" style="background-image: url('/theme_vouge_business/static/src/img/yoga-clear-mind.jpg');">
+								<div class="play-icon">
+									<a href="#">
+										<span class="fa text-primary fa-play-circle fa-4x"></span>
+									</a>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="yoga-classes pt32 pb32">
+				<div class="container extended-container">
+					<div class="heading-content text-center pb64">
+						<div class="icon">
+							<span class="fa fa-book fa-4x"/>
+						</div>
+						<h2 class="text-primary">Browse Classes</h2>
+						<p class="w-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis.</p>
+					</div>
+					<div class="row image-boxes text-center m-md-0">
+						<div class="col-md-4 p-md-0 mb-5">
+							<div class="image mb-4">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes6.jpg" />
+							</div>
+							<h6>Hatha Yoga</h6>
+							<p class="m-0">with John Doe</p>
+						</div>
+						<div class="col-md-4 p-md-0 mb-5">
+							<div class="image mb-4">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes2.jpg" />
+							</div>
+							<h6>Ashtanga Yoga</h6>
+							<p class="m-0">with John Doe</p>
+						</div>
+						<div class="col-md-4 p-md-0 mb-5">
+							<div class="image mb-4">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes3.jpg" />
+							</div>
+							<h6>Power Yoga</h6>
+							<p class="m-0">with John Doe</p>
+						</div>
+						<div class="col-md-4 p-md-0 mb-5">
+							<div class="image mb-4">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes4.jpg" />
+							</div>
+							<h6>Restorative Yoga</h6>
+							<p class="m-0">with John Doe</p>
+						</div>
+						<div class="col-md-4 p-md-0 mb-5">
+							<div class="image mb-4">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes5.jpg" />
+							</div>
+							<h6>Prenatal Yoga</h6>
+							<p class="m-0">with John Doe</p>
+						</div>
+						<div class="col-md-4 p-md-0 mb-5">
+							<div class="image mb-4">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-classes1.jpg" />
+							</div>
+							<h6>Vinyasa Yoga</h6>
+							<p class="m-0">with John Doe</p>
+						</div>
+					</div>
+					<div class="s_btn text-center pt16 pb16" data-name="Button">
+						<a href="#" class="btn btn-primary rounded-circle btn-lg shadow">Browse Courses</a>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="yoga-about pt32 pb152" style="background-image: url('/theme_vouge_business/static/src/img/yoga-about-bg.jpg');">
+				<div class="container-fluid">
+					<div class="row align-items-center justify-content-center">
+						<div class="col-xl-5 col-lg-6">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-about.png" />
+							</div>
+						</div>
+						<div class="col-xl-5 col-lg-6">
+							<div class="content">
+								<h4>About Us</h4>
+								<h2 class="text-primary">History of Vouge</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet. Aenean a lacus congue, aliquet massa ut, feugiat diam. Donec sodales augue a nisl dignissim finibus. Vestibulum tristique pellentesque nisl. Duis eget ante vitae augue placerat hendrerit.</p>
+								<div class="s_btn text-left pt16 pb16" data-name="Button">
+        							<a href="#" class="btn btn-primary rounded-circle btn-lg shadow">Meet Trainer</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="yoga-service pt32 pb96">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="content text-center">
+								<div class="icon"><img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-icon2.png" /></div>
+								<h4 class="text-primary">All Yoga Styles</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="content text-center">
+								<div class="icon"><img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-icon1.png" /></div>
+								<h4 class="text-primary">All Yoga Styles</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="content text-center">
+								<div class="icon"><img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-icon3.png" /></div>
+								<h4 class="text-primary">All Yoga Styles</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="yoga-trainer pt32 pb64">
+				<div class="container extended-container">
+					<div class="heading pb48">
+						<h2 class="text-primary w-lg-75">Our Trainers</h2>
+						<p class="w-lg-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis.</p>
+					</div>
+					<div id="business-yoga-carousel" class="business-yoga-carousel carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			            	<div class="carousel-item active">
+			            		<div class="row">
+			            			<div class="col-md-4 mb-4 mb-md-0">
+			            				<div class="trainer-box text-center">
+			            					<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor1.png" />
+											</div>
+											<h5 class="text-primary">Abigail Peterson</h5>
+			            				</div>
+			            			</div>
+			            			<div class="col-md-4 mb-4 mb-md-0">
+			            				<div class="trainer-box text-center">
+			            					<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor4.png" />
+											</div>
+											<h5 class="text-primary">Anita Oliver</h5>
+			            				</div>
+			            			</div>
+			            			<div class="col-md-4 mb-4 mb-md-0">
+			            				<div class="trainer-box text-center">
+			            					<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor3.png" />
+											</div>
+											<h5 class="text-primary">Paul Williams</h5>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			            	<div class="carousel-item">
+			            		<div class="row">
+			            			<div class="col-md-4 mb-4 mb-md-0">
+			            				<div class="trainer-box text-center">
+			            					<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor2.png" />
+											</div>
+											<h5 class="text-primary">Jennie Fletcher</h5>
+			            				</div>
+			            			</div>
+			            			<div class="col-md-4 mb-4 mb-md-0">
+			            				<div class="trainer-box text-center">
+			            					<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor5.png" />
+											</div>
+											<h5 class="text-primary">Rachel Perry</h5>
+			            				</div>
+			            			</div>
+			            			<div class="col-md-4 mb-4 mb-md-0">
+			            				<div class="trainer-box text-center">
+			            					<div class="image">
+												<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor6.png" />
+											</div>
+											<h5 class="text-primary">Sharlene Rhodes</h5>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			          	</div>
+				        <div class="slider-control d-none d-lg-block">
+		              		<a class="left carousel-control-prev font-14" data-target="#business-yoga-carousel" role="button" data-slide="prev">
+			                	<span class="fa fa-long-arrow-left"/>
+			               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+			              	</a>
+			              	<a class="right carousel-control-next font-14" data-target="#business-yoga-carousel" role="button" data-slide="next">
+			                	<span class="fa fa-long-arrow-right"/>
+			                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+			              	</a>
+			            </div>
+		        	</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="yoga-testimonial pt96 pb96" style="background-image: url('/theme_vouge_business/static/src/img/yoga-testimonial-bg.jpg');">
+				<div class="container extended-container">
+					<div class="heading pb48">
+						<h2 class="text-primary w-lg-75">Testimonial</h2>
+						<p class="w-lg-75">Our customer's review about us</p>
+					</div>
+					<div id="business-yoga-testimonial-carousel" class="business-yoga-testimonial-carousel carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			            	<div class="carousel-item active">
+			            		<div class="row">
+			            			<div class="col-md-6 mb-4 mb-md-0">
+			            				<section class="testimonial-box bg-white">
+			            					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet.</p>
+			            					<div class="customer d-flex align-items-center">
+			            						<div class="image">
+			            							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team2.png" />
+			            						</div>
+			            						<div class="info">
+			            							<h6>Tina Williamson</h6>
+			            							<span>Customer</span>
+			            						</div>
+			            					</div>
+			            				</section>
+			            			</div>
+			            			<div class="col-md-6 mb-4 mb-md-0">
+			            				<section class="testimonial-box bg-white">
+			            					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet.</p>
+			            					<div class="customer d-flex align-items-center">
+			            						<div class="image">
+			            							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team1.png" />
+			            						</div>
+			            						<div class="info">
+			            							<h6>Tina Williamson</h6>
+			            							<span>Customer</span>
+			            						</div>
+			            					</div>
+			            				</section>
+			            			</div>
+			            		</div>
+			            	</div>
+			            	<div class="carousel-item">
+			            		<div class="row">
+			            			<div class="col-md-6 mb-4 mb-md-0">
+			            				<section class="testimonial-box bg-white">
+			            					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet.</p>
+			            					<div class="customer d-flex align-items-center">
+			            						<div class="image">
+			            							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team3.png" />
+			            						</div>
+			            						<div class="info">
+			            							<h6>Randall Lewis</h6>
+			            							<span>Customer</span>
+			            						</div>
+			            					</div>
+			            				</section>
+			            			</div>
+			            			<div class="col-md-6 mb-4 mb-md-0">
+			            				<section class="testimonial-box bg-white">
+			            					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet.</p>
+			            					<div class="customer d-flex align-items-center">
+			            						<div class="image">
+			            							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/app-team4.png" />
+			            						</div>
+			            						<div class="info">
+			            							<h6>Doris Cole</h6>
+			            							<span>Customer</span>
+			            						</div>
+			            					</div>
+			            				</section>
+			            			</div>
+			            		</div>
+			            	</div>
+			          	</div>
+				        <div class="slider-control d-none d-lg-block">
+		              		<a class="left carousel-control-prev font-14" data-target="#business-yoga-testimonial-carousel" role="button" data-slide="prev">
+			                	<span class="fa fa-long-arrow-left"/>
+			               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+			              	</a>
+			              	<a class="right carousel-control-next font-14" data-target="#business-yoga-testimonial-carousel" role="button" data-slide="next">
+			                	<span class="fa fa-long-arrow-right"/>
+			                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+			              	</a>
+			            </div>
+		        	</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="yoga-brand-newsletter pt152 pb96" style="background-image: url('/theme_vouge_business/static/src/img/yoga-brand-newsletter-bg.jpg');">
+				<div class="container extended-container">
+					<section class="brands pb112">
+						<div class="row align-items-center">
+							<div class="col-md-2 col-6 mb-4 mb-md-0">
+								<div class="image text-center">
+        							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+        						</div>
+							</div>
+							<div class="col-md-2 col-6 mb-4 mb-md-0">
+								<div class="image text-center">
+        							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+        						</div>
+							</div>
+							<div class="col-md-2 col-6 mb-4 mb-md-0">
+								<div class="image text-center">
+        							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand3.png" />
+        						</div>
+							</div>
+							<div class="col-md-2 col-6 mb-4 mb-md-0">
+								<div class="image text-center">
+        							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand4.png" />
+        						</div>
+							</div>
+							<div class="col-md-2 col-6 mb-4 mb-md-0">
+								<div class="image text-center">
+        							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand5.png" />
+        						</div>
+							</div>
+							<div class="col-md-2 col-6 mb-4 mb-md-0">
+								<div class="image text-center">
+        							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand6.png" />
+        						</div>
+							</div>
+						</div>
+					</section>
+					<section class="yoga-newsletter text-center">
+						<h2 class="text-primary">Subscribe to our newsletter</h2>
+						<p>Get Regular updates for your timetable</p>
+						<div class="yoga-subscribe w-md-75 w-xl-50 mx-auto">
+							<form class="input-group js_subscribe" data-list-id="1">
+								<input type="email" name="email" class="js_subscribe_email form-control" placeholder="Enter your Email"/>
+								<span class="input-group-append">
+						            <a role="button" href="#" class="btn btn-primary js_subscribe_btn">Subscribe</a>
+						            <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none" disabled="disabled">Thanks</a>
+						        </span>
+							</form>
+						</div>
+					</section>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="yoga-contact pb96 pt32">
+				<div class="container extended-container">
+					<div class="row justify-content-center">
+						<div class="col-xl-5 col-md-6 mb-4 mb-md-0">
+							<div class="upper-content">
+								<h2 class="text-primary">Contact Us</h2>
+								<p class="mb-4">Contact us about anything related to our services. We'll get back to you as soon as possible.</p>
+								<p><span class="fa fa-phone mr-2"></span><span>+1 (650) 691-3277</span></p>
+								<p><span class="fa fa-envelope-o mr-2"></span><span>info@bizople.com</span></p>
+							</div>
+							<div class="lower-content">
+								<h4>Mon – Fri : 10:00 – 19:00 / Sat – Sun : 10:00 – 15:00</h4>
+								<p><span>250 Executive Park Blvd, Suite 3400</span></p>
+								<p><span>San Francisco, 94134</span></p>
+							</div>
+						</div>
+						<div class="col-xl-5 col-md-6 offset-xl-1">
+							<form action="/website_form/" method="post" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-name="Form Builder" data-model_name="mail.mail" data-success_page="/thank-you">
+					          	<div class="row mb32">
+					          		<div class="col-lg-12">
+							          	<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+							              	<input type="text" placeholder="Name*" class="form-control o_website_form_input" name="Your Name" required=""/>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-6">
+							          	<div class="form-group form-field o_website_form_custom o_fake_not_editable">
+							              	<input type="text" placeholder="Phone*" class="form-control o_website_form_input" name="Phone Number"/>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-6">
+							          	<div class="form-group form-field o_website_form_required_custom">
+							              	<input type="email" placeholder="E-Mail*" class="form-control o_website_form_input" name="email_from" required=""/>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-12">
+							          	<div class="form-group form-field o_website_form_required_custom">
+							              	<input type="text" placeholder="Subject*" class="form-control o_website_form_input" name="subject" required=""/>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-12">
+							          	<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+							              	<textarea placeholder="Message*" class="form-control o_website_form_input" name="Your Question" required=""></textarea>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-12">
+							          	<div class="form-group">
+							              	<button class="btn btn-primary btn-lg rounded-circle shadow o_website_form_send o_default_snippet_text">Submit Message</button>
+							              	<span id="o_website_form_result"></span>
+							          	</div>
+						          	</div>
+					          	</div>
+					      	</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+	</template>
+
+</odoo>

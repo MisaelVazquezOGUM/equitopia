@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+
+<record id="board_power_bi_form" model="ir.ui.view">
+    <field name="name">board.power.bi.form</field>
+    <field name="model">board.power.bi</field>
+    <field name="arch" type="xml">
+        <form string="">
+            <header>
+            </header>
+            <sheet>
+                <group>
+                    <group string="DATOS POWER BI">
+                        <field name="name" string="URL Power BI" placeholder="URL Power BI....." required="True"/>
+                        <field name="power_bi_general" string="Activo" />
+                        <field name="user" />
+                        <field name="password" />
+                    </group>
+                </group>
+                
+            </sheet>
+        </form>
+    </field>
+</record>
+
+
+<record id="board_power_bi_show" model="ir.ui.view">
+    <field name="name">board.power.bi.form</field>
+    <field name="model">board.power.bi</field>
+    <field name="arch" type="xml">
+        <form class="board-power-bi-form">
+                <field name="url" class="board-power-bi" />
+                <!-- <iframe title="TEST_PROPERTY - Ejemplo Tablero General Rentas"  class="board-power-bi" t-att-src= frameborder="0" allowFullScreen="true"></iframe> -->
+        </form>
+    </field>
+</record>
+
+
+
+<record id="board_power_bi_tree" model="ir.ui.view">
+    <field name="name">board.power.bi.tree</field>
+    <field name="model">board.power.bi</field>
+    <field name="arch" type="xml">
+        <tree string="">
+            <field name="name" string="URL Power BI"/>
+            <field name="power_bi_general" string="Tablero General" readonly="1" />  
+        </tree>
+    </field>
+</record>
+
+
+
+        <record id="view_board_power_bi" model="ir.actions.act_window">
+            <field name="name">Tablero Power BI</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">board.power.bi</field>
+            <field name="view_mode">form</field>
+            <field name="res_id">1</field>
+            <field name="target">inline</field>
+            <field name="view_id" ref="board_power_bi_show"/>
+        </record>
+
+
+        <record id="view_board_power_bi_config" model="ir.actions.act_window">
+            <field name="name">Configuración Power BI</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">board.power.bi</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="board_power_bi_tree"/>
+        </record>
+
+        <menuitem id="board_power_bi" name="General" parent="base.menu_board_root" sequence="0" action="view_board_power_bi"/>
+
+        <menuitem id="config_board_power_bi" name="Configuración Power BI" parent="base.menu_board_root" sequence="100" action="view_board_power_bi_config"/>
+
+
+
+    
+</odoo>

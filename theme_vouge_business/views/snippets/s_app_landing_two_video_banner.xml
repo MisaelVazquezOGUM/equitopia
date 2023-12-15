@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_two_video_banner" name="Video Banner">
+		<section class="app2-video-player">
+			<div class="container">
+				<div class="row">
+					<div class="image">
+						<a href="#">
+							<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/app2-activity.png" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

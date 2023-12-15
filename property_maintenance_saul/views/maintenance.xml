@@ -1,0 +1,148 @@
+<odoo>
+  <data>
+
+    <record id="maintenance_category_form_lt" model="ir.ui.view">
+      <field name="name">maintenance.category.form</field>
+      <field name="model">maintenance.category</field>
+      <field name="arch" type="xml">
+        <form string="Category">
+          <field name="name" string="Category Name" placeholder="Category Name..." />
+          <field name="maintenances" invisible="1" />
+        </form>
+      </field>
+    </record>
+
+    <record id="maintenance_names_form_lt" model="ir.ui.view">
+      <field name="name">maintenance.names.form</field>
+      <field name="model">maintenance.names</field>
+      <field name="arch" type="xml">
+        <form string="Category">
+          <field name="name" string="Maintenances name" placeholder="Maintenances name..."  />
+          <field name="maintenances" invisible="1" />
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="maintenance_view_team_corrected">
+      <field name="model">maintenance.team</field>
+      <field name="inherit_id" ref="maintenance.maintenance_team_view_tree" />
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='company_id']" position="attributes">
+          <attribute name="invisible">1</attribute>
+        </xpath>
+        <field name="member_ids" position="after">
+          <field name="partner_id" />
+        </field>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="account_asset_maintenance">
+      <field name="model">account.asset.asset</field>
+      <field name="inherit_id" ref="om_account_asset.view_account_asset_asset_form" />
+      <field name="arch" type="xml">
+
+        <!-- Mantenimientos por propiedad -->
+        <xpath expr="//page[@name='sub_properties']" position="before">
+          <page name="maintenance_by_property_page" string="Maintenance And Services">
+            <field name="maintenance_per_property" domain="[('is_for_tenant', '=', 'False')]">
+              <tree string="Maintenance And Services">
+                <field name="name" />
+                <field name="team_id" />
+                <field name="frequency" />
+                <field name="cost"/>
+                <field name="to_charge" />
+                <field name="is_service" />
+              </tree>
+              <form string="Maintenance And Services">
+                <group>
+                  <field name="name" />
+                  <field name="team_id" />
+                  <field name="frequency" />
+                  <field name="cost" required="True"/>
+                  <field name="to_charge" />
+                  <field name="is_service" />
+                </group>
+              </form>
+            </field>
+          </page>
+        </xpath>
+
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="account_analytic__maintenance">
+      <field name="model">account.analytic.account</field>
+      <field name="inherit_id" ref="property_management.property_analytic_view_form" />
+      <field name="arch" type="xml">
+
+        <xpath expr="//page[@name='history']" position="after">
+          <page name="tenant_maintenance_page" string="Maintenance And Services">
+            <field name="maintenance_per_property" readonly="0">
+              <tree string="Maintenance And Services">
+                <field name="name" />
+                <field name="team" />
+                <field name="frequency" />
+                <field name="cost"/>
+                <field name="charge" />
+                <field name="category" optional="show"/>
+                <field name="is_service" />
+              </tree>
+              <form>
+              <group>
+                  <field name="name" />
+              </group>
+                <group>
+                  <group>
+                    <field name="charge" />
+                    <field name="property_id" />
+                    <field name="team" />
+                    <field name="category" />
+                  </group>
+                  <group>
+                    <field name="is_service" />
+                    <field name="cost" required="True"/>
+                    <field name="frequency" />
+                    <field name="schedule_date" />
+                  </group>
+                </group>
+              </form>
+            </field>
+          </page>
+        </xpath>
+
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="account_anlytic_landlord_maintenance">
+      <field name="model">account.analytic.account</field>
+      <field name="inherit_id" ref="property_landlord_management.landlord_analytic_view_form_id" />
+      <field name="arch" type="xml">
+
+        <!-- Mantenimientos por propiedad -->
+        <field name="rent_type_id" position="after">
+          <field name="frequency" />
+        </field>
+        <field name="deposit_scheme_type" position="after">
+          <field name="tenant_tenancy_id" readonly="1" string="Tenant agreement" context="{'form_view_ref': 'property_management.property_analytic_view_form'}" />
+        </field>
+
+        <xpath expr="//page[@name='history']" position="after">
+          <page name="tenant_maintenance_page" string="Maintenance And Services">
+            <field name="maintenance_per_property" readonly="0">
+              <tree string="Maintenance And Services">
+                <field name="name"  />
+                <field name="team"  />
+                <field name="frequency" />
+                <field name="cost" />
+                <field name="charge" />
+                <field name="category" />
+              </tree>
+            </field>
+          </page>
+        </xpath>
+
+      </field>
+    </record>
+
+  </data>
+</odoo>

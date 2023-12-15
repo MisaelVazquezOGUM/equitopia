@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_hotel_address" name="Address">
+		<section class="hotel-address">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 mb16">
+						<div class="content">
+							<div class="content-icon">
+								<span class="ti ti-mobile fa-4x">
+								</span>
+							</div>
+							<div class="info">
+								<h2>Phone</h2>
+								<h3>+1 (650) 691-3277</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 mb16">
+						<div class="content">
+							<div class="content-icon">
+								<span class="ti ti-map-alt fa-4x">
+								</span>
+							</div>
+							<div class="info">
+								<h2>ADDRESS</h2>
+								<h3>250 Executive Park Blvd, Suite 3400,<br/>San Francisco, 94134</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 mb16">
+						<div class="content">
+							<div class="content-icon">
+								<span class="ti ti-email fa-4x">
+								</span>
+							</div>
+							<div class="info">
+								<h2>E-MAIL</h2>
+								<h3>info@vouge.com</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,73 @@
+<odoo>
+	<data>
+		  <record id="custom_graph_form" model="ir.ui.view">
+	    <field name="name">custom_graph.form</field>
+	    <field name="model">graph.state.result</field>
+	    <field name="arch" type="xml">
+	    	<form>
+	    		<sheet>
+	    			<group>
+			    		<field name="property_id"/>
+			    		<field name="ingreso_neto" />
+			    		<field name="total_gastos"/>
+			    		<field name="rentas_efectivas"/>	    	
+			    		<field name="fecha_report"/>
+			    		<field name="mes_cargado"/>
+		    	    </group>
+	    	    </sheet>
+	    	</form>
+	    </field>
+	   </record>
+
+
+	     <record id="custom_graph_tree" model="ir.ui.view">
+	    <field name="name">custom_graph.tree</field>
+	    <field name="model">graph.state.result</field>
+	    <field name="arch" type="xml">
+	    	<tree>
+	    		<field name="property_id"/>
+			    <field name="ingreso_neto" />
+			    <field name="total_gastos"/>
+			    <field name="rentas_efectivas"/>	    	
+			    <field name="fecha_report"/>
+		   	</tree>
+	    </field>
+	   </record>
+
+	   <!--GRAFICAS-->
+		<record id="custom_graph_multiple_bar" model="ir.ui.view">
+		    <field name="name">custom_graph_multiple_bar</field>
+		    <field name="model">graph.state.result</field>
+		    <field name="arch" type="xml">
+		    	<graph string="Estado de resultados"  stacked="False" type="bar">
+		    		    <field name="property_id"/>
+		    		    <field name="fecha_report" interval="month"/>
+		    		    <field name="rentas_efectivas"/>
+		    		    <field name="total_gastos"/>
+     					<field name="ingreso_neto" type="measure"/>
+					</graph>
+					
+		    </field>
+	   </record>
+
+	     <!--PIVOTE-->
+		<record id="custom_graph_pivote" model="ir.ui.view">
+		    <field name="name">custom_graph_pivote</field>
+		    <field name="model">graph.state.result</field>
+		    <field name="arch" type="xml">
+		    	<pivot string="Estado de resultados" >
+		    		    <field name="property_id"/>
+		    		    <field name="fecha_report" type="row"/>
+		    		    <field name="rentas_efectivas" type="measure"/>
+		    		    <field name="total_gastos" type="measure"/>
+     					<field name="ingreso_neto" type="measure"/>
+					</pivot>
+					
+		    </field>
+	   </record>
+
+
+
+	   
+	</data>
+</odoo>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_skating" name="Ice Skating">
+		<section class="snowboards-skating" style="background-image: url('/theme_vouge_business/static/src/img/snow-skating-bg.png');">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-lg-9 col-md-9">
+						<div class="skating-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/snow-brand2.png" />
+							</div>
+							<div class="info">
+								<span>Skiing Experience</span>
+								<h2>natural ice Snowboarding</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu. Aenean finibus condimentum odio, ac tincidunt lectus sagittis efficitur. Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at. Vivamus ut ullamcorper diam.</p>
+								<div class="s_btn mt32" data-name="Button">
+        							<a href="#" class="btn btn-snowboard-1 bizople_button">View all Collection</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

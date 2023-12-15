@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_hotel_reviews" name="Some Reviews">
+		<section class="hotel-testimonial parallax s_parallax_is_fixed" >
+			<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/hotel-testimonial.jpg');"/>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<span>Some Reviews</span>
+						<h1>FROM GUEST</h1>
+						<div>
+							<img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/>
+						</div>
+					</div>
+				</div>
+				<div id="hotel-testimonial-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	<div class="carousel-item active">
+		            		<div class="container">
+		            			<div class="row position-relative justify-content-center">
+		            				<div class="col-xl-12 col-lg-12 col-md-12">
+		            					<div class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h5>Anita Oliver</h5>
+		            							<h6>Graphics Designer</h6>
+		            							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+		            							<div class="rating">
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            							</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item">
+		            		<div class="container">
+		            			<div class="row position-relative justify-content-center">
+		            				<div class="col-xl-12 col-lg-12 col-md-12">
+		            					<div class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h5>Paul Williams</h5>
+		            							<h6>Web Developer</h6>
+		            							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+		            							<div class="rating">
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            							</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item">
+		            		<div class="container">
+		            			<div class="row position-relative justify-content-center">
+		            				<div class="col-xl-12 col-lg-12 col-md-12">
+		            					<div class="client-content">
+		            						<div class="image">
+		            							<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/vouge-team3.png" />
+		            						</div>
+		            						<div class="client-info">
+		            							<h5>Jessy Pinkman</h5>
+		            							<h6>Software Engineer</h6>
+		            							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+		            							<div class="rating">
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            								<span class="fa fa-star"/>
+		            							</div>
+		            						</div>
+		            					</div>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		          	</div>
+		          	<div class="slider-control">
+	              		<a class="left carousel-control-prev font-14" data-target="#hotel-testimonial-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-angle-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next font-14" data-target="#hotel-testimonial-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-angle-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+	        	</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

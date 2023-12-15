@@ -1,0 +1,93 @@
+<odoo>
+  <data> 
+
+
+
+ <!--++++++++++++++++++++++++++++TREE++++++++++++++++++++++++++++++++++++++++-->
+  <record id="custom_property_balanace_ecomonico_tree" model="ir.ui.view">
+    <field name="name">custom_property_balance_economico.tree</field>
+    <field name="model">balance.economyc.report</field>
+    <field name="arch" type="xml">
+    	<tree>
+            <field name="fecha"/>
+            <field name="mes"/>            
+    		<field name="company_id"/>
+            <field name="currency_id"/>
+            <field name="property_mov_id"/>
+    	</tree>
+    </field>
+   </record>
+    <!--+++++++++++++++++++++++++++++++++FORM+++++++++++++++++++++++++++++++++++++--> 
+    <record model="ir.ui.view" id="custom_property_from_view">
+            <field name="name">custom_property.form_view</field>
+            <field name="model">balance.economyc.report</field>
+            <field name="arch" type="xml">
+                <form>
+                        <group>
+                            
+                            <group>
+                                <field name="property_mov_id"/>
+                                <field name="fecha" />
+                                <field name="mes"/>    
+                                <field name="mes_num" invisible="1"/>    
+                            </group>
+
+                            <group>
+                                <field name="company_id" invisible="1"/>
+                                <field name="currency_id"/>                        
+                            </group>
+                         </group>
+
+                          <notebook>
+                            <page string="Balance economico">
+                                <field name="balance_economico_ids">
+                                    <tree decoration-danger="type_mov=='outbound'" decoration-success="type_mov=='inbound'">
+                                        <field name="payment_mov_id" string="Ref"/>   
+                                        <field name="date_mov"/>
+                                        <field name="type_mov"/>
+                                        <field name="type_payment"/>
+                                        <field name="cant_mov" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                                        <field name="acum_mov" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                                        <field name="decription_mov"/>
+                                        <field name="company_id" invisible="1"/>
+                                        <field name="currency_id" invisible="1"/>
+                                        <field name="line_invoice"/>
+                                        <field name="balance_economyc_lines_id" invisible="1"/>
+                                   </tree>
+                                   <form>
+                                       <sheet>
+                                          <group>
+                                            <group>
+                                                <field name="payment_mov_id" string="Ref"/>   
+                                                <field name="date_mov"/>
+                                                <field name="type_mov"/>
+                                                <field name="type_payment"/>
+                                            </group>
+                                            <group>
+                                                <field name="cant_mov" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                                                <field name="acum_mov" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                                                
+                                                <field name="decription_mov"/>
+                                               <field name="company_id" invisible="1"/>
+                                                <field name="currency_id" invisible="1"/>
+                                                <field name="line_invoice"/>
+                                                <field name="balance_economyc_lines_id" invisible="1"/> 
+                                             </group>
+                                        </group>
+                                       </sheet>
+                                   </form>
+                                   
+
+                                </field>
+                            </page>
+                        </notebook>
+                      
+                </form>
+
+                
+            </field>
+    </record>
+
+    
+  </data>
+</odoo>

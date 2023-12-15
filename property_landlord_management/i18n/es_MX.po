@@ -1,0 +1,1002 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* property_landlord_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-18 20:51+0000\n"
+"PO-Revision-Date: 2022-08-18 20:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: property_landlord_management
+#: model:ir.actions.act_window,name:property_landlord_management.action_landlord_view_id
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__owner_tenancy_ids
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__owner_tenancy_ids
+#: model:ir.ui.menu,name:property_landlord_management.menu_landlord_detail_id
+#: model:ir.ui.menu,name:property_landlord_management.menu_landlord_details_sub
+msgid "Landlord Details"
+msgstr "Detalles del propietario"
+
+#. module: property_landlord_management
+#: model:ir.actions.act_window,name:property_landlord_management.action_analytic_rent_action
+#: model:ir.ui.menu,name:property_landlord_management.menu_tenancy_rents
+msgid "Landlord Tenancy"
+msgstr "Tenencia del propietario"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Is a Tenant"
+msgstr "Es inquilino"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Address"
+msgstr "Domicilio"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Tenancy Name"
+msgstr "Contrato"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Code"
+msgstr "Código"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Landlord Details"
+msgstr "Detalles del propietario"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Sales & Purchases"
+msgstr "Ventas y Compras"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Sales"
+msgstr "Ventas"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Purchase"
+msgstr "Compras"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Misc"
+msgstr "Varios"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Invoicing"
+msgstr "Facturación"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Bank Accounts"
+msgstr "Cuentas bancarias"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Accounting Entries"
+msgstr "Asientos Contables"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "GSTIN"
+msgstr "RFC"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__user_id
+msgid "Comercial"
+msgstr "Comerciales"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_res_partner__is_owner
+msgid "Is a Owner"
+msgstr "Es propietario"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__meeting_count
+msgid "# Meetings"
+msgstr "# Reuniones"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__task_count
+msgid "# Tasks"
+msgstr "# Tareas"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr "# Facturas de proveedores"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__property_account_payable_id
+msgid "Account Payable"
+msgstr "Cuenta por pagar"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Cuenta por cobrar"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__message_needaction
+msgid "Action Needed"
+msgstr "Acción necesaria"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__active_lang_count
+msgid "Active Lang Count"
+msgstr "Recuento de idioma activo"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoración de excepción de actividad"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__activity_state
+msgid "Activity State"
+msgstr "Estado de la actividad"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__additional_info
+msgid "Additional info"
+msgstr "Información adicional"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__type
+msgid "Address Type"
+msgstr "Tipo de dirección"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__agent
+msgid "Agent"
+msgstr "Agente"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__lang
+msgid "All the emails and documents sent to this contact will be translated in this language."
+msgstr "Todos los correos electrónicos y documentos enviados a este contacto se traducirán en este idioma."
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Alquiler de propietario"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model,name:property_landlord_management.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Are you sure you want to Cancel?"
+msgstr "¿Seguro que quieres cancelar?"
+
+#. module: property_landlord_management
+#: model:ir.model,name:property_landlord_management.model_account_asset_asset
+msgid "Asset"
+msgstr "Activo"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__message_attachment_count
+msgid "Attachment Count"
+msgstr "Recuento de anexos"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__bank_account_count
+msgid "Bank"
+msgstr "Banco"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__bank_ids
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__is_blacklisted
+msgid "Blacklist"
+msgstr "Lista negra"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__message_bounce
+msgid "Bounce"
+msgstr "Rebote"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "C.P."
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Calle 2..."
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Calle..."
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__can_publish
+msgid "Can Publish"
+msgstr "Puede publicar"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Cancel Tenancy"
+msgstr "Cancelar el arrendamiento"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Capture términos y condiciones..."
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Cerrar"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__channel_ids
+msgid "Channels"
+msgstr "Canales"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Compruebe si el contacto es una empresa, si no es una persona"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__agent
+msgid "Check this box if this contact is a Agent."
+msgstr "Marque esta casilla si este contacto es un agente."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__is_owner
+#: model:ir.model.fields,help:property_landlord_management.field_res_partner__is_owner
+#: model:ir.model.fields,help:property_landlord_management.field_res_users__is_owner
+#: model:ir.model.fields,help:property_landlord_management.field_tenant_partner__is_owner
+msgid "Check this box if this contact is a landlord(owner)."
+msgstr "Marque esta casilla si este contacto es un propietario."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__tenant
+msgid "Check this box if this contact is a tenant."
+msgstr "Marque esta casilla si este contacto es un inquilino."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Marque esta casilla si este contacto es un empleado."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__city
+msgid "City"
+msgstr "Ciudad"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Ciudad"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_analytic_view_tree_landlord
+msgid "Code"
+msgstr "Código"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__color
+msgid "Color Index"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entidad comercial"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__commission_line
+msgid "Commission"
+msgstr "Comisión"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Empresas que se refieren al socio"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__company_name
+msgid "Company Name"
+msgstr "Nombre de la compañía"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__commercial_company_name
+msgid "Company Name Entity"
+msgstr "Nombre con el que se identifica la empresa Entidad"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__company_type
+msgid "Company Type"
+msgstr "Tipo de Compañía"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__partner_gid
+msgid "Company database ID"
+msgstr "ID de la base de datos de la compañía"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__contact_address
+msgid "Complete Address"
+msgstr "Dirección completa"
+
+#. module: property_landlord_management
+#: model:ir.model,name:property_landlord_management.model_res_partner
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__child_ids
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__payment_token_count
+msgid "Count Payment Token"
+msgstr "Count Payment Token"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "Contador del número de correos electrónicos rebotados para este contacto"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: property_landlord_management
+#: model_terms:ir.actions.act_window,help:property_landlord_management.action_landlord_view_id
+msgid "Create Landlord details and keep track."
+msgstr "Cree los datos del arrendador y haga un seguimiento."
+
+#. module: property_landlord_management
+#: model_terms:ir.actions.act_window,help:property_landlord_management.action_landlord_view_id
+msgid "Create a Landlord Details"
+msgstr "Crear un detalle del propietario"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__credit_limit
+msgid "Credit Limit"
+msgstr "Límite de crédito"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Cuentas bancarias"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__property_stock_customer
+msgid "Customer Location"
+msgstr "Ubicación del cliente"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr "Condiciones de pago del cliente"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__customer_rank
+msgid "Customer Rank"
+msgstr "Rango del cliente"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.analytic_kanban_view_landlord
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Código"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__trust
+msgid "Degree of trust you have in this debtor"
+msgstr "Grado de confianza que tiene en este deudor"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Detalles del arrendamiento"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Detalles del cronograma de alquiler"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_view_tree
+msgid "Detalles del propietario"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Dirección"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__display_name
+msgid "Display Name"
+msgstr "Nombre Mostrado"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Dueño"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__partner_share
+msgid "Either customer (not a user), either shared user. Indicated the current  partner is a customer without access or with a limited access created for sharing data."
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__email
+msgid "Email"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: property_landlord_management
+#: code:addons/property_landlord_management/models/account_analytic.py:0
+#, python-format
+msgid "End date must be greater than start date."
+msgstr "La fecha de finalización debe ser mayor que la fecha de inicio."
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Entradas contables"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.inherited_view_partner_form_owner_id
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.inherited_view_partner_form_tenant_owner
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Es dueño"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Es inquilino"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__x_new_field_PD4084728297010183
+msgid "Es un Desarrollador"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__x_new_field_PD02367895639048956
+msgid "Es un Inversionista"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__x_new_field_PD07543454748384892
+msgid "Es un Propietario"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Estado"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Facturación"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Fecha final"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__phone_sanitized
+msgid "Field used to store sanitized phone number. Helps speeding up searches and comparisons."
+msgstr "Campo utilizado para almacenar el número de teléfono saneado. Ayuda a acelerar las búsquedas y comparaciones"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__doc_name
+msgid "Filename"
+msgstr "Archivo"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__property_account_position_id
+msgid "Fiscal Position"
+msgstr "Posición Fiscal"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Formato de la dirección de correo electrónico \"Nombre <email@domain>\""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__email_formatted
+msgid "Formatted Email"
+msgstr "Correo electrónico con formato"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__partner_latitude
+msgid "Geo Latitude"
+msgstr "Latitud geográfica"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__partner_longitude
+msgid "Geo Longitude"
+msgstr "Longitud geográfica"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr "Tiene entradas no conciliadas"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Historial"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Historial contable"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Horario de alquiler"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__im_status
+msgid "IM Status"
+msgstr "Estado del mensajero instantáneo"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__activity_exception_icon
+msgid "Icon"
+msgstr "Icono"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Icono para indicar una actividad de excepción."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__id_attachment
+msgid "Identity Proof"
+msgstr "Prueba de identidad"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__message_needaction
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__message_unread
+msgid "If checked, new messages require your attention."
+msgstr " Si está marcada, los nuevos mensajes requieren su atención."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__message_has_error
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si está marcada, algunos mensajes tienen un error de entrega."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__team_id
+msgid "If set, this Sales Team will be used for sales and assignations related to this partner"
+msgstr "Si se establece, este equipo de ventas se utilizará para las ventas y asignaciones relacionadas con este socio"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__is_blacklisted
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__phone_blacklisted
+msgid "If the email address is on the blacklist, the contact won't receive mass mailing anymore, from any list"
+msgstr "Si la dirección de correo electrónico está en la lista negra, el contacto no recibirá más correos masivos correo masivo, de cualquier lista"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__image_1920
+msgid "Image"
+msgstr "Imagen"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__image_1024
+msgid "Image 1024"
+msgstr "Imagen 1024"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__image_128
+msgid "Image 128"
+msgstr "Imagen 128"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__image_256
+msgid "Image 256"
+msgstr "Imagen 256"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__image_512
+msgid "Image 512"
+msgstr "Imagen 512"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__industry_id
+msgid "Industry"
+msgstr "Industria"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Información de activo"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Información de arrendamiento"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Información del contrato"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Iniciar"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__type
+msgid "Invoice & Delivery addresses are used in sales orders. Private addresses are only visible by authorized users."
+msgstr "Las direcciones de facturación y entrega se utilizan en los pedidos de venta. Las direcciones privadas son sólo visibles por los usuarios autorizados"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__picking_warn
+msgid "Stock Picking"
+msgstr "Movimiento de inventario"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__property_purchase_currency_id
+msgid "Supplier Currency"
+msgstr "Moneda del proveedor"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__supplier_rank
+msgid "Supplier Rank"
+msgstr "Rango del proveedor"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__category_id
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__task_ids
+msgid "Tasks"
+msgstr "Tareas"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__vat
+msgid "Tax ID"
+msgstr "ID de Impuesto"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__opportunity_count_ids
+msgid "Technical field used for stat button"
+msgstr "Campo técnico utilizado para el botón de estadísticas"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_analytic_view_tree_landlord
+msgid "Tenancy Details"
+msgstr "Detalles del alquiler"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_analytic_view_tree_landlord
+msgid "Tenancy Name"
+msgstr "Propiedad en alquiler"
+
+#. module: property_landlord_management
+#: model:ir.model,name:property_landlord_management.model_tenancy_rent_schedule
+msgid "Tenancy Rent Schedule"
+msgstr "Horario de alquiler de tenencia"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__tenant
+msgid "Tenant"
+msgstr "Inquilino"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Tenencia #"
+msgstr "Contrato de alquiler"
+
+#. module: property_landlord_management
+#: code:addons/property_landlord_management/models/account_analytic.py:0
+#: code:addons/property_landlord_management/models/account_analytic.py:0
+#, python-format
+msgid "The deposit amount must be strictly positive."
+msgstr "El monto del depósito debe ser estrictamente positivo."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__website_url
+msgid "The full URL to access the document through the website."
+msgstr "La URL completa para acceder al documento a través del sitio web."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__user_id
+msgid "The internal user in charge of this contact."
+msgstr "El usuario interno a cargo de este contacto."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__property_stock_customer
+msgid ""
+"The stock location used as destination when sending goods to this contact."
+msgstr "Ubicación usada como destino cuando se envían mercancías a este contacto."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__tz
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__tz_offset
+msgid "Timezone offset"
+msgstr "Compensación de zona horaria"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__title
+msgid "Title"
+msgstr "Título"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Total Amount"
+msgstr "Cantidad total"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Total Credit"
+msgstr "Crédito total"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Total Debit"
+msgstr "Débito Total"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__total_invoiced
+msgid "Total Invoiced"
+msgstr "Total facturado"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__debit
+msgid "Total Payable"
+msgstr "Total a pagar"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__credit
+msgid "Total Receivable"
+msgstr "Total de cuentas por cobrar"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.analytic_kanban_view_landlord
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_analytic_view_tree_landlord
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Total Rent"
+msgstr "Alquiler total"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__credit
+msgid "Total amount this customer owes you."
+msgstr "Monto total que este cliente te debe."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Importe total que debe pagar a este proveedor."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de actividad de excepción registrada."
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Términos & Condiciones"
+msgstr "Términos y condiciones"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_analytic_view_form_id
+msgid "Términos y condiciones"
+msgstr ""
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes no leídos"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes no leídos"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__user_ids
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__currency_id
+msgid "Utility field to express amount currency"
+msgstr "Campo de utilidad para expresar cantidad moneda"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__property_stock_supplier
+msgid "Vendor Location"
+msgstr "Ubicación de proveedor"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr "Condiciones de pago del proveedor"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Ventas"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "Ventas & Compras"
+msgstr "Ventas y Compras"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__website_published
+msgid "Visible on current website"
+msgstr "Visible en el sitio web actual"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__visitor_ids
+msgid "Visitors"
+msgstr "Visitantes"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__website_id
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__website
+msgid "Website Link"
+msgstr "Enlace al sitio web"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__website_url
+msgid "Website URL"
+msgstr "URL del sitio web"
+
+#. module: property_landlord_management
+#: model:ir.model.fields,help:property_landlord_management.field_landlord_partner__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicación del sitio web"
+
+#. module: property_landlord_management
+#: code:addons/property_landlord_management/models/res_partner.py:0
+#, python-format
+msgid "You cannot delete landlord while there are active landlord tenancy."
+msgstr "No se puede eliminar el arrendador mientras haya un arrendamiento activo."
+
+#. module: property_landlord_management
+#: model:ir.model.fields,field_description:property_landlord_management.field_landlord_partner__zip
+msgid "Zip"
+msgstr ""
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.landlord_partner_kanban_view
+msgid "at"
+msgstr "en"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.analytic_kanban_view_landlord
+msgid "nombre de arrendamiento"
+msgstr "Nombre de arrendamiento"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "p.e. BE0477472701"
+msgstr "por ej. BE0477472701"
+
+#. module: property_landlord_management
+#: model_terms:ir.ui.view,arch_db:property_landlord_management.property_landlord_partner_form_id
+msgid "p.e. www.odoo.com"
+msgstr "por ej. www.odoo.com"
+
+#. module: property_landlord_management
+#: code:addons/property_landlord_management/models/account_analytic.py:0
+#, python-format
+msgid "Deposit Received"
+msgstr "Deposito Recibido"

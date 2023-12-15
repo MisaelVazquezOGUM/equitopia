@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_seo_snippet" name="SEO">
+		<section class="s_seo_snippet">
+			<div class="oe_structure"/>
+			<section class="seo-banner pt184 pb104" style="background-image: url('/theme_vouge_business/static/src/img/seo-banner.png');">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-6 mb-4 mb-md-0">
+							<div class="content">
+								<h1 class="text-white">Generate more users and complete more tasks</h1>
+								<p class="text-white">Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor.</p>
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-outline-light rounded-circle btn-lg shadow">GET A QUOTE NOW</a>
+        						</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-banner-image.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="seo-service pb64">
+				<div class="container">
+					<div class="row align-items-center top-margin">
+						<div class="col-lg-7 col-xl-6">
+							<div class="row align-items-center">
+								<div class="col-md-6">
+									<section class="service-box text-center first">
+										<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-service1.png" />
+										</div>
+										<a href="#"><h6>SEO Marketing</h6></a>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+									</section>
+
+									<section class="service-box text-center">
+										<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-service2.png" />
+										</div>
+										<a href="#"><h6>Cloud Hosting</h6></a>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+									</section>
+								</div>
+								<div class="col-md-6">
+									<section class="service-box text-center mb-0">
+										<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-service3.png" />
+										</div>
+										<a href="#"><h6>Desktop Solutions</h6></a>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+									</section>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 offset-xl-1 mb-4 mb-lg-0">
+							<div class="content">
+								<h2>Software solutions &amp; services for everyone</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna, sed ornare mauris mauris vitae diam. Curabitur vitae nibh gravida, faucibus turpis nec, blandit nulla.</p>
+								<div class="icon">
+									<a href="#"><span class="fa fa-3x fa-play-circle"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="seo-analysis pt16 pb32">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 mb-4 mb-lg-0">
+							<div class="content">
+								<h2>Built for sales &amp; marketing teams</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna, sed ornare mauris mauris vitae diam. Curabitur vitae nibh gravida, faucibus turpis nec, blandit nulla.</p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="image">
+								<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-analysis.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="seo-contact pt96 pb96" style="background-image: url('/theme_vouge_business/static/src/img/seo-contact-banner.jpg');">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5">
+							<section class="contact-box text-center">
+								<h4 class="text-white">Contact Us Now</h4>
+								<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate.</p>
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-outline-light rounded-circle btn-lg shadow">CONTACT US</a>
+        						</div>
+							</section>
+						</div>
+						<div class="col-lg-6 offset-lg-1 mb-4 mb-lg-0">
+							<div class="content">
+								<h2 class="text-white">Contact us now and receive a free quotation for your project</h2>
+								<p class="cap text-white">Join 10.000+ freelancers that use our services. Your partner in social and business relations</p>
+								<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna, sed ornare mauris mauris vitae diam.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="seo-newsletter pt96 pb96">
+				<div class="container text-center">
+					<h2>Subscribe to our newsletter</h2>
+					<p class="w-md-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem.</p>
+					<div class="seo-subscribe w-md-75 mx-auto">
+						<form class="input-group js_subscribe" data-list-id="1">
+							<input type="email" name="email" class="js_subscribe_email form-control" placeholder="Enter your Email"/>
+							<span class="input-group-append">
+					            <a role="button" href="#" class="btn btn-seo js_subscribe_btn">Subscribe</a>
+					            <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none" disabled="disabled">Thanks</a>
+					        </span>
+						</form>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="seo-marketing-service pt96 pb96" style="background-image: url('/theme_vouge_business/static/src/img/seo-marketing-bg.png');">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<section class="service-box d-flex">
+								<div class="icon mr-3">
+									<span class="fa fa-comments-o fa-3x"></span>
+								</div>
+								<div class="text">
+									<h5>Increase the conversions rate</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna.</p>
+								</div>
+							</section>
+							<section class="service-box d-flex">
+								<div class="icon mr-3">
+									<span class="fa fa-globe fa-3x"></span>
+								</div>
+								<div class="text">
+									<h5>Expand your affiliate network</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna.</p>
+								</div>
+							</section>
+							<section class="service-box d-flex">
+								<div class="icon mr-3">
+									<span class="fa fa-line-chart fa-3x"></span>
+								</div>
+								<div class="text">
+									<h5>Generate traffic and revenues</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna.</p>
+								</div>
+							</section>
+						</div>
+						<div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0">
+							<div class="content">
+								<h2>Generate more users and complete more tasks</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem.</p>
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-seo rounded-circle btn-lg shadow">OUR SERVICES</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="seo-pricing pt64 pb64">
+				<div class="container text-center">
+					<h2>Subscribe to our newsletter</h2>
+					<p class="w-md-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem.</p>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="price-box">
+								<div class="heading">
+									<h6>Bronze Plan</h6>
+									<h1><sup>$</sup>149</h1>
+									<span class="month">PER MONTH</span>
+								</div>
+								<div class="content">
+									<span class="list-head">Mauris eu ligula sit amet mi bibendum vulputate.</span>
+									<p><span class="fa fa-check-circle"></span>15 versions</p>
+									<p><span class="fa fa-check-circle"></span>All files included</p>
+									<p><span class="fa fa-times-circle"></span>Custom design and coding</p>
+									<p><span class="fa fa-times-circle"></span>Money back guarante</p>
+									<p><span class="fa fa-times-circle"></span>Customer Domains</p>
+									<p><span class="fa fa-times-circle"></span>24/7 support</p>
+									<div class="s_btn pt32 text-center" data-name="Button">
+            							<a href="#" class="btn btn-outline-seo rounded-circle btn-lg shadow">SELECT PLAN</a>
+            						</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="price-box active">
+								<div class="heading">
+									<h6>Silver Plan</h6>
+									<h1><sup>$</sup>349</h1>
+									<span class="month">PER MONTH</span>
+								</div>
+								<div class="content">
+									<span class="list-head">Mauris eu ligula sit amet mi bibendum vulputate.</span>
+									<p><span class="fa fa-check-circle"></span>15 versions</p>
+									<p><span class="fa fa-check-circle"></span>All files included</p>
+									<p><span class="fa fa-check-circle"></span>Custom design and coding</p>
+									<p><span class="fa fa-check-circle"></span>Money back guarante</p>
+									<p><span class="fa fa-times-circle"></span>Customer Domains</p>
+									<p><span class="fa fa-times-circle"></span>24/7 support</p>
+									<div class="s_btn pt32 text-center" data-name="Button">
+            							<a href="#" class="btn btn-seo rounded-circle btn-lg shadow">SELECT PLAN</a>
+            						</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="price-box">
+								<div class="heading">
+									<h6>Gold Plan</h6>
+									<h1><sup>$</sup>649</h1>
+									<span class="month">PER MONTH</span>
+								</div>
+								<div class="content">
+									<span class="list-head">Mauris eu ligula sit amet mi bibendum vulputate.</span>
+									<p><span class="fa fa-check-circle"></span>15 versions</p>
+									<p><span class="fa fa-check-circle"></span>All files included</p>
+									<p><span class="fa fa-check-circle"></span>Custom design and coding</p>
+									<p><span class="fa fa-check-circle"></span>Money back guarante</p>
+									<p><span class="fa fa-check-circle"></span>Customer Domains</p>
+									<p><span class="fa fa-check-circle"></span>24/7 support</p>
+									<div class="s_btn pt32 text-center" data-name="Button">
+            							<a href="#" class="btn btn-outline-seo rounded-circle btn-lg shadow">SELECT PLAN</a>
+            						</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+	</template>
+
+</odoo>

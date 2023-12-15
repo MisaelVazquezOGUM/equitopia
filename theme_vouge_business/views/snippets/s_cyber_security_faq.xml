@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_cyber_security_faq" name="FAQ">
+		<section class="cyber-security-faq" style="background-image: url('/theme_vouge_business/static/src/img/cs-faq-bg.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<span>FAQ</span>
+						<h2>Frequently Asked Questions</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+					</div>
+				</div>
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="image text-center">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/faq.png" />
+						</div>
+					</div>
+					<div class="col-lg-6 mb-4 mb-lg-0">
+						<div class="collapse-accordion mt16 accordion" id="accordionExample">
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">
+										<a class="card-link" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1"> 
+								     	What can you help me with?
+										</a>
+									</div>
+								</div>
+								<div class="collapse show mt8" id="collapse1" data-parent="#accordionExample">
+									<p class=" content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">How do I create a product with you?
+										</a>
+									</div>
+								</div>
+								<div class="collapse mt8" id="collapse2" data-parent="#accordionExample">
+									<p class=" content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3"> Should I create a mobile or a web app?
+										</a>
+									</div>
+								</div>
+								<div class="collapse mt8" id="collapse3" data-parent="#accordionExample">
+									<p class=" content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?
+									</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">What do I need to know before contacting you?
+										</a>
+									</div>
+								</div>
+								<div class="collapse mt8" id="collapse4" data-parent="#accordionExample">
+									<p class=" content-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore omnis quaerat nostrum, pariatur ipsam sunt accusamus enim necessitatibus est fugiat, assumenda dolorem, deleniti corrupti cupiditate ipsum, dolorum voluptatum esse error?
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

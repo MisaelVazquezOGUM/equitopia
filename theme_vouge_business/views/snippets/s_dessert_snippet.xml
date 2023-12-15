@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_snippet" name="Dessert">
+		<section class="s_dessert_snippet">
+			<div class="oe_structure"/>
+			<section class="dessert-home-banner">
+				<div id="dessert-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	
+		            	<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/desser-banner1.png');">
+		            		<div class="container extended-container">
+            					<div class="banner-content text-center">
+            						<div class="star">
+            							<span class="fa fa-star fa-2x"/>
+            							<span class="fa fa-star fa-2x"/>
+            							<span class="fa fa-star fa-2x"/>
+            						</div>
+            						<h2>Freezing Chocolate<br></br>Ice Cream For Everyone</h2>
+            						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br>Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu.</p>
+            						<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-outline-secondary btn-lg">View The Menu</a>
+            						</div>
+            					</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/desser-banner2.png');">
+		            		<div class="container extended-container">
+            					<div class="banner-content text-center">
+            						<div class="star">
+            							<span class="fa fa-star fa-2x"/>
+            							<span class="fa fa-star fa-2x"/>
+            							<span class="fa fa-star fa-2x"/>
+            						</div>
+            						<h2>Delicious Ice Cream Pie<br></br>For Children</h2>
+            						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br>Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu.</p>
+            						<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-outline-secondary btn-lg">View The Menu</a>
+            						</div>
+            					</div>
+		            		</div>
+		            	</div>
+		          	</div>
+		          	 <div class="slider-control">
+	              		<a class="left carousel-control-prev text-white font-14" data-target="#dessert-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-long-arrow-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next text-white font-14" data-target="#dessert-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-long-arrow-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+			        <ol class="carousel-indicators">
+					    <li class="active" data-slide-to="0" data-target="#dessert-carousel">
+					    </li>
+					    <li class="" data-slide-to="1" data-target="#dessert-carousel">
+					    </li>
+					</ol>
+	        	</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="dessert-service" style="background-image: url('/theme_vouge_business/static/src/img/dessert-items.png');">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-2 col-md-4">
+							<div class="service-content">
+								<span class="icon icon-Signal fa-3x"/>
+								<h3>Free WiFi</h3>
+								<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+							</div>
+						</div>
+						<div class="col-xl-2 col-md-4">
+							<div class="service-content">
+								<span class="icon icon-Icecream1 fa-3x"/>
+								<h3>Softy Cones</h3>
+								<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+							</div>
+						</div>
+						<div class="col-xl-2 col-md-4">
+							<div class="service-content">
+								<span class="icon icon-Pizza fa-3x"/>
+								<h3>Birthday Cakes</h3>
+								<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+							</div>
+						</div>
+						<div class="col-xl-2 col-md-4">
+							<div class="service-content">
+								<span class="icon icon-Shaker fa-3x"/>
+								<h3>Fresh milk</h3>
+								<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+							</div>
+						</div>
+						<div class="col-xl-2 col-md-4">
+							<div class="service-content">
+								<span class="icon icon-Bread fa-3x"/>
+								<h3>Fresh products</h3>
+								<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+							</div>
+						</div>
+						<div class="col-xl-2 col-md-4">
+							<div class="service-content">
+								<span class="icon icon-Mug fa-3x"/>
+								<h3>Ice-cream Pies</h3>
+								<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="dessert-about-us parallax s_parallax_is_fixed">
+				<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/dessert-about-bg.png');"/>
+				<div class="container">
+					<div class="row align-items-center justify-content-center">
+						<div class="col-lg-6 col-md-6">
+							<div class="about-content text-center">
+								<span>History of our Ice Creams and Pies</span>
+								<h2>About us</h2>
+								<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusm temporincididunt utlabore et dolore  aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa comodo consequato aute irure dolor in reprehenderit in voluptate velit cilldolore fugiat nullapariature malesione mertolo caridllio los pollos merenda.</p>
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-link btn-lg">Read more <span class="fa fa-long-arrow-right ml-2"/></a>
+        						</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-5 ml-auto">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/dessert-about2.png" class="img img-fluid"/>
+							</div>
+						</div>
+					</div>
+					<div class="hr"/>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="dessert-promotions parallax s_parallax_is_fixed">
+				<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/dessert-promotion-bg.png');"/>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-md-10">
+							<section class="content-inner">
+								<div class="title">
+									<p>Take a look to this weeks offer</p>
+									<h2>This Week Offers</h2>
+								</div>
+								<div class="row">
+									<div class="col-lg-6 col-md-6">
+										<div class="list-items">
+											<section class="list">
+												<div class="row">
+													<div class="col-md-9 col-9">
+														<h3>Vanilla Soft Cone</h3>
+														<p>Duis aute irure dolor into</p>
+													</div>
+													<div class="col-md-3 col-3">
+														<div class="text">9$</div>
+													</div>
+												</div>
+											</section>
+											<section class="list">
+												<div class="row">
+													<div class="col-md-9 col-9">
+														<h3>Strawberry Scoop</h3>
+														<p>Lorem ipsum dolor sito</p>
+													</div>
+													<div class="col-md-3 col-3">
+														<div class="text">10$</div>
+													</div>
+												</div>
+											</section>
+											<section class="list">
+												<div class="row">
+													<div class="col-md-9 col-9">
+														<h3>Chocolate Brownie with ice cream</h3>
+														<p>Sunt in culpa qui deserunt</p>
+													</div>
+													<div class="col-md-3 col-3">
+														<div class="text">12$</div>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6">
+										<div class="list-items">
+											<section class="list">
+												<div class="row">
+													<div class="col-md-9 col-9">
+														<h3>Vanilla Soft Cone</h3>
+														<p>Duis aute irure dolor into</p>
+													</div>
+													<div class="col-md-3 col-3">
+														<div class="text">9$</div>
+													</div>
+												</div>
+											</section>
+											<section class="list">
+												<div class="row">
+													<div class="col-md-9 col-9">
+														<h3>Strawberry Scoup</h3>
+														<p>Lorem ipsum dolor sito</p>
+													</div>
+													<div class="col-md-3 col-3">
+														<div class="text">10$</div>
+													</div>
+												</div>
+											</section>
+											<section class="list">
+												<div class="row">
+													<div class="col-md-9 col-9">
+														<h3>Chocolate Brownie with ice cream</h3>
+														<p>Sunt in culpa qui deserunt</p>
+													</div>
+													<div class="col-md-3 col-3">
+														<div class="text">12$</div>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+								</div>
+								<div class="row mt48 justify-content-center">
+									<div class="col-md-2 mb16">
+										<div class="image">
+											<img src="/theme_vouge_business/static/src/img/dessert-menu1.png" class="img img-fluid"/>
+										</div>
+									</div>
+									<div class="col-md-2 mb16">
+										<div class="image">
+											<img src="/theme_vouge_business/static/src/img/dessert-menu2.png" class="img img-fluid"/>
+										</div>
+									</div>
+									<div class="col-md-2 mb16">
+										<div class="image">
+											<img src="/theme_vouge_business/static/src/img/dessert-menu3.png" class="img img-fluid"/>
+										</div>
+									</div>
+									<div class="col-md-2 mb16">
+										<div class="image">
+											<img src="/theme_vouge_business/static/src/img/dessert-menu4.png" class="img img-fluid"/>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="dessert-homemade">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 col-md-6">
+							<div class="content">
+								<div class="title">
+									<p>Fresh fruit ice creams</p>
+									<h2>Ice creams</h2>
+								</div>
+								<div class="list-items">
+									<section class="list">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="image">
+													<img src="/theme_vouge_business/static/src/img/dessert-menu5.png" class="img img-fluid"/>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-9 col-9">
+												<h3>Dry Fruits Ice Cream</h3>
+												<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+											</div>
+											<div class="col-md-3 col-3">
+												<div class="text">9$</div>
+											</div>
+										</div>
+									</section>
+									<section class="list">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="image">
+													<img src="/theme_vouge_business/static/src/img/dessert-menu6.png" class="img img-fluid"/>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-9 col-9">
+												<h3>Fresh Fruit Candy</h3>
+												<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+											</div>
+											<div class="col-md-3 col-3">
+												<div class="text">11$</div>
+											</div>
+										</div>
+									</section>
+									<section class="list">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="image">
+													<img src="/theme_vouge_business/static/src/img/dessert-menu7.png" class="img img-fluid"/>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-9 col-9">
+												<h3>Blueberry Softie</h3>
+												<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+											</div>
+											<div class="col-md-3 col-3">
+												<div class="text">12$</div>
+											</div>
+										</div>
+									</section>
+									<section class="list">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="image">
+													<img src="/theme_vouge_business/static/src/img/dessert-menu8.png" class="img img-fluid"/>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-9 col-9">
+												<h3>Vanilla Soft Cone</h3>
+												<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+											</div>
+											<div class="col-md-3 col-3">
+												<div class="text">14$</div>
+											</div>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/dessert-text-image1.png" class="img img-fluid"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="dessert-homemade">
+				<div class="container">
+					<div class="row align-items-center dessert-two">
+						<div class="col-lg-6 col-md-6">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/dessert-text-image2.png" class="img img-fluid"/>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="content">
+								<div class="title">
+									<p>Fresh fruit ice creams</p>
+									<h2>Ice creams</h2>
+								</div>
+								<div class="list-items">
+									<section class="list">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="image">
+													<img src="/theme_vouge_business/static/src/img/dessert-menu9.png" class="img img-fluid"/>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-9 col-9">
+												<h3>Dry Fruits Ice Cream</h3>
+												<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+											</div>
+											<div class="col-md-3 col-3">
+												<div class="text">9$</div>
+											</div>
+										</div>
+									</section>
+									<section class="list">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="image">
+													<img src="/theme_vouge_business/static/src/img/dessert-menu10.png" class="img img-fluid"/>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-9 col-9">
+												<h3>Fresh Fruit Candy</h3>
+												<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+											</div>
+											<div class="col-md-3 col-3">
+												<div class="text">10$</div>
+											</div>
+										</div>
+									</section>
+									<section class="list">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="image">
+													<img src="/theme_vouge_business/static/src/img/dessert-menu11.png" class="img img-fluid"/>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-9 col-9">
+												<h3>Blueberry Softie</h3>
+												<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+											</div>
+											<div class="col-md-3 col-3">
+												<div class="text">13$</div>
+											</div>
+										</div>
+									</section>
+									<section class="list">
+										<div class="row">
+											<div class="col-md-2">
+												<div class="image">
+													<img src="/theme_vouge_business/static/src/img/dessert-menu12.png" class="img img-fluid"/>
+												</div>
+											</div>
+											<div class="col-lg-7 col-md-9 col-9">
+												<h3>Vanilla Soft Cone</h3>
+												<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+											</div>
+											<div class="col-md-3 col-3">
+												<div class="text">15$</div>
+											</div>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="dessert-testimonial parallax s_parallax_is_fixed" >
+				<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/dessert-testimonial.png');"/>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="title text-center">
+							<p>Take a look to the reviews of our foodies</p>
+							<h2>Our testimonials</h2>
+						</div>
+					</div>
+					<div id="dessert-testimonial-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			            	<div class="carousel-item active">
+			            		<div class="container">
+			            			<div class="row position-relative justify-content-center">
+			            				<div class="col-xl-6 col-lg-6 col-md-6">
+			            					<div class="client-content">
+			            						<section class="client-info">
+			            							<p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+			            						</section>
+			            						<div class="auther d-flex align-items-center">
+				            						<div class="image">
+				            							<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+				            						</div>
+				            						<div class="auther-info">
+				            							<h5>Paul Williams</h5>
+				            							<span>Foodie</span>
+				            						</div>
+				            					</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-xl-6 col-lg-6 col-md-6">
+			            					<div class="client-content">
+			            						<section class="client-info">
+			            							<p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+			            						</section>
+			            						<div class="auther d-flex align-items-center">
+				            						<div class="image">
+				            							<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+				            						</div>
+				            						<div class="auther-info">
+				            							<h5>Anita Oliver</h5>
+				            							<span>Foodie</span>
+				            						</div>
+				            					</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			            	<div class="carousel-item">
+			            		<div class="container">
+			            			<div class="row position-relative justify-content-center">
+			            				<div class="col-xl-6 col-lg-6 col-md-6">
+			            					<div class="client-content">
+			            						<section class="client-info">
+			            							<p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+			            						</section>
+			            						<div class="auther d-flex align-items-center">
+				            						<div class="image">
+				            							<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/vouge-team3.png" />
+				            						</div>
+				            						<div class="auther-info">
+				            							<h5>Andrew Petersons</h5>
+				            							<span>Foodie</span>
+				            						</div>
+				            					</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-xl-6 col-lg-6 col-md-6">
+			            					<div class="client-content">
+			            						<section class="client-info">
+			            							<p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+			            						</section>
+			            						<div class="auther d-flex align-items-center">
+				            						<div class="image">
+				            							<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/vouge-team4.png" />
+				            						</div>
+				            						<div class="auther-info">
+				            							<h5>Jessy Pinkman</h5>
+				            							<span>Foodie</span>
+				            						</div>
+				            					</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			          	</div>
+			          	<div class="slider-control">
+		              		<a class="left carousel-control-prev font-14" data-target="#dessert-testimonial-carousel" role="button" data-slide="prev">
+			                	<span class="fa fa-long-arrow-left"/>
+			               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+			              	</a>
+			              	<a class="right carousel-control-next font-14" data-target="#dessert-testimonial-carousel" role="button" data-slide="next">
+			                	<span class="fa fa-long-arrow-right"/>
+			                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+			              	</a>
+			            </div>
+			            <ol class="carousel-indicators">
+						    <li class="active" data-slide-to="0" data-target="#dessert-testimonial-carousel">
+						    </li>
+						    <li class="" data-slide-to="1" data-target="#dessert-testimonial-carousel">
+						    </li>
+						</ol>
+		        	</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="dessert-offer">
+				<div class="container">
+					<div class="row justify-content-center mt32">
+						<div class="col-lg-8 col-md-10">
+							<div class="title text-center">
+								<span>Our list is growing daily</span>
+								<h2>WORD FROM FOUNDER</h2>
+								<p>Lorem ipsum dolor amet consectetur adipiscing elitsed do eiusm aliqua.<br></br>Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa comodo consequato aute irure dolor in reprehenderit in voluptate velit cilldolore fugiat nullapariature malesione mertolo caridllio los pollos merenda dello studente latino imperiale.</p>
+								<div class="image">
+        							<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/sign.png" />
+        						</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mt32">
+						<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+							<div class="image">
+    							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+    						</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+							<div class="image">
+    							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+    						</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+							<div class="image">
+    							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand3.png" />
+    						</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+							<div class="image">
+    							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand4.png" />
+    						</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+							<div class="image">
+    							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand5.png" />
+    						</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-6 mb-4">
+							<div class="image">
+    							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/furniture-brand6.png" />
+    						</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="dessert-instagram">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+							<div class="icon-block position-relative">
+								<a href="/" target="_blank">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/dessert-insta1.png" />
+								</a>
+							</div>
+						</div>
+						<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+							<div class="icon-block position-relative">
+								<a href="/" target="_blank">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/dessert-insta2.png" />
+								</a>
+							</div>
+						</div>
+						<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+							<div class="icon-block position-relative">
+								<a href="/" target="_blank">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/dessert-insta3.png" />
+								</a>
+							</div>
+						</div>
+						<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+							<div class="icon-block position-relative">
+								<a href="/" target="_blank">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/dessert-insta4.png" />
+								</a>
+							</div>
+						</div>
+						<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+							<div class="icon-block position-relative">
+								<a href="/" target="_blank">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/dessert-insta5.png" />
+								</a>
+							</div>
+						</div>
+						<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+							<div class="icon-block position-relative">
+								<a href="/" target="_blank">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/dessert-insta6.png" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+		</section>
+	</template>
+
+</odoo>

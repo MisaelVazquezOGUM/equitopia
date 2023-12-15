@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_cyber_security_plateform" name="Plateform">
+		<section class="cyber-security-plateform">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 mb-4">
+						<div class="image text-center">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/cs-platform.png" />
+						</div>
+					</div>
+					<div class="col-lg-6 mb-4 mb-lg-0">
+						<div class="content">
+							<span>Cyber Security helps to protect data</span>
+							<h2>Bizople develop creative solutions for companies of all niches</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi, molestias repellat excepturi nobis eum culpa voluptates dolorem dolorum et Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi.</p>
+						</div>
+						<div class="list-items">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="item">
+										<span class="fa fa-check-square-o fa-1x mr-3"/>
+										<h3>Error Tolerance</h3>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item">
+										<span class="fa fa-check-square-o fa-1x mr-3"/>
+										<h3>Smart support</h3>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item">
+										<span class="fa fa-check-square-o fa-1x mr-3"/>
+										<h3>Tunnelling</h3>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item">
+										<span class="fa fa-check-square-o fa-1x mr-3"/>
+										<h3>Real-time records</h3>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item">
+										<span class="fa fa-check-square-o fa-1x mr-3"/>
+										<h3>Metal case</h3>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="item">
+										<span class="fa fa-check-square-o fa-1x mr-3"/>
+										<h3>Fast shortcuts</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

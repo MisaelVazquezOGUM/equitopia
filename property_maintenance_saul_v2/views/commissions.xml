@@ -1,0 +1,51 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="account_asset_asset_commissions">
+      <field name="model">account.asset.asset</field>
+      <field name="inherit_id" ref="om_account_asset.view_account_asset_asset_form" />
+      <field name="arch" type="xml">
+        
+        <xpath expr="//field[@name='currency_id']" position="after">
+          <field name="commission_percentage" />
+        </xpath>
+
+      </field>
+    </record>
+
+
+    <record model="ir.ui.view" id="analytic_comissions_view">
+      <field name="model">account.analytic.account</field>
+      <field name="name">analytic.comissions.custom</field>
+      <field name="arch" type="xml">
+        <tree string="Comisiones">
+          <field name="id" />
+          <field name="code"/>
+          <field name="property_id" />
+          <field name="ten_date" />
+          <field name="commission_value" />
+          <field name="commission_percentage" />
+          <field name="rent_schedule_ids" />
+          <field name="rent_payment" />
+          <button type="object" string="" name="open_payment" class="fa fa-book" attrs="{'invisible': [('rent_payment','=',False)]}"/>
+        </tree>
+      </field>
+    </record>
+
+    <!-- Menus -->
+    <record id="action_commission_custom" model="ir.actions.act_window">
+      <field name="name">Comisiones (por contrato)</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">account.analytic.account</field>
+      <field name="view_mode">tree</field>
+      <field name="view_id" ref="analytic_comissions_view" />
+    </record>
+
+    <menuitem 
+      id="menu_commission_custom"
+      name="Comisiones por contrato"
+      parent="property_commission.menu_commissions" 
+      action="action_commission_custom"
+      />
+
+  </data>
+</odoo>

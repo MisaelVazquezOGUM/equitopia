@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_hotel_snippet" name="Hotel">
+		<section class="s_hotel_snippet">
+			<div class="oe_structure"/>
+			<section class="hotel-home-banner">
+				<div id="hotel-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	
+		            	<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/hotel-banner1.jpg');">
+		            		<div class="container extended-container">
+            					<div class="banner-content text-center">
+            						<span>
+            							<img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/>
+            						</span>
+            						<h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+            						<p>The Luxurious Hotel &amp; Resort Reservation</p>
+            						<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+            						</div>
+            					</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/hotel-banner2.jpg');">
+		            		<div class="container extended-container">
+            					<div class="banner-content text-center">
+            						<span>
+            							<img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/>
+            						</span>
+            						<h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+            						<p>The Luxurious Hotel &amp; Resort Reservation</p>
+            						<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+            						</div>
+            					</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/hotel-banner3.jpg');">
+		            		<div class="container extended-container">
+            					<div class="banner-content text-center">
+            						<span>
+            							<img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/>
+            						</span>
+            						<h2 class="text-white">Vouge Hotel &amp; Resort</h2>
+            						<p>The Luxurious Hotel &amp; Resort Reservation</p>
+            						<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-outline-light btn-lg">Book Now Your Room</a>
+            						</div>
+            					</div>
+		            		</div>
+		            	</div>
+		          	</div>
+			        <div class="slider-control">
+	              		<a class="left carousel-control-prev text-white font-14" data-target="#hotel-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-long-arrow-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next text-white font-14" data-target="#hotel-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-long-arrow-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+	        	</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="hotel-favorite-rooms">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="heading text-center">
+							<h1>Our Luxurious Rooms</h1>
+							<span><img src="/theme_vouge_business/static/src/img/hotel-flower2.png" class="img img-fluid"/></span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.
+							</p>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-4 col-md-12 mb-4">
+							<div class="room-content">
+								<div class="image">
+									<img src="/theme_vouge_business/static/src/img/hotel-room1.jpg" class="img img-fluid"/>
+								</div>
+								<div class="info">
+									<h6>Deluxe Room</h6>
+									<p>Lorem ipsum porta placerat rutrum aliquet platea accumsan, molestie eros aliquet adipiscing egestas ultrices.</p>
+									<div class="s_btn mt32" data-name="Button">
+            							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+            						</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 mb-4">
+							<div class="room-content">
+								<div class="image">
+									<img src="/theme_vouge_business/static/src/img/hotel-room2.jpg" class="img img-fluid"/>
+								</div>
+								<div class="info">
+									<h6>Super Deluxe Room</h6>
+									<p>Lorem ipsum porta placerat rutrum aliquet platea accumsan, molestie eros aliquet adipiscing egestas ultrices.</p>
+									<div class="s_btn mt32" data-name="Button">
+            							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+            						</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 mb-4">
+							<div class="room-content">
+								<div class="image">
+									<img src="/theme_vouge_business/static/src/img/hotel-room3.jpg" class="img img-fluid"/>
+								</div>
+								<div class="info">
+									<h6>Royal Suite Room</h6>
+									<p>Lorem ipsum porta placerat rutrum aliquet platea accumsan, molestie eros aliquet adipiscing egestas ultrices.</p>
+									<div class="s_btn mt32" data-name="Button">
+            							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+            						</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="hotel-welcome-pearl parallax s_parallax_is_fixed">
+				<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/hotel-welcome-bg.jpg');"/>
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 col-md-12">
+							<div class="welcome-content text-center">
+								<h1>WELCOME TO VOUGE</h1>
+								<span><img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/></span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis in ipsum eu pretium. Sed auctor augue at vestibulum euismod Integer feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis in ipsum eu pretium. Sed auctor augue at vestibulum euismod Integer feugiat.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/hotel-welcome-image.jpg" class="img img-fluid"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="hotel-special-service">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="heading text-center">
+							<h1>OUR SPECIAL SERVICES</h1>
+							<span><img src="/theme_vouge_business/static/src/img/hotel-flower2.png" class="img img-fluid"/></span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.
+							</p>
+						</div>
+					</div>
+					<div id="hotel-service-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			            	<div class="carousel-item active">
+			            		<div class="container">
+			            			<div class="row position-relative justify-content-center">
+			            				<div class="col-xl-6 col-lg-6 col-md-6">
+			            					<section class="service-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/hotel-service1.jpg" />
+			            						</div>
+			            						<div class="service-info">
+			            							<h4>Early Hotel Reservation</h4>
+			            							<p>Lorem ipsum dolor sit consectetur adipisicing elit amet sid do eiusmod tempor incididunt labore sint occaecat Duis aute irure dolor reprehenderit.</p>
+			            							<div class="s_btn mt32" data-name="Button">
+				            							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+				            						</div>
+			            						</div>
+			            					</section>
+			            				</div>
+			            				<div class="col-xl-6 col-lg-6 col-md-6">
+			            					<section class="service-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/hotel-service3.jpg" />
+			            						</div>
+			            						<div class="service-info">
+			            							<h4>Luxury Bathrooms</h4>
+			            							<p>Lorem ipsum dolor sit consectetur adipisicing elit amet sid do eiusmod tempor incididunt labore sint occaecat Duis aute irure dolor reprehenderit.</p>
+			            							<div class="s_btn mt32" data-name="Button">
+				            							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+				            						</div>
+			            						</div>
+			            					</section>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			            	<div class="carousel-item">
+			            		<div class="container">
+			            			<div class="row position-relative justify-content-center">
+			            				<div class="col-xl-6 col-lg-6 col-md-6">
+			            					<section class="service-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/hotel-service2.jpg" />
+			            						</div>
+			            						<div class="service-info">
+			            							<h4>Vouge Authentic Coffee</h4>
+			            							<p>Lorem ipsum dolor sit consectetur adipisicing elit amet sid do eiusmod tempor incididunt labore sint occaecat Duis aute irure dolor reprehenderit.</p>
+			            							<div class="s_btn mt32" data-name="Button">
+				            							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+				            						</div>
+			            						</div>
+			            					</section>
+			            				</div>
+			            				<div class="col-xl-6 col-lg-6 col-md-6">
+			            					<section class="service-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/hotel-service4.jpg" />
+			            						</div>
+			            						<div class="service-info">
+			            							<h4>Wedding Area</h4>
+			            							<p>Lorem ipsum dolor sit consectetur adipisicing elit amet sid do eiusmod tempor incididunt labore sint occaecat Duis aute irure dolor reprehenderit.</p>
+			            							<div class="s_btn mt32" data-name="Button">
+				            							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+				            						</div>
+			            						</div>
+			            					</section>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			          	</div>
+			          	<div class="slider-control">
+		              		<a class="left carousel-control-prev font-14" data-target="#hotel-service-carousel" role="button" data-slide="prev">
+			                	<span class="fa fa-angle-left"/>
+			               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+			              	</a>
+			              	<a class="right carousel-control-next font-14" data-target="#hotel-service-carousel" role="button" data-slide="next">
+			                	<span class="fa fa-angle-right"/>
+			                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+			              	</a>
+			            </div>
+		        	</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="hotel-testimonial parallax s_parallax_is_fixed" >
+				<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/hotel-testimonial.jpg');"/>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="heading text-center">
+							<span>Some Reviews</span>
+							<h1>FROM GUEST</h1>
+							<div>
+								<img src="/theme_vouge_business/static/src/img/hotel-flower.png" class="img img-fluid"/>
+							</div>
+						</div>
+					</div>
+					<div id="hotel-testimonial-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			            	<div class="carousel-item active">
+			            		<div class="container">
+			            			<div class="row position-relative justify-content-center">
+			            				<div class="col-xl-12 col-lg-12 col-md-12">
+			            					<div class="client-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+			            						</div>
+			            						<div class="client-info">
+			            							<h5>Anita Oliver</h5>
+			            							<h6>Graphics Designer</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+			            							<div class="rating">
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            							</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			            	<div class="carousel-item">
+			            		<div class="container">
+			            			<div class="row position-relative justify-content-center">
+			            				<div class="col-xl-12 col-lg-12 col-md-12">
+			            					<div class="client-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+			            						</div>
+			            						<div class="client-info">
+			            							<h5>Paul Williams</h5>
+			            							<h6>Web Developer</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+			            							<div class="rating">
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            							</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			            	<div class="carousel-item">
+			            		<div class="container">
+			            			<div class="row position-relative justify-content-center">
+			            				<div class="col-xl-12 col-lg-12 col-md-12">
+			            					<div class="client-content">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team3.png" />
+			            						</div>
+			            						<div class="client-info">
+			            							<h5>Jessy Pinkman</h5>
+			            							<h6>Software Engineer</h6>
+			            							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+			            							<div class="rating">
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            								<span class="fa fa-star"/>
+			            							</div>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+			            	</div>
+			          	</div>
+			          	<div class="slider-control">
+		              		<a class="left carousel-control-prev font-14" data-target="#hotel-testimonial-carousel" role="button" data-slide="prev">
+			                	<span class="fa fa-angle-left"/>
+			               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+			              	</a>
+			              	<a class="right carousel-control-next font-14" data-target="#hotel-testimonial-carousel" role="button" data-slide="next">
+			                	<span class="fa fa-angle-right"/>
+			                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+			              	</a>
+			            </div>
+		        	</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="hotel-address">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 mb16">
+							<div class="content">
+								<div class="content-icon">
+									<span class="ti ti-mobile fa-4x">
+									</span>
+								</div>
+								<div class="info">
+									<h2>Phone</h2>
+									<h3>+1 (650) 691-3277</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 mb16">
+							<div class="content">
+								<div class="content-icon">
+									<span class="ti ti-map-alt fa-4x">
+									</span>
+								</div>
+								<div class="info">
+									<h2>ADDRESS</h2>
+									<h3>250 Executive Park Blvd, Suite 3400,<br/>San Francisco, 94134</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 mb16">
+							<div class="content">
+								<div class="content-icon">
+									<span class="ti ti-email fa-4x">
+									</span>
+								</div>
+								<div class="info">
+									<h2>E-MAIL</h2>
+									<h3>info@vouge.com</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+		</section>
+	</template>
+
+</odoo>

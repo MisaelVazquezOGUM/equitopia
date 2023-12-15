@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="app_landing_template" model="ir.ui.view">
+		<field name="name">App Landing Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.app_landing_template</field>
+		<field name="arch" type="xml">
+			<t name="App Landing Template" t-name="theme_vouge_business.app_landing_template">
+				<t t-call="website.layout">
+					<div class="oe_structure oe_empty app-landing-extended-container" id="wrap">
+						<section class="app-landing-home-banner" style="background-image: url('/theme_vouge_business/static/src/img/app1-banner-bg.png');">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-lg-6">
+										<div class="banner-content">
+											<h1>Get the best app at the best price</h1>
+											<p>Algolia’s analytics dashboard helps product teams better understand what their users are looking for most, as well as where they are hitting dead-ends most often.</p>
+											<div class="s_btn" data-name="Button">
+		            							<a href="#" class="btn btn-app-1 bizople_button">Download now</a>
+		            							<a href="#" class="btn btn-outline-app-1 bizople_button">Learn More</a>
+		            						</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="banner-image">
+											<div class="image">
+												<a href="#">
+													<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/app1-banner.png" />
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-landing-about">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-10">
+										<div class="title">
+											<span>About Bizople</span>
+											<h3>Bizople develop creative solutions for companies of all niches</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row about-list justify-content-center">
+									<div class="col-lg-3 col-md-6 p-0">
+										<div class="about-content">
+											<div class="about-icon">
+												<span class="fa fa-ravelry bg1 fa-1x"/>
+											</div>
+											<div class="content">
+												<h4>Website Design</h4>
+												<p>Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 p-0">
+										<div class="about-content">
+											<div class="about-icon" >
+												<span class="fa fa-desktop bg2 fa-1x"/>
+											</div>
+											<div class="content">
+												<h4>Fully Responsive</h4>
+												<p>Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 p-0">
+										<div class="about-content">
+											<div class="about-icon" >
+												<span class="fa fa-houzz bg3 fa-1x"/>
+											</div>
+											<div class="content">
+												<h4>Smart support</h4>
+												<p>CCurabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6 p-0">
+										<div class="about-content">
+											<div class="about-icon">
+												<span class="fa fa-picture-o bg4 fa-1x"/>
+											</div>
+											<div class="content">
+												<h4>Metal case</h4>
+												<p>Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row mt64 justify-content-center">
+									<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-apple mr-2"/> App Store</a>
+            							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-android mr-2"/> Play Store</a>
+            							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-windows mr-2"/> Windows</a>
+            						</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-experience">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-lg-6 col-md-12">
+										<div class="image-video">
+											<div class="image">
+												<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/app-boost.png" />
+												<div class="video">
+													<a href="#" class="video-play">
+														<span class="fa fa-play"/>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-12">
+										<div class="content">
+											<span>Analytics &amp; reporting</span>
+											<h3>Boost your business with Bizople</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Integer ut eros vel purus tristique finibus.</p>
+											<p>Nulla tristique, tellus ut posuere facilisis, nunc dolor feugiat massa, sed gravida quam mi semper nunc. Maecenas a vehicula lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-landing-counter">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-3 col-md-6">
+										<div class="counter-content d-flex align-items-center">
+											<div class="app-icon">
+												<span class="fa fa-hand-pointer-o"/>
+											</div>
+											<div class="counter-box">
+												<div class="count-text counter">786</div>
+												<h5>Projects</h5>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="counter-content d-flex align-items-center">
+											<div class="app-icon">
+												<span class="fa fa-comments-o"/>
+											</div>
+											<div class="counter-box">
+												<div class="count-text counter">567</div>
+												<h5>Client Served</h5>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="counter-content d-flex align-items-center">
+											<div class="app-icon">
+												<span class="fa fa-envelope-open-o"/>
+											</div>
+											<div class="counter-box">
+												<div class="count-text counter">653</div>
+												<h5>App Downloads</h5>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-3 col-md-6">
+										<div class="counter-content d-flex align-items-center">
+											<div class="app-icon">
+												<span class="fa fa-trophy"/>
+											</div>
+											<div class="counter-box">
+												<div class="count-text counter">63</div>
+												<h5>Best Awards</h5>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-why-choose-this" style="background-image: url('/theme_vouge_business/static/src/img/app-why-choose-bg.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-10">
+										<div class="title">
+											<span>why choose us</span>
+											<h3>Born for marketing and seo teams</h3>
+											<p>Lorem ipsum dolor sit amet consectetur adipi labore et dolore magscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row align-items-center">
+									<div class="col-lg-4 col-md-12">
+										<section class="why-choose-content">
+											<div class="why-icon">
+												<span class="fa fa-cogs" />
+											</div>
+											<div class="info">
+												<h4>Cloud hosting</h4>
+												<p>Interdum iusto pulvinar consequuntur augue optio repellat fugarus expedita fusce.</p>
+											</div>
+										</section>
+										<section class="why-choose-content">
+											<div class="why-icon">
+												<span class="fa fa-check-circle-o" />
+											</div>
+											<div class="info">
+												<h4>Quantum engine</h4>
+												<p>Interdum iusto pulvinar consequuntur augue optio repellat fugarus expedita fusce.</p>
+											</div>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-12 mb-3">
+										<div class="image">
+											<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/app-why-choose.png" />
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-12">
+										<section class="why-choose-content">
+											<div class="why-icon">
+												<span class="fa fa-comments-o" />
+											</div>
+											<div class="info">
+												<h4>Dedicated panel</h4>
+												<p>Interdum iusto pulvinar consequuntur augue optio repellat fugarus expedita fusce.</p>
+											</div>
+										</section>
+										<section class="why-choose-content">
+											<div class="why-icon">
+												<span class="fa fa-user-secret" />
+											</div>
+											<div class="info">
+												<h4>Paralles processors</h4>
+												<p>Interdum iusto pulvinar consequuntur augue optio repellat fugarus expedita fusce.</p>
+											</div>
+										</section>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-how-it-work"  style="background-image: url('/theme_vouge_business/static/src/img/app-testimonial-bg.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-10">
+										<div class="title">
+											<span>WORK PROCESS</span>
+											<h3>How we works?</h3>
+											<p>Lorem ipsum dolor sit amet consectetur adipi labore et dolore magscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row justify-content-center s_col_no_bgcolor">
+									<div class="col-lg-12">
+					                    <div class="card bg-white tabs-content">
+					                        <div class="card-header">
+					                            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+					                                <li class="nav-item">
+					                                    <a class="nav-link active"
+					                                        id="nav_tabs_link_1"
+					                                        data-toggle="tab"
+					                                        href="#nav_tabs_content_1"
+					                                        role="tab"
+					                                        aria-controls="nav_tabs_content_1"
+					                                        aria-selected="true"><span class="fa fa-check-circle-o mr-2" />Signup Account <section class="number">1</section></a>
+					                                </li>
+					                                <li class="nav-item">
+					                                    <a class="nav-link"
+					                                        id="nav_tabs_link_2"
+					                                        data-toggle="tab"
+					                                        href="#nav_tabs_content_2"
+					                                        role="tab"
+					                                        aria-controls="nav_tabs_content_2"
+					                                        aria-selected="false">
+					                                        <span class="fa fa-cogs mr-2" />Goto Settings <section class="number">2</section></a>
+					                                </li>
+					                                <li class="nav-item">
+					                                    <a class="nav-link"
+					                                        id="nav_tabs_link_3"
+					                                        data-toggle="tab"
+					                                        href="#nav_tabs_content_3"
+					                                        role="tab"
+					                                        aria-controls="nav_tabs_content_3"
+					                                        aria-selected="false">
+					                                        <span class="fa fa-comments-o mr-2" />Start Talking<section class="number">3</section></a>
+					                                </li>
+					                            </ul>
+					                        </div>
+					                        <div class="card-body tab-content">
+					                            <div class="tab-pane fade show active"
+					                                id="nav_tabs_content_1"
+					                                role="tabpanel"
+					                                aria-labelledby="nav_tabs_link_1">
+					                               <div class="row">
+						                               	<div class="col-lg-6 col-md-12">
+						                               		<div class="content">
+						                               			<h4>Signup Account</h4>
+						                               			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in. Nam ut nisi lorem. Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate.</p>
+						                               			<p>Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus. Nullam sit amet consequat velit. Vivamus mattis, nibh egestas eleifend facilisis, eros arcu malesuada erat, non placerat nibh ligula vitae eros. Proin eu libero at sapien dictum posuere.</p>
+						                               			<p>Vivamus vitae consectetur augue, a hendrerit leo. Etiam tincidunt elementum justo vitae auctor. Proin accumsan rhoncus velit in egestas. Aenean finibus tincidunt velit eu gravida. Sed pulvinar elit enim, a dictum leo tincidunt sed.</p>
+						                               		</div>
+						                               	</div>
+						                               	<div class="col-lg-6 col-md-12">
+						                               		<div class="image">
+						                               			<img class="img img-fluid"
+																src="/theme_vouge_business/static/src/img/app-work.png" />
+						                               		</div>
+						                               	</div>
+					                               </div>
+					                            </div>
+					                            <div class="tab-pane fade"
+					                                id="nav_tabs_content_2"
+					                                role="tabpanel"
+					                                aria-labelledby="nav_tabs_link_2">
+					                               <div class="row">
+						                               	<div class="col-lg-6 col-md-12">
+						                               		<div class="content">
+						                               			<h4>Goto Setting</h4>
+						                               			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in. Nam ut nisi lorem. Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate.</p>
+						                               			<p>Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus. Nullam sit amet consequat velit. Vivamus mattis, nibh egestas eleifend facilisis, eros arcu malesuada erat, non placerat nibh ligula vitae eros. Proin eu libero at sapien dictum posuere.</p>
+						                               			<p>Vivamus vitae consectetur augue, a hendrerit leo. Etiam tincidunt elementum justo vitae auctor. Proin accumsan rhoncus velit in egestas. Aenean finibus tincidunt velit eu gravida. Sed pulvinar elit enim, a dictum leo tincidunt sed.</p>
+						                               		</div>
+						                               	</div>
+						                               	<div class="col-lg-6 col-md-12">
+						                               		<div class="image">
+						                               			<img class="img img-fluid"
+																src="/theme_vouge_business/static/src/img/app-work.png" />
+						                               		</div>
+						                               	</div>
+					                               </div>
+					                            </div>
+					                            <div class="tab-pane fade"
+					                                id="nav_tabs_content_3"
+					                                role="tabpanel"
+					                                aria-labelledby="nav_tabs_link_3">
+					                                <div class="row">
+						                               	<div class="col-lg-6 col-md-12">
+						                               		<div class="content">
+						                               			<h4>Start Talking</h4>
+						                               			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in. Nam ut nisi lorem. Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate.</p>
+						                               			<p>Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus. Nullam sit amet consequat velit. Vivamus mattis, nibh egestas eleifend facilisis, eros arcu malesuada erat, non placerat nibh ligula vitae eros. Proin eu libero at sapien dictum posuere.</p>
+						                               			<p>Vivamus vitae consectetur augue, a hendrerit leo. Etiam tincidunt elementum justo vitae auctor. Proin accumsan rhoncus velit in egestas. Aenean finibus tincidunt velit eu gravida. Sed pulvinar elit enim, a dictum leo tincidunt sed.</p>
+						                               		</div>
+						                               	</div>
+						                               	<div class="col-lg-6 col-md-12">
+						                               		<div class="image">
+						                               			<img class="img img-fluid"
+																src="/theme_vouge_business/static/src/img/app-work.png" />
+						                               		</div>
+						                               	</div>
+					                               </div>
+					                            </div>
+					                        </div>
+					                    </div>
+					                </div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-screenshots">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-10">
+										<div class="title">
+											<span>SCREENSHOTS</span>
+											<h3>Amazing Design Interface</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div id="app-screenshots-carousel" class="carousel bs-slider slide  control-round indicators-line pt32" data-ride="carousel" data-pause="hover" data-interval="7000">
+							          	<div class="carousel-inner" role="listbox">
+							          		<div class="carousel-item active">
+								            	<div class="container">
+							            			<div class="row">
+							            				<div class="col-lg-3 col-md-6 mb24">
+							            					<div class="text-center">
+							            						<div class="service-img">
+							            							<img src="/theme_vouge_business/static/src/img/app-screenshots1.png" class="img img-fluid"/>
+							            						</div>
+							            					</div>
+							            				</div>
+							            				<div class="col-lg-3 col-md-6 mb24">
+							            					<div class="text-center">
+							            						<div class="service-img">
+							            							<img src="/theme_vouge_business/static/src/img/app-screenshots2.png" class="img img-fluid"/>
+							            						</div>
+							            					</div>
+							            				</div>
+							            				<div class="col-lg-3 col-md-6 mb24">
+							            					<div class="text-center">
+							            						<div class="service-img">
+							            							<img src="/theme_vouge_business/static/src/img/app-screenshots3.png" class="img img-fluid"/>
+							            						</div>
+							            					</div>
+							            				</div>
+							            				<div class="col-lg-3 col-md-6 mb24">
+							            					<div class="text-center">
+							            						<div class="service-img">
+							            							<img src="/theme_vouge_business/static/src/img/app-screenshots4.png" class="img img-fluid"/>
+							            						</div>
+							            					</div>
+							            				</div>
+							            			</div>
+							            		</div>
+								            </div>
+								            <div class="carousel-item">
+								            	<div class="container">
+							            			<div class="row">
+							            				<div class="col-lg-3 col-md-6 mb24">
+							            					<div class="text-center">
+							            						<div class="service-img">
+							            							<img src="/theme_vouge_business/static/src/img/app-screenshots1.png" class="img img-fluid"/>
+							            						</div>
+							            					</div>
+							            				</div>
+							            				<div class="col-lg-3 col-md-6 mb24">
+							            					<div class="text-center">
+							            						<div class="service-img">
+							            							<img src="/theme_vouge_business/static/src/img/app-screenshots2.png" class="img img-fluid"/>
+							            						</div>
+							            					</div>
+							            				</div>
+							            				<div class="col-lg-3 col-md-6 mb24">
+							            					<div class="text-center">
+							            						<div class="service-img">
+							            							<img src="/theme_vouge_business/static/src/img/app-screenshots3.png" class="img img-fluid"/>
+							            						</div>
+							            					</div>
+							            				</div>
+							            				<div class="col-lg-3 col-md-6 mb24">
+							            					<div class="text-center">
+							            						<div class="service-img">
+							            							<img src="/theme_vouge_business/static/src/img/app-screenshots4.png" class="img img-fluid"/>
+							            						</div>
+							            					</div>
+							            				</div>
+							            			</div>
+							            		</div>
+								            </div>
+							          	</div>
+							          	<ol class="carousel-indicators">
+								            <li data-target="#app-screenshots-carousel" data-slide-to="0" class="active"/>
+								            <li data-target="#app-screenshots-carousel" data-slide-to="1"/>
+								        </ol>
+						        	</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-testimonial" style="background-image: url('/theme_vouge_business/static/src/img/app-testimonial-bg.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-10">
+										<div class="title">
+											<span>TESTIMONIAL</span>
+											<h3>What People Say</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div id="app-testimonial-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+							          	<div class="carousel-inner" role="listbox">
+							          		<div class="carousel-item active">
+								            	<div class="container">
+							            				<div class="single-testimonial">
+							            					<div class="thumb">
+							            						<img src="/theme_vouge_business/static/src/img/app-testimonial1.png" class="img img-fluid"/>
+							            					</div>
+							            					<div class="content">
+							            						<section class="inner-content">
+							            							<div class="icon">
+							            								<span class="fa fa-quote-left"/>
+							            							</div>
+							            							<p>Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate. Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus.</p>
+							            							<div class="auther">
+							            								<h4>Anita Oliver</h4>
+							            								<span>Web Developer</span>
+							            							</div>
+							            						</section>
+							            					</div>
+							            				</div>
+							            		</div>
+								            </div>
+								            <div class="carousel-item">
+								            	<div class="container">
+							            				<div class="single-testimonial">
+							            					<div class="thumb">
+							            						<img src="/theme_vouge_business/static/src/img/app-testimonial2.png" class="img img-fluid"/>
+							            					</div>
+							            					<div class="content">
+							            						<section class="inner-content">
+							            							<div class="icon">
+							            								<span class="fa fa-quote-left"/>
+							            							</div>
+							            							<p>Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate. Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus.</p>
+							            							<div class="auther">
+							            								<h4>Paul Williams</h4>
+							            								<span>Graphic Designer</span>
+							            							</div>
+							            						</section>
+							            					</div>
+							            				</div>
+							            		</div>
+								            </div>
+								            <div class="carousel-item">
+								            	<div class="container">
+							            				<div class="single-testimonial">
+							            					<div class="thumb">
+							            						<img src="/theme_vouge_business/static/src/img/app-testimonial3.png" class="img img-fluid"/>
+							            					</div>
+							            					<div class="content">
+							            						<section class="inner-content">
+							            							<div class="icon">
+							            								<span class="fa fa-quote-left"/>
+							            							</div>
+							            							<p>Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate. Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus.</p>
+							            							<div class="auther">
+							            								<h4>Jessy Pinkman</h4>
+							            								<span>Project Manager</span>
+							            							</div>
+							            						</section>
+							            					</div>
+							            				</div>
+							            		</div>
+								            </div>
+ 							          	</div>
+							          	<ol class="carousel-indicators">
+								            <li data-target="#app-testimonial-carousel" data-slide-to="0" class="active"/>
+								            <li data-target="#app-testimonial-carousel" data-slide-to="1"/>
+								            <li data-target="#app-testimonial-carousel" data-slide-to="2"/>
+								        </ol>
+						        	</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-pricing-plan" style="background-image: url('/theme_vouge_business/static/src/img/app-pricing-bg.png');">
+							<div class="container">
+								<div class="row justify-content-center">
+									<div class="col-lg-10">
+										<div class="title">
+											<span>PRICING PLANS</span>
+											<h3>Choose your plan</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-lg-4 col-md-4">
+										<section class="pricing-plan-content">
+											<div class="price-header">
+												<h4>Executive Plan</h4>
+												<div class="price-info">
+													<span class="price">$299</span>
+													<span class="month">/Month</span>
+												</div>
+											</div>
+											<div class="price-body">
+												<ul>
+													<li>15 versions</li>
+													<li>All files included</li>
+													<li>Custom design and coding</li>
+													<li>Money back guarantee</li>
+												</ul>
+											</div>
+											<div class="price-footer">
+												<div class="s_btn" data-name="Button">
+			            							<a href="#" class="btn btn-app-1 bizople_button">Get Started</a>
+			            						</div>
+											</div>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<section class="pricing-plan-content">
+											<div class="price-header">
+												<h4>BASIC PLAN</h4>
+												<div class="price-info">
+													<span class="price">$149</span>
+													<span class="month">/Month</span>
+												</div>
+											</div>
+											<div class="price-body">
+												<ul>
+													<li>15 versions</li>
+													<li>All files included</li>
+													<li>Custom design and coding</li>
+													<li>Money back guarantee</li>
+												</ul>
+											</div>
+											<div class="price-footer">
+												<div class="s_btn" data-name="Button">
+			            							<a href="#" class="btn btn-app-1 bizople_button">Get Started</a>
+			            						</div>
+											</div>
+										</section>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<section class="pricing-plan-content">
+											<div class="price-header">
+												<h4>Premium Plan</h4>
+												<div class="price-info">
+													<span class="price">$499</span>
+													<span class="month">/Month</span>
+												</div>
+											</div>
+											<div class="price-body">
+												<ul>
+													<li>15 versions</li>
+													<li>All files included</li>
+													<li>Custom design and coding</li>
+													<li>Money back guarantee</li>
+												</ul>
+											</div>
+											<div class="price-footer">
+												<div class="s_btn" data-name="Button">
+			            							<a href="#" class="btn btn-app-1 bizople_button">Get Started</a>
+			            						</div>
+											</div>
+										</section>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-team">
+							<div class="container">
+								<div class="title">
+									<span>OUR TEAM</span>
+									<h3>Meet Our Team</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+								</div>
+								<div id="app-team-carousel" class="carousel bs-slider slide control-round indicators-line pt32" data-ride="carousel" data-pause="hover" data-interval="7000">
+						          	<div class="carousel-inner" role="listbox">
+						          		<div class="carousel-item active">
+							            	<div class="container">
+						            			<div class="row">
+						            				<div class="col-lg-3 col-md-6 mb24">
+						            					<div class="single-member text-center">
+						            						<div class="image">
+						            							<img src="/theme_vouge_business/static/src/img/app-team1.png" class="img img-fluid"/>
+						            							<div class="img-hover">
+						            								<ul class="social-icons">
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-facebook" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-twitter" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-linkedin" />
+																			</a>
+						            									</li>
+						            								</ul>
+						            							</div>
+						            						</div>
+						            						<div class="content">
+						            							<h4>Paul Williams</h4>
+						            							<span>Software Engineer</span>
+						            						</div>
+						            					</div>
+						            				</div>
+						            				<div class="col-lg-3 col-md-6 mb24">
+						            					<div class="single-member text-center">
+						            						<div class="image">
+						            							<img src="/theme_vouge_business/static/src/img/app-team2.png" class="img img-fluid"/>
+						            							<div class="img-hover">
+						            								<ul class="social-icons">
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-facebook" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-twitter" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-linkedin" />
+																			</a>
+						            									</li>
+						            								</ul>
+						            							</div>
+						            						</div>
+						            						<div class="content">
+						            							<h4>Anita Oliver</h4>
+						            							<span>Web Developer</span>
+						            						</div>
+						            					</div>
+						            				</div>
+						            				<div class="col-lg-3 col-md-6 mb24">
+						            					<div class="single-member text-center">
+						            						<div class="image">
+						            							<img src="/theme_vouge_business/static/src/img/app-team3.png" class="img img-fluid"/>
+						            							<div class="img-hover">
+						            								<ul class="social-icons">
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-facebook" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-twitter" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-linkedin" />
+																			</a>
+						            									</li>
+						            								</ul>
+						            							</div>
+						            						</div>
+						            						<div class="content">
+						            							<h4>Andrew Petersons</h4>
+						            							<span>Graphics Designer</span>
+						            						</div>
+						            					</div>
+						            				</div>
+						            				<div class="col-lg-3 col-md-6 mb24">
+						            					<div class="single-member text-center">
+						            						<div class="image">
+						            							<img src="/theme_vouge_business/static/src/img/app-team4.png" class="img img-fluid"/>
+						            							<div class="img-hover">
+						            								<ul class="social-icons">
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-facebook" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-twitter" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-linkedin" />
+																			</a>
+						            									</li>
+						            								</ul>
+						            							</div>
+						            						</div>
+						            						<div class="content">
+						            							<h4>Jessy Pinkman</h4>
+						            							<span>Project Manager</span>
+						            						</div>
+						            					</div>
+						            				</div>
+						            			</div>
+						            		</div>
+							            </div>
+							            <div class="carousel-item">
+							            	<div class="container">
+						            			<div class="row">
+						            				<div class="col-lg-3 col-md-6 mb24">
+						            					<div class="single-member text-center">
+						            						<div class="image">
+						            							<img src="/theme_vouge_business/static/src/img/app-team1.png" class="img img-fluid"/>
+						            							<div class="img-hover">
+						            								<ul class="social-icons">
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-facebook" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-twitter" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-linkedin" />
+																			</a>
+						            									</li>
+						            								</ul>
+						            							</div>
+						            						</div>
+						            						<div class="content">
+						            							<h4>Paul Williams</h4>
+						            							<span>Software Engineer</span>
+						            						</div>
+						            					</div>
+						            				</div>
+						            				<div class="col-lg-3 col-md-6 mb24">
+						            					<div class="single-member text-center">
+						            						<div class="image">
+						            							<img src="/theme_vouge_business/static/src/img/app-team2.png" class="img img-fluid"/>
+						            							<div class="img-hover">
+						            								<ul class="social-icons">
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-facebook" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-twitter" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-linkedin" />
+																			</a>
+						            									</li>
+						            								</ul>
+						            							</div>
+						            						</div>
+						            						<div class="content">
+						            							<h4>Anita Oliver</h4>
+						            							<span>Web Developer</span>
+						            						</div>
+						            					</div>
+						            				</div>
+						            				<div class="col-lg-3 col-md-6 mb24">
+						            					<div class="single-member text-center">
+						            						<div class="image">
+						            							<img src="/theme_vouge_business/static/src/img/app-team3.png" class="img img-fluid"/>
+						            							<div class="img-hover">
+						            								<ul class="social-icons">
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-facebook" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-twitter" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-linkedin" />
+																			</a>
+						            									</li>
+						            								</ul>
+						            							</div>
+						            						</div>
+						            						<div class="content">
+						            							<h4>Andrew Petersons</h4>
+						            							<span>Graphics Designer</span>
+						            						</div>
+						            					</div>
+						            				</div>
+						            				<div class="col-lg-3 col-md-6 mb24">
+						            					<div class="single-member text-center">
+						            						<div class="image">
+						            							<img src="/theme_vouge_business/static/src/img/app-team4.png" class="img img-fluid"/>
+						            							<div class="img-hover">
+						            								<ul class="social-icons">
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-facebook" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-twitter" />
+																			</a>
+						            									</li>
+						            									<li>
+						            										<a class="link" href="#">
+																				<i class="fa fa-linkedin" />
+																			</a>
+						            									</li>
+						            								</ul>
+						            							</div>
+						            						</div>
+						            						<div class="content">
+						            							<h4>Jessy Pinkman</h4>
+						            							<span>Project Manager</span>
+						            						</div>
+						            					</div>
+						            				</div>
+						            			</div>
+						            		</div>
+							            </div>
+						          	</div>
+						          	<ol class="carousel-indicators">
+							            <li data-target="#app-team-carousel" data-slide-to="0" class="active"/>
+							            <li data-target="#app-team-carousel" data-slide-to="1"/>
+							        </ol>
+					        	</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-download">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-12 col-md-12">
+										<section class="download-inner">
+											<span class="subtitle">Download now</span>
+											<h3>Available for all device</h3>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+											<div class="row mt64 justify-content-center">
+												<div class="s_btn" data-name="Button">
+			            							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-apple mr-2"/> iOS Store</a>
+			            							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-android mr-2"/> Play Store</a>
+			            							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-windows mr-2"/> Windows</a>
+			            						</div>
+											</div>
+										</section>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="app-contact-us s_website_form" style="background-image: url('/theme_vouge_business/static/src/img/app-contact-bg.png');">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6 col-md-12">
+										<div class="app-contact-content">
+											<div class="title">
+												<span>CONTACT US</span>
+												<h3>Keep In Touch</h3>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+											</div>
+											<div class="form">
+												<form action="/website_form/" method="post" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-name="Form Builder" data-model_name="mail.mail" data-success_page="/thank-you">
+													<div class="row mb32">
+														<div class="col-lg-6">
+															<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+												              	<input type="text" placeholder="Your Name" class="form-control o_website_form_input" name="Your Name" required=""/>
+												          	</div>
+														</div>
+														<div class="col-lg-6">
+															<div class="form-group form-field o_website_form_required_custom">
+												              	<input type="email" placeholder="Your E-Mail" class="form-control o_website_form_input" name="email_from" required=""/>
+												          	</div>
+														</div>
+														<div class="col-lg-6">
+															<div class="form-group form-field o_website_form_custom o_fake_not_editable">
+												              	<input type="text" placeholder="Your Phone" class="form-control o_website_form_input" name="Phone Number"/>
+												          	</div>
+														</div>
+														<div class="col-lg-6">
+															<div class="form-group form-field o_website_form_required_custom">
+												              	<input type="text" placeholder="Your Subject" class="form-control o_website_form_input" name="subject" required=""/>
+												          	</div>
+														</div>
+														<div class="col-lg-12">
+															<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+												              	<textarea placeholder="Message" class="form-control o_website_form_input" name="Your Question" required=""></textarea>
+												          	</div>
+														</div>
+														<div class="col-lg-12 mt16">
+															<div class='s_btn'>
+																<button class="o_website_form_send btn btn-app-1 btn-md m-t-20 arrow-btn o_default_snippet_text" type="submit">Submit Now</button>
+																<span id="o_website_form_result" class="text-danger ml8 mt16  mb16 col-md-12">
+																</span>
+															</div>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+					</div>
+				</t>
+			</t>
+		</field>
+	</record>
+	<record id="app_landing_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/app-landing</field>
+		<field name="view_id" ref="app_landing_template" />
+	</record>
+</odoo>

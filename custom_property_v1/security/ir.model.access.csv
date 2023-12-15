@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_property_usuers,property.usuers,model_property_usuers,,1,1,1,1
+access_rental_rates,rental.rates,model_rental_rates,,1,1,1,1
+access_balance_economyc_report,balance.economyc.report,model_balance_economyc_report,,1,1,1,1
+access_estado_result,estado.result,model_estado_result,,1,1,1,1
+access_balance_economyc_report_lines,balance.economyc.report.lines,model_balance_economyc_report_lines,,1,1,1,1
+access_others_payment,others.payment,model_others_payment,,1,1,1,1
+access_graph_state_result,graph.state.result,model_graph_state_result,,1,1,1,1
+access_expense_table,expense.table,model_expense_table,,1,1,1,1
+
+access_maintenance_cost_owner,access_maintenance_cost_owner,model_maintenance_cost,property_management.group_property_owner,1,1,1,0
+access_maintenance_cost_manager,access_maintenance_cost_manager,model_maintenance_cost,property_management.group_property_manager,1,1,1,1
+access_group_equipment_manager_maintenance_cost,access_group_equipment_manager_maintenance_cost,model_maintenance_cost,maintenance.group_equipment_manager,1,1,1,1
+access_maintenance_manager_maintenance_cost,access_maintenance_manager_maintenance_cost,model_maintenance_cost,property_maintenance.groups_property_maintenance_manager,1,1,1,1

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_aboutus" name="About Us">
+		<section class="yoga-about pt32 pb152" style="background-image: url('/theme_vouge_business/static/src/img/yoga-about-bg.jpg');">
+			<div class="container-fluid">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-xl-5 col-lg-6">
+						<div class="image">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-about.png" />
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-6">
+						<div class="content">
+							<h4>About Us</h4>
+							<h2 class="text-primary">History of Vouge</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis. Phasellus aliquet augue sit amet justo elementum iaculis. Sed molestie augue ac aliquam laoreet. Aenean a lacus congue, aliquet massa ut, feugiat diam. Donec sodales augue a nisl dignissim finibus. Vestibulum tristique pellentesque nisl. Duis eget ante vitae augue placerat hendrerit.</p>
+							<div class="s_btn text-left pt16 pb16" data-name="Button">
+    							<a href="#" class="btn btn-primary rounded-circle btn-lg shadow">Meet Trainer</a>
+    						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

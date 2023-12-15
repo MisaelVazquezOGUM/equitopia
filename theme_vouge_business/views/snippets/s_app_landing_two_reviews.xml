@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_two_reviews" name="Reviews">
+		<section class="app2-experience">
+			<div class="container">
+				<div class="row align-items-center justify-content-center" >
+					<div class="col-xl-10 col-md-12">
+						<div class="row align-items-center">
+							<div class="col-lg-8 col-md-8">
+								<div class="row align-items-center">
+									<div class="col-md-4">
+										<div class="image">
+											<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/app2-review.png" />
+										</div>
+									</div>
+									<div class="col-md-8">
+										<h4>Generate more users and complete more tasks</h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<section class="experience-card">
+									<h4>4.7</h4>
+									<ul>
+										<li><span class="fa fa-star"/></li>
+										<li><span class="fa fa-star"/></li>
+										<li><span class="fa fa-star"/></li>
+										<li><span class="fa fa-star"/></li>
+										<li><span class="fa fa-star"/></li>
+									</ul>
+									<p>From 8,560 Reviews</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

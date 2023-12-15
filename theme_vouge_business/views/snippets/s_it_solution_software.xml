@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_it_solution_software" name="Software Solutions">
+		<section class="it-image-text">
+			<div class="container extended-container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<div class="image">
+							<a href="/" target="_blank">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/solution-focus.png" />
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="text-content">
+							<h2>Software solutions for everyone</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+							<div class="s_btn" data-name="Button">
+    							<a href="#" class="btn btn-itsolution-2 bizople_button ml-0"> ABOUT US</a>
+    						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

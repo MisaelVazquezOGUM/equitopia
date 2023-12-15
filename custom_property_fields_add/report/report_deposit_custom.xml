@@ -1,0 +1,90 @@
+<odoo>
+	<data>
+		<template id="report_deposit_paymet" inherit_id="account.report_payment_receipt_document">
+            <xpath expr="//div[@class='page']/div[2]/div[1]" position="replace">
+			
+			<div class="col-6" t-if="o.partner_type">
+                        <t t-if="o.partner_type == 'customer'">
+                            <strong>Inquilino: </strong>
+                        </t>
+
+                        <t t-if="o.partner_type == 'supplier'">
+                            <strong>Vendor: </strong>
+                        </t><span t-field="o.partner_id"/>
+                    </div>
+			
+            </xpath>
+			<xpath expr="//div[@class='page']/div[3]/div[1]" position="replace">
+			<div class="col-6" t-if="o.amount">
+                        <strong style="font-size: 23px; text-decoration: underline;" >Importe Pagado: </strong><span style="font-size: 21xp;  text-decoration: underline; " t-field="o.amount" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
+                     </div>
+			</xpath>
+
+			<xpath expr="//div[@class='page']/div[3]/div[2]" position="replace">
+			  <div class="col-6" t-if="o.communication">
+                        <strong>Concepto: </strong>
+						<span t-field="o.communication"/>
+                     </div>
+			</xpath>
+            
+            <!--TABLAS-->
+
+           <xpath expr="//table[1]" position="replace">
+                    <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th class="text-center"><span> Propiedad </span></th>
+                            <th class="text-center"><span>Nombre</span></th>
+                            <th class="text-center"><span>Dirección</span></th>
+                            <th class="text-center"><span>Cheak_in</span></th>
+                            <th class="text-center"><span> Cheak_out</span></th>
+                            <th class="text-center"><span>Código</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img  t-if = 'o.image' t-att-src= 'image_data_uri(o.image)'
+                            alt = 'Propiedad' style = 'width:150px; height:150px' /></td>
+                            <td><span t-field="o.property_id.name"/></td>
+                            <td><span t-field="o.direccion"/></td>
+                            <td><span t-esc="context_timestamp(o.Cheak_in).strftime('%d-%m-%Y %H:%M')"/></td>
+                            <td><span t-esc="context_timestamp(o.Cheak_out).strftime('%d-%m-%Y %H:%M')"/></td>
+                            <td><span t-field="o.tenancy_id.code"/></td>
+                        </tr>
+                    </tbody>
+                </table>
+			</xpath>
+
+            <!-- <xpath expr="//table[1]" position="after">
+                    <div class="text-right" t-if="o.nom_propiedad">
+                        <strong>Propiedad: </strong>
+						<span t-field="o.nom_propiedad"/>
+                    </div>
+			</xpath>
+
+            <xpath expr="//table[1]" position="after">
+                    <div class="text-right" t-if="o.Cheak_out">
+                        <strong>Cheak_out: </strong>
+						<span t-field="o.Cheak_out"/>
+                    </div>
+			</xpath>
+
+            <xpath expr="//table[1]" position="after">
+                    <div class="text-right" t-if="o.Cheak_in">
+                        <strong>Cheak_in:</strong>
+						<span t-field="o.Cheak_in"/>
+                    </div>
+			</xpath>
+
+            <xpath expr="//table[1]" position="after">
+                    <div class="text-right"  t-if="o.direccion">
+                        <strong>Direccion: </strong>
+						<span t-field="o.direccion"/>
+                    </div>
+			</xpath> -->
+
+        </template>	
+
+	</data>
+</odoo>
+

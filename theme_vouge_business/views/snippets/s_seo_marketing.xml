@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_seo_marketing" name="Marketing Service">
+		<section class="seo-marketing-service pt96 pb96" style="background-image: url('/theme_vouge_business/static/src/img/seo-marketing-bg.png');">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<section class="service-box d-flex">
+							<div class="icon mr-3">
+								<span class="fa fa-comments-o fa-3x"></span>
+							</div>
+							<div class="text">
+								<h5>Increase the conversions rate</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna.</p>
+							</div>
+						</section>
+						<section class="service-box d-flex">
+							<div class="icon mr-3">
+								<span class="fa fa-globe fa-3x"></span>
+							</div>
+							<div class="text">
+								<h5>Expand your affiliate network</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna.</p>
+							</div>
+						</section>
+						<section class="service-box d-flex">
+							<div class="icon mr-3">
+								<span class="fa fa-line-chart fa-3x"></span>
+							</div>
+							<div class="text">
+								<h5>Generate traffic and revenues</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna.</p>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0">
+						<div class="content">
+							<h2>Generate more users and complete more tasks</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem.</p>
+							<div class="s_btn" data-name="Button">
+    							<a href="#" class="btn btn-seo rounded-circle btn-lg shadow">OUR SERVICES</a>
+    						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

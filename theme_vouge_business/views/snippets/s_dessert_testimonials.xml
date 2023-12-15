@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_testimonials" name="Our Testimonials">
+		<section class="dessert-testimonial parallax s_parallax_is_fixed" >
+			<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/dessert-testimonial.png');"/>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="title text-center">
+						<p>Take a look to the reviews of our foodies</p>
+						<h2>Our testimonials</h2>
+					</div>
+				</div>
+				<div id="dessert-testimonial-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	<div class="carousel-item active">
+		            		<div class="container">
+		            			<div class="row position-relative justify-content-center">
+		            				<div class="col-xl-6 col-lg-6 col-md-6">
+		            					<div class="client-content">
+		            						<section class="client-info">
+		            							<p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+		            						</section>
+		            						<div class="auther d-flex align-items-center">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team1.png" />
+			            						</div>
+			            						<div class="auther-info">
+			            							<h5>Paul Williams</h5>
+			            							<span>Foodie</span>
+			            						</div>
+			            					</div>
+		            					</div>
+		            				</div>
+		            				<div class="col-xl-6 col-lg-6 col-md-6">
+		            					<div class="client-content">
+		            						<section class="client-info">
+		            							<p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+		            						</section>
+		            						<div class="auther d-flex align-items-center">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+			            						</div>
+			            						<div class="auther-info">
+			            							<h5>Anita Oliver</h5>
+			            							<span>Foodie</span>
+			            						</div>
+			            					</div>
+		            					</div>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item">
+		            		<div class="container">
+		            			<div class="row position-relative justify-content-center">
+		            				<div class="col-xl-6 col-lg-6 col-md-6">
+		            					<div class="client-content">
+		            						<section class="client-info">
+		            							<p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+		            						</section>
+		            						<div class="auther d-flex align-items-center">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team3.png" />
+			            						</div>
+			            						<div class="auther-info">
+			            							<h5>Andrew Petersons</h5>
+			            							<span>Foodie</span>
+			            						</div>
+			            					</div>
+		            					</div>
+		            				</div>
+		            				<div class="col-xl-6 col-lg-6 col-md-6">
+		            					<div class="client-content">
+		            						<section class="client-info">
+		            							<p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+		            						</section>
+		            						<div class="auther d-flex align-items-center">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team4.png" />
+			            						</div>
+			            						<div class="auther-info">
+			            							<h5>Jessy Pinkman</h5>
+			            							<span>Foodie</span>
+			            						</div>
+			            					</div>
+		            					</div>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		          	</div>
+		          	<div class="slider-control">
+	              		<a class="left carousel-control-prev font-14" data-target="#dessert-testimonial-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-long-arrow-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next font-14" data-target="#dessert-testimonial-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-long-arrow-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+		            <ol class="carousel-indicators">
+					    <li class="active" data-slide-to="0" data-target="#dessert-testimonial-carousel">
+					    </li>
+					    <li class="" data-slide-to="1" data-target="#dessert-testimonial-carousel">
+					    </li>
+					</ol>
+	        	</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_real_estate_aboutus" name="About Us">
+		<section class="real-estate-about-us">
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-6 col-md-12">
+						<h2>We Will help you find the home of your choice.</h2>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu. Aenean finibus condimentum odio, ac tincidunt lectus sagittis efficitur.</p>
+						<div class="s_btn mt32" data-name="Button">
+							<a href="#" class="btn btn-link bizople_button">About Us<span class="fa fa-caret-right ml-2"/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,451 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* property_commission
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-18 20:50+0000\n"
+"PO-Revision-Date: 2022-08-18 20:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_report_template2
+msgid "<strong>From:</strong>"
+msgstr "<strong>De:</strong>"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_report_template2
+msgid "<strong>To:</strong>"
+msgstr "<strong>Para:</strong>"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_account_analytic_account__agent
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__agent
+#: model:ir.model.fields,field_description:property_commission.field_res_partner__agent
+#: model:ir.model.fields,field_description:property_commission.field_res_users__agent
+#: model:ir.model.fields,field_description:property_commission.field_tenant_partner__agent
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_report_template2
+#: model_terms:ir.ui.view,arch_db:property_commission.view_partner_form_agent3
+msgid "Agent"
+msgstr "Agente"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.view_res_partner_filter
+msgid "Agent Partners"
+msgstr "Agentes Asociados"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.inherited_view_analytic_form_id
+msgid "Agente"
+msgstr ""
+
+#. module: property_commission
+#: model:ir.actions.act_window,name:property_commission.action_agent_form
+#: model:ir.ui.menu,name:property_commission.menu_agent_form
+#: model_terms:ir.ui.view,arch_db:property_commission.view_res_partner_filter
+msgid "Agents"
+msgstr "Agentes"
+
+#. module: property_commission
+#: model:ir.model,name:property_commission.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Are you sure you want to Close"
+msgstr "¿Está seguro de que quiere cerrar?"
+
+#. module: property_commission
+#: model:ir.model.fields.selection,name:property_commission.selection__account_analytic_account__commission_type__fixedcost
+#: model:ir.model.fields.selection,name:property_commission.selection__commission_invoice__commission_type__fixedcost
+#: model:ir.model.fields.selection,name:property_commission.selection__commission_invoice_line__commission_type__fixedcost
+msgid "By Fixed Cost"
+msgstr "Por coste fijo"
+
+#. module: property_commission
+#: model:ir.model.fields.selection,name:property_commission.selection__commission_invoice__state__cancel
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Cancel"
+msgstr "Cancelado"
+
+#. module: property_commission
+#: model:ir.model.fields,help:property_commission.field_res_partner__agent
+#: model:ir.model.fields,help:property_commission.field_res_users__agent
+#: model:ir.model.fields,help:property_commission.field_tenant_partner__agent
+msgid "Check this box if this contact is a Agent."
+msgstr "Marque esta casilla si este contacto es un agente."
+
+#. module: property_commission
+#: model_terms:ir.actions.act_window,help:property_commission.action_commission_invoice
+msgid "Click to create commission record."
+msgstr "Haga clic para crear un registro de comisión."
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_report_template2
+msgid "Collected Commission"
+msgstr "Comisión recaudada"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__color
+msgid "Color Index"
+msgstr "Índice de color"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.inherited_view_analytic_form_id
+msgid "Comisión"
+msgstr ""
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.inherited_view_analytic_form_id
+msgid "Comisión total"
+msgstr ""
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_account_analytic_account__commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__commission_line
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__commission_id
+#: model:ir.model.fields,field_description:property_commission.field_res_partner__commission_line
+#: model:ir.model.fields,field_description:property_commission.field_res_users__commission_line
+#: model:ir.model.fields,field_description:property_commission.field_tenant_partner__commission_line
+#: model:ir.module.category,name:property_commission.category_commission_pay
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_report_template2
+#: model_terms:ir.ui.view,arch_db:property_commission.inherited_view_analytic_form_id
+msgid "Commission"
+msgstr "Comisión"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__amount
+msgid "Commission Amount"
+msgstr "Importe de la Comisión"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.view_partner_form_agent3
+msgid "Commission History"
+msgstr "Historial de la Comisión"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__number
+msgid "Commission ID"
+msgstr "Comisión ID"
+
+#. module: property_commission
+#: model:ir.actions.act_window,name:property_commission.action_commission_invoice
+#: model:ir.model,name:property_commission.model_commission_invoice
+#: model:ir.ui.menu,name:property_commission.menu_invoice_commissions
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Commission Invoice"
+msgstr "Factura de la Comisión"
+
+#. module: property_commission
+#: model:ir.model,name:property_commission.model_commission_invoice_line
+msgid "Commission Invoice Line"
+msgstr "Línea de Facturación de la Comisión"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.property_commission_invoice_search
+msgid "Commission Invoice Search"
+msgstr "Búsqueda de facturas de comisión"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Commission Line"
+msgstr "Línea de comisión"
+
+#. module: property_commission
+#: model:res.groups,name:property_commission.groups_commission_pay_manager
+msgid "Commission Manager"
+msgstr "Responsable de la Comisión"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Commission Type"
+msgstr "Tipo de Comisión"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Commission#"
+msgstr "Comisión#"
+
+#. module: property_commission
+#: model:ir.ui.menu,name:property_commission.menu_commissions
+msgid "Commissions"
+msgstr "Comisiones"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_tree
+msgid "Commissions Invoice"
+msgstr "Factura de comisiones"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__company_id
+#: model_terms:ir.ui.view,arch_db:property_commission.property_commission_invoice_search
+msgid "Company"
+msgstr "Compañía"
+
+#. module: property_commission
+#: model:ir.model,name:property_commission.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_account_analytic_account__commission_create
+msgid "Create"
+msgstr "Crear"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Create Invoice"
+msgstr "Crear Factura"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__create_uid
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__create_date
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__currency_id
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__date
+#: model_terms:ir.ui.view,arch_db:property_commission.property_commission_invoice_search
+msgid "Date"
+msgstr "Fecha"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_report_template2
+msgid "Date:"
+msgstr "Fecha"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Descripción"
+msgstr ""
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__description
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__name
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__display_name
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__end_date
+msgid "End Date"
+msgstr "Fecha de fin"
+
+#. module: property_commission
+#: code:addons/property_commission/models/property_commission.py:0
+#, python-format
+msgid "End date should be grater then Start Date!"
+msgstr "¡La fecha de finalización debería ser mayor que la fecha de inicio!"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_account_analytic_account__fix_cost
+msgid "Fixed Cost"
+msgstr "Costo fijo"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_account_analytic_account__fix_qty
+msgid "Fixed Percentage(%)"
+msgstr "Porcentaje fijo(%)"
+
+#. module: property_commission
+#: model:ir.model.fields.selection,name:property_commission.selection__account_analytic_account__commission_type__fixed
+#: model:ir.model.fields.selection,name:property_commission.selection__commission_invoice__commission_type__fixed
+#: model:ir.model.fields.selection,name:property_commission.selection__commission_invoice_line__commission_type__fixed
+msgid "Fixed percentage"
+msgstr "Porcentaje fijo"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.property_commission_invoice_search
+msgid "Group by..."
+msgstr "Agrupar por"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__id
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__id
+msgid "ID"
+msgstr ""
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__inv
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__inv
+msgid "INV"
+msgstr "Inversión"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+#: model_terms:ir.ui.view,arch_db:property_commission.inherited_view_analytic_form_id
+#: model_terms:ir.ui.view,arch_db:property_commission.view_partner_form_agent3
+msgid "Información de comisiones"
+msgstr ""
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__invc_id
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__invc_id
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__invoiced
+#: model:ir.model.fields.selection,name:property_commission.selection__commission_invoice__state__invoice
+msgid "Invoiced"
+msgstr "Facturado"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice____last_update
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__write_uid
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__write_date
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: property_commission
+#: model:ir.model.fields,help:property_commission.field_commission_invoice__property_id
+msgid "Name of Property."
+msgstr "Nombre del Propietario"
+
+#. module: property_commission
+#: model:ir.model.fields,help:property_commission.field_commission_invoice__patner_id
+msgid "Name of tenant where from commission is taken"
+msgstr "Nombre del inquilino del que procede la comisión"
+
+#. module: property_commission
+#: model:ir.model.fields.selection,name:property_commission.selection__commission_invoice__state__draft
+msgid "Open"
+msgstr "Abierto"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Open Invoice"
+msgstr "Factura Abierta"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Other Information"
+msgstr "Otra Información"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__company_id
+msgid "Owner Company"
+msgstr "Compañía propietaria"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__patner_id
+#: model_terms:ir.ui.view,arch_db:property_commission.property_commission_invoice_search
+msgid "Partner"
+msgstr "Socio"
+
+#. module: property_commission
+#: code:addons/property_commission/models/property_commission.py:0
+#, python-format
+msgid "Please First close  Tenancy!"
+msgstr "¡Por favor, primero cierre la tenencia!"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__property_id
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_report_template2
+#: model_terms:ir.ui.view,arch_db:property_commission.property_commission_invoice_search
+msgid "Property"
+msgstr "Propietario"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__rent_amt
+msgid "Rent Amount"
+msgstr "Importe del alquiler"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__date
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__state
+msgid "State"
+msgstr "Estado"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__tenancy
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_report_template2
+#: model_terms:ir.ui.view,arch_db:property_commission.property_commission_invoice_search
+msgid "Tenancy"
+msgstr "Contrato de alquiler"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_tree
+msgid "Tenant"
+msgstr "Inquilino"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.inherited_view_analytic_form_id
+msgid "Tipo"
+msgstr ""
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__amount_total
+msgid "Total"
+msgstr ""
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_account_analytic_account__total_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.view_partner_form_agent3
+msgid "Total Commission"
+msgstr "Comisión total"
+
+#. module: property_commission
+#: code:addons/property_commission/models/property_commission.py:0
+#, python-format
+msgid "Total Commission must be grater than zero."
+msgstr "La comisión total debe ser superior a cero."
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Total Rent"
+msgstr "Alquiler total"
+
+#. module: property_commission
+#: model:ir.model.fields,field_description:property_commission.field_account_analytic_account__commission_type
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice__commission_type
+#: model:ir.model.fields,field_description:property_commission.field_commission_invoice_line__commission_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: property_commission
+#: model_terms:ir.ui.view,arch_db:property_commission.commission_invoice_form
+msgid "Commission Information"
+msgstr "Información de la Comisión"

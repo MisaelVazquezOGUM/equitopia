@@ -1,0 +1,112 @@
+body.o_web_client {
+    .o_content{
+        .oe_module_action {
+            .btn {
+                padding: 2px 5px 2px 5px !important;
+            }
+            .btn-primary {
+                border-color: transparent !important;
+                &:hover {
+                    background-color: transparent !important;
+                    border: 1px solid var(--biz-theme-primary-color) !important;
+                    color: var(--biz-theme-primary-color) !important;
+                }
+            }
+            .btn-info {
+                background-color: transparent !important;
+                color: var(--biz-theme-primary-color);
+                border-color: var(--biz-theme-primary-color);
+                &:hover {
+                    background-color: transparent !important;
+                    border: 1px solid #17a2b8 !important;
+                    color: #17a2b8 !important;
+                }
+            }
+            .btn-secondary {
+                &:hover {
+                    border: 1px solid var(--biz-theme-primary-color) !important;
+                    color: var(--biz-theme-primary-color) !important;
+                }
+            }
+        }
+    }
+    .o_controller_with_searchpanel {
+        .o_renderer_with_searchpanel {
+
+            .o_dropdown_kanban {
+                .btn:focus {
+                    box-shadow: unset !important;
+                }
+
+                .dropdown-toggle.btn {
+                    background: transparent !important;
+                    border-color: transparent !important;
+                }
+            }
+        }
+
+        .o_search_panel {
+            background-color: var(--biz-theme-body-color) !important;
+
+            .o_search_panel_category {
+                .o_search_panel_section_icon{
+                    color: var(--biz-theme-primary-color) !important;
+                    font-size: 14px;
+                    vertical-align: unset;
+                }
+            }
+            .o_search_panel_section_header {
+                background-color: var(--biz-theme-body-color) !important;
+                color: var(--biz-theme-body-text-color) !important;
+            }
+
+            .o_search_panel_field {
+                .list-group-item {
+                    margin-bottom: 5px !important;
+                    background-color: transparent !important;
+                    .o_search_panel_label_title {
+                        color: inherit;
+                    }
+                    .list-group-item-action:not(.active) {
+                        background-color: transparent !important;
+                        color: var(--biz-theme-body-text-color) !important;
+                        padding: 0.75rem 1rem !important;
+                        border-radius: var(--border-radius-lg) !important;
+                        transition: 0.3s;
+
+                        &:hover {
+                            background-color: rgba(0, 169, 228, 0.18) !important;
+                        }
+
+                    }
+
+                    .list-group-item-action.active {
+                        color: var(--biz-theme-primary-text-color) !important;
+                        background-color: var(--biz-theme-primary-color) !important;
+                        padding: 0.75rem 1rem !important;
+                        border-radius: var(--border-radius-lg) !important;
+
+                        .text-muted {
+                            color: var(--biz-theme-primary-text-color) !important;
+                            opacity: 1 !important;
+                        }
+                    }
+                }
+            }
+        }
+        @include media-breakpoint-down(sm){
+            flex-direction: column;
+            .o_search_panel {
+                width: 100%;
+                flex: 0 0 40px;
+                padding: 0px 15px 15px 15px;
+                border-right: 0;
+                border-bottom: 1px solid #dee2e6;
+            }
+            &::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+        }
+    }
+}

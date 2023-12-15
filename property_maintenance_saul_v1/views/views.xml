@@ -1,0 +1,70 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="account_asset_custom_saul1">
+      <field name="model">account.asset.asset</field>
+      <field name="inherit_id" ref="om_account_asset.view_account_asset_asset_form" />
+      <field name="arch" type="xml">
+       
+        <!-- Campos ocultos -->
+        <xpath expr="//page[@name='occupancy']" position="attributes">
+          <attribute name="invisible">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='ground_rent']" position="attributes">
+          <attribute name="invisible">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='rent_type_id']" position="attributes">
+          <attribute name="invisible">1</attribute>
+        </xpath>
+
+        <!-- Boton de nuevo contrato -->
+        <xpath expr="//button[@name='open_url']" position="after">
+          <button name="create_tenancy" string="New contract" type="object" icon="fa-edit" class="oe_stat_button" />
+        </xpath>
+
+        <xpath expr="//field[@name='current_tenant_id']" position="attributes">
+          <attribute name="default_order">ten_date</attribute>
+        </xpath>
+      </field>
+
+    </record>
+
+    <record model="ir.ui.view" id="account_analytic_saul_saul">
+      <field name="model">account.analytic.account</field>
+      <field name="inherit_id" ref="property_management.property_analytic_view_form" />
+      <field name="arch" type="xml">
+
+        <!-- Propiedades disponibles -->
+        <xpath expr="//field[@name='property_id']" position="attributes">
+          <attribute name="domain">[]</attribute>
+        </xpath>
+        <xpath expr="//field[@name='rent_type_id']" position="attributes">
+          <attribute name="required">0</attribute>
+        </xpath>
+
+        <!-- Campos ocultos -->
+        <xpath expr="//field[@name='date']" position="attributes">
+          <attribute name="invisible">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='date_start']" position="attributes">
+          <attribute name="invisible">1</attribute>
+        </xpath>
+        <xpath expr="//field[@name='rent_type_id']" position="attributes">
+          <attribute name="invisible">1</attribute>
+        </xpath>
+
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="account_anlytic_landlord_custom_saul">
+      <field name="model">account.analytic.account</field>
+      <field name="inherit_id" ref="property_landlord_management.landlord_analytic_view_form_id" />
+      <field name="arch" type="xml">
+
+        <xpath expr="//field[@name='rent_type_id']" position="attributes">
+          <attribute name="required">0</attribute>
+        </xpath>
+      </field>
+    </record>
+  
+  </data>
+</odoo>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_trainers" name="Our Trainers">
+		<section class="yoga-trainer pt32 pb64">
+			<div class="container extended-container">
+				<div class="heading pb48">
+					<h2 class="text-primary w-lg-75">Our Trainers</h2>
+					<p class="w-lg-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium imperdiet leo at venenatis.</p>
+				</div>
+				<div id="business-yoga-carousel" class="business-yoga-carousel carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	<div class="carousel-item active">
+		            		<div class="row">
+		            			<div class="col-md-4 mb-4 mb-md-0">
+		            				<div class="trainer-box text-center">
+		            					<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor1.png" />
+										</div>
+										<h5 class="text-primary">Abigail Peterson</h5>
+		            				</div>
+		            			</div>
+		            			<div class="col-md-4 mb-4 mb-md-0">
+		            				<div class="trainer-box text-center">
+		            					<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor4.png" />
+										</div>
+										<h5 class="text-primary">Anita Oliver</h5>
+		            				</div>
+		            			</div>
+		            			<div class="col-md-4 mb-4 mb-md-0">
+		            				<div class="trainer-box text-center">
+		            					<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor3.png" />
+										</div>
+										<h5 class="text-primary">Paul Williams</h5>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		            	<div class="carousel-item">
+		            		<div class="row">
+		            			<div class="col-md-4 mb-4 mb-md-0">
+		            				<div class="trainer-box text-center">
+		            					<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor2.png" />
+										</div>
+										<h5 class="text-primary">Jennie Fletcher</h5>
+		            				</div>
+		            			</div>
+		            			<div class="col-md-4 mb-4 mb-md-0">
+		            				<div class="trainer-box text-center">
+		            					<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor5.png" />
+										</div>
+										<h5 class="text-primary">Rachel Perry</h5>
+		            				</div>
+		            			</div>
+		            			<div class="col-md-4 mb-4 mb-md-0">
+		            				<div class="trainer-box text-center">
+		            					<div class="image">
+											<img class="img img-fluid" src="/theme_vouge_business/static/src/img/yoga-instructor6.png" />
+										</div>
+										<h5 class="text-primary">Sharlene Rhodes</h5>
+		            				</div>
+		            			</div>
+		            		</div>
+		            	</div>
+		          	</div>
+			        <div class="slider-control d-none d-lg-block">
+	              		<a class="left carousel-control-prev font-14" data-target="#business-yoga-carousel" role="button" data-slide="prev">
+		                	<span class="fa fa-long-arrow-left"/>
+		               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+		              	</a>
+		              	<a class="right carousel-control-next font-14" data-target="#business-yoga-carousel" role="button" data-slide="next">
+		                	<span class="fa fa-long-arrow-right"/>
+		                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+		              	</a>
+		            </div>
+	        	</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

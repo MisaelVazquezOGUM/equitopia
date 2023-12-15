@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_accessories" name="Accessories">
+		<section class="snowboard-accessories">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<span>Get the Best of Offers</span>
+							<h2>VOUGE ACCESSORIES</h2>
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/snow-under-text.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="row align-items-center accessories-content">
+					<div class="col-lg-7 col-md-7 p-0">
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/snow-accessories1.jpg" />
+							</a>
+						</div>
+					</div> 
+					<div class="col-lg-5 col-md-5 p-0">
+						<div class="content">
+							<h4>$45.99</h4>
+							<h6>Rossignol Snowboard</h6>
+							<p>Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit. Nullam eget lorem enim. Quisque facilisis, turpis in finibus elementum.</p>
+							<div class="s_btn mt32" data-name="Button">
+    							<a href="#" class="btn btn-snowboard-1 bizople_button">View all Collection</a>
+    						</div>
+						</div>
+					</div>
+				</section>
+				<section class="row align-items-center accessories-content">
+					<div class="col-lg-5 col-md-5 p-0">
+						<div class="content">
+							<h4>$29.99</h4>
+							<h6>Uv Protection Glasses</h6>
+							<p>Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit. Nullam eget lorem enim. Quisque facilisis, turpis in finibus elementum.</p>
+							<div class="s_btn mt32" data-name="Button">
+    							<a href="#" class="btn btn-snowboard-1 bizople_button">View all Collection</a>
+    						</div>
+						</div>
+					</div>
+					<div class="col-lg-7 col-md-7 p-0">
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/snow-accessories2.jpg" />
+							</a>
+						</div>
+					</div> 
+				</section>
+				<section class="row align-items-center accessories-content">
+					<div class="col-lg-7 col-md-7 p-0">
+						<div class="image">
+							<a href="#">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/snow-accessories3.jpg" />
+							</a>
+						</div>
+					</div> 
+					<div class="col-lg-5 col-md-5 p-0">
+						<div class="content">
+							<h4>$55.99</h4>
+							<h6>Salomon Mask Helmet</h6>
+							<p>Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit. Nullam eget lorem enim. Quisque facilisis, turpis in finibus elementum.</p>
+							<div class="s_btn mt32" data-name="Button">
+    							<a href="#" class="btn btn-snowboard-1 bizople_button">View all Collection</a>
+    						</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+	</template>
+
+</odoo>

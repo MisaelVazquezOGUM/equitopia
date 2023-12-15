@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_hotel_rooms" name="Luxurious Rooms">
+		<section class="hotel-favorite-rooms">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<h1>Our Luxurious Rooms</h1>
+						<span><img src="/theme_vouge_business/static/src/img/hotel-flower2.png" class="img img-fluid"/></span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.
+						</p>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-12 mb-4">
+						<div class="room-content">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/hotel-room1.jpg" class="img img-fluid"/>
+							</div>
+							<div class="info">
+								<h6>Deluxe Room</h6>
+								<p>Lorem ipsum porta placerat rutrum aliquet platea accumsan, molestie eros aliquet adipiscing egestas ultrices.</p>
+								<div class="s_btn mt32" data-name="Button">
+        							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 mb-4">
+						<div class="room-content">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/hotel-room2.jpg" class="img img-fluid"/>
+							</div>
+							<div class="info">
+								<h6>Super Deluxe Room</h6>
+								<p>Lorem ipsum porta placerat rutrum aliquet platea accumsan, molestie eros aliquet adipiscing egestas ultrices.</p>
+								<div class="s_btn mt32" data-name="Button">
+        							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 mb-4">
+						<div class="room-content">
+							<div class="image">
+								<img src="/theme_vouge_business/static/src/img/hotel-room3.jpg" class="img img-fluid"/>
+							</div>
+							<div class="info">
+								<h6>Royal Suite Room</h6>
+								<p>Lorem ipsum porta placerat rutrum aliquet platea accumsan, molestie eros aliquet adipiscing egestas ultrices.</p>
+								<div class="s_btn mt32" data-name="Button">
+        							<a href="#" class="btn btn-outline-secondary btn-lg">View Detail</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

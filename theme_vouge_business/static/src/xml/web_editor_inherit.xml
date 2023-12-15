@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+	<t t-extend="wysiwyg.widgets.link">
+		<t t-jquery=".o_link_dialog_color" t-operation="replace">
+			<div class="o_link_dialog_color">
+                <label role="button" t-attf-class="o_link_dialog_color_item o_btn_preview btn btn-link text-center" data-color="">
+                    <span>L</span>
+                    <input class="d-none link-style" name="link_style_color" type="radio" value=""/>
+                    <i class="fa"/>
+                </label>
+                <t t-foreach="['primary', 'secondary', 'o-color-3', 'o-color-4', 'o-color-5', 'primary', 'secondary', 'success', 'info', 'warning', 'danger', 'itsolution-1', 'itsolution-2', 'app-1', 'app-2', 'medical', 'snowboard-1', 'snowboard-2', 'seo-color', 'charity-1' , 'charity-2' , 'autoparts' , 'organic' , 'organic2' , 'cyber-security' , 'cyber-security-2' , 'real-estate' , 'restaurant-1' , 'restaurant-2' ,'travel' , 'fashion']" t-as="color">
+                    <label role="button" t-attf-class="o_link_dialog_color_item o_btn_preview btn btn-#{color}" t-attf-aria-label="Color for #{color}" t-attf-title="Color for #{color}">
+                        <input type="radio" name="link_style_color" class="d-none link-style" t-att-value="color"/>
+                        <i class="fa"/>
+                    </label>
+                </t>
+            </div>
+		</t>
+	</t>
+
+</templates>

@@ -1,0 +1,112 @@
+<odoo>
+	<data>
+
+		<record id="property_view_calendar_property_manager" model="ir.ui.view">
+		   <field name="name">property_view_calendar_property_manager</field>
+		   <field name="model">calendar.event</field>
+		   <field name="inherit_id" ref="calendar.view_calendar_event_form"/>
+    	   <field name="arch" type="xml">
+		       <xpath expr="//field[@name='location']" position="after">
+		         <field name="property_calendary" />
+		         <field name="property_tanency"/>
+		       
+		       </xpath>  			   
+		   </field>
+		</record>
+
+
+	  <record model="ir.actions.act_window" id="accion_custom_calendary_manager">
+          <field name="name">Property Manager</field>
+          <field name="res_model">calendar.event</field>
+          <field name="type">ir.actions.act_window</field>
+          <field name="view_mode">tree,calendar,form</field>
+          <field name="domain">[('property_calendary','=',active_id)]</field>
+    </record>
+
+          <!--ESTADO DE PROPIEDAD-->
+          <record id="action_estados_resultados" model="ir.actions.act_window">
+            <field name="name">Estado</field>
+            <field name="res_model">estado.result</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain">[('property_id','=',active_id)]</field>
+         </record>         
+
+          <!--BALANCE ECONOMIC-->
+            <record id="action_balance_economic" model="ir.actions.act_window">
+                    <field name="name">Balance Economico</field>
+                    <field name="res_model">balance.economyc.report</field>
+                    <field name="view_mode">tree,form</field>
+                    <field name="context">{'property_mov_id':active_id}</field>
+                    <field name="domain">[('property_mov_id','=',active_id)]</field>
+            </record>  
+  <!----> 
+  <record model="ir.actions.act_window" id="accion_custom_graph">
+          <field name="name">Graph</field>
+          <field name="res_model">graph.state.result</field>
+          <field name="type">ir.actions.act_window</field>
+          <field name="view_mode">graph,pivot,tree,form</field>   
+           <field name="domain">[('property_id','=',active_id)]</field>       
+    </record>
+
+
+		<record id="property_view_calendar" model="ir.ui.view">
+		   <field name="name">property.calendar</field>
+		   <field name="model">account.asset.asset</field>
+		   <field name="inherit_id" ref="om_account_asset.view_account_asset_asset_form"/>
+		   <field name="arch" type="xml">
+		         <xpath expr="//div[@name='button_box']" position="inside">	
+               <button class="oe_stat_button"
+                       icon="fa-calendar"
+                       help="Calendar"
+                       type="action"
+                       name="%(accion_custom_calendary_manager)d">
+               <field string="Calendar"
+                name="count_reg"
+                widget="statinfo"
+                 /> 
+           </button>
+          
+           <!-- <button class="oe_stat_button"
+                       icon="fa-calculator"
+                       help="Balance"
+                       type="action"
+                       name="%(action_balance_economic)d">  
+                       <field string="Balance"
+                name="count_balances"
+                widget="statinfo"/>    
+
+           </button> -->
+
+           <button class="oe_stat_button"
+                       icon="fa-signal"
+                       help="Status Report"
+                       type="action"
+                       name="%(action_estados_resultados)d">
+                        <field string="Status Report"
+                name="count_reg_state"
+                widget="statinfo"/>            
+           </button>    
+
+
+           <button class="oe_stat_button"
+                                   icon="fa-bar-chart"
+                                   help="Graph"
+                                   type="action"
+                                   name="%(accion_custom_graph)d">Graph
+                         <!--  <field string="Grafica"
+                            name="graph_graph"                       
+                            widget="statinfo"
+                             />   -->
+                       </button>    
+
+           </xpath>
+
+           <xpath expr="//field[@name='tenancy_property_ids']/tree[1]/field[@name='rent_type_id']" position="replace">
+             <field name="tipo_tarifa"/>
+           </xpath>
+                      
+           </field>
+		</record>
+		
+	</data>
+</odoo>

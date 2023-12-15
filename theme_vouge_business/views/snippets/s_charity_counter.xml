@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_charity_counter" name="Counter Banner">
+		<section class="charity-counter" style="background-image: url('/theme_vouge_business/static/src/img/charity-counter.jpg');">
+			<div class="container">
+				<div class="row">
+					<div class="d-inline-block col-lg-7 col-md-8">
+						<div class="counter-content">
+							<div class="title">
+								<h2>We Did a Lot For This 2020</h2>
+							</div>
+							<div class="col-lg-12 col-md-12">
+								<div class="row">
+									<div class="col-lg-4 col-md-4">
+										<div class="counter-elements">
+											<div class="counter-box">
+												<div class="count-text counter">400</div>
+												<h5>Donors Donated Food this Year</h5>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<div class="counter-elements">
+											<div class="counter-box">
+												<div class="count-text counter">43</div>
+												<h5>Camps were launched</h5>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<div class="counter-elements">
+											<div class="counter-box">
+												<div class="count-text counter">32</div>
+												<h5>Projects Funded This Today</h5>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_brands" name="Brands">
+		<section class="snow-brand-slider pt64 pb64">
+			<div class="container extended-container brand">
+				<div id="snow-brand-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		            	<div class="carousel-item active" >
+		            		<div class="row justify-content-center">
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand1.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand2.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand3.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand4.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand5.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand6.png"/>
+			            		</div>
+			            	</div>
+		            	</div>
+		            	<div class="carousel-item" >
+		            		<div class="row justify-content-center">
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand1.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand2.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand3.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand4.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand5.png"/>
+			            		</div>
+			            		<div class="col-md-2 text-center">
+			            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand6.png"/>
+			            		</div>
+			            	</div>
+			            </div>
+		          	</div>
+			        <ol class="carousel-indicators">
+					    <li class="active" data-slide-to="0" data-target="#snow-brand-carousel">
+					    </li>
+					    <li class="" data-slide-to="1" data-target="#snow-brand-carousel">
+					    </li>
+					</ol>
+		        </div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

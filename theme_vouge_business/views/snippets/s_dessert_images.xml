@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_images" name="Instagram">
+		<section class="dessert-instagram">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+						<div class="icon-block position-relative">
+							<a href="/" target="_blank">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/dessert-insta1.png" />
+							</a>
+						</div>
+					</div>
+					<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+						<div class="icon-block position-relative">
+							<a href="/" target="_blank">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/dessert-insta2.png" />
+							</a>
+						</div>
+					</div>
+					<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+						<div class="icon-block position-relative">
+							<a href="/" target="_blank">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/dessert-insta3.png" />
+							</a>
+						</div>
+					</div>
+					<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+						<div class="icon-block position-relative">
+							<a href="/" target="_blank">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/dessert-insta4.png" />
+							</a>
+						</div>
+					</div>
+					<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+						<div class="icon-block position-relative">
+							<a href="/" target="_blank">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/dessert-insta5.png" />
+							</a>
+						</div>
+					</div>
+					<div class="images_block col-md-4 col-lg-2 col-6 p-0">
+						<div class="icon-block position-relative">
+							<a href="/" target="_blank">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/dessert-insta6.png" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_seo_banner" name="Home Banner">
+		<section class="seo-banner pt184 pb104" style="background-image: url('/theme_vouge_business/static/src/img/seo-banner.png');">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-6 mb-4 mb-md-0">
+						<div class="content">
+							<h1 class="text-white">Generate more users and complete more tasks</h1>
+							<p class="text-white">Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor.</p>
+							<div class="s_btn" data-name="Button">
+    							<a href="#" class="btn btn-outline-light rounded-circle btn-lg shadow">GET A QUOTE NOW</a>
+    						</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="image">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-banner-image.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

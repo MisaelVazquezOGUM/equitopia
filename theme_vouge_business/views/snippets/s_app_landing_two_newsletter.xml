@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_two_newsletter" name="Newsletter">
+		<section class="app2-newsletter"  style="background-image: url('/theme_vouge_business/static/src/img/app-gradient-bg.png');">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<h4>Subscribe for latest email</h4>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="app-subscribe">
+							<form class="input-group js_subscribe" data-list-id="1">
+								<input type="email" name="email" class="js_subscribe_email form-control" placeholder="Enter your Email"/>
+								<span class="input-group-append">
+						            <a role="button" href="#" class="btn btn-primary js_subscribe_btn">Subscribe</a>
+						            <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none" disabled="disabled">Thanks</a>
+						        </span>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

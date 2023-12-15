@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_banner" name="Home Banner">
+		<section class="snowboard-home-banner">
+			<div id="snowboard-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+	          	<div class="carousel-inner" role="listbox">
+	            	<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/snow-banner1.jpg');">
+	            		<div class="container extended-container">
+	            			<div class="position-relative justify-content-center">
+            					<div class="banner-content text-center">
+            						<div class="image">
+            							<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/snow-brand3.png" />
+            						</div>
+            						<h5 class="text-white">From Beginners to Professional Accessories</h5>
+            						<h2 class="text-white">SnowBoards</h2>
+            						<div class="strip">
+            							<section class="sale-text snow-bg">Hurry! 30%-40% Discount This Season</section>
+            						</div>
+            					</div>
+	            			</div>
+	            		</div>
+	            	</div>
+	            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-banner2.jpg');">
+	            		<div class="container extended-container">
+        					<div class="banner-content text-center">
+        						<div class="image">
+        							<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-brand2.png" />
+        						</div>
+        						<h5>From Beginners to Professional Accessories</h5>
+        						<h2>Salomon Ski’s</h2>
+        						<div class="strip">
+        							<section class="sale-text">Hurry! 30%-40% Discount This Season</section>
+        						</div>
+        					</div>
+	            		</div>
+	            	</div>
+	            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-banner3.jpg');">
+	            		<div class="container extended-container">
+        					<div class="banner-content text-center">
+        						<div class="image">
+        							<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-brand5.png" />
+        						</div>
+        						<h5>From Beginners to Professional Accessories</h5>
+        						<h2>SnowBoards</h2>
+        						<div class="strip">
+        							<section class="sale-text">Hurry! 30%-40% Discount This Season</section>
+        						</div>
+        					</div>
+	            		</div>
+	            	</div>
+	          	</div>
+		        <div class="slider-control">
+              		<a class="left carousel-control-prev text-white font-14" data-target="#snowboard-carousel" role="button" data-slide="prev">
+	                	<span class="fa fa-angle-left"/>
+	               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+	              	</a>
+	              	<a class="right carousel-control-next text-white font-14" data-target="#snowboard-carousel" role="button" data-slide="next">
+	                	<span class="fa fa-angle-right"/>
+	                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+	              	</a>
+	            </div>
+        	</div>
+		</section>
+	</template>
+
+</odoo>

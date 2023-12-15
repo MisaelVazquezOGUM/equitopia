@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_testimonial" name="Testimonial">
+		<section class="snowboard-testimonial" style="background-image: url('/theme_vouge_business/static/src/img/snow-testimonial.jpg');">
+			<div class="container extended-container">
+				<div class="row">
+					<div class="col-lg-6 col-md-8">
+						<div class="carousel slide article-slide" id="snow-carousel">
+							<div class="carousel-inner cont-slider">
+
+							    <div class="carousel-item active">
+							     	<div class="carousel-content">
+							     		<div class="content">
+								     		<h4>Professional Skier</h4>
+								     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+								     	</div>
+							     		<div class="text">
+							     			<p>Anita Oliver</p>
+							     		</div>
+							     	</div>
+							    </div>
+							    <div class="carousel-item">
+							      <div class="carousel-content">
+							     		<div class="content">
+								     		<h4>Professional Snowboarder</h4>
+								     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+								     	</div>
+							     		<div class="text">
+							     			<p>Paul Williams</p>
+							     		</div>
+							     	</div>
+							    </div>
+							    <div class="carousel-item">
+								    <div class="carousel-content">
+							     		<div class="content">
+								     		<h4>Professional Skater</h4>
+								     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+								     	</div>
+							     		<div class="text">
+							     			<p>Jessy Pinkman</p>
+							     		</div>
+							     	</div>
+							    </div>
+							</div>
+							  <!-- Indicators -->
+							<ol class="carousel-indicators">
+							    <li class="active" data-slide-to="0" data-target="#snow-carousel">
+							      <img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+							    </li>
+							    <li class="" data-slide-to="1" data-target="#snow-carousel">
+							      <img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/vouge-team3.png" />
+							    </li>
+							    <li class="" data-slide-to="2" data-target="#snow-carousel">
+							      <img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/vouge-team4.png" />
+							    </li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

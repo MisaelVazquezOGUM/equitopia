@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="login_template_inherited" inherit_id="website.login_layout" name="Login/Signup Template">
+		<xpath expr="//div[hasclass('oe_website_login_container')]" position="attributes">
+			 <attribute name="t-attf-style" add="background-image: url('#{website.image_url(website, 'login_page_banner_image')}');" separator=" "/>
+		</xpath>
+	</template>
+</odoo>

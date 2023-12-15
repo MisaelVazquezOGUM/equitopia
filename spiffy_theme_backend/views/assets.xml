@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_backend_inherit" name="assets_backend_inherit" inherit_id="web.assets_backend">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/color_pallet.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/flip_min.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/menu.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/user_menu.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/apps_menu.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/SwitchCompanyMenu.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/form_view_renderer.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/list_view_renderer.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/SpiffyPageTitle.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/pwebapp.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/split_view.js"></script>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/iconpack_load.js"/>
+            <script type="text/javascript" src="/spiffy_theme_backend/static/src/js/responsive.js"/>
+        </xpath>
+
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/custom_varibles.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/font_size.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/font_icons.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/font-family.scss" />
+            
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/modal.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/search_modal.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/chat_window.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/common_view.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/discuss_style.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/list_view.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/kanban_view.scss" />
+            
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/form_view.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/form_chatter.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/tree_form_split_view.scss" />
+
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/activity_view.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/pivot_view.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/graph_view.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/dashboards.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/calendear_view.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/setting_page.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/tab_styles.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/popup_styles.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/checkbox_styles.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/radio_styles.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/separator_styles.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/search_panel.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/loader.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/appdrawer.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/bookmarks.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/controlpannel.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/side_menu.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/responsive.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/notification.scss" />
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/datetime_pickers.scss" />
+        </xpath>
+    </template>
+
+    <template id="loginpage_design" inherit_id="portal.assets_frontend" name="login page design">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/spiffy_theme_backend/static/src/scss/loginpage.scss" />
+        </xpath>
+    </template>
+</odoo>

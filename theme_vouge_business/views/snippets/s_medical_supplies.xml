@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_supplies" name="Medical Supplies">
+		<section class="business-medical-supplies" style="background-image: url('/theme_vouge_business/static/src/img/medical-branded.jpg');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h2>Certified Medical Supplies</h2>
+							<p>SPEND LESS SAVE MORE</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-4">
+						<section class="supplies-inner">
+							<div class="supplies-content">
+								<div class="number">
+									<span>1</span>
+								</div>
+								<h4>Vaccines</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								<a href="#" class="btn btn-link">More about us <span class="fa fa-angle-right ml-2"/></a>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<section class="supplies-inner">
+							<div class="supplies-content">
+								<div class="number">
+									<span>2</span>
+								</div>
+								<h4>N95 Masks</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								<a href="#" class="btn btn-link">More about us <span class="fa fa-angle-right ml-2"/></a>
+							</div>
+						</section>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<section class="supplies-inner">
+							<div class="supplies-content">
+								<div class="number">
+									<span>3</span>
+								</div>
+								<h4>PPI Kits</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus.</p>
+								<a href="#" class="btn btn-link">More about us <span class="fa fa-angle-right ml-2"/></a>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

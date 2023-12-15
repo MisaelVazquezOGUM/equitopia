@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_travel_holidays" name="Summer Holiday">
+		<section class="travel-holidays">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-xl-6 col-lg-8 col-md-10">
+						<div class="heading">
+							<span>Choose Your</span>
+							<h1>Summer Holiday</h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image-rounded">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img1.jpg" />
+							</div>
+							<div class="text">
+								<h3>Spain</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img2.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Tarragona</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star-half-o mr-1"/>
+										<span class="mr-1">5.0</span>
+										<span class="mr-1">Good</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$1740</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img3.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Madrid</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star mr-1"/>
+										<span class="mr-1">7.0</span>
+										<span class="mr-1">Superb</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$1100</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img4.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Barcelona</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star-half-o mr-1"/>
+										<span class="mr-1">5.3</span>
+										<span class="mr-1">Good</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$840</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img5.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Kaohsiung</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star mr-1"/>
+										<span class="mr-1">8.0</span>
+										<span class="mr-1">Superb</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$963</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img6.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Taipei</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star-half-o mr-1"/>
+										<span class="mr-1">5.0</span>
+										<span class="mr-1">Good</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$2130</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img7.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Tainan</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star mr-1"/>
+										<span class="mr-1">7.3</span>
+										<span class="mr-1">Superb</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$999</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image-rounded">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img8.jpg" />
+							</div>
+							<div class="text">
+								<h3>Taiwan</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image-rounded">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img9.jpg" />
+							</div>
+							<div class="text">
+								<h3>Bali</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img10.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Ubud</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star-half-o mr-1"/>
+										<span class="mr-1">6.0</span>
+										<span class="mr-1">Good</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$888</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img11.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Seminyak</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star mr-1"/>
+										<span class="mr-1">9.0</span>
+										<span class="mr-1">Superb</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$966</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb32">
+						<div class="images-content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-img12.jpg" />
+							</div>
+							<div class="info">
+								<div class="title">
+									<h3>Denpasar</h3>
+								</div>
+								<div class="d-flex">
+									<div class="rating">
+										<span class="fa fa-star-half-o mr-1"/>
+										<span class="mr-1">6.7</span>
+										<span class="mr-1">Good</span>
+									</div>
+									<div class="price ml-auto">
+										<span>$999</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

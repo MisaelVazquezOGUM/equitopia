@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_it_solution_service" name="Services Provide">
+		<section class="it-service-provide" style="background-image: url('/theme_vouge_business/static/src/img/solution-service-bg.jpg');">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<h2>Services that we provide</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+					</div>
+				</div>
+				<div class="row pt32">
+					<div class="col-lg-4 col-md-4">
+						<div class="service-content">
+							<div class="service-container">
+								<div class="image-icon">
+									<span class="fa fa-yelp text-secondary fa-3x bg-1"/>
+								</div>
+								<div class="service-info">
+									<h5>ERP Solutions</h5>
+									<p>Consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="service-content">
+							<div class="service-container">
+								<div class="image-icon">
+									<span class="fa fa-modx text-secondary fa-3x bg-2"/>
+								</div>
+								<div class="service-info">
+									<h5>Website Design</h5>
+									<p>Consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="service-content">
+							<div class="service-container">
+								<div class="image-icon">
+									<span class="fa fa-bookmark-o text-secondary fa-3x bg-3"/>
+								</div>
+								<div class="service-info">
+									<h5>Branding</h5>
+									<p>Consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

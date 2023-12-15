@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_creative_agency_projects" name="Latest Projects">
+		<section class="creative-projects">
+			<div class="container extended-container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-projects1.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<h6>Digital Marketing </h6>
+									<h4>Branding for Theme Designer</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-projects2.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<h6>Search Engine </h6>
+									<h4>Button Designs Free</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-projects3.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<h6>Admin templates </h6>
+									<h4>Branding &amp; Co Agency</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-projects4.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<h6>Branding </h6>
+									<h4>Zukandre Phoniex</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-projects5.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<h6>Wll Mockup </h6>
+									<h4>Sionage Mockup</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-projects6.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<h6>Hard Cover Book Mock</h6>
+									<h4>New design book	</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-8 p-0">
+						<div class="text-content">
+							<div class="text-info">
+								<h3>Our latest <span>Projects.</span> For Our Clients.</h3>
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

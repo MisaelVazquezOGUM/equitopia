@@ -1,0 +1,158 @@
+.contact-heading{
+	padding: 0.8rem 0;
+    background-color: theme-color('primary');
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    a:hover{
+    	text-decoration:none;
+    }
+}
+.contactus-section{
+	.page-title{
+		margin: 48px 0 15px;
+	    padding-left: 10px;
+	    border-left: 4px solid theme-color('primary');
+	    color: theme-color("Secondary");
+	    font-size: 35px;
+	    font-weight: 700;
+    	line-height: 27px;
+	}
+	.description {
+	    margin-bottom: 70px;
+	    color: #818181;
+	    font-size: 16px;
+	}
+	.block-title{
+		margin-bottom: 45px;
+		text-align: center;
+		line-height: 1;
+		font-size:25px;
+		color:theme-color('secondary');
+		font-weight: 400;
+	}
+	.form{
+		padding:50px;
+		border: 1px solid #efefef;
+	}
+	label{
+		min-width: 100px;
+	    margin-bottom: 15px;
+	    color: theme-color('secondary');
+	    font-size: 14px;
+	    font-weight: 700;
+	}
+	input{
+		width: 100%;
+	    margin-bottom: 15px;
+	    padding: 15px 30px;
+	    border: 1px solid #c3c3c3;
+	    border-radius: 2px;
+	    font-size: 14px;
+	    letter-spacing: 0.05em;
+	    line-height: 18px;
+	    height: 50px;
+	    color: #666666;
+	}
+	textarea{
+		width: 100%;
+	    margin-bottom: 15px;
+	    padding: 15px 30px;
+	    border: 1px solid #c3c3c3;
+	    border-radius: 2px;
+	    font-size: 14px;
+	    letter-spacing: 0.05em;
+	    line-height: 18px;
+	    height: 100px;
+	    color: #666666;
+	}
+	.o_website_form_send{
+    	margin-left: 100px;
+    	border-radius:0px;
+    	font-size:12px;
+    	font-weight: 600;
+    	padding: 10px;
+	}
+	.contact-details{
+		margin-top: 70px;
+		padding-left: 2rem;
+		.detail-container{
+			margin-bottom:40px;
+		}
+		.detail-icon{
+			font-size:2rem;
+		}
+		.detail-title{
+			font-size:16px;
+			color: #3e3f42;
+			font-weight:600;
+		}
+		.detail-info{
+			font-size:14px;
+			line-height:24px;
+			font-weight:400;
+			color: #444444;
+			margin-bottom:0;
+		}
+	}
+}
+.shopify-section{
+	.promo-content{
+	    padding: 15px;
+	    background-color: #ffffff;
+	    border-left: 1px solid #e5e5e5;
+	}
+	.icon{
+		padding-right: 10px;
+		font-size:35px;
+	}
+	.title {
+	    color: #33393e;
+	    font-size:14px;
+	    font-weight:600;
+	}
+	.info{
+		color: #999999;
+		font-size:14px;
+		line-height:19px;
+		margin-bottom: 0;
+	}
+	@media (max-width: 767px) {
+		.promo-content{
+			border:none !important;
+		}
+	}
+}
+
+.oe_website_login_container{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding:100px 0;
+
+	.oe_login_form, .oe_signup_form{
+		max-width: 400px !important;
+		padding: 50px;
+    	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+    	background-color:#fff;
+	}
+
+	.oe_login_form, .oe_signup_form{
+		label{
+			color: theme-color('secondary');
+		}
+	}
+	a:hover{
+		text-decoration:none;
+	}
+	.btn:hover{
+		text-decoration:none;
+	}
+	@media(max-width:767px){
+		padding: 20px !important;
+		background-size: unset !important;
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		padding: 30px 0 !important;
+	}
+}

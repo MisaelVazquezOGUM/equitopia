@@ -1,0 +1,108 @@
+.bizople_button_4 {
+    z-index: 1;
+    letter-spacing: 0;
+    background-color: transparent;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 2px !important;
+    border:2px solid theme-color('primary');
+    color: theme-color('primary');
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.bizople_button_4:active {
+  background-color: theme-color('primary');
+}
+
+.bizople_button_4 {
+  &:before {
+    -webkit-transition:0.5s all ease;
+    transition:0.5s all ease;
+    position:absolute;
+    top:0;
+    left:50%;
+    right:50%;
+    bottom:0;
+    opacity:0;
+    content:'';
+    background-color:theme-color('primary');
+    z-index:-1;
+  }
+  &:hover {
+    &:before {
+      -webkit-transition:0.5s all ease;
+      transition:0.5s all ease;
+      left:0;
+      right:0;
+      opacity:1;
+    }
+    color: #fff !important;
+    background-color: transparent !important;
+  }
+  &:focus {
+    &:before {
+      transition:0.5s all ease;
+      left:0;
+      right:0;
+      opacity:1;
+    }
+    color: #fff !important;
+  }
+}
+
+/*::::::::::::::::::::::::::::::::: Colors ::::::::::::::::::::::::::::::::::::::*/
+
+
+/*::::::::::::: btn-primary and btn-outline-primary ::::::::::::::::::::::::::*/
+
+.bizople_button_4.btn-primary, .bizople_button_4.btn-outline-primary{
+    color: theme-color('primary') !important;
+    border:2px solid theme-color('primary') !important;
+}
+
+.bizople_button_4.btn-primary:active, .bizople_button_4.btn-outline-primary:active {
+  background-color: theme-color('primary') !important;
+  color: theme-color('light') !important;
+}
+
+.bizople_button_4.btn-primary:focus, .bizople_button_4.btn-outline-primary:focus{
+  background-color: theme-color('primary') !important;
+  color: theme-color('light') !important;
+}
+
+.bizople_button_4.btn-primary, .bizople_button_4.btn-outline-primary {
+  &:hover{
+    color: theme-color('light') !important;
+  }
+  &:before {
+    background-color: theme-color('primary') !important;
+  }
+}
+
+/*::::::::::::: btn-secondary and btn-outline-secondary ::::::::::::::::::::::::::*/
+
+.bizople_button_4.btn-secondary, .bizople_button_4.btn-outline-secondary{
+    color: theme-color('secondary') !important;
+    border:2px solid theme-color('secondary') !important;
+}
+
+.bizople_button_4.btn-secondary:active, .bizople_button_4.btn-outline-secondary:active{
+  background-color: theme-color('secondary') !important;
+  color: theme-color('light') !important;
+}
+
+.bizople_button_4.btn-secondary:focus, .bizople_button_4.btn-outline-secondary:focus{
+  background-color: theme-color('secondary') !important;
+  color: theme-color('light') !important;
+}
+
+.bizople_button_4.btn-secondary, .bizople_button_4.btn-outline-secondary {
+  &:hover{
+    color: theme-color('light') !important;
+  }
+  &:before {
+    background-color: theme-color('secondary') !important;
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_cyber_security_banner" name="Home Banner">
+		<section class="cyber-security-banner pt160 pb136" style="background-image: url('/theme_vouge_business/static/src/img/cyber-security-banner.png');">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-12 mb-4">
+						<div class="content">
+							<h3>Cyber Security helps to protect data</h3>
+							<h1>Cyber Security Ensures that your <span>Business is Safe</span></h1>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quaerat est, a labore excepturi rem sed eius facere error! Dolore in perspiciatis porro dolor debitis</p>
+							<div class="s_btn" data-name="Button">
+    							<a href="#" class="btn btn-light rounded-circle btn-lg mr-3">Learn More</a>
+    							<a href="#" class="video-bnt mr-3"><span class="fa fa-play fa-1x"/></a>
+    							Watch Demo
+    						</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="image text-center">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/cyber-security-banner-image.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

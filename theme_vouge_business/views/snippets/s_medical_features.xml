@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_features" name="Features">
+		<section class="business-medical-innovative">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h2>World Class Quality &amp; Feature</h2>
+							<p>PROTECTIVE KIT</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-4">
+						<div class="innovative-content">
+							<div class="content d-flex">
+								<div class="info text-right">
+									<h4>Safety Goggle</h4>
+									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+								<div class="icon">
+									<img class="img img-responsive"
+									src="/theme_vouge_business/static/src/img/medical-icons1.png" />
+								</div>
+							</div>
+						</div>
+						<div class="innovative-content">
+							<div class="content d-flex">
+								<div class="info text-right">
+									<h4>Surgical Cap</h4>
+									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+								<div class="icon">
+									<img class="img img-responsive"
+									src="/theme_vouge_business/static/src/img/medical-icons2.png" />
+								</div>
+							</div>
+						</div>
+						<div class="innovative-content">
+							<div class="content d-flex">
+								<div class="info text-right">
+									<h4>N95 Mask</h4>
+									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+								<div class="icon">
+									<img class="img img-responsive"
+									src="/theme_vouge_business/static/src/img/medical-icons3.png" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="image text-center">
+							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/medical-doc.png" />
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="innovative-content">
+							<div class="content d-flex">
+								<div class="icon">
+									<img class="img img-responsive"
+									src="/theme_vouge_business/static/src/img/medical-icons4.png" />
+								</div>
+								<div class="info text-left">
+									<h4>Sanitizer</h4>
+									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="innovative-content">
+							<div class="content d-flex">
+								<div class="icon">
+									<img class="img img-responsive"
+									src="/theme_vouge_business/static/src/img/medical-icons5.png" />
+								</div>
+								<div class="info text-left">
+									<h4>Medical Gloves</h4>
+									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+							</div>
+						</div>
+						<div class="innovative-content">
+							<div class="content d-flex">
+								<div class="icon">
+									<img class="img img-responsive"
+									src="/theme_vouge_business/static/src/img/medical-icons6.png" />
+								</div>
+								<div class="info text-left">
+									<h4>Saftey Boots</h4>
+									<p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

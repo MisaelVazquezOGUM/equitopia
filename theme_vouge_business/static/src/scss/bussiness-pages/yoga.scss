@@ -1,0 +1,487 @@
+@media (min-width: 1440px){
+	.container.extended-container{
+		max-width: 1440px;
+	}
+}
+
+.yoga-banner{
+	.content{
+		h1{
+			line-height: 92px;
+		    font-weight: 500;
+		    font-size: 82px;
+	        margin-bottom: 25px;
+		}
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 21px;
+		    color: #547670;
+	        margin-bottom: 25px;
+		}
+		@media (max-width: 767.98px) {
+			h1{
+				line-height: 70px;
+			    font-size: 60px;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 991.98px) {
+			h1{
+				line-height: 75px;
+			    font-size: 64px;
+			}
+		}
+		@media (min-width: 992px) and (max-width: 1199.98px) {
+			h1{
+				line-height: 75px;
+			    font-size: 70px;
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+		.row{
+		    flex-flow: column-reverse;
+		}
+	    padding-top: 32px !important;
+	}
+	background-size: cover;
+	background-position: center;
+}
+
+.yoga-clear-mind{
+	.row{
+	    margin-top: -50px;
+	}
+	.green-bg{
+		background-color: #e9f6f6;
+		border-radius: 8px 0px 0px 8px;
+	}
+	.bg-image{
+		.play-icon{
+			a{
+				text-decoration: none;
+			}
+			span{
+				width: 115px;
+				height: 115px;
+				line-height: 115px;
+				border-radius: 50%;
+				background-color: white;
+			    text-align: center;
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    transform: translate(-50%, -50%) !important;
+		        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5) !important;
+			}
+			position: relative;
+			height: 100%;
+		}
+		border-radius: 0px 8px 8px 0px;
+	    background-size: cover;
+    	background-position: center;
+	}
+	.yoga-icon{
+		.img{
+		    max-width: 100px;
+		}
+		margin-bottom: 20px;
+	}
+	h4{
+	    font-size: 25px;
+	    margin-bottom: 20px;
+        color: #3cc3a9;
+	}
+	h2{
+	    font-size: 43px;
+    	font-weight: 600;
+    	margin-bottom: 20px;
+	}
+	p{
+		line-height: 30px;
+	    font-weight: 400;
+	    font-size: 21px;
+	    color: #547670;
+        margin-bottom: 20px;
+	}
+	.content{
+		padding: 80px 30px 80px 55px;
+	}
+	@media (max-width: 767.98px) {
+		.row{
+		    margin: 50px 0 0;
+		}
+		.content{
+			padding: 80px 15px 80px 15px;
+		}
+		.bg-image{
+		    height: 450px;
+		    border-radius: 0px 0px 8px 8px;
+		}
+		.green-bg{
+			background-color: #e9f6f6;
+			border-radius: 8px 8px 0px 0px;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 1199.98px) {
+		.row{
+		    margin: 50px 0 0;
+		}
+		.content{
+			padding: 80px 15px 80px 15px;
+		}
+	}
+}
+
+.yoga-classes{
+	.heading-content{
+		.icon{
+			span{
+				color: #3cc3a9;
+			}
+			margin-bottom: 20px;
+		}
+		h2{
+		    font-size: 43px;
+	    	font-weight: 500;
+	    	margin-bottom: 20px;
+		}
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 21px;
+		    color: #547670;
+	        margin-bottom: 20px;
+		}
+	}
+	.image-boxes{
+		h6{
+		    font-size: 21px;
+	        font-weight: 600;
+		    color: theme-color('primary');
+		    margin-bottom: 5px;
+		}
+		p{
+		    font-size: 17px;
+		    color: #547670;
+		}
+	}
+}
+
+.yoga-about{
+	.content{
+		h4{
+		    font-size: 25px;
+		    margin-bottom: 20px;
+	        color: #3cc3a9;
+	        position: relative;
+	        &:after{
+	        	content: "";
+	        	width: 65px;
+	        	height: 2px;
+	        	background-color: #e0f3f1;
+	        	position: absolute;
+	        	top: 50%;
+        	    left: 110px;
+	        	transform: translateY(-50%);
+	        }
+		}
+		h2{
+		    font-size: 43px;
+	    	font-weight: 500;
+	    	margin-bottom: 20px;
+		}
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 21px;
+		    color: #547670;
+	        margin-bottom: 20px;
+		}
+	}
+	background-size: cover;
+	background-position: center;
+}
+
+.yoga-service{
+	.content{
+		.icon{
+			margin-bottom: 20px;
+		}
+		h4{
+		    font-size: 25px;
+		    margin-bottom: 20px;
+		    font-weight: 600;
+		}
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 21px;
+		    color: #547670;
+	        padding-bottom: 20px;
+	        position: relative;
+	        &:after{
+	        	content: "";
+	        	width: 65px;
+	        	height: 2px;
+	        	background-color: #c0d8d5;
+	        	position: absolute;
+	        	bottom: 0;
+        	    left: 50%;
+        	    transform: translateX(-50%);
+	        }
+		}
+	}
+	background-color: #e0f3f1;
+}
+
+.yoga-trainer{
+	.container.extended-container{
+		position: relative;
+	}
+	.heading{
+		h2{
+			font-size: 43px;
+	    	font-weight: 500;
+	    	margin-bottom: 20px;
+		}
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 21px;
+		    color: #547670;
+	        margin-bottom: 0;
+		}
+	}
+	.trainer-box{
+		.image{
+			margin-bottom: 25px;
+		}
+		h5{
+		    font-size: 23px;
+			font-weight: 600;
+		}
+	}
+	.business-yoga-carousel{
+		.slider-control{
+			.carousel-control-prev, .carousel-control-next{
+				bottom: unset;
+			    top: 10px;
+			    width: 40px;
+			    height: 40px;
+			    font-size: 35px;
+		        color: #547670 !important;
+		        opacity: 1;
+		        cursor: pointer;
+			}
+			.carousel-control-prev {
+			    right: 60px;
+			    left: unset;
+			}
+			.carousel-control-next {
+			    right: 10px;
+			}
+		}
+		position: unset;
+	}
+}
+.yoga-testimonial{
+	.container.extended-container{
+		position: relative;
+	}
+	.heading{
+		h2{
+			font-size: 43px;
+	    	font-weight: 500;
+	    	margin-bottom: 20px;
+		}
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 21px;
+		    color: #547670;
+	        margin-bottom: 0;
+		}
+	}
+	.testimonial-box{
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 21px;
+		    color: #547670;
+		    margin-bottom: 25px;
+		}
+		.customer{
+			.image{
+				.img{
+					width: 55px;
+					height: 55px;
+					border-radius: 50%;
+				}
+				margin-right: 10px;
+			}
+			.info{
+				h6{
+					font-size: 14px;
+				    font-weight: 600;
+				    letter-spacing: 2px;
+				    text-transform: uppercase;
+			        margin: 0;
+				    color: theme-color('primary');
+				}
+				span{
+				    font-size: 16px;
+				}
+			}
+		}
+	    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	    border-bottom: 3px solid theme-color('primary');
+	    padding: 45px 40px 60px;
+	}
+	.business-yoga-testimonial-carousel{
+		.slider-control{
+			.carousel-control-prev, .carousel-control-next{
+				bottom: unset;
+			    top: 10px;
+			    width: 40px;
+			    height: 40px;
+			    font-size: 35px;
+		        color: #547670 !important;
+		        opacity: 1;
+		        cursor: pointer;
+			}
+			.carousel-control-prev {
+			    right: 60px;
+			    left: unset;
+			}
+			.carousel-control-next {
+			    right: 10px;
+			}
+		}
+		position: unset;
+	}
+	background-size: cover;
+	background-position: center;
+}
+
+.yoga-brand-newsletter{
+	.yoga-newsletter{
+		h2{
+			font-size: 43px;
+	    	font-weight: 500;
+	    	margin-bottom: 5px;
+		}
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 18px;
+		    color: #547670;
+	        margin-bottom: 70px;
+		}
+		.yoga-subscribe{
+			.input-group{
+				input.form-control{
+				    padding: 17px;
+    				font-size: 17px;
+				    border-radius: 50px;
+				    -moz-border-radius: 50px;
+				    -webkit-border-radius: 50px;
+			        box-shadow: 0px 10px 30px rgba(0, 0, 0,0.07);
+				    -moz-box-shadow: 0px 10px 30px rgba(0, 0, 0,0.07);
+				    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0,0.07);
+				    border-color: white;
+				    outline: 0;
+				    background-color:#fff;
+				    z-index: 0;
+				    height: 100%;
+				}
+				.input-group-append{
+					a.btn{
+					    vertical-align: middle;
+					    align-items: center;
+					    line-height: 55px;
+					    padding: 0 30px;
+					    font-size: 17px;
+					    border-radius: 50px;
+					    z-index: 1;
+					}
+				    position: absolute;
+				    right: 0;
+				    height: 100%;
+				}
+			    position: relative;
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding: 64px 0 !important;
+	    background-position: inherit;
+	}
+	background-size: cover;
+	background-position: top;
+}
+.yoga-contact{
+	.upper-content{
+		h2{
+			font-size: 43px;
+	    	font-weight: 500;
+	    	margin-bottom: 15px;
+		}
+		p{
+			span{
+				font-size: 18px;
+			}
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 20px;
+		    color: #547670;
+	        margin-bottom: 15px;
+		}
+		padding-bottom: 30px;
+		border-bottom: 2px solid theme-color('primary');
+	}
+	.lower-content{
+		padding-top: 45px;
+		h4{
+			font-size: 23px;
+		    margin-bottom: 20px;
+	        color: #3cc3a9;
+		}
+		p{
+			line-height: 30px;
+		    font-weight: 400;
+		    font-size: 19px;
+		    color: #547670;
+	        margin-bottom: 0;
+		}
+	}
+	.form-group{
+		input.form-control{
+		    padding: 15px 0;
+		    height: unset;
+		    border: 0;
+		    border-bottom: 2px solid #d7eeee;
+		    border-radius: 0;
+		    color: theme-color('primary');
+		    outline: 0;
+		    box-shadow: unset;
+	        font-size: 16px;
+		    &::placeholder {
+			  color: theme-color('primary');
+			}
+		}
+		textarea{
+			padding: 15px 0;
+		    border: 0;
+		    border-bottom: 2px solid #d7eeee;
+		    border-radius: 0;
+		    color: theme-color('primary');
+		    outline: 0;
+		    box-shadow: unset;
+	        font-size: 16px;
+		    &::placeholder {
+			  color: theme-color('primary');
+			}
+		}
+	}
+}

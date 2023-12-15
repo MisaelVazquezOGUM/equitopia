@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_one_work" name="Work Process">
+		<section class="app-how-it-work"  style="background-image: url('/theme_vouge_business/static/src/img/app-testimonial-bg.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="title">
+							<span>WORK PROCESS</span>
+							<h3>How we works?</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipi labore et dolore magscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center s_col_no_bgcolor">
+					<div class="col-lg-12">
+	                    <div class="card bg-white tabs-content">
+	                        <div class="card-header">
+	                            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+	                                <li class="nav-item">
+	                                    <a class="nav-link active"
+	                                        id="nav_tabs_link_1"
+	                                        data-toggle="tab"
+	                                        href="#nav_tabs_content_1"
+	                                        role="tab"
+	                                        aria-controls="nav_tabs_content_1"
+	                                        aria-selected="true"><span class="fa fa-check-circle-o mr-2" />Signup Account <section class="number">1</section></a>
+	                                </li>
+	                                <li class="nav-item">
+	                                    <a class="nav-link"
+	                                        id="nav_tabs_link_2"
+	                                        data-toggle="tab"
+	                                        href="#nav_tabs_content_2"
+	                                        role="tab"
+	                                        aria-controls="nav_tabs_content_2"
+	                                        aria-selected="false">
+	                                        <span class="fa fa-cogs mr-2" />Goto Settings <section class="number">2</section></a>
+	                                </li>
+	                                <li class="nav-item">
+	                                    <a class="nav-link"
+	                                        id="nav_tabs_link_3"
+	                                        data-toggle="tab"
+	                                        href="#nav_tabs_content_3"
+	                                        role="tab"
+	                                        aria-controls="nav_tabs_content_3"
+	                                        aria-selected="false">
+	                                        <span class="fa fa-comments-o mr-2" />Start Talking<section class="number">3</section></a>
+	                                </li>
+	                            </ul>
+	                        </div>
+	                        <div class="card-body tab-content">
+	                            <div class="tab-pane fade show active"
+	                                id="nav_tabs_content_1"
+	                                role="tabpanel"
+	                                aria-labelledby="nav_tabs_link_1">
+	                               <div class="row">
+		                               	<div class="col-lg-6 col-md-12">
+		                               		<div class="content">
+		                               			<h4>Signup Account</h4>
+		                               			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in. Nam ut nisi lorem. Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate.</p>
+		                               			<p>Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus. Nullam sit amet consequat velit. Vivamus mattis, nibh egestas eleifend facilisis, eros arcu malesuada erat, non placerat nibh ligula vitae eros. Proin eu libero at sapien dictum posuere.</p>
+		                               			<p>Vivamus vitae consectetur augue, a hendrerit leo. Etiam tincidunt elementum justo vitae auctor. Proin accumsan rhoncus velit in egestas. Aenean finibus tincidunt velit eu gravida. Sed pulvinar elit enim, a dictum leo tincidunt sed.</p>
+		                               		</div>
+		                               	</div>
+		                               	<div class="col-lg-6 col-md-12">
+		                               		<div class="image">
+		                               			<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/app-work.png" />
+		                               		</div>
+		                               	</div>
+	                               </div>
+	                            </div>
+	                            <div class="tab-pane fade"
+	                                id="nav_tabs_content_2"
+	                                role="tabpanel"
+	                                aria-labelledby="nav_tabs_link_2">
+	                               <div class="row">
+		                               	<div class="col-lg-6 col-md-12">
+		                               		<div class="content">
+		                               			<h4>Goto Setting</h4>
+		                               			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in. Nam ut nisi lorem. Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate.</p>
+		                               			<p>Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus. Nullam sit amet consequat velit. Vivamus mattis, nibh egestas eleifend facilisis, eros arcu malesuada erat, non placerat nibh ligula vitae eros. Proin eu libero at sapien dictum posuere.</p>
+		                               			<p>Vivamus vitae consectetur augue, a hendrerit leo. Etiam tincidunt elementum justo vitae auctor. Proin accumsan rhoncus velit in egestas. Aenean finibus tincidunt velit eu gravida. Sed pulvinar elit enim, a dictum leo tincidunt sed.</p>
+		                               		</div>
+		                               	</div>
+		                               	<div class="col-lg-6 col-md-12">
+		                               		<div class="image">
+		                               			<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/app-work.png" />
+		                               		</div>
+		                               	</div>
+	                               </div>
+	                            </div>
+	                            <div class="tab-pane fade"
+	                                id="nav_tabs_content_3"
+	                                role="tabpanel"
+	                                aria-labelledby="nav_tabs_link_3">
+	                                <div class="row">
+		                               	<div class="col-lg-6 col-md-12">
+		                               		<div class="content">
+		                               			<h4>Start Talking</h4>
+		                               			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in. Nam ut nisi lorem. Quisque tincidunt ultricies dolor, in sagittis est hendrerit vulputate.</p>
+		                               			<p>Suspendisse suscipit diam et est iaculis, eu fermentum est dapibus. Nullam sit amet consequat velit. Vivamus mattis, nibh egestas eleifend facilisis, eros arcu malesuada erat, non placerat nibh ligula vitae eros. Proin eu libero at sapien dictum posuere.</p>
+		                               			<p>Vivamus vitae consectetur augue, a hendrerit leo. Etiam tincidunt elementum justo vitae auctor. Proin accumsan rhoncus velit in egestas. Aenean finibus tincidunt velit eu gravida. Sed pulvinar elit enim, a dictum leo tincidunt sed.</p>
+		                               		</div>
+		                               	</div>
+		                               	<div class="col-lg-6 col-md-12">
+		                               		<div class="image">
+		                               			<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/app-work.png" />
+		                               		</div>
+		                               	</div>
+	                               </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,20 @@
+<odoo>
+
+	<!-- Asset : Form -->
+	<record id="prop_maint_button_count" model="ir.ui.view">
+		<field name="name">account.asset.asset.form</field>
+		<field name="model">account.asset.asset</field>
+		<field name="inherit_id" ref="om_account_asset.view_account_asset_asset_form"/>
+		<field name="arch" type="xml">
+			<field name="expense_account_id" position='after'>
+				<field name="maint_account_id" invisible='1'/>
+			</field>
+			<xpath expr="//button[@name='open_entries']" position="after">
+				<button class="oe_inline oe_stat_button" name="open_maintenance" type="object" icon="fa-wrench">
+					<field string="Maintenance Requeted" name="maint_request" widget="statinfo"/>
+				</button>
+			</xpath>
+		</field>
+	</record>
+
+</odoo>

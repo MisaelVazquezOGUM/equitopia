@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_brands" name="Brands">
+		<section class="yoga-brand-newsletter pt152 pb96" style="background-image: url('/theme_vouge_business/static/src/img/yoga-brand-newsletter-bg.jpg');">
+			<div class="container extended-container">
+				<section class="brands pb112">
+					<div class="row align-items-center">
+						<div class="col-md-2 col-6 mb-4 mb-md-0">
+							<div class="image text-center">
+    							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+    						</div>
+						</div>
+						<div class="col-md-2 col-6 mb-4 mb-md-0">
+							<div class="image text-center">
+    							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+    						</div>
+						</div>
+						<div class="col-md-2 col-6 mb-4 mb-md-0">
+							<div class="image text-center">
+    							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand3.png" />
+    						</div>
+						</div>
+						<div class="col-md-2 col-6 mb-4 mb-md-0">
+							<div class="image text-center">
+    							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand4.png" />
+    						</div>
+						</div>
+						<div class="col-md-2 col-6 mb-4 mb-md-0">
+							<div class="image text-center">
+    							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand5.png" />
+    						</div>
+						</div>
+						<div class="col-md-2 col-6 mb-4 mb-md-0">
+							<div class="image text-center">
+    							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/furniture-brand6.png" />
+    						</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+	</template>
+
+</odoo>

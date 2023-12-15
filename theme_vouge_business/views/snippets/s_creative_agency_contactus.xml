@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_creative_agency_contactus" name="Contact Us">
+		<section class="creative-contact-us">
+			<div class="container">
+				<div class="row">
+					<div class="heading w-75">
+						<h3>Contact us now and receive a free quotation for your project</h3>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-md-12">
+						<div class="form">
+							<form action="/website_form/" method="post" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-name="Form Builder" data-model_name="mail.mail" data-success_page="/thank-you">
+				          	<div class="row mb32">
+				          		<div class="col-lg-6">
+						          	<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+						              	<input type="text" placeholder="Name" class="form-control o_website_form_input" name="Your Name" required=""/>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-6">
+						          	<div class="form-group form-field o_website_form_custom o_fake_not_editable">
+						              	<input type="text" placeholder="Phone" class="form-control o_website_form_input" name="Phone Number"/>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-6">
+						          	<div class="form-group form-field o_website_form_required_custom">
+						              	<input type="email" placeholder="E-Mail" class="form-control o_website_form_input" name="email_from" required=""/>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-6">
+						          	<div class="form-group form-field o_website_form_required_custom">
+						              	<input type="text" placeholder="Subject" class="form-control o_website_form_input" name="subject" required=""/>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-12">
+						          	<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+						              	<textarea placeholder="Message*" class="form-control o_website_form_input" name="Your Question" required=""></textarea>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-12">
+						          	<div class="form-group text-right">
+						              	<button class="o_website_form_send btn btn-link btn-md m-t-20 arrow-btn" type="submit">
+												Submit Message
+												<span class="fa fa-angle-right ml-2"/>
+										</button>
+										<span id="o_website_form_result"
+											class="text-danger ml8 mt16  mb16 col-md-12">
+										</span>
+						          	</div>
+					          	</div>
+				          	</div>
+				      	</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,73 @@
+.bizople_button_1 {
+    letter-spacing: 0;
+    transition: all 280ms ease-in-out;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0 !important;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.bizople_button_1:hover,
+.bizople_button_1:active {
+  letter-spacing: 5px;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.bizople_button_1:after,
+.bizople_button_1:before {
+  backface-visibility: hidden;
+  border: 1px solid transparent !important;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.bizople_button_1:hover:after,
+.bizople_button_1:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 100%;
+}
+
+.bizople_button_1:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 100%;
+}
+
+
+/*::::::::::::::::::::::::::::::::: Colors ::::::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::: btn-secondary and btn-outline-secondary ::::::::::::::::::::*/
+
+.bizople_button_1.btn-secondary, .bizople_button_1.btn-outline-secondary{
+  color: theme-color('secondary') !important;
+}
+
+.bizople_button_1.btn-secondary:hover:after,
+.bizople_button_1.btn-secondary:hover:before,
+.bizople_button_1.btn-outline-secondary:hover:after,
+.bizople_button_1.btn-outline-secondary:hover:before {
+  border-color: theme-color('secondary') !important;
+}
+
+/*:::::::::::::::::::::: btn-primary and btn-outline-primary ::::::::::::::::::::*/
+
+.bizople_button_1.btn-primary, .bizople_button_1.btn-outline-primary {
+  color: theme-color('primary') !important;
+}
+
+.bizople_button_1.btn-primary:hover:after,
+.bizople_button_1.btn-primary:hover:before,
+.bizople_button_1.btn-outline-primary:hover:after,
+.bizople_button_1.btn-outline-primary:hover:before{
+  border-color: theme-color('primary') !important;
+}

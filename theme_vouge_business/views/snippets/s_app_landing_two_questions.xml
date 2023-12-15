@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_two_questions" name="Asked Quetions">
+		<section class="app2-questions">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="heading">
+							<h4>Frequently Asked Quetions</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center align-items-center">
+					<div class="col-lg-8 col-md-12">
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-md-6">
+								<div class="frequently-content">
+									<div class="que-icon">
+										<span class="fa fa-question"/>
+									</div>
+									<div class="info">
+										<h5>How to install app?</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="frequently-content">
+									<div class="que-icon">
+										<span class="fa fa-question"/>
+									</div>
+									<div class="info">
+										<h5>What is Pricing Plan ?</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="frequently-content">
+									<div class="que-icon">
+										<span class="fa fa-question"/>
+									</div>
+									<div class="info">
+										<h5>Where Can I Find The App ?</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="frequently-content">
+									<div class="que-icon">
+										<span class="fa fa-question"/>
+									</div>
+									<div class="info">
+										<h5>What is Refund Policy ?</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="frequently-content">
+									<div class="que-icon">
+										<span class="fa fa-question"/>
+									</div>
+									<div class="info">
+										<h5>Is There Any App Validity ?</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="frequently-content">
+									<div class="que-icon">
+										<span class="fa fa-question"/>
+									</div>
+									<div class="info">
+										<h5>How to Share This App?</h5>
+										<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12">
+						<div class="image">
+							<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/app2-faq.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

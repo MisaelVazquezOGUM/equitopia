@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_yoga_contactus" name="Contact Us">
+		<section class="yoga-contact pb96 pt32">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-xl-5 col-md-6 mb-4 mb-md-0">
+						<div class="upper-content">
+							<h2 class="text-primary">Contact Us</h2>
+							<p class="mb-4">Contact us about anything related to our services. We'll get back to you as soon as possible.</p>
+							<p><span class="fa fa-phone mr-2"></span><span>+1 (650) 691-3277</span></p>
+							<p><span class="fa fa-envelope-o mr-2"></span><span>info@bizople.com</span></p>
+						</div>
+						<div class="lower-content">
+							<h4>Mon – Fri : 10:00 – 19:00 / Sat – Sun : 10:00 – 15:00</h4>
+							<p><span>250 Executive Park Blvd, Suite 3400</span></p>
+							<p><span>San Francisco, 94134</span></p>
+						</div>
+					</div>
+					<div class="col-xl-5 col-md-6 offset-xl-1">
+						<form action="/website_form/" method="post" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-name="Form Builder" data-model_name="mail.mail" data-success_page="/thank-you">
+				          	<div class="row mb32">
+				          		<div class="col-lg-12">
+						          	<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+						              	<input type="text" placeholder="Name*" class="form-control o_website_form_input" name="Your Name" required=""/>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-6">
+						          	<div class="form-group form-field o_website_form_custom o_fake_not_editable">
+						              	<input type="text" placeholder="Phone*" class="form-control o_website_form_input" name="Phone Number"/>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-6">
+						          	<div class="form-group form-field o_website_form_required_custom">
+						              	<input type="email" placeholder="E-Mail*" class="form-control o_website_form_input" name="email_from" required=""/>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-12">
+						          	<div class="form-group form-field o_website_form_required_custom">
+						              	<input type="text" placeholder="Subject*" class="form-control o_website_form_input" name="subject" required=""/>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-12">
+						          	<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+						              	<textarea placeholder="Message*" class="form-control o_website_form_input" name="Your Question" required=""></textarea>
+						          	</div>
+					          	</div>
+					          	<div class="col-lg-12">
+						          	<div class="form-group">
+						              	<button class="btn btn-primary btn-lg rounded-circle shadow o_website_form_send o_default_snippet_text">Submit Message</button>
+						              	<span id="o_website_form_result"></span>
+						          	</div>
+					          	</div>
+				          	</div>
+				      	</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

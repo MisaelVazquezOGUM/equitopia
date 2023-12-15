@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_charity_newsletter" name="Become a Volunteer">
+		<section class="charity-newsletter" style="background-image: url('/theme_vouge_business/static/src/img/charity-newsletter.png');">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 offset-md-6 offset-lg-8">
+						<div class="content">
+							<h2>How to Become a Volunteer?</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+							<div class="charity-subscribe">
+								<form class="input-group js_subscribe" data-list-id="1">
+									<input type="email" name="email" class="js_subscribe_email form-control bg-white" placeholder="Your Email"/>
+									<span class="input-group-append">
+							            <a role="button" href="#" class="btn btn-primary js_subscribe_btn">Subscribe</a>
+							            <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none" disabled="disabled">Thanks</a>
+							        </span>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

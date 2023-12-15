@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_creative_agency_service" name="Services">
+		<section class="creative-service">
+			<div class="container extended-container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 mb-3">
+						<div class="service-content">
+							<div class="image">
+								<span class="icon icon-Bulb fa-4x"/>
+							</div>
+							<div class="info">
+								<h4>Best Ideas</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 mb-3">
+						<div class="service-content">
+							<div class="image">
+								<span class="icon icon-Settings fa-4x"/>
+							</div>
+							<div class="info">
+								<h4>Our Speciality</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 mb-3">
+						<div class="service-content">
+							<div class="image">
+								<span class="icon icon-Restart fa-4x"/>
+							</div>
+							<div class="info">
+								<h4>Structured Process</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,620 @@
+.cyber-security-banner{
+	.content{
+		h3{
+			color: #00ffff;
+			padding-left: 40px;
+		    font-size: 18px;
+		    position: relative;
+		    font-weight: 600;
+		    &:before{
+		    	content: '';
+			    background-color: #00ffff;
+			    position: absolute;
+			    top: 50%;
+			    left: 0;
+			    width: 30px;
+			    height: 2px;
+		    }
+		}
+		h1{
+			font-size: 36px;
+		    line-height: 1.7;
+		    margin-bottom: 20px;
+	        font-weight: 600;
+	        color:#fff;
+	        span{
+	        	color: #00ffff;
+	        }
+		}
+		p{
+		    font-size: 18px;
+		    line-height: 1.9;
+		    margin-bottom: 30px;
+		    color: #d8d0d0 ;
+		}
+		.s_btn{
+			color:#fff;
+			font-size: 1rem;
+		}
+		.btn{
+		    border: 0;
+		    box-shadow: 0 20px 43px 0 rgba(216,58,131,.32);
+		    line-height: 48px;
+		    font-size: 12px;
+    		font-weight: 600;
+    		padding: 0 30px;
+		    text-transform: uppercase;
+		}
+		.video-bnt span{
+		    width: 50px;
+		    height: 50px;
+		    line-height: 50px;
+		    border-radius: 50%;
+		    text-align: center;
+		    background-color: theme-color('cyber-security');
+		    color: white;
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding: 50px 0 !important;
+		.content{
+			p{
+				font-size:15px;
+			}
+		}
+	}
+    background-size: cover;
+    background-position: center;
+}
+.cyber-security-plateform{
+	padding:80px 0;
+	.content{
+		span{
+			color: theme-color('cyber-security');
+			font-weight: bold;
+			font-size: 1rem;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		h2{
+		    font-size: 30px;
+		    color: #222;
+		    line-height: 1.4;
+	        font-weight: 600;
+		    margin-bottom: 20px !important;
+		}
+		p{
+	        line-height: 1.9;
+		    font-weight: 400;
+		    color: #888;
+		    font-size: 15px;
+		}
+	}
+	.list-items{
+		.item{
+			padding:10px 0;
+			font-size: 16px;
+			line-height: 20px;
+			font-weight: 600;
+			display: flex;
+			span{
+				color: theme-color('cyber-security');
+				display: inline-table;
+			}
+			h3{
+				font-weight: 500;
+    			color: #42526e;
+    			font-size: 16px;
+    			line-height: 20px;
+			}
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding: 50px 0 !important;
+		.content{
+			h2{
+				font-size:24px;
+			}
+		}
+	}
+}
+.cyber-security-features{
+	background-size: cover;
+	background-position: center;
+	padding:80px 0;
+	.heading{
+		margin-bottom:80px;
+		span{
+			color: theme-color('cyber-security');
+			font-weight: bold;
+			font-size: 1rem;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		h2{
+		    font-size: 30px;
+		    color: #222;
+		    line-height: 1.4;
+	        font-weight: 600;
+		    margin-bottom: 20px !important;
+		}
+		p{
+	        line-height: 1.9;
+		    font-weight: 400;
+		    color: #888;
+		    font-size: 15px;
+		    width: 60%;
+    		margin: auto;
+		}
+	}
+	.feature-content{
+		border-radius: 10px;
+		background-color: #fff;
+		box-shadow: 0 5px 40px 0 rgba(0,0,0,.11);
+		border:2px dashed theme-color('cyber-security');
+		padding: 40px 20px;
+    	margin-bottom: 30px !important;
+    	.feature-icon{
+    		margin-bottom: 30px;
+    		span{
+    			color:theme-color('cyber-security');
+    		}
+    	}
+    	h6{
+    		color: #222;
+    		margin-bottom: 15px;
+    		font-size: 18px;
+    		line-height: 1.4;
+    		font-weight: 500;
+    	}
+    	p{
+    		color: #888;
+    		font-size:15px;
+    		line-height: 1.9;
+    	}
+	}
+	.feature-content2{
+		border-radius: 10px;
+		background-color: #fff;
+		box-shadow: 0 5px 40px 0 rgba(0,0,0,.11);
+		border:2px dashed theme-color('cyber-security-2');
+		padding: 40px 20px;
+    	margin-bottom: 30px !important;
+    	.feature-icon span{
+    		width: 80px;
+		    height: 80px;
+		    background-color: #edf6fd;
+		    text-align: center;
+		    border: 2px dashed theme-color('cyber-security-2');
+		    margin:0 auto 30px;
+			color:theme-color('cyber-security-2');
+			line-height: 74px;
+    	}
+    	h6{
+    		color: #222;
+    		margin-bottom: 15px;
+    		font-size: 18px;
+    		line-height: 1.4;
+    		font-weight: 500;
+    	}
+    	p{
+    		color: #888;
+    		font-size:15px;
+    		line-height: 1.9;
+    	}
+	}
+	@media (max-width: 767.98px) {
+		padding: 50px 0 !important;
+		.heading{
+			margin-bottom:50px;
+			p{
+				width:100%;
+			}
+		}
+	}
+}
+.cyber-security-work{
+	background-size: cover;
+	background-position: center;
+	padding:80px 0;
+	.heading{
+		margin-bottom:80px;
+		span{
+			color: theme-color('cyber-security');
+			font-weight: bold;
+			font-size: 1rem;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		h2{
+		    font-size: 30px;
+		    color: #222;
+		    line-height: 1.4;
+	        font-weight: 600;
+		    margin-bottom: 20px !important;
+		}
+		p{
+	        line-height: 1.9;
+		    font-weight: 400;
+		    color: #888;
+		    font-size: 15px;
+		    width: 60%;
+    		margin: auto;
+		}
+	}
+	.content{
+		.service-block{
+			position: relative;
+    		margin-bottom: 30px;
+    		.work-icon span{
+    			width: 80px;
+			    height: 80px;
+			    background-color: #edf6fd;
+			    text-align: center;
+			    border: 2px dashed theme-color('cyber-security');
+			    display: inline-table;
+			    margin-right:20px;
+		    	color: theme-color('cyber-security');
+		    	line-height: 74px;
+    		}
+    		.work-icon2 span{
+    			width: 50px;
+			    height: 50px;
+			    text-align: center;
+			    border: 2px solid theme-color('cyber-security');
+			    display: inline-table;
+			    margin-right:20px;
+			    border-radius: 50%;
+		    	color: theme-color('cyber-security');
+		    	line-height: 50px;
+    		}
+    		.work-info{
+    			h3{
+				    font-size: 18px;
+				    color: #222;
+				    line-height: 1.4;
+			        font-weight: 600;
+				    text-transform: capitalize;
+				}
+				p{
+			        line-height: 1.9;
+				    font-weight: 400;
+				    color: #888;
+				    font-size: 14px;
+				}
+    		}
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding: 50px 0 !important;
+		.heading{
+			margin-bottom:50px;
+			p{
+				width:100%;
+			}
+			.title{
+				font-size: 24px;
+			}
+		}
+		.content{
+			.service-block{
+				.content-block{
+					display:block !important;
+					text-align:center;
+				}
+				.work-icon span{
+					margin-bottom: 20px;
+					margin-right:0;
+				}
+				.work-icon2 span{
+					margin-bottom: 20px;
+					margin-right:0;
+				}
+			}
+		}
+	}
+}
+.our-service{
+	background-color: #2C225A;
+}
+.cyber-security-faq{
+	background-size: cover;
+	background-position: center;
+	padding:80px 0;
+	.heading{
+		margin-bottom:80px;
+		span{
+			color: theme-color('cyber-security');
+			font-weight: bold;
+			font-size: 1rem;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		h2{
+		    font-size: 30px;
+		    color: #222;
+		    line-height: 1.4;
+	        font-weight: 600;
+		    margin-bottom: 20px !important;
+		}
+		p{
+	        line-height: 1.9;
+		    font-weight: 400;
+		    color: #888;
+		    font-size: 15px;
+		    width: 60%;
+    		margin: auto;
+		}
+	}
+	.collapse-accordion{
+		.card{
+			margin-bottom: 0;
+			border: none;
+			background-color: unset !important;
+			 
+		}
+		.card-header{
+			background-color: unset !important;
+			padding: 0 !important;
+			border-bottom: none!important;
+		}
+		.cart-title{
+			margin:0;
+		}
+		a {
+		   border: 1px solid #f2f4f8;
+		   padding: 15px 25px;
+		    position: relative;
+		    color: #fff;
+		    background-color: theme-color('cyber-security');
+		    font-size:1rem;
+		    margin-bottom: 15px;
+		    display: inline-block;
+			width: 100%;
+			border-radius: 25px;
+		}
+		a:not(.collapsed) {
+		    border-bottom: none !important;
+		}
+		.content-body{
+			padding: 15px 25px;
+			border-radius:0;
+			font-size:15px;
+			border: none !important;
+			color:#888;
+		}
+	}
+	@media (max-width: 767.98px) {
+		padding: 50px 0 !important;
+		.heading{
+			margin-bottom:50px;
+			p{
+				width:100%;
+			}
+		}
+	}
+}
+.cyber-security-team{
+	background-size: cover;
+	background-position: center;
+	.heading{
+		margin-bottom:80px;
+		span{
+			color: theme-color('cyber-security');
+			font-weight: bold;
+			font-size: 1rem;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		h2{
+		    font-size: 30px;
+		    color: #222;
+		    line-height: 1.4;
+	        font-weight: 600;
+		    margin-bottom: 20px !important;
+		}
+		p{
+	        line-height: 1.9;
+		    font-weight: 400;
+		    color: #888;
+		    font-size: 15px;
+		    width: 60%;
+    		margin: auto;
+		}
+	}
+	.team-content{
+		border: 1px solid theme-color('cyber-security-2');
+		border-radius: 30px;
+	    text-align: center;
+	    margin-bottom: 30px;
+	    overflow: hidden;
+	    .team-image{
+	    	position: relative;
+    		overflow: hidden;
+    		img{
+    			margin-top: 30px;
+    			max-width: 80%;
+    			border-radius: 100%;
+    			border: 6px dotted theme-color('cyber-security-2');
+    			padding: 5px;
+    		}
+    		.social-icons{
+    			background-color: theme-color('cyber-security');
+    			padding: 10px 0 10px 0;
+    			margin: 0;
+			    list-style: none;
+			    position: absolute;
+			    top: -100%;
+			    right: 30px;
+			    border-radius: 0 0 20px 20px;
+			    z-index: 1;
+			    transition: all 0.3s ease 0s;
+			    li a{
+			    	display: block;
+			    	padding: 10px 15px;
+				    font-size: 15px;
+				    color: #fff;
+				    &:hover{
+				    	color: #222;
+				    }
+			    }
+    		}
+    		&:after{
+    			content: "";
+			    width: 100%;
+			    height: 100%;
+			    background-color: rgba(255,255,255,0.2);
+			    position: absolute;
+			    bottom: -100%;
+			    left: 0;
+			    transition: all 0.3s ease 0s;
+    		}
+	    }
+	    .team-info{
+	    	padding: 20px 0 30px;
+	    	background-color: #fff;
+	    	h4{
+	    		font-size: 16px;
+	    		font-weight:600;
+			    color: #000;
+			    text-transform: capitalize;
+			    margin: 0 0 20px;
+			    position: relative;
+			    &:before {
+				    content: "";
+				    width: 25px;
+				    height: 1px;
+				    background-color: #cea676;
+				    position: absolute;
+				    bottom: -10px;
+				    right: 50%;
+				    margin-right: 9px;
+				    transition-duration: 0.25s;
+				}
+				&:after {
+				    content: "";
+				    width: 25px;
+				    height: 1px;
+				    background-color: #cea676;
+				    position: absolute;
+				    bottom: -10px;
+				    left: 50%;
+				    margin-left: 9px;
+				    transition-duration: 0.25s;
+				}
+	    	}
+	    	span{
+	    		display: inline-block;
+			    font-size:14px;
+			    color: #666;
+			    text-transform: capitalize;
+			    &:before {
+				    content: "";
+				    display: block;
+				    width: 7px;
+				    height: 7px;
+				    border-radius: 50%;
+				    background-color: #cea676;
+				    margin: 0 auto;
+				    position: relative;
+				    top: -13px;
+				}
+	    	}
+	    }
+
+	    &:hover{
+	    	.team-image{
+		    	.social-icons{
+		    		top: 0;
+		    	}
+		    	&:after{
+		    		bottom: 0;
+		    	}
+		    }
+		    .team-info{
+		    	h4{
+		    		&:before{
+		    			width: 50px;
+		    		}
+		    		&:after{
+		    			width: 50px;
+		    		}
+		    	}
+		    }
+	    }
+	}
+	@media (max-width: 767.98px) {
+		padding: 50px 0 !important;
+		.heading{
+			margin-bottom:50px;
+			p{
+				width:100%;
+			}
+		}
+	}
+}
+.editor_enable{
+	.cyber-security-team{
+		.team-image{
+			.social-icons{
+    			top: 0 !important;
+	    	}	
+			&:after{
+				position: unset !important;
+			}
+		}
+	}
+}
+.cyber-security-partners{
+	background-size: cover;
+	background-position: center;
+	padding:80px 0;
+	.heading{
+		margin-bottom:80px;
+		span{
+			color: theme-color('cyber-security');
+			font-weight: bold;
+			font-size: 1rem;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+		h2{
+		    font-size: 30px;
+		    color: #222;
+		    line-height: 1.4;
+	        font-weight: 600;
+		    margin-bottom: 20px !important;
+		}
+		p{
+	        line-height: 1.9;
+		    font-weight: 400;
+		    color: #888;
+		    font-size: 15px;
+		    width: 60%;
+    		margin: auto;
+		}
+	}
+	.partner-member{
+		padding: 10px;
+		width: 100%;
+		margin-bottom:30px;
+		background-color: #fff;
+    	transition: all .4s ease-in-out;
+    	border: 2px solid #eaeaea;
+    	&:hover{
+    		border-color: #1d66f6;
+    	}
+    	.image{
+    		text-align:center;
+    	}
+	}
+	@media (max-width: 767.98px) {
+		padding: 50px 0 !important;
+		.heading{
+			margin-bottom:50px;
+			p{
+				width:100%;
+			}
+		}
+	}
+}	

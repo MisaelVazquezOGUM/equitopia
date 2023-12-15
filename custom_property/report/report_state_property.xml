@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="state_property_report">
+            <t t-call="web.html_container">
+                <t t-call="web.external_layout">
+                    <h1 style="text-align:center;">
+                        <strong> Monthly Performance</strong>
+                    </h1>
+                    <br/>
+                    <h4 style="text-align:center;">
+                        <t t-esc="doc.mes_estado"/>
+                        <t t-esc="doc.year_state"/>
+                    </h4>
+                    <br/>
+                    <div class = "container" style="left: 400px;">
+                        <div class = "row">
+                            <div class = "col" style="left: 40px; width: 45%">
+                                <div class="card" style="width: 20rem;">
+                                    <td>
+                                        <h5 class="card-title" style="font-size: 16px;">Propiedad: <t t-esc="doc.property_id.name"/>
+                                        </h5>
+                                    </td>
+                                    <h5 class="card-title" style="font-size: 16px;">Fecha de Report: <t t-esc="doc.fecha_report"/>
+                                    </h5>
+                                    <h5 class="card-title" style="font-size: 16px;">Gestor: <t t-esc="doc.manager_id.name"/>
+                                    </h5>
+                                    <h5 class="card-title" style="font-size: 16px;">Propietario: <t t-esc="doc.owner_id.name"/>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class = "col" style="left: 200px; width: 70%">
+                                <div style="width: 20rem;">
+                                    <h5 style="font-size: 16px;">Rented (busy): </h5>
+                                    <table style="width:5px; height:5px;">
+                                        <tr>
+                                            <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 10px;">Dom</th>
+                                            <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 10px;">Lun</th>
+                                            <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 10px;">Mar</th>
+                                            <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 10px;">Mie</th>
+                                            <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 10px;">Jue</th>
+                                            <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 10px;">Vie</th>
+                                            <th style="border: 1px solid #ddd; background-color: #f2f2f2; padding: 10px;">Sab</th>
+                                        </tr>
+                                        <t t-foreach="doc._disable_days()" t-as="week">
+                                            <tr>
+                                                <t t-foreach="week" t-as="day">
+                                                    <td style="border: 1px solid #ddd; padding: 10px;">
+                                                        <t t-if="day == 'X'">
+                                                            <p t-esc="day" style="color: red;"/>
+                                                        </t>
+                                                        <t t-if="day != 'X'">
+                                                            <p t-esc="day" style="color: green;"/>
+                                                        </t>
+                                                    </td>
+                                                </t>
+                                            </tr>
+                                        </t>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <section>
+                        <!--TABLA #1-->
+                        <h4 style="text-decoration: underline;">Gastos</h4>
+                        <br/>
+                        <table class="table">
+                            <t t-set="sum" t-value="0.0"/>
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Mantenimiento</th>
+                                    <th scope="col">Servicios</th>
+                                    <th scope="col">Otros Gastos</th>
+                                    <th scope="col">Comisiones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <t t-esc="doc.mantenimientos" t-options='{"widget": "float", "precision": 2}'/>
+                                    </td>
+                                    <td>
+                                        <t t-esc="doc.servicios" t-options='{"widget": "float", "precision": 2}'/>
+                                    </td>
+                                    <td>
+                                        <t t-esc="doc.otros_gastos" t-options='{"widget": "float", "precision": 2}'/>
+                                    </td>
+                                    <td>
+                                        <t t-esc="doc.comisiones" t-options='{"widget": "float", "precision": 2}'/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section>
+                        <!--TABLA #1-->
+                        <h4 style="text-decoration: underline;">Availability</h4>
+                        <br/>
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col" colspan="2">Libre</th>
+                                    <th scope="col" colspan="2">Ocupado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Dias Libres: <t t-esc="doc.dias_libres"/>
+                                    </td>
+                                    <td>
+                                        <t t-esc="'%.2f'% doc.porcent_libre"/>
+ %</td>
+                                    <td>Dias Ocupados: <t t-esc="doc.dias_ocupados"/>
+                                    </td>
+                                    <td>
+                                        <t t-esc="'%.2f'% doc.procetaje_ocupado"/>
+ %</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <br/>
+                    <hr/>
+                    <div class = "container">
+                        <div class = "row">
+                            <div class = "col" style="left: 40px; width: 45%">
+                                <div style="width: 20rem;">
+                                    <t t-if="doc.property_id.image">
+                                        <img t-att-src="'data:image/all;base64,%s' % to_text(doc.property_id.image)" style="max-height:8cm; max-width:11cm;"/>
+                                    </t>
+                                </div>
+                            </div>
+                            <div class = "col" style="left: 200px; width: 45%">
+                                <div style="width: 20rem;">
+                                    <h4 class="card-title">Rentas</h4>
+                                    <div class = "col" style="width: 45%">
+                                        <div>
+                                            <h5 style="font-size: 16px;">Rentas Programadas: <t t-esc="doc.rent_cronograma" t-options='{"widget": "float", "precision": 2}'/>
+                                            </h5>
+                                            <h5 style="font-size: 16px;">Rentas Efectivas: <t t-esc="doc.rent_efectivo" t-options='{"widget": "float", "precision": 2}'/>
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                    <h4 class="card-title" style="font-size: 24px;">Ingresos Netos: </h4>
+                                    <div class = "col" style="width: 45%">
+                                        <div>
+                                            <h3 style="font-size: 22px;">
+                                                <t t-esc="doc.ingresos_netos" t-options='{"widget": "float", "precision": 2}'/>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <section>
+                        <!--TABLA #1-->
+                        <h4 style="text-decoration: underline;">Desglose Gastos</h4>
+                        <br/>
+                        <table class="table table-bordered">
+                            <t/>
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Tipo de Movimiento</th>
+                                    <th scope="col">Ingreso</th>
+                                    <th scope="col">Egreso</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <t t-if="doc.expense_table_ids" t-foreach="doc.expense_table_ids" t-as="expense">
+                                    <tr>
+                                        <td>
+                                            <t t-esc="expense.date_exp" />
+                                        </td>
+                                        <td>
+                                            <t t-esc="expense.name_exp" />
+                                        </td>
+                                        <td>
+                                            <t t-esc="{'m':'Mantenimiento','r':'Renta','s':'Servicio','oe':'Otro Gasto','co':'Comisión'}[expense.type_move]" />
+                                        </td>
+                                        <td >
+                                            <t t-esc="expense.enter_pay" t-if="expense.enter_pay != 0" t-options='{"widget": "float", "precision": 2}'/>
+                                        </td>
+                                        <td >
+                                            <t t-esc="expense.exit_pay" t-if="expense.exit_pay != 0" t-options='{"widget": "float", "precision": 2}'/>
+                                        </td>
+                                    </tr>
+                                </t>
+                                <tr>
+                                    <td colspan="4"></td>
+                                    <td >Total
+                                        <t t-esc="doc.tot_exp" t-options='{"widget": "float", "precision": 2}'/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </t>
+            </t>
+        </template>
+    </data>
+</odoo>

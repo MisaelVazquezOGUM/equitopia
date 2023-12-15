@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_products" name="Products">
+		<section class="business-medical-images">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="row">
+							<div class="image1 p-0">
+								<div class="content">
+									<div class="image">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/medical-gallary1.jpg" />
+										<div class="info">
+											<h6>Monthly Checkups</h6>
+											<h2>Protect Yourself From Deadly Germs</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="image2 p-0">
+								<div class="content">
+									<div class="image">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/medical-gallary2.jpg" />
+										<div class="info">
+											<h6>Laboratory Testing Kits</h6>
+											<h2>Test Tubes</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="image2 p-0">
+								<div class="content">
+									<div class="image">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/medical-gallary3.jpg" />
+										<div class="info">
+											<h6>Covid-19 Test</h6>
+											<h2>Test Tubes</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="image1 p-0">
+								<div class="content">
+									<div class="image">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/medical-gallary4.jpg" />
+										<div class="info">
+											<h6>Investigating Small Organisms</h6>
+											<h2>Micro Biopsy</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="row">
+							<div class="col-lg-12 p-0">
+								<div class="content">
+									<div class="image">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/medical-gallary5.jpg" />
+										<div class="info">
+											<h6>Disposable</h6>
+											<h2>Medical Masks</h2>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_founder" name="Founder">
+		<section class="dessert-offer">
+			<div class="container">
+				<div class="row justify-content-center mt32">
+					<div class="col-lg-8 col-md-10">
+						<div class="title text-center">
+							<span>Our list is growing daily</span>
+							<h2>WORD FROM FOUNDER</h2>
+							<p>Lorem ipsum dolor amet consectetur adipiscing elitsed do eiusm aliqua.<br></br>Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa comodo consequato aute irure dolor in reprehenderit in voluptate velit cilldolore fugiat nullapariature malesione mertolo caridllio los pollos merenda dello studente latino imperiale.</p>
+							<div class="image">
+    							<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/sign.png" />
+    						</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt32">
+					<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+						<div class="image">
+							<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/furniture-brand1.png" />
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+						<div class="image">
+							<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/furniture-brand2.png" />
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+						<div class="image">
+							<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/furniture-brand3.png" />
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+						<div class="image">
+							<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/furniture-brand4.png" />
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-6 mb-4 b-right">
+						<div class="image">
+							<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/furniture-brand5.png" />
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-6 mb-4">
+						<div class="image">
+							<img class="img img-fluid"
+							src="/theme_vouge_business/static/src/img/furniture-brand6.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

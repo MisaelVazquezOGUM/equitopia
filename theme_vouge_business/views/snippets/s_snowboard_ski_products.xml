@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_products" name="Best Products">
+		<section class="snowboard-products">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<span>Get the Best Deals</span>
+							<h2>FUN WITH THE SNOW</h2>
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/snow-under-text.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<div class="products-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-gallary1.jpg" />
+								</a>
+							</div>
+							<div class="links">
+								<a href="#">
+									<span class="fa fa-link"/>
+								</a>
+								<a href="#">
+									<span class="fa fa-search-plus"/>
+								</a>
+							</div>
+						</div>
+						<div class="products-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-gallary2.jpg" />
+								</a>
+							</div>
+							<div class="links">
+								<a href="#">
+									<span class="fa fa-link"/>
+								</a>
+								<a href="#">
+									<span class="fa fa-search-plus"/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="products-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-gallary3.jpg" />
+								</a>
+							</div>
+							<div class="links">
+								<a href="#">
+									<span class="fa fa-link"/>
+								</a>
+								<a href="#">
+									<span class="fa fa-search-plus"/>
+								</a>
+							</div>
+						</div>
+						<div class="products-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-gallary4.jpg" />
+								</a>
+							</div>
+							<div class="links">
+								<a href="#">
+									<span class="fa fa-link"/>
+								</a>
+								<a href="#">
+									<span class="fa fa-search-plus"/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="products-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-gallary6.jpg" />
+								</a>
+							</div>
+							<div class="links">
+								<a href="#">
+									<span class="fa fa-link"/>
+								</a>
+								<a href="#">
+									<span class="fa fa-search-plus"/>
+								</a>
+							</div>
+						</div>
+						<div class="products-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-gallary5.jpg" />
+								</a>
+							</div>
+							<div class="links">
+								<a href="#">
+									<span class="fa fa-link"/>
+								</a>
+								<a href="#">
+									<span class="fa fa-search-plus"/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

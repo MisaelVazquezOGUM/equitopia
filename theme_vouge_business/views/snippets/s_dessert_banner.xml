@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_banner" name="Home Banner">
+		<section class="dessert-home-banner">
+			<div id="dessert-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+	          	<div class="carousel-inner" role="listbox">
+	            	
+	            	<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/desser-banner1.png');">
+	            		<div class="container extended-container">
+        					<div class="banner-content text-center">
+        						<div class="star">
+        							<span class="fa fa-star fa-2x"/>
+        							<span class="fa fa-star fa-2x"/>
+        							<span class="fa fa-star fa-2x"/>
+        						</div>
+        						<h2>Freezing Chocolate<br></br>Ice Cream For Everyone</h2>
+        						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br>Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu.</p>
+        						<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-outline-secondary btn-lg">View The Menu</a>
+        						</div>
+        					</div>
+	            		</div>
+	            	</div>
+	            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/desser-banner2.png');">
+	            		<div class="container extended-container">
+        					<div class="banner-content text-center">
+        						<div class="star">
+        							<span class="fa fa-star fa-2x"/>
+        							<span class="fa fa-star fa-2x"/>
+        							<span class="fa fa-star fa-2x"/>
+        						</div>
+        						<h2>Delicious Ice Cream Pie<br></br>For Children</h2>
+        						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br>Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu.</p>
+        						<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-outline-secondary btn-lg">View The Menu</a>
+        						</div>
+        					</div>
+	            		</div>
+	            	</div>
+	          	</div>
+	          	 <div class="slider-control">
+              		<a class="left carousel-control-prev text-white font-14" data-target="#dessert-carousel" role="button" data-slide="prev">
+	                	<span class="fa fa-long-arrow-left"/>
+	               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+	              	</a>
+	              	<a class="right carousel-control-next text-white font-14" data-target="#dessert-carousel" role="button" data-slide="next">
+	                	<span class="fa fa-long-arrow-right"/>
+	                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+	              	</a>
+	            </div>
+		        <ol class="carousel-indicators">
+				    <li class="active" data-slide-to="0" data-target="#dessert-carousel">
+				    </li>
+				    <li class="" data-slide-to="1" data-target="#dessert-carousel">
+				    </li>
+				</ol>
+        	</div>
+		</section>
+	</template>
+
+</odoo>

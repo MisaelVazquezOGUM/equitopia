@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_aboutus" name="About Us">
+		<section class="dessert-about-us parallax s_parallax_is_fixed">
+			<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/dessert-about-bg.png');"/>
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-6 col-md-6">
+						<div class="about-content text-center">
+							<span>History of our Ice Creams and Pies</span>
+							<h2>About us</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusm temporincididunt utlabore et dolore  aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exa comodo consequato aute irure dolor in reprehenderit in voluptate velit cilldolore fugiat nullapariature malesione mertolo caridllio los pollos merenda.</p>
+							<div class="s_btn" data-name="Button">
+    							<a href="#" class="btn btn-link btn-lg">Read more <span class="fa fa-long-arrow-right ml-2"/></a>
+    						</div>
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-5 ml-auto">
+						<div class="image">
+							<img src="/theme_vouge_business/static/src/img/dessert-about2.png" class="img img-fluid"/>
+						</div>
+					</div>
+				</div>
+				<div class="hr"/>
+			</div>
+		</section>
+	</template>
+
+</odoo>

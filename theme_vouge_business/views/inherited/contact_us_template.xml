@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="theme_common_contactus_inherited"
+		inherit_id="website.contactus">
+		<xpath expr="//section[hasclass('pt8','pb8')]" position="replace">
+		</xpath>
+		<xpath expr="//div[hasclass('mt-2')]" position="replace">
+			<section class="contactus-section">
+				<div class="container">
+					<h1 class="page-title">Contact Us</h1>
+					<p class="description">Get in touch and let us know how we can help.</p>
+					<section class="contact-form mt64 mb64">
+						<div class="row">
+							<div class="col-lg-9 col-md-9">
+								<div class="form">
+									<form action="/website_form/" method="post"
+									data-aos="fade-left" data-aos-duration="1200"
+									data-model_name="crm.lead"
+									data-success_page="/thank-you"
+									class="s_website_form contact-form mt-4"
+									enctype="multipart/form-data" data-editable-form="false">
+									<div class="row mb32">
+										<div class="col-lg-12 mb16">
+											<div class="form-group m-t-15 d-flex align-items-center">
+												<label class="name">Name</label>
+												<input placeholder="Enter your Name*"
+													name="contact_name" required="True" type="text"
+													class="o_website_form_input form-control"
+													t-att-value="request.params.get('contact_name', '')" />
+											</div>
+										</div>
+										<div class="col-lg-12 mb16">
+											<div class="form-group m-t-15 d-flex align-items-center">
+												<label class="email">E-Mail</label>
+												<input  name="email_from"
+													placeholder="Enter your E-Mail*" required="True" value="" type="email"
+													class="o_website_form_input form-control"
+													t-att-value="request.params.get('email_from', '')" />
+											</div>
+										</div>
+										<div class="col-lg-12 mb16">
+											<div class="form-group m-t-15 d-flex align-items-center">
+												<label class="phone">Phone</label>
+												<input  name="phone"
+													placeholder="Enter your Phone*" type="text"
+													t-att-value="request.params.get('phone', '')"
+													class="o_website_form_input form-control" />
+											</div>
+										</div>
+										<div class="col-lg-12 mb16">
+											<div class="form-group m-t-15 d-flex align-items-center">
+												<label class="subject">Subject</label>
+												<input  name="name"
+													placeholder="Enter your Subject*" type="text"
+													t-att-value="request.params.get('name', '')"
+													class="o_website_form_input form-control" />
+											</div>
+										</div>
+										<div class="col-lg-12 mb16">
+											<div class="form-group m-t-15 d-flex align-items-center">
+												<label class="message">Message</label>
+												<textarea  name="description"
+													rows="3" placeholder="Write your Message*"
+													required="True" t-att-value="request.params.get('description', '')"
+													class=" o_website_form_input form-control"></textarea>
+												<div class="reserve-submit mt-40">
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-12 mt16">
+											<button
+												class="o_website_form_send btn btn-primary btn-md m-t-20 arrow-btn"
+												type="submit">
+												<span class="icofont icofont-paper-plane mr-2" style="font-size: 17px; vertical-align: middle;"/>
+													SUBMIT MESSAGE
+											</button>
+											<span id="o_website_form_result"
+												class="text-danger ml8 mt16  mb16 col-md-12">
+											</span>
+										</div>
+									</div>
+								</form>
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-3">
+								<div class="contact-details">
+									<div class="detail-container">
+										<div class="detail-icon mb16">
+											<span class="icon icon-Pointer text-primary"/>
+										</div>
+										<h4 class="detail-title">Address</h4>
+										<p class="detail-info"><span t-esc="res_company.street"/>,</p>
+										<p class="detail-info"><span t-esc="res_company.city"/>,<span t-esc="res_company.zip"/></p>
+									</div>
+									<div class="detail-container">
+										<div class="detail-icon mb16">
+											<span class="icon icon-Mail text-primary"/>
+										</div>
+										<h4 class="detail-title">Email Us</h4>
+										<p class="detail-info"><span t-esc="res_company.email"/></p>
+									</div>
+									<div class="detail-container">
+										<div class="detail-icon mb16">
+											<span class="icon icon-Phone2 text-primary"/>
+										</div>
+										<h4 class="detail-title">Call Us</h4>
+										<p class="detail-info"><span t-esc="res_company.phone"/></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</section>
+			<section class="shopify-section mt64 mb64">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3">
+							<div class="promo-content d-flex align-items-center border-0">
+								<div class="icon">
+									<span class="icon icon-Truck text-primary"/>
+								</div>
+								<div class="content">
+									<h4 class="title">FREE DELIVERY</h4>
+									<p class="info">Cras pellentesque, nisi ac tempus pellentesqna</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3">
+							<div class="promo-content d-flex align-items-center">
+								<div class="icon">
+									<span class="icon icon-Headset text-primary"/>
+								</div>
+								<div class="content">
+									<h4 class="title">24/H SUPPORT</h4>
+									<p class="info">Pellenque habitnant morbi senectus et netus</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3">
+							<div class="promo-content d-flex align-items-center">
+								<div class="icon">
+									<span class="icon icon-Goto text-primary"/>
+								</div>
+								<div class="content">
+									<h4 class="title">30 - DAY RETURNS</h4>
+									<p class="info">In nec erat elementum, et venenatis purus nec</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-3">
+							<div class="promo-content d-flex align-items-center">
+								<div class="icon">
+									<span class="icon icon-ClosedLock text-primary"/>
+								</div>
+								<div class="content">
+									<h4 class="title">PAYMENT SECURED</h4>
+									<p class="info">Mauris indum nulla ante dignissim, vel males</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</xpath>
+	</template>
+</odoo>

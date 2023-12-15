@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_it_solution_clients" name="Happy Clients">
+		<section class="It-client-testimonial">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-lg-12 col-md-12">
+						<div class="heading-content text-center">
+							<div class="heading">
+								<h2>Happy clients say</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do<br></br>eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 col-md-12">
+						<div id="It-testimonial-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+				          	<div class="carousel-inner" role="listbox">
+				            	<div class="carousel-item active">
+				            		<div class="">
+				            			<div class="row position-relative justify-content-center">
+				            				<div class="col-lg-6 col-md-6 mb16">
+				            					<section class="client-content">
+				            						<div class="review">
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            						</div>
+				            						<div class="client-info">
+				            							<p>Aaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				            						</div>
+				            						<div class="image-info d-flex align-items-center">
+				            							<div class="image">
+					            							<a href="#">
+																<img src="/theme_vouge_business/static/src/img/vouge-team1.png" class="img img-fluid"/>
+															</a>
+														</div>
+														<div class="author">
+															<h5>Paul Williams</h5>
+															<h6>Client</h6>
+														</div>
+				            						</div>
+				            					</section>
+				            				</div>
+				            				<div class="col-lg-6 col-md-6 mb16">
+				            					<section class="client-content">
+				            						<div class="review">
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            						</div>
+				            						<div class="client-info">
+				            							<p>Aaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				            						</div>
+				            						<div class="image-info d-flex align-items-center">
+				            							<div class="image">
+					            							<a href="#">
+																<img src="/theme_vouge_business/static/src/img/vouge-team2.png" class="img img-fluid"/>
+															</a>
+														</div>
+														<div class="author">
+															<h5>Paul Williams</h5>
+															<h6>Client</h6>
+														</div>
+				            						</div>
+				            					</section>
+				            				</div>
+				            			</div>
+				            		</div>
+				            	</div>
+				            	<div class="carousel-item">
+				            		<div class="">
+				            			<div class="row position-relative justify-content-center">
+				            				<div class="col-lg-6 col-md-6 mb16">
+				            					<section class="client-content">
+				            						<div class="review">
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            						</div>
+				            						<div class="client-info">
+				            							<p>Aaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				            						</div>
+				            						<div class="image-info d-flex align-items-center">
+				            							<div class="image">
+					            							<a href="#">
+																<img src="/theme_vouge_business/static/src/img/vouge-team3.png" class="img img-fluid"/>
+															</a>
+														</div>
+														<div class="author">
+															<h5>Paul Williams</h5>
+															<h6>Client</h6>
+														</div>
+				            						</div>
+				            					</section>
+				            				</div>
+				            				<div class="col-lg-6 col-md-6 mb16">
+				            					<section class="client-content">
+				            						<div class="review">
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            							<span class="fa fa-star"/>
+				            						</div>
+				            						<div class="client-info">
+				            							<p>Aaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				            						</div>
+				            						<div class="image-info d-flex align-items-center">
+				            							<div class="image">
+					            							<a href="#">
+																<img src="/theme_vouge_business/static/src/img/vouge-team4.png" class="img img-fluid"/>
+															</a>
+														</div>
+														<div class="author">
+															<h5>Paul Williams</h5>
+															<h6>Client</h6>
+														</div>
+				            						</div>
+				            					</section>
+				            				</div>
+				            			</div>
+				            		</div>
+				            	</div>
+				          	</div>
+				          	<ol class="carousel-indicators">
+					            <li data-target="#It-testimonial-carousel" data-slide-to="0" class="active"/>
+					            <li data-target="#It-testimonial-carousel" data-slide-to="1"/>
+					        </ol>
+			        	</div>
+			        </div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

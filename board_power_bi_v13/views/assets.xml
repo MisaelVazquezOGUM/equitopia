@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+		<template id="power_bi_lt" name="Panel power bi" inherit_id="web.assets_backend">
+			<xpath expr=".">
+	                <link rel="stylesheet" href="/board_power_bi_v13/static/description/src/power_bi.css"/>
+			</xpath>
+		</template>
+    </data>
+</odoo>

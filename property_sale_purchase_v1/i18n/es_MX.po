@@ -1,0 +1,478 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* property_sale_purchase
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-18 20:58+0000\n"
+"PO-Revision-Date: 2022-08-18 20:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__active
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_account_asset_asset__note
+#: model:ir.model.fields,help:property_sale_purchase.field_property_created__note
+msgid "Additional Notes."
+msgstr "Notas adicionales."
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__amount
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__amount
+msgid "Amount"
+msgstr "Importe"
+
+#. module: property_sale_purchase
+#: model:ir.model,name:property_sale_purchase.model_account_asset_asset
+msgid "Asset"
+msgstr "Activo"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_account_asset_asset__return_period
+#: model:ir.model.fields,help:property_sale_purchase.field_property_created__return_period
+msgid "Average of Purchase Price and Ground Rent."
+msgstr "Media del precio de compra y del alquiler del suelo."
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_account_asset_asset__multiple_owners
+#: model:ir.model.fields,help:property_sale_purchase.field_property_created__multiple_owners
+msgid "Check this box if there is multiple             Owner of the Property."
+msgstr "Marque esta casilla si hay varios propietarios del inmueble."
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Child Properties"
+msgstr "Propiedades hijas"
+
+#. module: property_sale_purchase
+#: model:ir.model,name:property_sale_purchase.model_cost_cost
+msgid "Cost"
+msgstr "Costo"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Cost Details"
+msgstr "Detalles de Costo"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__sale_cost_ids
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__sale_cost_ids
+msgid "Costs"
+msgstr "Costos"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Create Entries"
+msgstr "Crear entradas"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Create Installment"
+msgstr "Crear plazo"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__create_uid
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__create_date
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__currency_id
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__customer_id
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__customer_id
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__date
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__name
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__name
+msgid "Description"
+msgstr "Descripción"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__display_name
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__display_name
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__end_date
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__end_date
+msgid "End Date"
+msgstr "Fecha de Fin"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__id
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__id
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__id
+msgid "ID"
+msgstr ""
+
+#. module: property_sale_purchase
+#: model:ir.actions.act_window,name:property_sale_purchase.action_investment_analysis_report
+#: model:ir.ui.menu,name:property_sale_purchase.menu_report_property_chart
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_report
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_report_pivot
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Investment Analysis"
+msgstr "Análisis de inversiones"
+
+#. module: property_sale_purchase
+#: model:ir.model,name:property_sale_purchase.model_investment_analysis_report
+msgid "Investment Analysis Report"
+msgstr "Informe de análisis de inversiones"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__invc_id
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__invc_id
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_account_asset_asset__recurring_rule_type
+#: model:ir.model.fields,help:property_sale_purchase.field_property_created__recurring_rule_type
+msgid "Invoice automatically repeat             at specified interval."
+msgstr "La factura se repite automáticamente en el intervalo especificado."
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost____last_update
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report____last_update
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost____last_update
+msgid "Last Modified on"
+msgstr "Última modificacióne el"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__write_uid
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__write_date
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields.selection,name:property_sale_purchase.selection__account_asset_asset__recurring_rule_type__monthly
+msgid "Month(s)"
+msgstr "Mes(es)"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__multiple_owners
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__multiple_owners
+msgid "Multiple Owners"
+msgstr "Múltiples propietarios"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__note
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__note
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Notes"
+msgstr "Notas"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__total_owners
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__total_owners
+msgid "Number of Owners"
+msgstr "Número de propietarios"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Parent Properties"
+msgstr "Propiedades padres"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__parent_id
+msgid "Parent Property"
+msgstr "Propiedad padre"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__partner_id
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__partner_id
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__payment_details
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__payment_details
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Payment Details"
+msgstr "Detalles de pago"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__payment_term
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__payment_term
+msgid "Payment Terms"
+msgstr "Condiciones de pago"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/sale_cost.py:0
+#, python-format
+msgid "Please Configure Income Account from Property!"
+msgstr "¡Por favor, configure la cuenta de ingresos desde la propiedad!"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/sale_purchase_asset.py:0
+#, python-format
+msgid "Please Enter Valid Purchase Price"
+msgstr "Por favor, introduzca el precio de compra válido"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/sale_purchase_asset.py:0
+#, python-format
+msgid "Please Enter Valid Sale Price"
+msgstr "Por favor, introduzca el precio de venta válido"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/sale_cost.py:0
+#, python-format
+msgid "Please Select Customer!"
+msgstr "¡Por favor, seleccione el cliente!"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/sale_purchase_asset.py:0
+#, python-format
+msgid "Please Select End Date"
+msgstr "Por favor, seleccione la fecha de finalización"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/sale_purchase_asset.py:0
+#, python-format
+msgid "Please Select End Date greater than purchase date"
+msgstr "Por favor, seleccione una fecha de finalización mayor que la fecha de compra"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/cost_cost.py:0
+#, python-format
+msgid "Please Select Expense Account!"
+msgstr "Por favor, seleccione la cuenta de gastos"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/cost_cost.py:0
+#, python-format
+msgid "Please Select Partner!"
+msgstr "¡Por favor, seleccione un socio!"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/sale_purchase_asset.py:0
+#, python-format
+msgid "Please add Payment Terms !!"
+msgstr "¡Por favor, añada las condiciones de pago!|"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__move_check
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__move_check
+msgid "Posted"
+msgstr "Publicado"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__property_id
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__property_id
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Property"
+msgstr "Propiedad"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__name
+msgid "Property Name"
+msgstr "Nombre de la propiedad"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__type_id
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Property Type"
+msgstr "Tipo de propiedad"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Purchase And Sale Details"
+msgstr "Detalles de compra y venta"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Purchase Cost"
+msgstr "Coste de compra"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Purchase Cost Details"
+msgstr "Detalles del coste de compra"
+
+#. module: property_sale_purchase
+#: code:addons/property_sale_purchase/models/cost_cost.py:0
+#: code:addons/property_sale_purchase/models/sale_cost.py:0
+#, python-format
+msgid "Purchase Cost For"
+msgstr "Coste de compra para"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__purchase_cost_ids
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__purchase_cost_ids
+msgid "Purchase Costs"
+msgstr "Purchase Costs"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__acquisition_date
+msgid "Purchase Date"
+msgstr "Fecha de compra"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Purchase Details"
+msgstr "Detalles de compra"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__move_id
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__move_id
+msgid "Purchase Entry"
+msgstr "Entrada de compra"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Purchase Month"
+msgstr "Mes de la compra"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__purchase_price
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__purchase_price
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__purchase_price
+msgid "Purchase Price"
+msgstr "Precio de compra"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_account_asset_asset__purchase_price
+#: model:ir.model.fields,help:property_sale_purchase.field_property_created__purchase_price
+msgid "Purchase price of the Property."
+msgstr "Precio de compra de la propiedad."
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__roi
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "ROI"
+msgstr "Rinv"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__recurring_rule_type
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__recurring_rule_type
+msgid "Recurrency"
+msgstr "Recurrencia"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__remaining_amount
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__remaining_amount
+msgid "Remaining Amount"
+msgstr "Importe restante"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_cost_cost__rmn_amnt_per
+#: model:ir.model.fields,field_description:property_sale_purchase.field_sale_cost__rmn_amnt_per
+msgid "Remaining Amount In %"
+msgstr "Cantidad restante en %"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_investment_analysis_report__return_period
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.view_investment_analysis_search
+msgid "Return Period"
+msgstr "Período de retorno"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__return_period
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__return_period
+msgid "Return Period(In Months)"
+msgstr "Período de retorno (meses)"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Sale"
+msgstr "Venta"
+
+#. module: property_sale_purchase
+#: model:ir.model,name:property_sale_purchase.model_sale_cost
+msgid "Sale Cost"
+msgstr "Coste de venta"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Sale Cost Details"
+msgstr "Detalles del coste de venta"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__sale_date
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__sale_date
+msgid "Sale Date"
+msgstr "Fecha de venta"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_account_asset_asset__sale_date
+#: model:ir.model.fields,help:property_sale_purchase.field_property_created__sale_date
+msgid "Sale Date of the Property."
+msgstr "Fecha de venta de la propiedad"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,field_description:property_sale_purchase.field_account_asset_asset__sale_price
+#: model:ir.model.fields,field_description:property_sale_purchase.field_property_created__sale_price
+msgid "Sale Price"
+msgstr "Precio de venta"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_account_asset_asset__sale_price
+#: model:ir.model.fields,help:property_sale_purchase.field_property_created__sale_price
+msgid "Sale price of the Property."
+msgstr "Precio de venta de la Propiedad."
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Sales Cost"
+msgstr "Coste de las ventas"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_cost_cost__rmn_amnt_per
+#: model:ir.model.fields,help:property_sale_purchase.field_sale_cost__rmn_amnt_per
+msgid "Shows remaining amount in Percentage"
+msgstr "Muestra la cantidad restante en porcentaje"
+
+#. module: property_sale_purchase
+#: model:ir.model.fields,help:property_sale_purchase.field_cost_cost__remaining_amount
+#: model:ir.model.fields,help:property_sale_purchase.field_sale_cost__remaining_amount
+msgid "Shows remaining amount in currency"
+msgstr "Muestra el importe restante en moneda"
+
+#. module: property_sale_purchase
+#: model_terms:ir.ui.view,arch_db:property_sale_purchase.property_sale_ext_view
+msgid "Total Cost"
+msgstr "Coste total"

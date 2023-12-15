@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_it_solution_case_studies" name="Case Studies">
+		<section class="It-case-studies">
+			<div class="container-fluid">
+				<div class="justify-content-center">
+					<div class="heading text-center">
+						<h2>Our Case Studies</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+					</div>
+					<div id="It-service-carousel" class="carousel bs-slider slide  control-round indicators-line pt32" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			          		<div class="carousel-item active">
+				            	<div class="">
+			            			<div class="row">
+			            				<div class="col-lg-3 col-md-3 mb16">
+			            					<div class="service-wrapper text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/solution-casestudy1.jpg" class="img img-fluid"/>
+			            						</div>
+			            						<div class="service-text">
+			            							<h4>Branding for Theme Designer</h4>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-3 mb16">
+			            					<div class="service-wrapper text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/solution-casestudy2.jpg" class="img img-fluid"/>
+			            						</div>
+			            						<div class="service-text">
+			            							<h4>Button Designs Free</h4>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-3 mb16">
+			            					<div class="service-wrapper text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/solution-casestudy3.jpg" class="img img-fluid"/>
+			            						</div>
+			            						<div class="service-text">
+			            							<h4>Branding &amp; Co Agency</h4>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-3 mb16">
+			            					<div class="service-wrapper text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/solution-casestudy4.jpg" class="img img-fluid"/>
+			            						</div>
+			            						<div class="service-text">
+			            							<h4>Zukandre Phoniex</h4>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+				            </div>
+				            <div class="carousel-item">
+				            	<div class="">
+			            			<div class="row">
+			            				<div class="col-lg-3 col-md-3 mb16">
+			            					<div class="service-wrapper text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/solution-casestudy1.jpg" class="img img-fluid"/>
+			            						</div>
+			            						<div class="service-text">
+			            							<h4>Branding for Theme Designer</h4>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-3 mb16">
+			            					<div class="service-wrapper text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/solution-casestudy2.jpg" class="img img-fluid"/>
+			            						</div>
+			            						<div class="service-text">
+			            							<h4>Button Designs Free</h4>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-3 mb16">
+			            					<div class="service-wrapper text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/solution-casestudy3.jpg" class="img img-fluid"/>
+			            						</div>
+			            						<div class="service-text">
+			            							<h4>Branding &amp; Co Agency</h4>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-3 mb16">
+			            					<div class="service-wrapper text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/solution-casestudy4.jpg" class="img img-fluid"/>
+			            						</div>
+			            						<div class="service-text">
+			            							<h4>Zukandre Phoniex</h4>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+				            </div>
+			          	</div>
+			          	<ol class="carousel-indicators">
+				            <li data-target="#It-service-carousel" data-slide-to="0" class="active"/>
+				            <li data-target="#It-service-carousel" data-slide-to="1"/>
+				        </ol>
+		        	</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

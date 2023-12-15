@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_two_steps" name="Steps To Success">
+		<section class="app2-simple-steps" style="background-image: url('/theme_vouge_business/static/src/img/app-gradient-bg.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 title">
+						<h4>3 easy steps to success</h4>
+					</div>
+					<div class="steps col-lg-8 col-md-12">
+						<div class="row">
+							<div class="col-lg-4 col-md-4">
+								<div class="step-content">
+									<div class="number">
+										<span>1</span>
+									</div>
+									<div class="step-icon">
+										<span class="fa fa-user-secret"/>
+									</div>
+									<div class="info">
+										<h6>Eiusmod tempor incididunt ut laboragna aliqua.</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<div class="step-content">
+									<div class="number">
+										<span>2</span>
+									</div>
+									<div class="step-icon">
+										<span class="fa fa-map-marker"/>
+									</div>
+									<div class="info">
+										<h6>Eiusmod tempor incididunt ut laboragna aliqua.</h6>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<div class="step-content">
+									<div class="number">
+										<span>3</span>
+									</div>
+									<div class="step-icon">
+										<span class="fa fa-smile-o"/>
+									</div>
+									<div class="info">
+										<h6>Eiusmod tempor incididunt ut laboragna aliqua.</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

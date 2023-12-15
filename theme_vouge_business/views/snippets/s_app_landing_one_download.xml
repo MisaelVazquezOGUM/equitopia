@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_one_download" name="Download Now">
+		<section class="app-download">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<section class="download-inner">
+							<span class="subtitle">Download now</span>
+							<h3>Available for all device</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+							<div class="row mt64 justify-content-center">
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-apple mr-2"/> iOS Store</a>
+        							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-android mr-2"/> Play Store</a>
+        							<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-windows mr-2"/> Windows</a>
+        						</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

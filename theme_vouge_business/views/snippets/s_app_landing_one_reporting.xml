@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_one_reporting" name="Analytic &amp; Reporting">
+		<section class="app-experience">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-12">
+						<div class="image-video">
+							<div class="image">
+								<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/app-boost.png" />
+								<div class="video">
+									<a href="#" class="video-play">
+										<span class="fa fa-play"/>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="content">
+							<span>Analytics &amp; reporting</span>
+							<h3>Boost your business with Bizople</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Integer ut eros vel purus tristique finibus.</p>
+							<p>Nulla tristique, tellus ut posuere facilisis, nunc dolor feugiat massa, sed gravida quam mi semper nunc. Maecenas a vehicula lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

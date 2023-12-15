@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_seo_newsletter" name="Newsletter">
+		<section class="seo-newsletter pt96 pb96">
+			<div class="container text-center">
+				<h2>Subscribe to our newsletter</h2>
+				<p class="w-md-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem.</p>
+				<div class="seo-subscribe w-md-75 mx-auto">
+					<form class="input-group js_subscribe" data-list-id="1">
+						<input type="email" name="email" class="js_subscribe_email form-control" placeholder="Enter your Email"/>
+						<span class="input-group-append">
+				            <a role="button" href="#" class="btn btn-seo js_subscribe_btn">Subscribe</a>
+				            <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none" disabled="disabled">Thanks</a>
+				        </span>
+					</form>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

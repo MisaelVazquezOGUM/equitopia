@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_creative_agency_team" name="Out Team">
+		<section class="creative-team">
+			<div class="container extended-container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 mb-4">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-team1.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Instagram</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-content">
+							<h4>Paul Williams</h4>
+							<p>Video Editor</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-team2.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Instagram</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-content">
+							<h4>Anita Oliver</h4>
+							<p>Video director</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-team3.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Instagram</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-content">
+							<h4>Andrew Petersons</h4>
+							<p>Project manager</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-4">
+						<div class="image-content">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/creative-team4.jpg" />
+								</a>
+							</div>
+							<div class="image-info">
+								<div class="info">
+									<p>Facebook</p>
+									<p>Twitter</p>
+									<p>Instagram</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-content">
+							<h4>Jessy Pinkman</h4>
+							<p>Photographer</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

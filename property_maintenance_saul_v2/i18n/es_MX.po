@@ -1,0 +1,191 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* property_maintenance_saul
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-18 20:50+0000\n"
+"PO-Revision-Date: 2022-08-18 20:50+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_property__team_id
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_request__team_id
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_contract__team
+msgid "Responsible team"
+msgstr "Equipo responsable"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_property__cost
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_request__cost
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_contract__cost
+msgid "Cost"
+msgstr "Costo"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_property__frequency
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_request__frequency
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_contract__frequency
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_account_analytic_account__frequency
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__frequency__once
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__frequency__once
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_contract__frequency__once
+msgid "Only"
+msgstr "Único"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__frequency__Daily
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__frequency__Daily
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_contract__frequency__Daily
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__account_analytic_account__frequency__Daily
+msgid "Diary"
+msgstr "Diario"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__frequency__Weekly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__frequency__Weekly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_contract__frequency__Weekly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__account_analytic_account__frequency__Weekly
+msgid "Weekly"
+msgstr "Semanal"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__frequency__Monthly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__frequency__Monthly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_contract__frequency__Monthly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__account_analytic_account__frequency__Monthly
+msgid "Monthly"
+msgstr "Mensual"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__frequency__semestre
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__frequency__semestre
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_contract__frequency__semestre
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__account_analytic_account__frequency__Semestral
+msgid "Biannual"
+msgstr "Semestral"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__frequency__Yearly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__frequency__Yearly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_contract__frequency__Yearly
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__account_analytic_account__frequency__Yearly
+msgid "Annual"
+msgstr "Anual"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__to_charge__tenant
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__to_charge__tenant
+msgid "Tenant"
+msgstr "Inquilino"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__to_charge__landlord
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__to_charge__landlord
+msgid "Landlord"
+msgstr "Propietario"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_property__to_charge__admin
+#: model:ir.model.fields.selection,name:property_maintenance_saul.selection__maintenance_request__to_charge__admin
+msgid "Administrator"
+msgstr "Administrador"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_property__is_service
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_request__is_service
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_contract__is_service
+msgid "Is it a service?"
+msgstr "Es un servicio?"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_property__charge
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_contract__charge
+msgid "Apply Charge"
+msgstr "Aplicar Cargo"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_account_asset_asset__commission_percentage
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_account_analytic_account__commission_percentage
+msgid "Commission (percentage)"
+msgstr "Comisión (porcentaje)"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_account_asset_asset__commission_ids
+msgid "Commissions"
+msgstr "Comisiones"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_account_asset_asset__commission_value
+msgid "Commissions"
+msgstr "Comisión"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_account_analytic_account__commission_value
+msgid "Commission"
+msgstr "Comisión"
+
+#. module: property_maintenance_saul
+#: model_terms:ir.ui.view,arch_db:property_maintenance_saul.account_asset_custom_saul1
+msgid "New contract"
+msgstr "Nuevo Contrato"
+
+#. module: property_maintenance_saul
+#: model_terms:ir.ui.view,arch_db:property_maintenance_saul.account_asset_maintenance
+#: model_terms:ir.ui.view,arch_db:property_maintenance_saul.account_analytic__maintenance
+#: model_terms:ir.ui.view,arch_db:property_maintenance_saul.account_anlytic_landlord_maintenance
+msgid "Maintenance And Services"
+msgstr "Mantenimiento y Servicios"
+
+#. module: property_maintenance_saul
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "Rental Bills"
+msgstr "Facturas de Alquiler"
+
+#. module: property_maintenance_saul
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "Rents,Rates & Tenancy"
+msgstr "Alquileres, Tarifas y Contratos"
+
+#. module: property_maintenance_saul
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "Utility,Insurance & Safety Certificate"
+msgstr "Certificado de utilidad, seguro y seguridad"
+
+#. module: property_maintenance_saul
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "Nearest Places"
+msgstr "Lugares más cercanos"
+
+#. module: property_maintenance_saul
+#: model_terms:ir.ui.view,arch_db:om_account_asset.view_account_asset_asset_form
+msgid "Floor Plans, Photos & Documents"
+msgstr "Planos de planta, fotos y documentos"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_contract__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_contract__schedule_date
+msgid "Scheduled Date"
+msgstr "Fecha Programada"
+
+#. module: property_maintenance_saul
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_property__category
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_request__category
+#: model:ir.model.fields,field_description:property_maintenance_saul.field_maintenance_contract__category
+msgid "Category"
+msgstr "Categoria"

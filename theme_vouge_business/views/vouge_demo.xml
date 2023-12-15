@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="vouge_demo_template" model="ir.ui.view">
+		<field name="name">Theme Vouge Demo</field>
+		<field name="type">qweb</field>
+		<field name="key">website.vouge_demo_template</field>
+		<field name="arch" type="xml">
+			<t name="Theme Vouge Demo" t-name="theme_vouge_business.vouge_demo_template">
+				<t t-call="website.layout">
+					<div class="oe_structure oe_empty" id="wrap">
+						<section class="demo-banner " style="background-image: url('/theme_vouge_business/static/src/img/demo/demo-banner-bg.jpg');">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6 col-lg-5">
+										<div class="bg-image-marque h-100" style="background-image: url('/theme_vouge_business/static/src/img/demo/demo-banner.png');"></div>
+									</div>
+									<div class="col-md-6 col-lg-5 offset-lg-1 pt256 pb256">
+										<div class="content">
+											<h1 class="mb-5">Vouge Ecommerce, Multipurpose &amp; Responsive Odoo Theme</h1>
+											<a class="btn btn-primary bizople_button_1" href="#"> Explore Demo </a>
+											<div class="number-text d-flex mt-5">
+												<div class="demos">
+													<h2>14</h2>
+													<p class="m-0">Pre Built Homepages</p>
+												</div>
+												<div class="demos">
+													<h2>6</h2>
+													<p class="m-0">Headers Styles</p>
+												</div>
+												<div class="demos">
+													<h2>7</h2>
+													<p class="m-0">Footers Styles</p>
+												</div>
+												<div class="demos">
+													<h2>140+</h2>
+													<p class="m-0">Awesome Snippets</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="demo-homes pt96 pb96" style="background-image: url('/theme_vouge_business/static/src/img/demo/demo-banner-bg.jpg');">
+							<div class="container extended-container">
+								<div class="heading mb64">
+									<h2>14</h2>
+									<p class="m-0">Pre Built<br/>Homepages</p>
+								</div>
+								<div class="row">
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-charity.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home16.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Charity
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Donation, Help, Volunteer
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-itsolution.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home17.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                It Solution
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Solution, Marketing, Agency
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-creativeagency.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home18.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Creative
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Art, Agency, Solution
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-applanding.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home19.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                App Landing
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Application, Solution, Marketing
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-applandingtwo.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home20.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                App Landing Two
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Application, Solution, Marketing
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-businessmedical.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home21.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Hospital
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Medical Test, Laboratory, Operation
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-snowboardski.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home22.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Snowboard &amp; Skiing
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Skiing, Snowboard, UV Glasses
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-cyber.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home23.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Cyber Security
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Security, Service, Cloud
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-realestate.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home24.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Estate
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Real Estate, Agency, Home
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-travel.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home25.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Travel
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Holiday, Tour, Vacation
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-yoga.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home26.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Yoga
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Yoga Classes, Fitness, Courses
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-seo.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home27.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                SEO
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Solution, Agency, Marketing
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-hotel.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home28.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Hotel &amp; Resort
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Hotel Booking, Rooms, Vacation
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="image-box" style="margin-bottom: 80px;">
+                                            <div class="image mb-4">
+                                            	<a href="https:/-desserts.bizople.com/">
+                                          	
+		                                            <span style="background-image: url('/theme_vouge_business/static/description/home29.jpg');" alt="feature"/>
+		                                        </a>
+		                                    </div>
+                                            <p style="font-size: 30px;color: #1b1b1b; margin-bottom: 15px; font-weight: 700;">
+                                                Dessert
+                                            </p>
+                                            <p style="font-size: 15px;color: #999999; margin: 0; font-weight: 700;">
+                                                Ice Cream, Pie, Cookie
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row mb80">
+                                    <div class="col-md-12 mb64">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="img-box">
+                                                    <div class="image mb-4">
+                                                        <img src="/theme_vouge_business/static/src/img/index_colors.jpg" class="img img-fluid shadow"/>
+                                                    </div>
+                                                    <h3>Unlimited Color</h3>
+                                                    <p>Infinite Color Combition, We have also added custom colors for different pages</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="img-box">
+                                                    <div class="image mb-4">
+                                                        <img src="/theme_vouge_business/static/src/img/index_fonts.jpg" class="img img-fluid shadow"/>
+                                                    </div>
+                                                    <h3>Google Fonts</h3>
+                                                    <p>Add any Google Fonts you want and customize your website with your unique fonts, You can select different fonts for different elements like title(h1-h6), body text, button text and header text.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb64">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="img-box">
+                                                    <div class="image mb-4">
+                                                        <img src="/theme_vouge_business/static/src/img/index_headers.jpg" class="img img-fluid shadow"/>
+                                                    </div>
+                                                    <h3>6 Unique Headers</h3>
+                                                    <p>6 Fully Customizable headers for your website. You can change background and text color of each header, even for top, middle or bottom header(As per header design)</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="img-box">
+                                                    <div class="image mb-4">
+                                                        <img src="/theme_vouge_business/static/src/img/index_footers.jpg" class="img img-fluid shadow"/>
+                                                    </div>
+                                                    <h3>7 Unique Footers</h3>
+                                                    <p>7 Fully Customizable footers for your website. You can change background color of each footer, even for top, middle or copyright section(As per footer design)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb64">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="img-box">
+                                                    <h3>Blog Slider</h3>
+                                                    <p>A unique way to show your latest news and blog in the website with our blog slider. You can add any name you want to give the slider and add the blogs you want to add in the slider and your blog slider is ready to use.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="img-box">
+                                                    <div class="image">
+                                                        <img src="/theme_vouge_business/static/src/img/blogslider.png" class="img img-fluid shadow"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mb64">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="img-box">
+                                                    <div class="image mb-4">
+                                                        <img src="/theme_vouge_business/static/src/img/index_buttons.jpg" class="img img-fluid shadow"/>
+                                                    </div>
+                                                    <h3>12 Button Hovering Styles</h3>
+                                                    <p>We have added 12 unique button hovering design. You can add this style in edit mode. You can add multiple different design in same page or in same snippet with more than one button</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="img-box">
+                                                    <div class="image mb-4">
+                                                        <img src="/theme_vouge_business/static/src/img/mobile_home2.jpg" class="img img-fluid shadow"/>
+                                                    </div>
+                                                    <h3>Mobile Home</h3>
+                                                    <p>Fully Responsive to all devices, so no need to worry for that.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="img-box">
+                                                    <div class="image mb-4">
+                                                        <img src="/theme_vouge_business/static/src/img/mobile_menu.jpg" class="img img-fluid shadow"/>
+                                                    </div>
+                                                    <h3>Mobile Menu Sidebar</h3>
+                                                    <p>A Unique design for mobile menus with sidebar to look attractive.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center mb80">
+                                    <div class="col-md-12">
+                                        <div class="heading mb64">
+                                            <h2>6</h2>
+                                            <p class="m-0">Customizable<br/>Header Styles</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="header-images">
+                                            <img src="/theme_vouge_business/static/src/img/header1.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/header2.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/header3.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/header4.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/header5.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/header6.png" class="img img-fluid shadow mb-5"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center mb80">
+                                    <div class="col-md-12">
+                                        <div class="heading mb64">
+                                            <h2>7</h2>
+                                            <p class="m-0">Customizable<br/>Footer Styles</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="header-images">
+                                            <img src="/theme_vouge_business/static/src/img/footer1.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/footer2.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/footer3.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/footer4.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/footer5.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/footer6.png" class="img img-fluid shadow mb-5"/>
+                                            <img src="/theme_vouge_business/static/src/img/footer8.png" class="img img-fluid shadow mb-5"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="buy-now text-center">
+                                    <h2>Theme Vouge is exclusively available at Odoo Store</h2>
+                                    <p>Go now, purchase your vouge and start building your website</p>
+                                    <a href="#" class="btn btn-primary bizople_button_3">Go The Store</a>
+                                </div>
+							</div>
+						</section>
+					</div>
+				</t>
+			</t>
+		</field>
+	</record>
+	<record id="vouge_demo_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/vouge-demo</field>
+		<field name="view_id" ref="vouge_demo_template" />
+	</record>
+</odoo>

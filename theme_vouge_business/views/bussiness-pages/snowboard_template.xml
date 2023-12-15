@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="snowboard_template" model="ir.ui.view">
+		<field name="name">Snowboard Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.snowboard_template</field>
+		<field name="arch" type="xml">
+			<t name="Snowboard Template" t-name="theme_vouge_business.snowboard_template">
+				<t t-call="website.layout">
+					<div class="oe_structure oe_empty" id="wrap">
+						<section class="snowboard-home-banner">
+							<div id="snowboard-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+					          	<div class="carousel-inner" role="listbox">
+					            	<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/snow-banner1.jpg');">
+					            		<div class="container extended-container">
+					            			<div class="position-relative justify-content-center">
+				            					<div class="banner-content text-center">
+				            						<div class="image">
+				            							<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/snow-brand3.png" />
+				            						</div>
+				            						<h5 class="text-white">From Beginners to Professional Accessories</h5>
+				            						<h2 class="text-white">SnowBoards</h2>
+				            						<div class="strip">
+				            							<section class="sale-text snow-bg">Hurry! 30%-40% Discount This Season</section>
+				            						</div>
+				            					</div>
+					            			</div>
+					            		</div>
+					            	</div>
+					            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-banner2.jpg');">
+					            		<div class="container extended-container">
+			            					<div class="banner-content text-center">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-brand2.png" />
+			            						</div>
+			            						<h5>From Beginners to Professional Accessories</h5>
+			            						<h2>Salomon Ski’s</h2>
+			            						<div class="strip">
+			            							<section class="sale-text">Hurry! 30%-40% Discount This Season</section>
+			            						</div>
+			            					</div>
+					            		</div>
+					            	</div>
+					            	<div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-banner3.jpg');">
+					            		<div class="container extended-container">
+			            					<div class="banner-content text-center">
+			            						<div class="image">
+			            							<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-brand5.png" />
+			            						</div>
+			            						<h5>From Beginners to Professional Accessories</h5>
+			            						<h2>SnowBoards</h2>
+			            						<div class="strip">
+			            							<section class="sale-text">Hurry! 30%-40% Discount This Season</section>
+			            						</div>
+			            					</div>
+					            		</div>
+					            	</div>
+					          	</div>
+						        <div class="slider-control">
+				              		<a class="left carousel-control-prev text-white font-14" data-target="#snowboard-carousel" role="button" data-slide="prev">
+					                	<span class="fa fa-angle-left"/>
+					               	 	<b class="sr-only font-normal o_default_snippet_text">Previous</b>
+					              	</a>
+					              	<a class="right carousel-control-next text-white font-14" data-target="#snowboard-carousel" role="button" data-slide="next">
+					                	<span class="fa fa-angle-right"/>
+					                	<b class="sr-only font-normal o_default_snippet_text">Next</b>
+					              	</a>
+					            </div>
+				        	</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboard-ski-welcome">
+							<div class="container extended-container">
+								<div class="row justify-content-center">
+									<div class="col-lg-8 col-md-8">
+										<div class="heading">
+											<span>Snowboard &amp; Skiing</span>
+											<h2>WELCOME TO VOUGE</h2>
+											<div class="image">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/snow-under-text.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-4 col-md-4">
+										<div class="main-content">
+											<div class="overlay-content">
+												<a href="#" class="banner">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-welcome-bg1.jpg" />
+												</a>
+												<div class="image">
+													<a href="#">
+														<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/snow-welcome1.png" />
+													</a>
+												</div>
+											</div>
+											<div class="info">
+												<h5>Snowboard</h5>
+												<p>Starts from $30.00</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<div class="main-content">
+											<div class="overlay-content">
+												<a href="#" class="banner">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-welcome-bg2.jpg" />
+												</a>
+												<div class="image">
+													<a href="#">
+														<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/snow-welcome2.png" />
+													</a>
+												</div>
+											</div>
+											<div class="info">
+												<h5>Skate Boot</h5>
+												<p>Starts from $23.00</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<div class="main-content">
+											<div class="overlay-content">
+												<a href="#" class="banner">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-welcome-bg3.jpg" />
+												</a>
+												<div class="image">
+													<a href="#">
+														<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/snow-welcome3.png" />
+													</a>
+												</div>
+											</div>
+											<div class="info">
+												<h5>UV Glasses</h5>
+												<p>Starts from $10.00</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboards-skating" style="background-image: url('/theme_vouge_business/static/src/img/snow-skating-bg.png');">
+							<div class="container extended-container">
+								<div class="row justify-content-center">
+									<div class="col-lg-9 col-md-9">
+										<div class="skating-content">
+											<div class="image">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/snow-brand2.png" />
+											</div>
+											<div class="info">
+												<span>Skiing Experience</span>
+												<h2>natural ice Snowboarding</h2>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu. Aenean finibus condimentum odio, ac tincidunt lectus sagittis efficitur. Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at. Vivamus ut ullamcorper diam.</p>
+												<div class="s_btn mt32" data-name="Button">
+			            							<a href="#" class="btn btn-snowboard-1 bizople_button">View all Collection</a>
+			            						</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboard-accessories">
+							<div class="container extended-container">
+								<div class="row justify-content-center">
+									<div class="col-lg-8 col-md-8">
+										<div class="heading">
+											<span>Get the Best of Offers</span>
+											<h2>VOUGE ACCESSORIES</h2>
+											<div class="image">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/snow-under-text.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<section class="row align-items-center accessories-content">
+									<div class="col-lg-7 col-md-7 p-0">
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/snow-accessories1.jpg" />
+											</a>
+										</div>
+									</div> 
+									<div class="col-lg-5 col-md-5 p-0">
+										<div class="content">
+											<h4>$45.99</h4>
+											<h6>Rossignol Snowboard</h6>
+											<p>Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit. Nullam eget lorem enim. Quisque facilisis, turpis in finibus elementum.</p>
+											<div class="s_btn mt32" data-name="Button">
+			        							<a href="#" class="btn btn-snowboard-1 bizople_button">View all Collection</a>
+			        						</div>
+										</div>
+									</div>
+								</section>
+								<section class="row align-items-center accessories-content">
+									<div class="col-lg-5 col-md-5 p-0">
+										<div class="content">
+											<h4>$29.99</h4>
+											<h6>Uv Protection Glasses</h6>
+											<p>Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit. Nullam eget lorem enim. Quisque facilisis, turpis in finibus elementum.</p>
+											<div class="s_btn mt32" data-name="Button">
+			        							<a href="#" class="btn btn-snowboard-1 bizople_button">View all Collection</a>
+			        						</div>
+										</div>
+									</div>
+									<div class="col-lg-7 col-md-7 p-0">
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/snow-accessories2.jpg" />
+											</a>
+										</div>
+									</div> 
+								</section>
+								<section class="row align-items-center accessories-content">
+									<div class="col-lg-7 col-md-7 p-0">
+										<div class="image">
+											<a href="#">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/snow-accessories3.jpg" />
+											</a>
+										</div>
+									</div> 
+									<div class="col-lg-5 col-md-5 p-0">
+										<div class="content">
+											<h4>$55.99</h4>
+											<h6>Salomon Mask Helmet</h6>
+											<p>Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit. Nullam eget lorem enim. Quisque facilisis, turpis in finibus elementum.</p>
+											<div class="s_btn mt32" data-name="Button">
+			        							<a href="#" class="btn btn-snowboard-1 bizople_button">View all Collection</a>
+			        						</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboard-parallax parallax s_parallax_is_fixed">
+							<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/snow-ultimate.jpg');"/>
+					        <div class="container extended-container">
+					        	<div class="row">
+									<div class="d-inline-block">
+										<div class="content">
+											<span>Vouge Products @ 15.99</span>
+											<h2 class="title1">Get the Unique</h2>
+											<h2 class="title2">Snowboarding EXPERIENCE</h2>
+											<div class="s_btn mt32" data-name="Button">
+		            							<a href="#" class="btn1 btn btn-snowboard-2 bizople_button">Browse Products</a>
+		            							<a href="#" class="btn btn-snowboard-1 bizople_button">More Offers</a>
+		            						</div>
+										</div>
+									</div>
+								</div>
+					        </div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboard-products">
+							<div class="container extended-container">
+								<div class="row justify-content-center">
+									<div class="col-lg-8 col-md-8">
+										<div class="heading">
+											<span>Get the Best Deals</span>
+											<h2>FUN WITH THE SNOW</h2>
+											<div class="image">
+												<img class="img img-fluid"
+												src="/theme_vouge_business/static/src/img/snow-under-text.png" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-4 col-md-4">
+										<div class="products-content">
+											<div class="image">
+												<a href="#">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-gallary1.jpg" />
+												</a>
+											</div>
+											<div class="links">
+												<a href="#">
+													<span class="fa fa-link"/>
+												</a>
+												<a href="#">
+													<span class="fa fa-search-plus"/>
+												</a>
+											</div>
+										</div>
+										<div class="products-content">
+											<div class="image">
+												<a href="#">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-gallary2.jpg" />
+												</a>
+											</div>
+											<div class="links">
+												<a href="#">
+													<span class="fa fa-link"/>
+												</a>
+												<a href="#">
+													<span class="fa fa-search-plus"/>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<div class="products-content">
+											<div class="image">
+												<a href="#">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-gallary3.jpg" />
+												</a>
+											</div>
+											<div class="links">
+												<a href="#">
+													<span class="fa fa-link"/>
+												</a>
+												<a href="#">
+													<span class="fa fa-search-plus"/>
+												</a>
+											</div>
+										</div>
+										<div class="products-content">
+											<div class="image">
+												<a href="#">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-gallary4.jpg" />
+												</a>
+											</div>
+											<div class="links">
+												<a href="#">
+													<span class="fa fa-link"/>
+												</a>
+												<a href="#">
+													<span class="fa fa-search-plus"/>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-4">
+										<div class="products-content">
+											<div class="image">
+												<a href="#">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-gallary6.jpg" />
+												</a>
+											</div>
+											<div class="links">
+												<a href="#">
+													<span class="fa fa-link"/>
+												</a>
+												<a href="#">
+													<span class="fa fa-search-plus"/>
+												</a>
+											</div>
+										</div>
+										<div class="products-content">
+											<div class="image">
+												<a href="#">
+													<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/snow-gallary5.jpg" />
+												</a>
+											</div>
+											<div class="links">
+												<a href="#">
+													<span class="fa fa-link"/>
+												</a>
+												<a href="#">
+													<span class="fa fa-search-plus"/>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboard-parallax parallax s_parallax_is_fixed pt160 pb160">
+							<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/snow-original.jpg');"/>
+					        <div class="container extended-container">
+					        	<div class="row justify-content-center">
+									<div class="d-inline-block">
+										<div class="content text-center">
+											<span>Snowboard &amp; Skiing</span>
+											<h2 class="title1">PREMIUM &amp; ORIGINAL</h2>
+											<h2 class="title3">STATE OF THE SNOW SOUND</h2>
+											<div class="s_btn mt32" data-name="Button">
+		            							<a href="#" class="btn btn-snowboard-2 bizople_button">Browse Products</a>
+		            						</div>
+										</div>
+									</div>
+								</div>
+					        </div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboard-testimonial" style="background-image: url('/theme_vouge_business/static/src/img/snow-testimonial.jpg');">
+							<div class="container extended-container">
+								<div class="row">
+									<div class="col-lg-6 col-md-8">
+										<div class="carousel slide article-slide" id="snow-carousel">
+											<div class="carousel-inner cont-slider">
+
+											    <div class="carousel-item active">
+											     	<div class="carousel-content">
+											     		<div class="content">
+												     		<h4>Professional Skier</h4>
+												     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+												     	</div>
+											     		<div class="text">
+											     			<p>Anita Oliver</p>
+											     		</div>
+											     	</div>
+											    </div>
+											    <div class="carousel-item">
+											      <div class="carousel-content">
+											     		<div class="content">
+												     		<h4>Professional Snowboarder</h4>
+												     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+												     	</div>
+											     		<div class="text">
+											     			<p>Paul Williams</p>
+											     		</div>
+											     	</div>
+											    </div>
+											    <div class="carousel-item">
+												    <div class="carousel-content">
+											     		<div class="content">
+												     		<h4>Professional Skater</h4>
+												     		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+												     	</div>
+											     		<div class="text">
+											     			<p>Jessy Pinkman</p>
+											     		</div>
+											     	</div>
+											    </div>
+											</div>
+											  <!-- Indicators -->
+											<ol class="carousel-indicators">
+											    <li class="active" data-slide-to="0" data-target="#snow-carousel">
+											      <img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team2.png" />
+											    </li>
+											    <li class="" data-slide-to="1" data-target="#snow-carousel">
+											      <img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team3.png" />
+											    </li>
+											    <li class="" data-slide-to="2" data-target="#snow-carousel">
+											      <img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/vouge-team4.png" />
+											    </li>
+											</ol>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboeard-team">
+							<div class="container extended-container">
+								<div class="row justify-content-center">
+									<div class="title text-center">
+										<span>Meet Our</span>
+										<h2>Professionals</h2>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xl-3 col-lg-6 col-md-6">
+										<div class="team-content">
+											<section class="team-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional1.jpg');">
+												<div class="info-wrap">
+													<div class="information">
+														<section class="info-img" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional1.jpg');">
+														</section>
+														<section class="content-info">
+															<div class="info">
+																<h6>Paul Williams</h6>
+																<span>Snowboarder</span>
+																<div class="social-icons">
+																	<a class="link" href="#">
+																		<i class="fa fa-facebook" />
+																	</a>
+																	<a class="link" href="#">
+																		<i class="fa fa-twitter" />
+																	</a>
+																	<a class="link" href="#">
+																		<i class="fa fa-instagram"></i>
+																	</a>
+																</div>
+															</div>
+														</section>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+									<div class="col-xl-3 col-lg-6 col-md-6">
+										<div class="team-content">
+											<section class="team-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional2.jpg');">
+												<div class="info-wrap">
+													<div class="information">
+														<section class="info-img" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional2.jpg');">
+														</section>
+														<section class="content-info">
+															<div class="info">
+																<h6>Anita Oliver</h6>
+																<span>Skier</span>
+																<div class="social-icons">
+																	<a class="link" href="#">
+																		<i class="fa fa-facebook" />
+																	</a>
+																	<a class="link" href="#">
+																		<i class="fa fa-twitter" />
+																	</a>
+																	<a class="link" href="#">
+																		<i class="fa fa-instagram"></i>
+																	</a>
+																</div>
+															</div>
+														</section>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+									<div class="col-xl-3 col-lg-6 col-md-6">
+										<div class="team-content">
+											<section class="team-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional3.jpg');">
+												<div class="info-wrap">
+													<div class="information">
+														<section class="info-img" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional3.jpg');">
+														</section>
+														<section class="content-info">
+															<div class="info">
+																<h6>Andrew Petersons</h6>
+																<span>Skier</span>
+																<div class="social-icons">
+																	<a class="link" href="#">
+																		<i class="fa fa-facebook" />
+																	</a>
+																	<a class="link" href="#">
+																		<i class="fa fa-twitter" />
+																	</a>
+																	<a class="link" href="#">
+																		<i class="fa fa-instagram"></i>
+																	</a>
+																</div>
+															</div>
+														</section>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+									<div class="col-xl-3 col-lg-6 col-md-6">
+										<div class="team-content">
+											<section class="team-item" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional4.jpg');">
+												<div class="info-wrap">
+													<div class="information">
+														<section class="info-img" style="background-image: url('/theme_vouge_business/static/src/img/snow-professional4.jpg');">
+														</section>
+														<section class="content-info">
+															<div class="info">
+																<h6>Jessy Pinkman</h6>
+																<span>Skater</span>
+																<div class="social-icons">
+																	<a class="link" href="#">
+																		<i class="fa fa-facebook" />
+																	</a>
+																	<a class="link" href="#">
+																		<i class="fa fa-twitter" />
+																	</a>
+																	<a class="link" href="#">
+																		<i class="fa fa-instagram"></i>
+																	</a>
+																</div>
+															</div>
+														</section>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboard-best-skiz" style="background-image: url('/theme_vouge_business/static/src/img/snow-banner6.jpg');">
+							<div class="container extended-container">
+								<div class="row align-items-center">
+									<div class="col-lg-6 col-md-6">
+										<div class="video">
+											<div class="media_iframe_video" data-oe-expression="//www.youtube.com/embed/UGdif-dwu-8?autoplay=0&amp;rel=0">
+							                <div class="css_editable_mode_display">&amp;nbsp;</div>
+							                <div class="media_iframe_video_size">&amp;nbsp;</div>
+							                <iframe src="https://www.youtube.com/embed/0uGETVnkujA" frameborder="0" allowfullscreen="allowfullscreen"/>
+							              </div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6">
+										<div class="content">
+											<span>The Best in Vouge</span>
+											<h2>GET 30% OFF ON ALL Vouge accessories</h2>
+											<div class="s_btn mt32" data-name="Button">
+		            							<a href="#" class="btn btn-snowboard-1 bizople_button">BUY NOW</a>
+		            						</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snowboard-newsletter" style="background-image: url('/theme_vouge_business/static/src/img/snow-newsletter.png');">
+							<div class="container extended-container">
+								<div class="row align-items-center">
+									<div class="col-lg-6 col-md-6">
+										<h2>NEWSLETTER</h2>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+									</div>
+									<div class="col-lg-6 col-md-6">
+										<div class="app-subscribe">
+											<form class="input-group js_subscribe" data-list-id="1">
+												<input type="email" name="email" class="js_subscribe_email form-control" placeholder="Email address"/>
+												<span class="input-group-append">
+										            <a role="button" href="#" class="btn btn-primary js_subscribe_btn">Subscribe</a>
+										            <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none" disabled="disabled">Thanks</a>
+										        </span>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+						<section class="snow-brand-slider pt64 pb64">
+							<div class="container extended-container brand">
+								<div id="snow-brand-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+						          	<div class="carousel-inner" role="listbox">
+						            	<div class="carousel-item active" >
+						            		<div class="row justify-content-center">
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand1.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand2.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand3.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand4.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand5.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand6.png"/>
+							            		</div>
+							            	</div>
+						            	</div>
+						            	<div class="carousel-item" >
+						            		<div class="row justify-content-center">
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand1.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand2.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand3.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand4.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand5.png"/>
+							            		</div>
+							            		<div class="col-md-2 text-center">
+							            			<img class="img-fluid" src="/theme_vouge_business/static/src/img/snow-brand6.png"/>
+							            		</div>
+							            	</div>
+							            </div>
+						          	</div>
+							        <ol class="carousel-indicators">
+									    <li class="active" data-slide-to="0" data-target="#snow-brand-carousel">
+									    </li>
+									    <li class="" data-slide-to="1" data-target="#snow-brand-carousel">
+									    </li>
+									</ol>
+						        </div>
+							</div>
+						</section>
+						<div class="oe_structure"/>
+					</div>
+				</t>
+			</t>
+		</field>
+	</record>
+	<record id="snowboard_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/snowboard-ski</field>
+		<field name="view_id" ref="snowboard_template" />
+	</record>
+</odoo>

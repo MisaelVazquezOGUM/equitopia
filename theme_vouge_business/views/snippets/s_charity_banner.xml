@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_charity_banner" name="Home Banner">
+		<section class="charity-home-banner" style="background-image: url('/theme_vouge_business/static/src/img/charity-banner.jpg');">
+			<div class="container">
+				<div class="banner-content text-right">
+					<h2>to bring<br></br>their smile</h2>
+					<p>Join our vouge awareness and access to poverty <br></br> volunteer help programs.</p>
+					<div class="s_btn pt24" data-name="Button">
+						<a href="#" class="btn btn-charity-1 btn-lg rounded-circle">Join Now</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

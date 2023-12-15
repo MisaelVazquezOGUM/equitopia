@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_charity_mission" name="Our Mission">
+		<section class="charity-mission" >
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 our-mission">
+						<img class="img img-fluid" src="/theme_vouge_business/static/src/img/charity-mission.png" />
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="mission-content">
+							<h4>Our Mission</h4>
+							<h2>Helping Vouge<br></br>Means You Helping Them</h2>
+						</div>
+						<div class="mission-elements">
+							<div class="element-content">
+								<span>01</span>
+								<div class="element-number pl-5">
+									<h5>Volunteering</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+								</div>
+							</div>
+							<div class="element-content">
+								<span>02</span>
+								<div class="element-number pl-5">
+									<h5>Charity</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+								</div>
+							</div>
+							<div class="element-content">
+								<span>03</span>
+								<div class="element-number pl-5">
+									<h5>Donation</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

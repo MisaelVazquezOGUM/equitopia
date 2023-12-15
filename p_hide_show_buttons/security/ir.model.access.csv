@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hide_show_button,access.hide.show.buton,model_hide_show_button,base.group_user,1,1,1,1
+access_ir_views,access.ir.views,model_ir_views,base.group_user,1,1,1,1

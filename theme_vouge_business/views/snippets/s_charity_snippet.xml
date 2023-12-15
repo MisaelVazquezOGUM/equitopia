@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_charity_snippet" name="Charity">
+		<section class="s_charity_snippet">
+			<div class="oe_structure"/>
+			<section class="charity-home-banner" style="background-image: url('/theme_vouge_business/static/src/img/charity-banner.jpg');">
+				<div class="container">
+					<div class="banner-content text-right">
+						<h2>to bring<br></br>their smile</h2>
+						<p>Join our vouge awareness and access to poverty <br></br> volunteer help programs.</p>
+						<div class="s_btn pt24" data-name="Button">
+							<a href="#" class="btn btn-charity-1 btn-lg rounded-circle">Join Now</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="charity-aboutus">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-md-5">
+							<div class="about-content">
+								<h4>About Us</h4>
+								<h2>Our Demanding Requirement is to Help People in Need</h2>
+							</div>
+						</div>
+						<div class="col-lg-7 col-md-7">
+							<div class="about-content">
+								<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</h6>
+
+								<p>Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor. Donec hendrerit semper massa dignissim dignissim. Ut pretium ullamcorper mi, sit amet pellentesque nisl. Donec commodo ullamcorper eros. Proin vel hendrerit nibh. Phasellus non sapien sed magna venenatis posuere vel sit amet nisl.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="charity-mission" >
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 col-md-12 our-mission">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/charity-mission.png" />
+						</div>
+						<div class="col-lg-6 col-md-12">
+							<div class="mission-content">
+								<h4>Our Mission</h4>
+								<h2>Helping Vouge<br></br>Means You Helping Them</h2>
+							</div>
+							<div class="mission-elements">
+								<div class="element-content">
+									<span>01</span>
+									<div class="element-number pl-5">
+										<h5>Volunteering</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+									</div>
+								</div>
+								<div class="element-content">
+									<span>02</span>
+									<div class="element-number pl-5">
+										<h5>Charity</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+									</div>
+								</div>
+								<div class="element-content">
+									<span>03</span>
+									<div class="element-number pl-5">
+										<h5>Donation</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="charity-campaigns">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="campaigns-heading">
+								<h4>Our Campaigns</h4>
+								<h2>You Can Help Lots of People in Need by <br></br>Donating Little</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="row">
+							<div class="col-lg-4 col-md-6">
+								<div class="campaigns-weapper">
+									<div class="campaigns-inner">
+										<div class="images_block">
+											<div class="icon-block position-relative">
+												<a href="/" target="_blank">
+													<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/charity-campaign1.jpg" />
+												</a>
+												<div class="view-icon d-inline-block">
+													<span class="fa fa-plus text-white"/>
+												</div>
+											</div>
+										</div>
+										<div class="campagins-content">
+											<div class="tag">
+												<a href="#">Volunteering</a>
+											</div>
+											<div class="progress-info">
+												<div class="raised">
+													<span class="income">$78,500</span> of <span class="goal-text">$750,000</span> raised
+												</div>
+												<div class="progress-bar">
+													<span style="width: 10.18%; background-color:#0f7dcc"></span>
+												</div>
+											</div>
+											<h4>Donec commodo ullamcorper eros</h4>
+											<div class="s_btn" data-name="Button">
+		            							<a href="#" class="btn btn-charity-2 bizople_button"> DONATE NOW </a>
+		            						</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="campaigns-weapper">
+									<div class="campaigns-inner">
+										<div class="images_block">
+											<div class="icon-block position-relative">
+												<a href="/" target="_blank">
+													<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/charity-campaign2.jpg" />
+												</a>
+												<div class="view-icon d-inline-block">
+													<span class="fa fa-plus text-white"/>
+												</div>
+											</div>
+										</div>
+										<div class="campagins-content">
+											<div class="tag">
+												<a href="#">Volunteering</a>
+											</div>
+											<div class="progress-info">
+												<div class="raised">
+													<span class="income">$78,500</span> of <span class="goal-text">$750,000</span> raised
+												</div>
+												<div class="progress-bar">
+													<span style="width: 32.67%; background-color:#0f7dcc"></span>
+												</div>
+											</div>
+											<h4>Donec commodo ullamcorper eros</h4>
+											<div class="s_btn" data-name="Button">
+		            							<a href="#" class="btn btn-charity-2 bizople_button"> DONATE NOW </a>
+		            						</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="campaigns-weapper last-ele">
+									<div class="campaigns-inner">
+										<div class="images_block">
+											<div class="icon-block position-relative">
+												<a href="/" target="_blank">
+													<img class="img img-fluid"
+														src="/theme_vouge_business/static/src/img/charity-campaign3.jpg" />
+												</a>
+												<div class="view-icon d-inline-block">
+													<span class="fa fa-plus text-white"/>
+												</div>
+											</div>
+										</div>
+										<div class="campagins-content">
+											<div class="tag">
+												<a href="#">Volunteering</a>
+											</div>
+											<div class="progress-info">
+												<div class="raised">
+													<span class="income">$78,500</span> of <span class="goal-text">$750,000</span> raised
+												</div>
+												<div class="progress-bar">
+													<span style="width: 28.67%; background-color:#0f7dcc"></span>
+												</div>
+											</div>
+											<h4>Donec commodo ullamcorper eros</h4>
+											<div class="s_btn" data-name="Button">
+		            							<a href="#" class="btn btn-charity-2 bizople_button"> DONATE NOW </a>
+		            						</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="charity-help-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-12 col-md-12">
+							<div class="help-content">
+								<div class="heading">
+									<h4>Lorem Ipsum</h4>
+									<h2>How To Help Them?</h2>
+								</div>
+								<div class="text">
+									<p>Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum. Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor. Proin vel hendrerit nibh. Phasellus non sapien sed magna venenatis</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-8 col-lg-12 col-md-12">
+							<div class="row">
+								<div class="col-lg-4 col-md-4">
+									<div class="help-feature">
+										<div class="help-image">
+											<a href="#">
+												<img src="/theme_vouge_business/static/src/img/charity-help1.png" class="img img-fluid"/>
+											</a>
+										</div>
+										<div class="help-content">
+											<h4>Give Love</h4>
+											<p>Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="help-feature">
+										<div class="help-image">
+											<a href="#">
+												<img src="/theme_vouge_business/static/src/img/charity-help2.png" class="img img-fluid"/>
+											</a>
+										</div>
+										<div class="help-content">
+											<h4>Donations</h4>
+											<p>Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="help-feature">
+										<div class="help-image">
+											<a href="#">
+												<img src="/theme_vouge_business/static/src/img/charity-help3.png" class="img img-fluid"/>
+											</a>
+										</div>
+										<div class="help-content">
+											<h4>Volunteering</h4>
+											<p>Curabitur ante enim, aliquet sit amet ligula et, bibendum fringilla tortor.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="charity-newsletter" style="background-image: url('/theme_vouge_business/static/src/img/charity-newsletter.png');">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 offset-md-6 offset-lg-8">
+							<div class="content">
+								<h2>How to Become a Volunteer?</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+								<div class="charity-subscribe">
+									<form class="input-group js_subscribe" data-list-id="1">
+										<input type="email" name="email" class="js_subscribe_email form-control bg-white" placeholder="Your Email"/>
+										<span class="input-group-append">
+								            <a role="button" href="#" class="btn btn-primary js_subscribe_btn">Subscribe</a>
+								            <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none" disabled="disabled">Thanks</a>
+								        </span>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="charity-volunteers">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12">
+							<div class="team-heading">
+								<h4>Our Team</h4>
+								<h2>Meet Our Volunteers</h2>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12">
+							<div class="row">
+								<div class="col-xl-3 col-lg-6 col-md-6">
+									<div class="team-member">
+										<div class="image">
+											<a href="#">
+												<img src="/theme_vouge_business/static/src/img/charity-team1.jpg" class="img img-fluid"/>
+											</a>
+										</div>
+										<div class="content">
+											<h4>Paul Williams</h4>
+											<p>Manager</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-6 col-md-6">
+									<div class="team-member">
+										<div class="image">
+											<a href="#">
+												<img src="/theme_vouge_business/static/src/img/charity-team2.jpg" class="img img-fluid"/>
+											</a>
+										</div>
+										<div class="content">
+											<h4>Anita Oliver</h4>
+											<p>Chairman</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-6 col-md-6">
+									<div class="team-member">
+										<div class="image">
+											<a href="#">
+												<img src="/theme_vouge_business/static/src/img/charity-team3.jpg" class="img img-fluid"/>
+											</a>
+										</div>
+										<div class="content">
+											<h4>Jessy Horseman</h4>
+											<p>Head Volunteer</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-3 col-lg-6 col-md-6">
+									<div class="team-member">
+										<div class="image">
+											<a href="#">
+												<img src="/theme_vouge_business/static/src/img/charity-team4.jpg" class="img img-fluid"/>
+											</a>
+										</div>
+										<div class="content">
+											<h4>Andrew Petersons</h4>
+											<p>CEO</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12">
+							<div class="s_btn" data-name="Button">
+    							<a href="#" class="btn btn-charity-1 bizople_button"> MORE ABOUT TEAM</a>
+    						</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="charity-counter" style="background-image: url('/theme_vouge_business/static/src/img/charity-counter.jpg');">
+				<div class="container">
+					<div class="row">
+						<div class="d-inline-block col-lg-7 col-md-8">
+							<div class="counter-content">
+								<div class="title">
+									<h2>We Did a Lot For This 2020</h2>
+								</div>
+								<div class="col-lg-12 col-md-12">
+									<div class="row">
+										<div class="col-lg-4 col-md-4">
+											<div class="counter-elements">
+												<div class="counter-box">
+													<div class="count-text counter">400</div>
+													<h5>Donors Donated Food this Year</h5>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4">
+											<div class="counter-elements">
+												<div class="counter-box">
+													<div class="count-text counter">43</div>
+													<h5>Camps were launched</h5>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-4 col-md-4">
+											<div class="counter-elements">
+												<div class="counter-box">
+													<div class="count-text counter">32</div>
+													<h5>Projects Funded This Today</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_about_products" name="About Products">
+		<section class="business-medical-accordian parallax s_parallax_is_fixed">
+			<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_vouge_business/static/src/img/medical-accordian.jpg');"/>
+	        <div class="container">
+	        	<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h2>What our customers say about our products</h2>
+							<p>PROTECTION TO GERMS</p>
+						</div>
+					</div>
+				</div>
+	            <div class="row">
+	                <div class="col-lg-6 col-md-6 ml-auto">
+	                	<div class="collapse-accordion mt16 accordion" id="accordionExample">
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">
+										<a class="card-link" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1"> 
+								     	Medically Tested
+									     <span class="collapse-icons ml-auto float-right">
+		                                	<i class="fa fa-plus"></i>
+		                                	<i class="fa fa-minus"></i>
+		                                </span>
+										</a>
+									</div>
+								</div>
+								<div class="collapse show mt8" id="collapse1" data-parent="#accordionExample">
+									<p class=" content-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui.</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">Medically Certified
+									     <span class="collapse-icons ml-auto float-right">
+		                                	<i class="fa fa-plus"></i>
+		                                	<i class="fa fa-minus"></i>
+		                                </span>
+										</a>
+									</div>
+								</div>
+								<div class="collapse mt8" id="collapse2" data-parent="#accordionExample">
+									<p class=" content-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui.</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3"> World-Class Products
+									     <span class="collapse-icons ml-auto float-right">
+		                                	<i class="fa fa-plus"></i>
+		                                	<i class="fa fa-minus"></i>
+		                                </span>
+										</a>
+									</div>
+								</div>
+								<div class="collapse mt8" id="collapse3" data-parent="#accordionExample">
+									<p class=" content-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui.
+									</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapse4">99% Germs Free
+									     <span class="collapse-icons ml-auto float-right">
+		                                	<i class="fa fa-plus"></i>
+		                                	<i class="fa fa-minus"></i>
+		                                </span>
+										</a>
+									</div>
+								</div>
+								<div class="collapse mt8" id="collapse4" data-parent="#accordionExample">
+									<p class=" content-body p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis leo vel tempor finibus. Nam pharetra fringilla finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis porttitor massa fringilla ante malesuada, non rutrum erat consequat. Vestibulum non vestibulum dui.
+									</p>
+								</div>
+							</div>
+						</div>
+	                </div>
+	            </div>
+	        </div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_seo_teams" name="Marketing teams">
+		<section class="seo-analysis pt16 pb32">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 mb-4 mb-lg-0">
+						<div class="content">
+							<h2>Built for sales &amp; marketing teams</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna, sed ornare mauris mauris vitae diam. Curabitur vitae nibh gravida, faucibus turpis nec, blandit nulla.</p>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="image">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-analysis.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

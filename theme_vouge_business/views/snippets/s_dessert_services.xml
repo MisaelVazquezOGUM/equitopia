@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_services" name="Services">
+		<section class="dessert-service" style="background-image: url('/theme_vouge_business/static/src/img/dessert-items.png');">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="icon icon-Signal fa-3x"/>
+							<h3>Free WiFi</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="icon icon-Icecream1 fa-3x"/>
+							<h3>Softy Cones</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="icon icon-Pizza fa-3x"/>
+							<h3>Birthday Cakes</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="icon icon-Shaker fa-3x"/>
+							<h3>Fresh milk</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="icon icon-Bread fa-3x"/>
+							<h3>Fresh products</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-4">
+						<div class="service-content">
+							<span class="icon icon-Mug fa-3x"/>
+							<h3>Ice-cream Pies</h3>
+							<p>Sed tincidunt imperdiet urna vitae pharetra.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

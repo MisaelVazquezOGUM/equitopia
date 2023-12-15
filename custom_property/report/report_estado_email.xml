@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<template id="custom_property_state_property_report">
+			<t t-call="web.html_container">
+				
+				<t t-call="web.external_layout">
+					<div class="page">
+					<h1 style="text-align:center;">Estado de resultados</h1>
+					<br/><br/>
+
+					<t t-esc="doc.drawing_chats_rent()"/>
+					<t t-esc="doc.drawing_chats_porcent()"/>
+					<t t-esc="doc.drawing_chats_histo()"/>
+					<t t-esc="doc.drawing_chats_metric()"/>		
+					<t t-esc="doc.drawin_chart_bar_histor()"/>	
+
+					
+					<div class="row">
+						<div class="col-4">
+							<h6 class="text-muted">Dueño</h6>
+							<span t-field="doc.owner_id.name"/>
+						</div>
+						<div class="col-4">
+							<h6 class="text-muted">Manejando de cuenta</h6>
+							<span t-field="doc.manager_id.name"/>
+						</div>
+						<div class="col-4">
+							<h6 class="text-muted">Fecha</h6>
+								<span t-esc="context_timestamp(doc.fecha_report).strftime('%d-%m-%Y %H:%M')"/>
+						</div>
+						<div class="col-4">
+							<h6 class="text-muted">Mes</h6>
+							<span t-field="doc.mes_estado"/>
+						</div>
+
+					</div>	
+
+                    
+                    <div class="row">
+                    	<div class="col-8 card">
+                    		<h4 class="font-weight-bold text-center">Información Mensual</h4>
+                    		<div class="row">
+                    			<div class="col-2">
+                    				<h6 class="text-muted">Rentas programada</h6>
+                    				<span t-field="doc.rent_cronograma" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+                    			</div>
+                    			<div class="col-2">
+                    				<h6 class="text-muted">Rentas efectivas</h6>
+                    				<span t-field="doc.rent_efectivo" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+                    			</div>
+                    			<div class="col-2">
+                    				<h6 class="text-muted">Total Mantenimiento</h6>
+                    				<span t-field="doc.mantenimientos" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+                    			</div>
+                    			<div class="col-2">
+                    				<h6 class="text-muted">Total pago de servicios</h6>
+                    				<span t-field="doc.servicios" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+                    			</div>
+                    			<div class="col-2">
+                    				<h6 class="text-muted">Ingresos Netos</h6>
+                    				<span t-field="doc.ingresos_netos" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+                    			</div>
+                    			<!-- <div class="col-2">
+                    				<h6 class="text-muted">Ingresos Netos</h6>
+                    			</div> -->
+                    		</div>
+                    		<img src="/custom_property/static/src/img/rentbar.png" width="200px;" height="200px;"/>
+                    	</div>
+                    	<div class="col-4 card">
+                    		<h4 class="font-weight-bold text-center">Información Historica</h4>
+                    		<div class="row">
+                    			<div class="col-6">
+                    				<h6 class="text-muted">Rentas cobradas</h6>
+                            		<span t-field="doc.rent_cobradas" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+                    			</div>
+                    			<div class="col-6">
+                    				<h6 class="text-muted">Rentas ha cobrar</h6>
+                            		<span t-field="doc.rent_por_cobrar" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+                    			</div>
+                    		</div>
+                    		<img src="/custom_property/static/src/img/historibar.png" width="200px;" height="200px;"/>
+                    	</div>
+                    </div>
+                    <br/><br/>                    
+                    <table class="table table-sm">
+                    	<thead>
+                    		<tr>
+                    			<th>Propiedad</th>
+                    			<th>Información</th>
+                    			<th>Porcentaje de Ocupación</th>
+                    			<th>Fechas</th>
+                    			<th>Metricas</th>
+                    		</tr>
+                    	</thead>
+                    	<tbody>
+                    		<tr>
+                    			<td>
+                    				<t if="doc.property_id">
+										<span t-esc="doc.property_id.name"/>	
+										</t><br/>
+										<img t-attf-src="data:image/*;base64,{{doc.imagen}}" style="max-height: 80px;max-width: 145px;padding:2px;" align="center"/>
+										<br/>
+										<t if="doc.estado">
+										<span t-esc="doc.estado"/>	
+										</t><br/>
+										
+                    			</td>
+                    			<td>
+                    				<strong>Rentas Programadas</strong>
+										<t t-if="doc.rent_cronograma">
+		     						  		<span t-field="doc.rent_cronograma" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+		     						  	</t><br/>
+										<strong>Rentas Efectivas</strong>
+										<t t-if="doc.rent_efectivo">
+		     						  		<span t-field="doc.rent_efectivo" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+		     						 </t>	
+                    			</td>
+                    			<td>
+                    				<t t-set='total_dias' t-value='doc.dias_libres+doc.dias_ocupados'/>
+                    				<span><t t-esc="doc.dias_libres"/> Días Libre</span>
+	                    			<span><t t-esc="doc.dias_ocupados"/> No libres</span>
+	                    			<img src="/custom_property/static/src/img/procetajeocupacion.png" 
+	                    					width="350px" height="350px"/>
+
+                    				
+                    			</td>
+                    			<td>
+                    				<span  t-field="doc.reservaciones"/>
+                    			</td>
+                    			<td>
+                    				<strong>Mantenimietos:</strong>
+		     						  	<t t-if="doc.mantenimientos">
+		     						  		<span t-field="doc.mantenimientos" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+		     						</t>
+		     						<br/>
+		     						 <strong>Servicios:</strong>
+									    <t t-if="doc.servicios">
+		     						  		<span t-field="doc.servicios" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+		     						 </t>
+		     						 <br/>
+		     						 <strong>Ingreso Neto:</strong>
+								     <span><t t-esc="doc.ingresos_netos"/></span>
+								     <br/>
+								     <strong>Comisiones</strong>	
+									   	<t t-if="doc.comisiones">
+		     						  		<span t-field="doc.comisiones" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+		     						 </t>
+		     						 <br/>
+		     							<strong>Otros gastos</strong>
+									  	<t t-if="doc.otros_gastos">
+		     						  		<span t-field="doc.otros_gastos" t-options="{'widget': 'monetary', 'display_currency': doc.currency_id}"/>
+		     						  	</t><br/>
+
+		     						 <img src="/custom_property/static/src/img/metricbar.png" 
+	                    					width="250px" height="150px"/>
+
+                    			</td>
+                    		</tr>
+                    	</tbody>
+                    </table>
+
+                     <img src="/custom_property/static/src/img/total.png" width="100%"/>
+
+
+                 						
+						
+					</div>
+				</t>
+			</t>
+
+		</template>		 
+	</data>
+</odoo>

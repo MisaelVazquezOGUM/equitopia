@@ -1,0 +1,362 @@
+.editor_enable{
+    #website_cookies_bar{
+        .modal{
+            display:block !important;
+        }
+    }
+}
+
+#website_cookies_bar{
+	
+	.o_colored_level{
+		p{
+			font-size:18px;
+		}
+	}
+    .classic{
+        .button{
+            text-align:end;
+    }
+        .o_cookies_bar_text_button{
+            //padding-right:85px;
+            //padding-left:85px;
+            display: block;
+            margin-bottom: 5px;
+    }
+        .o_cookies_bar_text_policy{
+            //padding-right: 60px;
+            font-size: 16px;
+            display: block;
+            //margin-top: 20px;
+    }
+    }
+    .popup{
+        img{
+            max-height: 1.5rem;
+        }
+        margin-left:30px;
+        margin-right:30px;
+        background-color:transparent;
+        .col-lg-12{
+            text-align:center;
+        }
+        .button{
+            text-align:center;
+    }
+        .o_cookies_bar_text_button{
+            //padding-right:85px;
+            //padding-left:85px;
+            display: inline-block;
+    }
+        .o_cookies_bar_text_policy{
+            //padding-right: 60px;
+            display: inline-block;
+            font-size: 16px;
+    }   
+        .cookie_bar_text_secondary{
+            margin-right:10px;
+            margin-left:10px;
+        }
+    
+    }
+
+    .o_cookies_bar_text_button{
+        border-radius: 2px !important;
+        position: relative;
+        border:2px solid theme-color('primary');
+        text-transform: uppercase;
+        transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+
+        &:before {
+            -webkit-transition:0.5s all ease;
+            transition:0.5s all ease;
+            position:absolute;
+            top:0;
+            left:50%;
+            right:50%;
+            bottom:0;
+            opacity:0;
+            content:'';
+            background-color: #fff;
+            z-index:-1;
+        }
+        &:hover {
+            &:before {
+              -webkit-transition:0.5s all ease;
+              transition:0.5s all ease;
+              left:0;
+              right:0;
+              opacity:1;
+            }
+        }
+
+        &:hover{
+            background-color: transparent;
+            //border:2px solid theme-color('primary');
+            text-decoration: none;
+            //border-radius: 2px !important;
+            z-index: 1;
+            letter-spacing: 0;
+            overflow: hidden;
+            color: theme-color('primary');
+            -webkit-transition:0.5s all ease;
+            transition:0.5s all ease;
+        }
+    }
+
+}
+#website_cookies_bar {
+    :not(.o_cookies_popup) {
+        bottom: 0;
+    }
+}
+
+.s_popup[data-vcss='001']  {
+    .modal-content {
+        min-height: $font-size-lg * 2;
+        border: 0;
+        border-radius: 0;
+        box-shadow: $modal-content-box-shadow-sm-up;
+    }
+
+    // Close icon
+    .s_popup_close {
+        z-index: $zindex-modal;
+        @include o-position-absolute(0, 0);
+        width: $font-size-lg * 2;
+        height: $font-size-lg * 2;
+        line-height: $font-size-lg * 2;
+        box-shadow: $box-shadow-sm;
+        cursor: pointer;
+        font-size: $font-size-lg;
+        text-align: center;
+    }
+
+    // Size option - Full
+    .s_popup_size_full {
+        padding: 0 !important;
+        max-width: 100%;
+
+        > .modal-content {
+            // Use the backdrop color as background-color
+            border-radius: 0;
+        }
+    }
+
+    // Position option - Middle
+    .s_popup_middle .modal-dialog {
+        align-items: center;
+    }
+
+    // Position option - Top/Bottom
+    .s_popup_top,
+    .s_popup_bottom {
+        .modal-dialog {
+            margin-right: 0;
+            &:not(.s_popup_size_full) {
+                padding: $spacer !important;
+            }
+        }
+    }
+    .s_popup_top .modal-dialog {
+        align-items: flex-start;
+    }
+    .s_popup_bottom .modal-dialog {
+        align-items: flex-end;
+    }
+
+    // No backdrop
+    .s_popup_no_backdrop {
+        pointer-events: none;
+
+        .modal-content {
+            pointer-events: auto;
+        }
+    }
+}
+
+body.editor_enable.editor_has_snippets {
+
+    .s_popup .modal {
+        // s_popup in edit mode
+        background-color: transparent;
+
+        &.fade .modal-dialog {
+            transform: none;
+        }
+    }
+
+    #oe_main_menu_navbar + #wrapwrap .o_header_affixed {
+        top: 0;
+    }
+}
+
+.o_cookies_discrete{
+    .discrete{
+    display:block;
+    }
+    .popup{
+    display:none;
+    }
+    .classic{
+    display:none;
+    }
+}
+
+.o_cookies_classic{
+    .classic{
+    display:block;
+    }
+    .popup{
+    display:none;
+    }
+    .discrete{
+    display:none;
+    }
+}
+
+.o_cookies_popup{
+    .popup{
+    display:block;
+    }
+    .classic{
+    display:none;
+    }
+    .discrete{
+    display:none;
+    }
+}
+
+.backdrop{
+    .colorpicker{
+        display:block;
+    }
+}
+
+
+.o_cookies_popup:not([data-vcss]) {
+    .s_popup_content {
+        // keep lower than <p> height (cookies bar)
+        min-height: $o-font-size-base * $o-line-height-base;
+        box-shadow: $modal-content-box-shadow-sm-up;
+        .container {
+            // keep margin when fixed bottom
+            @include make-container();
+        }
+    }
+
+    &.modal:not(.d-none) {
+        display: block !important;
+    }
+
+    $popup-close-size: 1.5rem;
+    .s_popup_close {
+        position: absolute;
+        background: white;
+        height: $popup-close-size;
+        width: $popup-close-size;
+        line-height: $popup-close-size;
+        margin-top: -1 * $popup-close-size / 2;
+        margin-right: -1 * $popup-close-size / 2;
+        border-radius: $popup-close-size / 2;
+        right: 0px;
+        top: 0px;
+        box-shadow: rgba(0,0,0,0.8) 0 0 5px;
+        cursor: pointer;
+        text-align: center;
+        z-index: 1;
+        font-size: $popup-close-size;
+    }
+
+    &.s_popup_center {
+        .s_popup_full {
+            @include o-position-absolute(0, 0, 0, 0);
+            &.modal-dialog {
+                max-width: 100%;
+                padding: 0 !important;
+                margin: 0 !important;
+
+                .modal-content {
+                    height: 100%;
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+            .s_popup_close {
+                font-size: 60px;
+                margin: 10px;
+                background: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    &.s_popup_fixed {
+        &.s_popup_fixed_top {
+            .s_popup_content {
+                top: $o-navbar-height;
+            }
+        }
+        &:not(.s_popup_fixed_top) {
+            .s_popup_content {
+                bottom: 0;
+            }
+        }
+        .s_popup_content {
+            z-index: $zindex-modal;
+            position: fixed;
+            right: 20px;
+        }
+        .modal-sm .s_popup_content {
+            width: $modal-sm;
+        }
+        .modal-md .s_popup_content {
+            width: $o-modal-md;
+        }
+        .modal-lg .s_popup_content {
+            width: $o-modal-lg;
+        }
+        .modal-xl .s_popup_content {
+            width: $modal-xl;
+        }
+        .s_popup_full .s_popup_content {
+            right: 0;
+            left: 0;
+            .s_popup_close {
+                box-shadow: none;
+                font-size: 60px;
+                margin: 10px;
+                background: none;
+            }
+
+        }
+    }
+}
+
+
+.o_cookies_popup{
+    .modal-content{
+        width:50% !important;
+        box-shadow:(0px 0px 0px 0.5px);
+        padding-bottom:30px;
+        padding-top:30px;
+        margin-left: auto;
+    }
+}
+
+.s_popup_middle.o_cookies_popup{
+    .modal-content{
+        margin-right: auto;
+    }
+}
+
+.o_cookies_bar_text_button{
+    .modal{
+        display:none;
+    }
+}
+
+#website_cookies_bar > .modal.visible {
+    background-color: rgba(66, 66, 66, 0.4) !important;
+}
+

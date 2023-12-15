@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_charity_campaigns" name="Our Campaigns">
+		<section class="charity-campaigns">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="campaigns-heading">
+							<h4>Our Campaigns</h4>
+							<h2>You Can Help Lots of People in Need by <br></br>Donating Little</h2>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="campaigns-weapper">
+								<div class="campaigns-inner">
+									<div class="images_block">
+										<div class="icon-block position-relative">
+											<a href="/" target="_blank">
+												<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/charity-campaign1.jpg" />
+											</a>
+											<div class="view-icon d-inline-block">
+												<span class="fa fa-plus text-white"/>
+											</div>
+										</div>
+									</div>
+									<div class="campagins-content">
+										<div class="tag">
+											<a href="#">Volunteering</a>
+										</div>
+										<div class="progress-info">
+											<div class="raised">
+												<span class="income">$78,500</span> of <span class="goal-text">$750,000</span> raised
+											</div>
+											<div class="progress-bar">
+												<span style="width: 10.18%; background-color:#0f7dcc"></span>
+											</div>
+										</div>
+										<h4>Donec commodo ullamcorper eros</h4>
+										<div class="s_btn" data-name="Button">
+	            							<a href="#" class="btn btn-charity-2 bizople_button"> DONATE NOW </a>
+	            						</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="campaigns-weapper">
+								<div class="campaigns-inner">
+									<div class="images_block">
+										<div class="icon-block position-relative">
+											<a href="/" target="_blank">
+												<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/charity-campaign2.jpg" />
+											</a>
+											<div class="view-icon d-inline-block">
+												<span class="fa fa-plus text-white"/>
+											</div>
+										</div>
+									</div>
+									<div class="campagins-content">
+										<div class="tag">
+											<a href="#">Volunteering</a>
+										</div>
+										<div class="progress-info">
+											<div class="raised">
+												<span class="income">$78,500</span> of <span class="goal-text">$750,000</span> raised
+											</div>
+											<div class="progress-bar">
+												<span style="width: 32.67%; background-color:#0f7dcc"></span>
+											</div>
+										</div>
+										<h4>Donec commodo ullamcorper eros</h4>
+										<div class="s_btn" data-name="Button">
+	            							<a href="#" class="btn btn-charity-2 bizople_button"> DONATE NOW </a>
+	            						</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="campaigns-weapper last-ele">
+								<div class="campaigns-inner">
+									<div class="images_block">
+										<div class="icon-block position-relative">
+											<a href="/" target="_blank">
+												<img class="img img-fluid"
+													src="/theme_vouge_business/static/src/img/charity-campaign3.jpg" />
+											</a>
+											<div class="view-icon d-inline-block">
+												<span class="fa fa-plus text-white"/>
+											</div>
+										</div>
+									</div>
+									<div class="campagins-content">
+										<div class="tag">
+											<a href="#">Volunteering</a>
+										</div>
+										<div class="progress-info">
+											<div class="raised">
+												<span class="income">$78,500</span> of <span class="goal-text">$750,000</span> raised
+											</div>
+											<div class="progress-bar">
+												<span style="width: 28.67%; background-color:#0f7dcc"></span>
+											</div>
+										</div>
+										<h4>Donec commodo ullamcorper eros</h4>
+										<div class="s_btn" data-name="Button">
+	            							<a href="#" class="btn btn-charity-2 bizople_button"> DONATE NOW </a>
+	            						</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

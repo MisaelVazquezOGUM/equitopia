@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_two_design" name="Powerfull Design">
+		<section class="app2-interface">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="heading">
+							<h4>Powerfull Design For You</h4>
+							<p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div id="app2-screenshots-carousel" class="carousel bs-slider slide  control-round indicators-line pt32" data-ride="carousel" data-pause="hover" data-interval="7000">
+			          	<div class="carousel-inner" role="listbox">
+			          		<div class="carousel-item active">
+				            	<div class="container">
+			            			<div class="row">
+			            				<div class="col-lg-3 col-md-6 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/app2-screenshots1.png" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-6 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/app2-screenshots2.png" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-6 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/app2-screenshots3.png" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-6 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/app2-screenshots4.png" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+				            </div>
+				            <div class="carousel-item">
+				            	<div class="container">
+			            			<div class="row">
+			            				<div class="col-lg-3 col-md-6 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/app2-screenshots1.png" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-6 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/app2-screenshots2.png" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-6 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/app2-screenshots3.png" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            				<div class="col-lg-3 col-md-6 mb24">
+			            					<div class="text-center">
+			            						<div class="service-img">
+			            							<img src="/theme_vouge_business/static/src/img/app2-screenshots4.png" class="img img-fluid"/>
+			            						</div>
+			            					</div>
+			            				</div>
+			            			</div>
+			            		</div>
+				            </div>
+			          	</div>
+			          	<ol class="carousel-indicators">
+				            <li data-target="#app2-screenshots-carousel" data-slide-to="0" class="active"/>
+				            <li data-target="#app2-screenshots-carousel" data-slide-to="1"/>
+				        </ol>
+		        	</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

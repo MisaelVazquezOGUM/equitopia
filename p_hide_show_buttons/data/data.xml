@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data noupdate="1">
+        <record id="ir_views_1" model="ir.views">
+            <field name="name">List</field>
+            <field name="view_name">list</field>
+        </record>
+        <record id="ir_views_2" model="ir.views">
+            <field name="name">Form</field>
+            <field name="view_name">form</field>
+        </record>
+        <record id="ir_views_3" model="ir.views">
+            <field name="name">Kanban</field>
+            <field name="view_name">kanban</field>
+        </record>
+        <record id="ir_views_4" model="ir.views">
+            <field name="name">Graph</field>
+            <field name="view_name">graph</field>
+        </record>
+        <record id="ir_views_5" model="ir.views">
+            <field name="name">Pivot</field>
+            <field name="view_name">pivot</field>
+        </record>
+    </data>
+</odoo>

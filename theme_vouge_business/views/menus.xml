@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <menuitem action="vouge_corporate_theme_common.bizcommon_dynamic_blog_slider_action"
+		id="bizcommon_dynamic_blog_slider_menu"
+		name="Blog Slider"
+		parent="website_blog.menu_website_blog_root_global"
+		sequence="40" />
+</odoo>

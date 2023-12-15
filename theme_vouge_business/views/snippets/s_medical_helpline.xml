@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_helpline" name="Helpline">
+		<section class="business-medical-welcome">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10 col-md-12">
+						<div class="heading">
+							<h2>Welcome to our 24/7 helpline service</h2>
+							<p>CALL ANY TIME ANY DAY WHEN YOU NEED HELP</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-12">
+						<div class="content-inner">
+							<div class="content-body d-flex">
+								<div class="content-img">
+									<span class="icon icon-Phone2 fa-4x"/>
+								</div>
+								<div class="content-info">
+									<h6>Make Appointment</h6>
+									<h2>Call Us Now</h2>
+									<p>This Number is Toll Free</p>
+									<p>+1 (650) 691-3277</p>
+									<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-medical bizople_button">Know More <span class="fa fa-angle-right ml-2"/></a>
+            						</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-12">
+						<div class="content-inner">
+							<div class="content-body d-flex">
+								<div class="content-img">
+									<span class="icon icon-MessageRight fa-4x"/>
+								</div>
+								<div class="content-info">
+									<h6>Have any Query?</h6>
+									<h2>Talk TO Us Now</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis.</p>
+									<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-medical bizople_button">Contact<span class="fa fa-angle-right ml-2"/></a>
+            						</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

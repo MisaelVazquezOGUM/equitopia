@@ -1,0 +1,301 @@
+<templates id="template" xml:space="preserve">
+	<t t-name="SearchModalPopup">
+		<div class="modal" id="search_bar_modal">
+			<div class="modal-dialog modal-dialog-scrollable">
+				<div class="modal-content p-0">
+					<!-- Modal Header -->
+					<div class="modal-header d-block">
+						<div class="d-flex p-3 align-items-center justify-content-between">
+							<h4 class="modal-title">Search..</h4>
+							<button type="button" class="close" data-dismiss="modal">
+								<span class="ri ri-close-line align-middle"></span>
+							</button>
+						</div>
+					</div>
+					<div class="modal-body px-0">
+						<div class="d-flex align-items-center mb-4 px-3">
+							<div class="load-active-menu-selector w-25"/>
+							<input type="text" id="searchPagesInput" 
+								class="form-control form-control-size borderless auto-complete" autocomplete="off" 
+								placeholder="Search here..." value="" />
+						</div>
+						<ul id="searchPagesResults" class="auto-complete-result mb-0 px-3">
+						</ul>
+						<div class="searchNoResult px-3 d-none">
+							<h3>No Results Found!</h3>
+						</div>
+					</div>
+					<div class="flex-row-reverse modal-footer px-0">
+						<div class="pb-3 px-3">
+							<span class="text-alternate d-inline-block m-0 mr-3">
+								<span class="ri ri-arrow-up-down-line align-middle"></span>
+								<span class="align-middle text-medium">Navigate</span>
+							</span>
+							<span class="text-alternate d-inline-block m-0">
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="cs-icon arrow-bottom-left text-alternate align-middle mr-1"><path d="M7 8L2.35355 12.6464C2.15829 12.8417 2.15829 13.1583 2.35355 13.3536L7 18"></path><path d="M17.5 2V9C17.5 10.0609 17.0786 11.0783 16.3284 11.8284C15.5783 12.5786 14.5609 13 13.5 13H2"></path></svg>
+								<span class="align-middle text-medium">Select</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</t>
+
+	<!-- A search result -->
+    <t t-name="spiffy_theme_backend.MenuSearchResults">
+        <t t-foreach="results" t-as="result">
+            <t t-set="menu" t-value="widget._menuInfo(result.original)" />
+			<li class="search_list_content">
+				<a t-attf-class="autoComplete_highlighted text-small text-muted mb-0  #{result_first ? 'navigate_active' : ''}" 
+					t-attf-href="/web?#menu_id=#{menu.id}&amp;action_id=#{menu.action_id}"
+					t-att-data-menu-id="menu.id"
+					t-att-data-action-id="menu.action_id"
+					t-att-data-parent-id="menu.parent_id[0]"
+					t-raw="result.string">
+				</a>
+			</li>
+        </t>
+    </t>
+	
+	<t t-extend="Menu">
+		<t t-jquery="nav.o_main_navbar" t-operation="attributes">
+            <attribute name="class">o_main_navbar d-none</attribute>
+		</t>
+		<t t-jquery="nav.o_main_navbar" t-operation="before">
+			<div class="fav_app_island d-none">
+				<span class="ri ri-apps-2-line fav_app_island_btn"/>
+				<div class="fav_apps d-flex alige-items-center justify-content-center">
+				</div>
+			</div>
+			<div class="float-right d-flex align-items-center header_menu_right_content flex-wrap">
+				<li class="loaders list-unstyled mr-2 d-none">
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_1.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_2.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_3.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_4.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_5.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_6.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_7.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_8.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_9.gif" />
+					<img style="width: 25px;" class="img img-fluid"
+						src="/spiffy_theme_backend/static/src/image/loader_10.gif" />
+				</li>
+
+				<li class="bookmark_list list-unstyled"></li>
+
+				<li class="bookmark_section list-unstyled">
+					<div class="dropdown">
+						<button type="button" class="btn btn-light dropdown-toggle demo_btn" data-toggle="dropdown" title="Add Bookmark">
+							<span class="ri ri-bookmark-3-line" />
+						</button>
+						<div class="dropdown-menu bookmark_page_add">
+							<p class="">Add Bookmark</p>
+							<div class="form-group">
+								<input type="text" class="form-control" name="bookmark_page_name"
+									id="bookmark_page_name" />
+							</div>
+							<div class="dropdown-divider"></div>
+							<div class="d-flex">
+								<a class="btn btn-primary add_bookmark">Add</a>
+								<a class="btn btn-secondary mr-0 cancel_bookmark">Cancel</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="fav_app_drawer list-unstyled">
+					<button type="button" class="btn btn-light fav_app_drawer_btn" title="Favourite Apps">
+						<span class="ri ri-star-line"/>
+					</button>
+				</li>
+				
+				<li class="magnifier_section list-unstyled">
+					<div class="">
+						<button type="button" class="btn btn-light magnifier_btn demo_btn" data-target="#magnifier" data-toggle="collapse" title="Magnifier">
+							<span class="ri ri-zoom-in-line" />
+						</button>
+						<div id="magnifier" class="collapse position-absolute bg-white zoom-style-box">
+							<div class="d-flex align-items-center">
+								<span class="zoom_value pl-2">100</span><span>%</span>
+								<div class="zoom-style d-flex align-items-center mx-2">
+									<a class="btn btn-small minus">-</a>
+									<a class="btn btn-small plus">+</a>
+								</div>
+								<a class="fa fa-repeat zoom-reset btn btn-secondary reset"></a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="search_view list-unstyled">
+					<button type="button" class="btn btn-light search_bar demo_btn" accesskey="S" title="Search">
+						<span class="ri ri-search-line" />
+					</button>
+				</li>
+				<li class="fullscreen_section list-unstyled">
+					<a class="btn btn-light full_screen demo_btn" accesskey="F" title="FullScreen">
+						<span class="ri ri-fullscreen-line" />
+					</a>
+				</li>
+			</div>
+			<!-- SEARCH MODAL -->
+			<t t-call="SearchModalPopup"/>
+			
+			<div class="dynamic_data" />
+		</t>
+
+		<t t-jquery="ul.o_menu_systray" t-operation="replace" />
+
+		<t t-jquery="ul.o_menu_apps" t-operation="before">
+			<ul class="o_app_drawer">
+				<li>
+					<a class="appDrawerToggle mr-3" accesskey="A">
+						<span class="ri ri-apps-2-line"/>
+					</a>
+				</li>
+			</ul>
+			<ul class="o_company_logo"></ul>
+			<ul class="o_menu_systray" role="menu">
+			</ul>
+		</t>
+
+		<t t-jquery="ul.o_menu_sections" t-operation="append">
+			<a id="mobileMenuclose" class="menu-button d-none">
+				<span class="ri ri-close-line align-middle"></span>
+			</a>
+		</t>
+
+		<t t-jquery="ul.o_menu_apps" t-operation="after">
+			<ul class="favorite_apps_section d-none"></ul>
+
+			<div class="mobile-header-toggle d-lg-none d-block">
+				<a id="mobileMenuToggleBtn" class="menu-button">
+					<span class="ri ri-menu-line align-middle"></span>
+				</a>
+			</div>
+		</t>
+	</t>
+
+	<t t-extend="AppsMenu">
+		<t t-jquery='.dropdown' t-operation='replace'>
+			<div class="appdrawer_section">
+				<div class="top_navbar_section">
+					<a class="close_fav_app_btn d-none">
+						<span class="ri ri-arrow-left-s-line"/>
+					</a>
+				</div>
+				<div class="container">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="ri ri-search-line"></i></span>
+						</div>
+						<input type="text" id="app_menu_search" class="form-control" placeholder="Search"/>
+					</div>
+					<div class="apps-list">
+						<div class="row m-0">
+							<t t-foreach="widget.getApps()" t-as="app">
+								<div class="app-box mb16">
+									<a role="menuitem" t-attf-href="#menu_id=#{app.menuID}"
+										class="d-block o_app text-center text-center"
+										t-att-data-menu-id="app.menuID" t-att-data-menu-xmlid="app.xmlID"
+										t-att-data-action-id="app.actionID">
+										<div class="app-image mb8">
+											<img class="img img-fluid o_image_64_max"
+												t-attf-src="/web/image?model=ir.ui.menu&amp;field=web_icon_data&amp;id=#{app.menuID}" />
+										</div>
+										<div class="app-name">
+											<t t-esc="app.name" />
+										</div>
+									</a>
+									<div class="fav_app_select d-none ">
+										<span class="ri ri-check-line"/>
+									</div>
+								</div>
+							</t>
+						</div>
+						<div id="searched_main_apps" class="d-none flex-wrap"></div>
+						<div id="search_result"></div>
+					</div>
+				</div>
+			</div>
+		</t>
+	</t>
+
+	<t t-name="AllmenuRecursive">
+		<li class="nav-item">
+			<t t-if="menu.children.length">
+				<p class="bg-muted">
+					<a class="d-flex align-items-center w-100" data-toggle="collapse" t-attf-data-target="#child_menu_#{menu.id}">
+						<span><t t-esc="menu.name"/></span>
+						<span class="ri ri-arrow-right-s-line ml-auto"/>
+					</a>
+				</p>
+			</t>
+			<t t-else="">
+				<a t-att-data-menu="menu.id" t-attf-class="child_menus">
+					<span>
+						<t t-esc="menu.name" />
+					</span>
+				</a>
+			</t>
+			<div t-attf-id="child_menu_#{menu.id}" class="collapse" >
+				<ul t-if="menu.children.length" class="">
+					<t t-foreach="menu.children" t-as="menu">
+						<t t-call="AllmenuRecursive" />
+					</t>
+				</ul>
+			</div>
+		</li>
+	</t>
+
+	<t t-name="AllAppsMenus">
+		<ul id="accordion">
+			<t t-foreach="menu_data.children" t-as="menu">
+				<t t-if="!menu.children.length">
+					<li>
+						<a t-attf-href="#menu_id=#{menu.id}&amp;action=#{menu.action ? menu.action.split(',')[1] : ''}"
+							t-att-data-menu="menu.id"
+							t-att-data-action-model="menu.action ? menu.action.split(',')[0] : ''"
+							t-att-data-action-id="menu.action ? menu.action.split(',')[1] : ''"
+							t-att-data-menu-xmlid="menu.xmlid" t-attf-class="main_link">
+							<span class="app_icon"/>
+							<span>
+								<t t-esc="menu.name" />
+							</span>
+						</a>
+					</li>
+				</t>
+				<t t-else="">
+					<li>
+						<a t-attf-href="#menu_id=#{menu.id}" t-att-data-menu="menu.id"
+							t-att-data-action-model="menu.action ? menu.action.split(',')[0] : ''"
+							t-att-data-action-id="menu.action ? menu.action.split(',')[1] : ''"
+							t-att-data-menu-xmlid="menu.xmlid" t-attf-class="main_link dropdown-btn">
+							<span class="app_icon"/>
+							<span>
+								<t t-esc="menu.name" />
+							</span>
+							<span class="ri ri-arrow-right-s-line ml-auto" />
+						</a>
+						<ul>
+							<t t-set="parent_menu_id" t-value="menu.id" />
+							<t t-foreach="menu.children" t-as="menu">
+								<t t-call="AllmenuRecursive">
+								</t>
+							</t>
+						</ul>
+					</li>
+				</t>
+			</t>
+		</ul>
+	</t>
+</templates>

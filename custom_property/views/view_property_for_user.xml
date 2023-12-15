@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+
+  <record id="custom_property_landlord_partner_inheriti" model="ir.ui.view">
+    <field name="name">custom_property_landlord_partner.inheriti</field>
+    <field name="model">landlord.partner</field>
+    <field name="inherit_id" ref="property_landlord_management.property_landlord_partner_form_id"/>
+    <field name="arch" type="xml"> 
+        <xpath expr="//field[@name='vat']" position="after">
+         <field name="bandera_portal" invisible="1"/>
+         <field name="portal_activo" invisible="1"/>
+         </xpath> 
+       <xpath expr="//field[@name='is_owner']" position="after">
+        <field name="dashbord" invisible="1"/>       
+       </xpath>
+       <xpath expr="//sheet" position="before">
+        <header>
+         <button string="Update Properties"
+                        name="ver_propiedades"
+                        type="object"
+                        class="oe_highlight"/>
+          <button name="active_portal" string="Create User Portal" 
+                type="object" class="oe_highlight"
+                attrs="{'invisible': [('portal_activo','=',True)]}" />
+          
+        </header>
+       </xpath>  
+      
+    	 <xpath expr="//page[@name='accounting']" position="after">
+            <page string="My Properties" name="property_users">
+              <group>
+                 <field name="partner_property_ids" readonly="1" nolabel="1">
+                  <tree string="Tenancy Details" limit="3" colspan="1">
+                    <field name="nombre"/>
+                    <field name="img_propiedad" width="25px" height="25px" widget="image"/>
+                    <field name="tipo_alquile_id"/>
+                    <field name="alquiler"/>
+                    <field name="state"/>
+                    <field name="line_property_id" invisible="1"/>                    
+                  </tree>
+                  <form>
+                    <group>
+                       <field name="nombre" readonly="1"/>
+                       <field name="img_propiedad" width="45px" height="45px" widget="image" readonly="1"/>
+                       <field name="tipo_alquile_id" readonly="1"/>                   
+                    </group>
+                    <group>
+                         <field name="alquiler" readonly="1"/>
+                        <field name="state" readonly="1"/>
+                        <field name="line_property_id" invisible="1"/>
+                    </group>
+                  </form>
+                 </field>
+              </group>
+            </page>
+         </xpath>
+    </field>
+   </record>
+  </data>
+</odoo>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_welcome" name="Welcome To Skiz">
+		<section class="snowboard-ski-welcome">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<span>Snowboard &amp; Skiing</span>
+							<h2>WELCOME TO VOUGE</h2>
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/snow-under-text.png" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<div class="main-content">
+							<div class="overlay-content">
+								<a href="#" class="banner">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-welcome-bg1.jpg" />
+								</a>
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/snow-welcome1.png" />
+									</a>
+								</div>
+							</div>
+							<div class="info">
+								<h5>Snowboard</h5>
+								<p>Starts from $30.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="main-content">
+							<div class="overlay-content">
+								<a href="#" class="banner">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-welcome-bg2.jpg" />
+								</a>
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/snow-welcome2.png" />
+									</a>
+								</div>
+							</div>
+							<div class="info">
+								<h5>Skate Boot</h5>
+								<p>Starts from $23.00</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="main-content">
+							<div class="overlay-content">
+								<a href="#" class="banner">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/snow-welcome-bg3.jpg" />
+								</a>
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/snow-welcome3.png" />
+									</a>
+								</div>
+							</div>
+							<div class="info">
+								<h5>UV Glasses</h5>
+								<p>Starts from $10.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

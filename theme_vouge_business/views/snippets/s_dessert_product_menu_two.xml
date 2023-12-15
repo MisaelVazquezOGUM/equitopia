@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_product_menu_two" name="Product Menu2">
+		<section class="dessert-homemade">
+			<div class="container">
+				<div class="row align-items-center dessert-two">
+					<div class="col-lg-6 col-md-6">
+						<div class="image">
+							<img src="/theme_vouge_business/static/src/img/dessert-text-image2.png" class="img img-fluid"/>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="content">
+							<div class="title">
+								<p>Fresh fruit ice creams</p>
+								<h2>Ice creams</h2>
+							</div>
+							<div class="list-items">
+								<section class="list">
+									<div class="row">
+										<div class="col-md-2">
+											<div class="image">
+												<img src="/theme_vouge_business/static/src/img/dessert-menu9.png" class="img img-fluid"/>
+											</div>
+										</div>
+										<div class="col-lg-7 col-md-9 col-9">
+											<h3>Dry Fruits Ice Cream</h3>
+											<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+										</div>
+										<div class="col-md-3 col-3">
+											<div class="text">9$</div>
+										</div>
+									</div>
+								</section>
+								<section class="list">
+									<div class="row">
+										<div class="col-md-2">
+											<div class="image">
+												<img src="/theme_vouge_business/static/src/img/dessert-menu10.png" class="img img-fluid"/>
+											</div>
+										</div>
+										<div class="col-lg-7 col-md-9 col-9">
+											<h3>Fresh Fruit Candy</h3>
+											<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+										</div>
+										<div class="col-md-3 col-3">
+											<div class="text">10$</div>
+										</div>
+									</div>
+								</section>
+								<section class="list">
+									<div class="row">
+										<div class="col-md-2">
+											<div class="image">
+												<img src="/theme_vouge_business/static/src/img/dessert-menu11.png" class="img img-fluid"/>
+											</div>
+										</div>
+										<div class="col-lg-7 col-md-9 col-9">
+											<h3>Blueberry Softie</h3>
+											<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+										</div>
+										<div class="col-md-3 col-3">
+											<div class="text">13$</div>
+										</div>
+									</div>
+								</section>
+								<section class="list">
+									<div class="row">
+										<div class="col-md-2">
+											<div class="image">
+												<img src="/theme_vouge_business/static/src/img/dessert-menu12.png" class="img img-fluid"/>
+											</div>
+										</div>
+										<div class="col-lg-7 col-md-9 col-9">
+											<h3>Vanilla Soft Cone</h3>
+											<p>Duis aute irure dolo irure dolor in reprehenderit in voluptate velito esse cillume.</p>
+										</div>
+										<div class="col-md-3 col-3">
+											<div class="text">15$</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

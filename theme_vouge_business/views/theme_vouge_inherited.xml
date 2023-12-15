@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template name="Theme Customize Options Modal" id="theme_vouge_business_customize" inherit_id="website.theme_customize">
+    <xpath expr="//div" position="inside">
+      <!-- Headers -->
+      <content id="theme_customize_content_headers" class="select_header" string="Headers" title="Choose your Headers">
+        <div class="col-12" id="theme_customize_content_headers_options" string="Header Options">
+
+          <opt data-icon="/theme_vouge_business/static/src/img/header1.png" data-xmlid="vouge_corporate_theme_common.vouge_corporate_theme_common_header_new1" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/header2.png" data-xmlid="vouge_corporate_theme_common.vouge_corporate_theme_common_header_new2" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/header3.png" data-xmlid="vouge_corporate_theme_common.vouge_corporate_theme_common_header_new3" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/header4.png" data-xmlid="vouge_corporate_theme_common.vouge_corporate_theme_common_header8" data-reload="/">
+          </opt> 
+
+          <opt data-icon="/theme_vouge_business/static/src/img/header5.png" data-xmlid="vouge_corporate_theme_common.vouge_corporate_theme_common_header9" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/header6.png" data-xmlid="vouge_corporate_theme_common.vouge_corporate_theme_common_header10" data-reload="/">
+          </opt>
+
+        </div>
+        <list string="Header One Colors">
+          <opt data-widget="color" data-name="headeronecolor" data-color-type="theme" data-color="header1-top-header" string="Top Header Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header1-bottom-header" string="Bottom Header Color"/>
+        </list>
+        <list string="Header One Text Colors">
+          <opt data-widget="color" data-name="headeronecolor2" data-color-type="theme" data-color="header1-top-header-text" string="Top Header Text"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header1-bottom-header-text" string="Bottom Header Text"/>
+        </list>
+        <list string="Header Two Colors">
+          <opt data-widget="color" data-name="headertwocolor" data-color-type="theme" data-color="header2-top-header" string="Top Header Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header2-middle-header" string="Middle Header Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header2-bottom-header" string="Bottom Header Color"/>
+        </list>
+        <list string="Header Two Text Colors">
+          <opt data-widget="color" data-name="headertwocolor2" data-color-type="theme" data-color="header2-top-header-text" string="Top Header Text"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header2-middle-header-text" string="Middle Header Text"/>
+        </list>
+        <list string="Header Three Colors">
+          <opt data-widget="color" data-name="headerthreecolor" data-color-type="theme" data-color="header3-top-header" string="Top Header Color"/>
+        </list>
+        <list string="Header Three Text Colors">
+          <opt data-widget="color" data-name="headerthreecolor3" data-color-type="theme" data-color="header3-top-header-text" string="Top Header Text"/>
+        </list>
+        <list string="Header Four Colors">
+          <opt data-widget="color" data-name="headereightcolor" data-color-type="theme" data-color="header8-top-header" string="Header Color"/>
+        </list>
+        <list string="Header Four Text Colors">
+          <opt data-widget="color" data-name="headereightcolor8" data-color-type="theme" data-color="header8-top-header-text" string="Header Text"/>
+        </list>
+        <list string="Header Five Colors">
+          <opt data-widget="color" data-name="headerninecolor" data-color-type="theme" data-color="header9-top-header" string="Top Header Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header9-bottom-header" string="Bottom Header Color"/>
+        </list>
+        <list string="Header Five Text Colors">
+          <opt data-widget="color" data-name="headerninecolor9" data-color-type="theme" data-color="header9-top-header-text" string="Top Header Text"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header9-bottom-header-text" string="Bottom Header Text"/>
+        </list>
+        <list string="Header Six Colors">
+          <opt data-widget="color" data-name="headertencolor" data-color-type="theme" data-color="header10-top-header" string="Top Header Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header10-bottom-header" string="Bottom Header Color"/>
+        </list>
+        <list string="Header Six Text Colors">
+          <opt data-widget="color" data-name="headertencolor10" data-color-type="theme" data-color="header10-top-header-text" string="Top Header Text"/>
+          <opt data-widget="color" data-color-type="theme" data-color="header10-bottom-header-text" string="Bottom Header Text"/>
+        </list>
+        
+      </content>
+
+      <!-- Footers -->
+      <content id="theme_customize_content_footers" string="Footers" title="  Choose your Footers">
+        <div class="col-12" id="theme_customize_content_footers_options" string="Footers Options">
+          <opt data-icon="/theme_vouge_business/static/src/img/footer1.png" data-xmlid="theme_vouge_business.theme_common_footer1" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/footer2.png" data-xmlid="theme_vouge_business.theme_common_footer2" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/footer3.png" data-xmlid="theme_vouge_business.theme_common_footer3" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/footer4.png" data-xmlid="theme_vouge_business.theme_common_footer4" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/footer5.png" data-xmlid="theme_vouge_business.theme_common_footer5" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/footer6.png" data-xmlid="theme_vouge_business.theme_common_footer6" data-reload="/">
+          </opt>
+
+          <opt data-icon="/theme_vouge_business/static/src/img/footer8.png" data-xmlid="theme_vouge_business.theme_common_footer8" data-reload="/">
+          </opt>
+
+        </div>
+        <list string="Footer One Colors">
+          <opt data-widget="color" data-name="footeronecolor" data-color-type="theme" data-color="footer1-top-footer" string="Top Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer1-middle-footer" string="Middle Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer1-copyright-footer" string="Copyright Color"/>
+        </list>
+        <list string="Footer Two Colors">
+          <opt data-widget="color" data-name="footertwocolor" data-color-type="theme" data-color="footer2-top-footer" string="Top Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer2-middle-footer" string="Middle Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer2-copyright-footer" string="Copyright Color"/>
+        </list>
+        <list string="Footer Three Colors">
+          <opt data-widget="color" data-name="footerthreecolor" data-color-type="theme" data-color="footer3-top-footer" string="Top Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer3-middle-footer" string="Middle Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer3-copyright-footer" string="Copyright Color"/>
+        </list>
+        <list string="Footer Four Colors">
+          <opt data-widget="color" data-name="footerfourcolor" data-color-type="theme" data-color="footer4-top-footer" string="Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer4-copyright-footer" string="Copyright Color"/>
+        </list>
+        <list string="Footer Five Colors">
+          <opt data-widget="color" data-name="footerfivecolor" data-color-type="theme" data-color="footer5-top-footer" string="Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer5-copyright-footer" string="Copyright Color"/>
+        </list>
+        <list string="Footer Six Colors">
+          <opt data-widget="color" data-name="footersixcolor" data-color-type="theme" data-color="footer6-top-footer" string="Top Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer6-middle-footer" string="Middle Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer6-copyright-footer" string="Copyright Color"/>
+        </list>
+        <list string="Footer Seven Colors">
+          <opt data-widget="color" data-name="footereightcolor" data-color-type="theme" data-color="footer8-top-footer" string="Footer Color"/>
+          <opt data-widget="color" data-color-type="theme" data-color="footer8-copyright-footer" string="Copyright Color"/>
+        </list>
+      </content>
+    </xpath>
+    
+    <xpath expr="//list[1]" position="after">
+      <list string="Page Colors">
+        <opt data-widget="color" data-color-type="theme" data-color="itsolution-1" string="Itsolution One"/>
+        <opt data-widget="color" data-color-type="theme" data-color="itsolution-2" string="Itsolution Two"/>
+        <opt data-widget="color" data-color-type="theme" data-color="app-1" string="APP-Page One"/>
+        <opt data-widget="color" data-color-type="theme" data-color="app-2" string="APP-Page Two"/>
+        <opt data-widget="color" data-color-type="theme" data-color="medical" string="Medical"/>
+      </list>
+      <list string="Page Colors">
+        <opt data-widget="color" data-color-type="theme" data-color="snowboard-1" string="Snowboard One"/>
+        <opt data-widget="color" data-color-type="theme" data-color="snowboard-2" string="Snowboard Two"/>
+        <opt data-widget="color" data-color-type="theme" data-color="seo-color" string="SEO"/>
+        <opt data-widget="color" data-color-type="theme" data-color="charity-1" string="Charity One"/>
+        <opt data-widget="color" data-color-type="theme" data-color="charity-2" string="Charity Two"/>
+      </list>
+      <list string="Page Colors">
+        <opt data-widget="color" data-color-type="theme" data-color="autoparts" string="Autoparts"/>
+        <opt data-widget="color" data-color-type="theme" data-color="cyber-security" string="Cyber Security One"/>
+        <opt data-widget="color" data-color-type="theme" data-color="cyber-security-2" string="Cyber Security Two"/>
+        <opt data-widget="color" data-color-type="theme" data-color="real-estate" string="Real Estate"/>
+        <opt data-widget="color" data-color-type="theme" data-color="travel" string="Travel"/>
+      </list>
+    </xpath>
+  </template>
+
+	<!-- Snippets -->
+	<template id="theme_vouge_business_snippets"
+		inherit_id="website.snippets">
+		<xpath expr="//div[@id='snippet_mega_menu']" position="after">
+			<div id="snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Business Homepages
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_charity_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_cyber_security_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_real_estate_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_seo_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_hotel_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_dessert_snippet"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Charity
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_charity_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_charity_aboutus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_charity_mission"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_charity_campaigns"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_charity_help"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_charity_newsletter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_charity_team"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_charity_counter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					IT Solution
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_it_solution_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_service"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_counter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_software"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_work"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_case_studies"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_pricing_plan"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_clients"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_brands"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_it_solution_contactus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Creative Agency
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_creative_agency_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_service"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_projects"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_rewards"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_counter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_features"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_spain"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_team"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_creative_agency_contactus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					App Landing One
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_app_landing_one_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_about"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_reporting"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_counter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_why_choose"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_work"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_screenshots"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_testimonial"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_pricing_plan"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_team"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_download"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_one_contactus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					App Landing Two
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_app_landing_two_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_reviews"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_features"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_video_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_conversions"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_steps"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_productivity"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_text"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_pricing_plan"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_questions"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_community"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_counter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_design"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_teams"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_app_landing_two_newsletter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Snowboard &amp; Ski
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_welcome"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_skating"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_accessories"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_parallax"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_products"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_certified"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_testimonial"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_team"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_best_skiz"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_newsletter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_snowboard_ski_brands"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Medical
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_medical_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_service"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_care"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_prevent"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_durability"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_parallax_protection"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_protection"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_supplies"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_features"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_products"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_about_products"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_medical_helpline"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Cyber Security
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_cyber_security_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_cyber_security_plateform"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_cyber_security_features"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_cyber_security_work"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_cyber_security_services"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_cyber_security_faq"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_cyber_security_team"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_cyber_security_clients"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Real Estate
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_real_estate_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_real_estate_aboutus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_real_estate_counter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_real_estate_text"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_real_estate_properties"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_real_estate_clients"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Travel
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_travel_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_holidays"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_image"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_discover"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_services"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_testimonial"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_countries"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_reviews"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_destination"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_travel_bags"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Yoga
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_yoga_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_motivation"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_classes"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_aboutus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_styles"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_trainers"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_testimonial"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_brands"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_newsletter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_yoga_contactus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					SEO
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_seo_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_seo_services"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_seo_teams"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_seo_contactus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_seo_newsletter"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_seo_marketing"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_seo_pricing_plan"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Hotel
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_hotel_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_hotel_rooms"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_hotel_welcome"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_hotel_services"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_hotel_reviews"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_hotel_address"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Dessert
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_vouge_business.s_dessert_banner"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_dessert_services"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_dessert_aboutus"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_dessert_offers"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_dessert_product_menu"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+						<t t-snippet="theme_vouge_business.s_dessert_product_menu_two"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_dessert_testimonials"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_dessert_founder"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+					<t t-snippet="theme_vouge_business.s_dessert_images"
+						t-thumbnail="/theme_vouge_business/static/description/icon-2.png" />
+				</div>
+			</div>
+		</xpath>
+	</template>
+
+	<template id="button_style_options" inherit_id="website.snippet_options">
+		<xpath expr="//div[@data-js='colorpicker'][1]" position="after">
+        <div data-selector=".btn"
+            data-exclude=".btn-link">
+            <we-collapse-area>
+                <we-toggler><i class="fa fa-magic fa-font"/>Button Style Option</we-toggler>
+                <we-collapse>
+                    <we-button data-select-class="default_style">Default Style</we-button>
+                      <we-button data-select-class="bizople_button_1">Bizople Button 1</we-button>
+                      <we-button data-select-class="bizople_button_2">Bizople Button 2</we-button>
+                      <we-button data-select-class="bizople_button_3">Bizople Button 3</we-button>
+                      <we-button data-select-class="bizople_button_4">Bizople Button 4</we-button>
+                      <we-button data-select-class="bizople_button_5">Bizople Button 5</we-button>
+                      <we-button data-select-class="bizople_button_6">Bizople Button 6</we-button>
+                      <we-button data-select-class="bizople_button_7">Bizople Button 7</we-button>
+                      <we-button data-select-class="bizople_button_8">Bizople Button 8</we-button>
+                      <we-button data-select-class="bizople_button_9">Bizople Button 9</we-button>
+                      <we-button data-select-class="bizople_button_10">Bizople Button 10</we-button>
+                      <we-button data-select-class="bizople_button_11">Bizople Button 11</we-button>
+                      <we-button data-select-class="bizople_button_12">Bizople Button 12</we-button>
+                </we-collapse>
+            </we-collapse-area>
+        </div>
+    </xpath>
+
+		<xpath expr="//div[@data-js='colorpicker'][1]" position="after">
+      <div data-selector=".biz_dynamic_product_slider, .oe_multi_category_slider, .bizcommon_category_slider_3, .blog_slider_owl">
+            <we-collapse-area>
+                <we-toggler><i class="fa fa-magic fa-font"/> Slider Width</we-toggler>
+                <we-collapse>
+                    <we-button data-select-class="default_style">Default Size</we-button>
+                      <we-button data-select-class="extended-container">Extended size</we-button>
+                </we-collapse>
+            </we-collapse-area>
+        </div>
+    </xpath>
+	</template>
+
+  <template id="cookie_options" inherit_id="website.snippet_options" name="Cookie Snippets Option Inherit">
+    <xpath expr="//div[@id='so_main_colorpicker']" position="before">
+      <div data-selector="#website_cookies_bar" data-js="CookiesBar" data-target=".modal">
+        <we-customizeblock-option>
+          <we-collapse-area>
+                <we-toggler string="Layout" class="snippet-option-layout_column">Layout</we-toggler>
+                <we-collapse data-no-preview="true">
+                    <we-button data-select-class="o_cookies_discrete" data-mode="discrete" class="o_cookies_discrete">Discrete</we-button>
+                    <we-button data-select-class="o_cookies_classic" data-mode="classic" class="o_cookies_classic">Classic</we-button>
+                    <we-button data-name="layout_popup_opt" data-select-class="o_cookies_popup" data-mode="popup" data-trigger="position_middle,s_popup_size_md" class="o_cookies_popup">Popup</we-button>
+                  </we-collapse>
+                </we-collapse-area>
+            </we-customizeblock-option>
+
+            <we-customizeblock-option>
+              <we-collapse-area>
+                <we-toggler string="position" class="snippet-option-layout_column">Position</we-toggler>
+                <we-collapse data-no-preview="true">
+                  <we-select string="Position" data-dependencies="layout_popup_opt"> <!-- When cookie configuration only display this for popup mode -->
+                    <we-button data-select-class="s_popup_top" data-name="position_top">Top</we-button>
+                        <we-button data-select-class="s_popup_middle" data-name="position_middle">Middle</we-button>
+                        <we-button data-select-class="s_popup_bottom" data-name="position_bottom">Bottom</we-button>
+                    </we-select>
+                  </we-collapse>
+                </we-collapse-area>
+              </we-customizeblock-option>
+              
+              <we-customizeblock-option>
+                <we-collapse-area>
+                  <we-toggler string="Backdrop">Backdrop</we-toggler>
+                  <we-collapse data-no-preview="true">
+                    <we-button  data-select-class="visible">Visible</we-button>
+                    <we-button  data-select-class="notvisible">Not Visible</we-button>
+                    </we-collapse>
+                  </we-collapse-area>
+                </we-customizeblock-option>
+            </div>
+
+            <div data-selector="#website_cookies_bar .modal-content">
+              <we-customizeblock-option>
+              <we-collapse-area>
+                <we-toggler string="size" class="snippet-option-layout_column">Size</we-toggler>
+                <we-collapse data-no-preview="true">
+                  <we-select string="Size" data-apply-to=".modal-dialog" data-name="s_popup_size_opt">
+                      <we-button data-select-class="modal-sm">Small</we-button>
+                      <we-button data-select-class="" data-name="s_popup_size_md">Medium</we-button>
+                      <we-button data-select-class="modal-lg">Large</we-button>
+                      <we-button data-select-class="modal-xl">Extra Large</we-button>
+                      <we-button data-select-class="s_popup_size_full" data-name="s_popup_size_full">Full</we-button>
+                  </we-select>
+                </we-collapse>
+              </we-collapse-area>
+            </we-customizeblock-option>
+          </div>
+      </xpath>
+  </template>
+</odoo>

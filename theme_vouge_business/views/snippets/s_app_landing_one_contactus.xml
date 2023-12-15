@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_one_contactus" name="Contact Us">
+		<section class="app-contact-us s_website_form" style="background-image: url('/theme_vouge_business/static/src/img/app-contact-bg.png');">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-12">
+						<div class="app-contact-content">
+							<div class="title">
+								<span>CONTACT US</span>
+								<h3>Keep In Touch</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus enim turpis, et condimentum justo interdum in quisque.</p>
+							</div>
+							<div class="form">
+								<form action="/website_form/" method="post" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-name="Form Builder" data-model_name="mail.mail" data-success_page="/thank-you">
+									<div class="row mb32">
+										<div class="col-lg-6">
+											<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+								              	<input type="text" placeholder="Your Name" class="form-control o_website_form_input" name="Your Name" required=""/>
+								          	</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="form-group form-field o_website_form_required_custom">
+								              	<input type="email" placeholder="Your E-Mail" class="form-control o_website_form_input" name="email_from" required=""/>
+								          	</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="form-group form-field o_website_form_custom o_fake_not_editable">
+								              	<input type="text" placeholder="Your Phone" class="form-control o_website_form_input" name="Phone Number"/>
+								          	</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="form-group form-field o_website_form_required_custom">
+								              	<input type="text" placeholder="Your Subject" class="form-control o_website_form_input" name="subject" required=""/>
+								          	</div>
+										</div>
+										<div class="col-lg-12">
+											<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+								              	<textarea placeholder="Message" class="form-control o_website_form_input" name="Your Question" required=""></textarea>
+								          	</div>
+										</div>
+										<div class="col-lg-12 mt16">
+											<div class='s_btn'>
+												<button class="o_website_form_send btn btn-app-1 btn-md m-t-20 arrow-btn o_default_snippet_text" type="submit">Submit Now</button>
+												<span id="o_website_form_result" class="text-danger ml8 mt16  mb16 col-md-12">
+												</span>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

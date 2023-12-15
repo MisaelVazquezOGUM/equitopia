@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_travel_countries" name="Seaside Countries">
+		<section class="travel-mediterranean" style="background-image: url('/theme_vouge_business/static/src/img/travel-mediterranean-bg.jpg');">
+			<div class="container extended-container">
+				<div class="row justify-content-center">
+					<div class="col-xl-6 col-lg-8 col-md-10">
+						<div class="heading">
+							<span>The Memorable</span>
+							<h1>Seaside Countries</h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<div class="content">
+							<div class="image">
+								<div class="label">
+									<span>50% Off</span>
+								</div>
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-mediterranean1.jpg" />
+								<div class="info">
+									<h4>Moscow</h4>
+									<span>$1990</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="content">
+							<div class="image">
+								<div class="label">
+									<span>Special Offer</span>
+								</div>
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-mediterranean2.jpg" />
+								<div class="info">
+									<h4>Maldives</h4>
+									<span>$5300</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="content">
+							<div class="image">
+								<img class="img img-fluid"
+								src="/theme_vouge_business/static/src/img/travel-mediterranean3.jpg" />
+								<div class="info">
+									<h4>Abu Dhabi</h4>
+									<span>$2560</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_creative_agency_features" name="Features">
+		<section class="creative-features">
+			<div class="container extended-container">
+				<div class="row">
+					<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+						<div class="feature-content">
+							<div class="d-flex">
+								<div class="icon">
+									<span class="ti ti-face-smile fa-3x"/>
+								</div>
+								<div class="info">
+									<h4>24/7 Available support</h4>
+									<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+						<div class="feature-content">
+							<div class="d-flex">
+								<div class="icon">
+									<span class="ti ti-star fa-3x"/>
+								</div>
+								<div class="info">
+									<h4>Social marketing</h4>
+									<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+						<div class="feature-content">
+							<div class="d-flex">
+								<div class="icon">
+									<span class="ti ti-heart fa-3x"/>
+								</div>
+								<div class="info">
+									<h4>Unique strategy</h4>
+									<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,118 @@
+@mixin form-chatter-designs{
+    &.chatter_right {
+        .o_action_manager {
+            .o_view_controller:not(.tree-form-viewer) {
+
+                > .o_content > .o_form_view:not(.o_base_settings) {
+                    // display: flex;
+                    display: -webkit-box;
+                    height: 100%;
+    
+                    .o_form_sheet_bg {
+                        width: 1022px;
+                        overflow: auto;
+                        flex: 1 1 auto;
+                    }
+    
+                    .o_chatter.oe_chatter {
+                        min-height: calc(100% - 1rem);
+                        // width: 530px;
+                        // margin-left: 15px;
+                        height: calc(100% - 1rem);
+                        margin: 0;
+                        margin-bottom: 1rem;
+                        flex-basis: 38%;
+                        margin-left: 1rem;
+                        scrollbar-width: none; // hide scrollbar in firefox
+                        &::-webkit-scrollbar {
+                            display: none;
+                        }
+                        .o_Chatter_scrollPanel, .o_mail_thread {
+                            scrollbar-width: none; // hide scrollbar in firefox
+                            &::-webkit-scrollbar {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    // check this in repsonsive
+    &.chatter_bottom {
+        .o_form_view {
+            .o_FormRenderer_chatterContainer, .o_chatter.oe_chatter {
+                border: 0;
+                max-width: 100% !important;
+                padding: 0 !important;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+body.o_web_client {
+    .o_mail_thread,.o_mail_activity,.o_chatter_attachment{
+        .o_thread_date,.o_attach_title{
+            background-color: var(--biz-theme-secondary-color) !important;
+        }
+    }
+    .o_chatter{
+        min-width: unset;
+        max-width: unset;
+        .o_chatter_topbar{
+            flex-wrap: wrap;
+        }
+        .o_mail_thread{
+            overflow-y: auto;
+            .o_thread_message.o_mail_not_discussion{
+                background-color: transparent;
+
+                &:last-child{
+                    border-bottom: unset;
+                }
+            }
+        }
+    }
+    .o_thread_message{
+        background-color: transparent;
+    }
+    .o_Attachment{
+        &.o-has-card-details{
+            color: #121212;
+        }
+    }
+    .o_followers .o_followers_list{
+        width: unset;
+
+        .dropdown-item{
+            .o_edit_subtype{
+                display: block !important;
+            }
+            .btn{
+                padding: 0.6rem 1rem;
+            }
+            .o_mail_redirect{
+                padding-left: 1rem;
+                padding-right: 1rem;
+
+                img.o_image_64_cover{
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    &.top_menu_vertical{
+        @media (min-width: 1470px) {
+            @include form-chatter-designs;
+        }
+    }
+    
+    &.top_menu_horizontal{
+        @include media-breakpoint-up(xl) {
+            @include form-chatter-designs;
+        }
+    }
+}

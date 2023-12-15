@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_real_estate_banner" name="Banner">
+		<section class="real-estate-home-banner" style="background-image: url('/theme_vouge_business/static/src/img/real-estate-banner.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="d-inline-block">
+						<div class="banner-content">
+							<h2>los angeles's #1 Estate Agency</h2>
+							<h1>Vouge Estate</h1>
+							<p>You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</p>
+							<div class="s_btn mt32" data-name="Button">
+    							<a href="#" class="btn1 btn btn-real-estate bizople_button">View Our Listings</a>
+    							<a href="#" class="btn btn-light bizople_button">Search the MLS</a>
+    						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_seo_pricing_plan" name="Pricing Plan">
+		<section class="seo-pricing pt64 pb64">
+			<div class="container text-center">
+				<h2>Subscribe to our newsletter</h2>
+				<p class="w-md-75 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem.</p>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="price-box">
+							<div class="heading">
+								<h6>Bronze Plan</h6>
+								<h1><sup>$</sup>149</h1>
+								<span class="month">PER MONTH</span>
+							</div>
+							<div class="content">
+								<span class="list-head">Mauris eu ligula sit amet mi bibendum vulputate.</span>
+								<p><span class="fa fa-check-circle"></span>15 versions</p>
+								<p><span class="fa fa-check-circle"></span>All files included</p>
+								<p><span class="fa fa-times-circle"></span>Custom design and coding</p>
+								<p><span class="fa fa-times-circle"></span>Money back guarante</p>
+								<p><span class="fa fa-times-circle"></span>Customer Domains</p>
+								<p><span class="fa fa-times-circle"></span>24/7 support</p>
+								<div class="s_btn pt32 text-center" data-name="Button">
+        							<a href="#" class="btn btn-outline-seo rounded-circle btn-lg shadow">SELECT PLAN</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="price-box active">
+							<div class="heading">
+								<h6>Silver Plan</h6>
+								<h1><sup>$</sup>349</h1>
+								<span class="month">PER MONTH</span>
+							</div>
+							<div class="content">
+								<span class="list-head">Mauris eu ligula sit amet mi bibendum vulputate.</span>
+								<p><span class="fa fa-check-circle"></span>15 versions</p>
+								<p><span class="fa fa-check-circle"></span>All files included</p>
+								<p><span class="fa fa-check-circle"></span>Custom design and coding</p>
+								<p><span class="fa fa-check-circle"></span>Money back guarante</p>
+								<p><span class="fa fa-times-circle"></span>Customer Domains</p>
+								<p><span class="fa fa-times-circle"></span>24/7 support</p>
+								<div class="s_btn pt32 text-center" data-name="Button">
+        							<a href="#" class="btn btn-seo rounded-circle btn-lg shadow">SELECT PLAN</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="price-box">
+							<div class="heading">
+								<h6>Gold Plan</h6>
+								<h1><sup>$</sup>649</h1>
+								<span class="month">PER MONTH</span>
+							</div>
+							<div class="content">
+								<span class="list-head">Mauris eu ligula sit amet mi bibendum vulputate.</span>
+								<p><span class="fa fa-check-circle"></span>15 versions</p>
+								<p><span class="fa fa-check-circle"></span>All files included</p>
+								<p><span class="fa fa-check-circle"></span>Custom design and coding</p>
+								<p><span class="fa fa-check-circle"></span>Money back guarante</p>
+								<p><span class="fa fa-check-circle"></span>Customer Domains</p>
+								<p><span class="fa fa-check-circle"></span>24/7 support</p>
+								<div class="s_btn pt32 text-center" data-name="Button">
+        							<a href="#" class="btn btn-outline-seo rounded-circle btn-lg shadow">SELECT PLAN</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

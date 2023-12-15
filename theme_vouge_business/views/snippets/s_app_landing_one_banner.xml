@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_one_banner" name="Home Banner">
+		<section class="app-landing-home-banner" style="background-image: url('/theme_vouge_business/static/src/img/app1-banner-bg.png');">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="banner-content">
+							<h1>Get the best app at the best price</h1>
+							<p>Algolia’s analytics dashboard helps product teams better understand what their users are looking for most, as well as where they are hitting dead-ends most often.</p>
+							<div class="s_btn" data-name="Button">
+    							<a href="#" class="btn btn-app-1 bizople_button">Download now</a>
+    							<a href="#" class="btn btn-outline-app-1 bizople_button">Learn More</a>
+    						</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="banner-image">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+										src="/theme_vouge_business/static/src/img/app1-banner.png" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

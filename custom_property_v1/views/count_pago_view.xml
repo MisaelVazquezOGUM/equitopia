@@ -1,0 +1,232 @@
+<odoo>
+  <data>
+
+    <record id="custom_property_tenancy_portal_form_inheriti" model="ir.ui.view">
+      <field name="name">custom_property_tenancy_portal_form.inheriti</field>
+      <field name="model">tenant.partner</field>
+      <field name="inherit_id" ref="property_management.property_tenant_view_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//sheet" position="before">
+          <header>
+          <button name="active_portal" string="Create User Portal" 
+          type="object" class="oe_highlight oe_edit_only" 
+          attrs="{'invisible': [('portal_activo','=',True)]}" />
+            
+          </header>
+       </xpath> 
+        <xpath expr="//field[@name='occupation']" position="after">
+          <field name="bandera_portal" invisible="1"/>
+          <field name="portal_activo" invisible="1"/>
+        </xpath>
+
+      </field>
+
+
+    </record>
+
+    <record id="custom_property_tenancy_form_button_inheriti" model="ir.ui.view">
+      <field name="name">custom_property_tenancy_form_button.inheriti</field>
+      <field name="model">account.analytic.account</field>
+      <field name="inherit_id" ref="property_landlord_management.landlord_analytic_view_form_id"/>
+      <field name="arch" type="xml">
+        <xpath expr="//button[@name='landlord_button_close']" position="after">
+          <button name="action_tenancy_send" string="Enviar correo" type="object" icon="fa-envelope" class="oe_highlight" />
+          <button name="action_invoice_tenancy" string="Facturar todo" type="object" icon="fa-list-ol" class="oe_highlight"/>
+        </xpath>
+      </field>
+    </record>
+
+    <record id="custom_property_customs_field_inheriti" model="ir.ui.view">
+      <field name="name">custom_property_customs_field_move.inheriti</field>
+      <field name="model">account.asset.asset</field>
+      <field name="inherit_id" ref="om_account_asset.view_account_asset_asset_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='active']" position="after">
+          <label for="hora_entrada"/>
+          <div>
+            <field name="hora_entrada" widget="float_time" class="oe_inline"/>
+            <span class="ml8">horas</span>
+          </div>
+          <label for="hora_salida"/>
+          <div>
+            <field name="hora_salida" widget="float_time" class="oe_inline"/>
+            <span class="ml8">horas</span>
+          </div>
+          <field name="send_state_result"/>
+
+        </xpath>
+
+        <xpath expr="//field[@name='currency_id']" position="after">
+          <field name="entrega_acceso_id"/>
+          <!-- <button name="print_report_property_pdf" string="Reporte" type="object" icon="icon"/> -->
+
+        </xpath>
+        <xpath expr="//notebook" position="inside">
+          <page string="Property Fees" name="tarifas_propiedad">
+            <field name="tarifa_de_propiedad">
+              <tree editable="bottom" string="Property Fees">
+                <field name="tipo_tarifa"/>
+                <field name="tipo_renta"/>
+                <field name="costo_tarifa" options="{'currency_field': 'currency_id'}"/>
+                <field name="fecuencia_de_pagos" invisible="1" force_save="1"/>
+                <field name="deposito" options="{'currency_field': 'currency_id'}"/>
+                <field name="company_id" invisible="1"/>
+                <field name="currency_id" invisible="1"/>
+                <field name="propiedad_id" invisible="1"/>
+              </tree>
+              <form>
+                <group>
+                  <group>
+                    <field name="tipo_tarifa"/>
+                    <field name="tipo_renta"/>
+                    <field name="costo_tarifa"/>
+
+                  </group>
+                  <group>
+                    <field name="fecuencia_de_pagos" invisible="1" force_save="1"/>
+                    <field name="deposito"/>
+                  </group>
+                </group>
+
+              </form>
+            </field>
+          </page>
+        </xpath>
+
+      </field>
+    </record>
+
+    <record id="action_quotation_send_action_server" model="ir.actions.server">
+      <field name="name">Send for Email</field>
+      <field name="type">ir.actions.server</field>
+      <field name="model_id" ref="model_account_analytic_account"/>
+      <field name="binding_model_id" ref="model_account_analytic_account"/>
+      <field name="state">code</field>
+      <field name="code">records.action_quotation_send()</field>
+    </record>
+
+    <record id="custom_property_count_pay_inheriti" model="ir.ui.view">
+      <field name="name">custom_property_count_pay.inheriti</field>
+      <field name="model">account.analytic.account</field>
+      <field name="inherit_id" ref="property_management.property_analytic_view_form"/>
+      <field name="arch" type="xml">
+
+        <xpath expr="//page[@name='contract_page']" position="before">
+          <page string="Other Expenses">
+            <field name="other_line_product_ids">
+              <tree editable="bottom" string="Other expenses">
+                <field name="other_product"/>
+                <field name="qty"/>
+                <field name="cost"/>
+                <field name="inv_id" readonly="1"/>
+                <button type="object" name="button_open_other_invoice" class="fa fa-arrow-circle-o-right" attrs="{'invisible': [('inv_id','=',False)]}" />
+              </tree>
+              <form>
+                <sheet>
+                  <group>
+                    <field name="other_product"/>
+                    <field name="qty"/>
+                    <field name="cost" widget="monetary" options="{'currency_field': 'currency_id'}"/>
+                  </group>
+                </sheet>
+              </form>
+
+            </field>
+          </page>
+        </xpath>
+
+        <xpath expr="//button[@name='button_start']" position="replace">
+          <button name="calcular_precios_renta" string="Start" states="draft" type="object" icon="fa-play" class="oe_highlight"/>
+        </xpath>
+        <xpath expr="//button[@name='button_close']" position="after">
+          <button name="action_invoice_payment" string="Bill All" type="object" icon="fa-list-ol" class="oe_highlight"/>
+
+        </xpath>
+        <xpath expr="//field[@name='rent_schedule_ids']/tree/field[@name='start_date']" position="before">
+          <field name="hecho_pago"/>
+        </xpath>
+        <xpath expr="//field[@name='rent_schedule_ids']/tree/field[@name='pen_amt']" position="before">
+          <field name="payment_echo" force_save="1" sum="Total"/>
+        </xpath>
+        <xpath expr="//field[@name='rent_schedule_ids']/tree/field[@name='pen_amt']" position="replace">
+          <field name="pen_amt" sum="Total"/>
+        </xpath>
+        <xpath expr="//sheet/group[2]/group[2]" position="inside">
+            <separator/>
+            <field name="entrega_acceso_id" force_save="1"/>
+            <field name="email" force_save="1"/>
+            <field name="telefono" force_save="1"/>
+        </xpath>
+        <xpath expr="//group" position="after">
+          <group >
+            <group>
+              <field name="chech_in" widget="daterange" options="{'related_end_date':'chech_out'}" required="1"/>
+              <label for="bandera_in_realizado"/>
+              <div>
+                <field name="bandera_in_realizado" class="oe_inline"/>
+                <field name="chech_in_realizado" class="oe_inline" readonly="1" force_save="1"/>
+              </div>
+              <field name="tipo_tarifa" required="1"/>
+            </group>
+            <group>
+              <field name="chech_out" widget="daterange" options="{'related_start_date':'chech_in'}" required="1"/>
+              <label for="bandera_out_realizado"/>
+              <div>
+                <field name="bandera_out_realizado" class="oe_inline"/>
+                <field name="chech_out_realizado" class="oe_inline" readonly="1" force_save="1"/>
+              </div>
+            </group>
+          </group>
+        </xpath>
+
+      </field>
+    </record>
+
+    <record id="custom_property_count_move_inheriti" model="ir.ui.view">
+      <field name="name">custom_property_count_move.inheriti</field>
+      <field name="model">account.move</field>
+      <field name="inherit_id" ref="account.view_move_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='company_id']" position="after">
+          <field name="numero_pagos" readonly="1"/>
+          <field name="gastos_extra" readonly="1"/>
+        </xpath>
+        <xpath expr="//field[@name='price_subtotal']" position="after">
+          <field name="is_service" />
+          <field name="maintenance_id" />
+        </xpath>
+      </field>
+    </record>
+
+
+    <record id="custom_property_account_payment_form" model="ir.ui.view">
+      <field name="name">custom_property_account_payment_form.inherit</field>
+      <field name="model">account.payment</field>
+      <field name="inherit_id" ref="account.view_account_payment_form" />
+      <field name="arch" type="xml">
+      <xpath expr="//field[@name='communication']" position="attributes">
+        <attribute name="invisible">1</attribute>
+      </xpath>
+      <xpath expr="//field[@name='tenancy_id']" position="attributes">
+        <attribute name="invisible">1</attribute>
+      </xpath>
+      <xpath expr="//field[@name='property_id']" position="attributes">
+        <attribute name="invisible">1</attribute>
+      </xpath>
+      <xpath expr="//field[@name='payment_type']" position="attributes">
+        <attribute name="invisible">1</attribute>
+      </xpath>
+      <xpath expr="//field[@name='partner_type']" position="attributes">
+        <attribute name="invisible">1</attribute>
+      </xpath>
+      <xpath expr="//field[@name='partner_id']" position="attributes">
+        <attribute name="invisible">1</attribute>
+      </xpath>
+        <xpath expr="//field[@name='journal_id']" position="after">
+          <field name="tipo_de_pago" />
+        </xpath>
+      </field>
+    </record>
+
+  </data>
+</odoo>

@@ -1,0 +1,15 @@
+.oe_form_field.oe_form_field_html.o_field_widget.o_readonly_modifier.board-power-bi {
+    height: 100% !important;
+}
+.o_form_view.board-power-bi-form.o_form_nosheet.o_form_editable {
+    height: 100% !important;
+}
+.board-power-bi-form{
+    width: 100%;
+    height: 100%;
+    padding: 0px !important;
+}
+.board-power-bi{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_one_about" name="About Us">
+		<section class="app-landing-about">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="title">
+							<span>About Bizople</span>
+							<h3>Bizople develop creative solutions for companies of all niches</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row about-list justify-content-center">
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="about-content">
+							<div class="about-icon">
+								<span class="fa fa-ravelry bg1 fa-1x"/>
+							</div>
+							<div class="content">
+								<h4>Website Design</h4>
+								<p>Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="about-content">
+							<div class="about-icon" >
+								<span class="fa fa-desktop bg2 fa-1x"/>
+							</div>
+							<div class="content">
+								<h4>Fully Responsive</h4>
+								<p>Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="about-content">
+							<div class="about-icon" >
+								<span class="fa fa-houzz bg3 fa-1x"/>
+							</div>
+							<div class="content">
+								<h4>Smart support</h4>
+								<p>CCurabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 p-0">
+						<div class="about-content">
+							<div class="about-icon">
+								<span class="fa fa-picture-o bg4 fa-1x"/>
+							</div>
+							<div class="content">
+								<h4>Metal case</h4>
+								<p>Curabitur id lacinia nulla. Nulla suscipit semper mauris et dictum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt64 justify-content-center">
+					<div class="s_btn" data-name="Button">
+						<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-apple mr-2"/> App Store</a>
+						<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-android mr-2"/> Play Store</a>
+						<a href="#" class="btn btn-app-1 bizople_button"><span class="fa fa-windows mr-2"/> Windows</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_seo_services" name="Software solutions">
+		<section class="seo-service pb64">
+			<div class="container">
+				<div class="row align-items-center top-margin">
+					<div class="col-lg-7 col-xl-6">
+						<div class="row align-items-center">
+							<div class="col-md-6">
+								<section class="service-box text-center first">
+									<div class="image">
+										<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-service1.png" />
+									</div>
+									<a href="#"><h6>SEO Marketing</h6></a>
+									<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+								</section>
+
+								<section class="service-box text-center">
+									<div class="image">
+										<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-service2.png" />
+									</div>
+									<a href="#"><h6>Cloud Hosting</h6></a>
+									<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+								</section>
+							</div>
+							<div class="col-md-6">
+								<section class="service-box text-center mb-0">
+									<div class="image">
+										<img class="img img-fluid" src="/theme_vouge_business/static/src/img/seo-service3.png" />
+									</div>
+									<a href="#"><h6>Desktop Solutions</h6></a>
+									<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 offset-xl-1 mb-4 mb-lg-0">
+						<div class="content">
+							<h2>Software solutions &amp; services for everyone</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ligula sit amet mi bibendum vulputate. Morbi at urna ut risus egestas sollicitudin sed ac lorem. Donec finibus, mi eu condimentum pharetra, justo mi venenatis magna, sed ornare mauris mauris vitae diam. Curabitur vitae nibh gravida, faucibus turpis nec, blandit nulla.</p>
+							<div class="icon">
+								<a href="#"><span class="fa fa-3x fa-play-circle"/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

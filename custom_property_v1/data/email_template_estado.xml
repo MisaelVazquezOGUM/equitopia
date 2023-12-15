@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<odoo>
+	<data>
+		<record id="email_template_estado" model="mail.template">
+			<field name="name">Enviar: estado</field>
+			<field name="model_id" ref="custom_property.model_estado_result"/>
+			<field name="email_from">${object.company_id.email_formatted |safe}</field>
+			<field name="email_to">${object.owner_id.email},${object.manager_id.email}</field>
+			<field name="subject">Estado ref(${object.property_id.name or 'n/a'})</field>
+			<field name="body_html" type="html">
+				<div>
+					Estado de propiedad ${object.property_id.name} 
+					<br/><br/>
+					Se envia el pdf adjunto
+				</div>
+			</field>
+			<field name="report_template" ref="report_state"/>
+			<field name="report_name">Estado de propiedad ${object.name}</field>
+			
+		</record>
+
+		
+	</data>
+</odoo>

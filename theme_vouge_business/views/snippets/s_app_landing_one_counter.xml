@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_app_landing_one_counter" name="Counter">
+		<section class="app-landing-counter">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="counter-content d-flex align-items-center">
+							<div class="app-icon">
+								<span class="fa fa-hand-pointer-o"/>
+							</div>
+							<div class="counter-box">
+								<div class="count-text counter">786</div>
+								<h5>Projects</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="counter-content d-flex align-items-center">
+							<div class="app-icon">
+								<span class="fa fa-comments-o"/>
+							</div>
+							<div class="counter-box">
+								<div class="count-text counter">567</div>
+								<h5>Client Served</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="counter-content d-flex align-items-center">
+							<div class="app-icon">
+								<span class="fa fa-envelope-open-o"/>
+							</div>
+							<div class="counter-box">
+								<div class="count-text counter">653</div>
+								<h5>App Downloads</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="counter-content d-flex align-items-center">
+							<div class="app-icon">
+								<span class="fa fa-trophy"/>
+							</div>
+							<div class="counter-box">
+								<div class="count-text counter">63</div>
+								<h5>Best Awards</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

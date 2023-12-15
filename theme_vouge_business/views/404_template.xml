@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<template id="page_404_template" inherit_id="website.page_404">
+	
+		<xpath expr="//div[1]" position="replace">
+			<div></div>
+		</xpath>
+
+	</template>
+
+	<template id="404_template" inherit_id="http_routing.404">
+		<xpath expr="//div[hasclass('container')]"
+			position="replace">
+			<div class="oe_structure oe_empty"/>
+			<section class="template_404_page" style="background-image: url('/theme_vouge_business/static/src/img/404.jpg');">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h1 class="title">404</h1>
+							<div class="s_btn mt32" data-name="Button">
+								<a class="btn btn-secondary btn-lg home_btn" href="/">Go To Home</a>
+								<a
+									t-attf-href="/website/add/#{ path }#{ from_template and '?template=%s' % from_template }" class="btn btn-secondary btn-lg home_btn">
+									Create Page ???
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure oe_empty"/>
+		</xpath>
+	</template>
+</odoo>

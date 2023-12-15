@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_cyber_security_work" name="How IT Works">
+		<section class="cyber-security-work" style="background-image: url('/theme_vouge_business/static/src/img/cs-work-bg.png');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<span>How IT Works</span>
+						<h2>Our Work Process</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+					</div>
+				</div>
+				<div class="row align-items-center pb32">
+					<div class="col-lg-6 mb-4 mb-lg-0">
+						<div class="content">
+							<div class="service-block">
+								<div class="content-block d-flex">
+									<div class="work-icon">
+										<span class="lnr lnr-laptop-phone fa-3x"/>
+									</div>
+									<div class="work-info">
+										<h3>Smart reconition and neural technologies</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+									</div>
+								</div>
+							</div>
+							<div class="service-block">
+								<div class="content-block d-flex">
+									<div class="work-icon">
+										<span class="lnr lnr-cloud-sync fa-3x"/>
+									</div>
+									<div class="work-info">
+										<h3>State of art hardware applied to the user experience </h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+									</div>
+								</div>
+							</div>
+							<div class="service-block">
+								<div class="content-block d-flex">
+									<div class="work-icon">
+										<span class="lnr lnr-thumbs-up fa-3x"/>
+									</div>
+									<div class="work-info">
+										<h3>Great and experienced team from ten countries</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+									</div>
+								</div>
+							</div>
+							<div class="service-block">
+								<div class="content-block d-flex">
+									<div class="work-icon">
+										<span class="lnr lnr-earth fa-3x"/>
+									</div>
+									<div class="work-info">
+										<h3>Smart reconition and neural technologies</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="image text-center">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/how it work.png" />
+						</div>
+					</div>
+				</div>
+				<div class="row align-items-center pt32">
+					<div class="col-lg-6">
+						<div class="image text-center">
+							<img class="img img-fluid" src="/theme_vouge_business/static/src/img/how it work 2.png" />
+						</div>
+					</div>
+					<div class="col-lg-6 mb-4 mb-lg-0">
+						<div class="heading mb32">
+							<span>Cyber Security helps to protect data</span>
+							<h2 class="title">Bizople develop creative solutions for companies of all niches</h2>
+							<p class="w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit eum illum tempora? Ducimus eum culpa voluptates dolorem dolorum et sit nisi, mollitia animi porro fuga sequi, molestias repellat excepturi nobis eum culpa voluptates dolorem dolorum et.</p>
+						</div>
+						<div class="content">
+							<div class="service-block">
+								<div class="content-block d-flex">
+									<div class="work-icon2">
+										<span class="fa fa-check fa-2x"/>
+									</div>
+									<div class="work-info">
+										<h3>Generate traffic and revenues</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+									</div>
+								</div>
+							</div>
+							<div class="service-block">
+								<div class="content-block d-flex">
+									<div class="work-icon2">
+										<span class="fa fa-check fa-2x"/>
+									</div>
+									<div class="work-info">
+										<h3>Increase the conversions rate</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+									</div>
+								</div>
+							</div>
+							<div class="service-block">
+								<div class="content-block d-flex">
+									<div class="work-icon2">
+										<span class="fa fa-check fa-2x"/>
+									</div>
+									<div class="work-info">
+										<h3>Automate the repeating processes</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicin elit. Laudantium modi assumenda beatae provide nt dolor consectetur aliquam posuere tortor,.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

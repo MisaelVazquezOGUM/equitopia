@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_creative_agency_snippet" name="Creative Agency">
+		<section class="s_creative_agency_snippet">
+			<div class="oe_structure"/>
+			<section class="creative-agency-home-banner">
+				<div id="creative-agency-carousel" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="7000">
+		          	<div class="carousel-inner" role="listbox">
+		          		<div class="carousel-item active" style="background-image: url('/theme_vouge_business/static/src/img/creative-banner1.jpg');">
+		          			<div class="container extended-container">
+          						<div class="banner-content">
+          							<h2>We do it with <br></br><span>Precision</span></h2>
+          							<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+            						</div>
+          						</div>
+		          			</div>
+			            </div>
+			            <div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/creative-banner2.jpg');">
+			            	<div class="container extended-container">
+          						<div class="banner-content">
+          							<h2>Books Bring <br></br>Our  <span>Smile</span></h2>
+          							<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+            						</div>
+          						</div>
+		          			</div>
+			            </div>
+			            <div class="carousel-item" style="background-image: url('/theme_vouge_business/static/src/img/creative-banner3.jpg');">
+			            	<div class="container extended-container">
+          						<div class="banner-content">
+          							<h2>We just made <br></br> it  <span>Awesome</span></h2>
+          							<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+            						</div>
+          						</div>
+		          			</div>
+			            </div>
+		          	</div>
+		          	<ol class="carousel-indicators">
+			            <li data-target="#creative-agency-carousel" data-slide-to="0" class="active"/>
+			            <li data-target="#creative-agency-carousel" data-slide-to="1"/>
+			            <li data-target="#creative-agency-carousel" data-slide-to="2"/>
+			        </ol>
+	        	</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="creative-service">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 mb-3">
+							<div class="service-content">
+								<div class="image">
+									<span class="icon icon-Bulb fa-4x"/>
+								</div>
+								<div class="info">
+									<h4>Best Ideas</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 mb-3">
+							<div class="service-content">
+								<div class="image">
+									<span class="icon icon-Settings fa-4x"/>
+								</div>
+								<div class="info">
+									<h4>Our Speciality</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 mb-3">
+							<div class="service-content">
+								<div class="image">
+									<span class="icon icon-Restart fa-4x"/>
+								</div>
+								<div class="info">
+									<h4>Structured Process</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="creative-projects">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-projects1.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Digital Marketing </h6>
+										<h4>Branding for Theme Designer</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-projects2.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Search Engine </h6>
+										<h4>Button Designs Free</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-projects3.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Admin templates </h6>
+										<h4>Branding &amp; Co Agency</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-projects4.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Branding </h6>
+										<h4>Zukandre Phoniex</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-projects5.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Wll Mockup </h6>
+										<h4>Sionage Mockup</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 p-0">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-projects6.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<h6>Hard Cover Book Mock</h6>
+										<h4>New design book	</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-md-8 p-0">
+							<div class="text-content">
+								<div class="text-info">
+									<h3>Our latest <span>Projects.</span> For Our Clients.</h3>
+									<div class="s_btn" data-name="Button">
+            							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+            						</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="creative-awards">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-lg-5 col-md-12">
+							<div class="award-content">
+								<h2>Our <span> Rewards </span>and Publications</h2>
+								<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at. Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 ml-auto">
+							<div class="content">
+								<h5>Awards</h5>
+								<ul>
+									<li>Morbi malesuada</li>
+									<li>Vivamus ut ullamcorper</li>
+									<li>Suspendisse metus nisi</li>
+									<li>Iaculis sit amet</li>
+									<li>Maecenas non sem mauris</li>
+									<li>Aliquet volutpat elit</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="content">
+								<h5>Publications</h5>
+								<ul>
+									<li>Morbi malesuada</li>
+									<li><span>Vivamus ut ullamcorper</span></li>
+									<li>Suspendisse metus nisi</li>
+									<li><span>Iaculis sit amet</span></li>
+									<li>Maecenas non sem mauris</li>
+									<li>Aliquet <span>volutpat elit</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="creative-counter" style="background-image: url('/theme_vouge_business/static/src/img/creative-counter.jpg');">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="counter-box">
+								<div class="count-text counter">37</div>
+								<h5>Developers</h5>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="counter-box">
+								<div class="count-text counter">156</div>
+								<h5>Clients</h5>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="counter-box">
+								<div class="count-text counter">109</div>
+								<h5>Rewards</h5>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="counter-box">
+								<div class="count-text counter">256</div>
+								<h5>Projects</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="creative-features">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+							<div class="feature-content">
+								<div class="d-flex">
+									<div class="icon">
+										<span class="ti ti-face-smile fa-3x"/>
+									</div>
+									<div class="info">
+										<h4>24/7 Available support</h4>
+										<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+							<div class="feature-content">
+								<div class="d-flex">
+									<div class="icon">
+										<span class="ti ti-star fa-3x"/>
+									</div>
+									<div class="info">
+										<h4>Social marketing</h4>
+										<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+							<div class="feature-content">
+								<div class="d-flex">
+									<div class="icon">
+										<span class="ti ti-heart fa-3x"/>
+									</div>
+									<div class="info">
+										<h4>Unique strategy</h4>
+										<p>Maecenas non sem mauris. Morbi malesuada augue massa, eu maximus tortor varius at Vivamus.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="creative-spain">
+				<div class="container extended-container">
+					<div class="row align-items-center">
+						<div class="col-xl-6 col-lg-12 col-md-12">
+							<div class="image">
+								<a href="#">
+									<img class="img img-fluid"
+									src="/theme_vouge_business/static/src/img/creative-spain.jpg" />
+								</a>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-12 col-md-12">
+							<div class="content">
+								<h2>We’ve been <br></br> there: <span>Columbia</span></h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu. Aenean finibus condimentum odio.</p>
+								<div class="s_btn" data-name="Button">
+        							<a href="#" class="btn btn-link bizople_button">View more <span class="fa fa-angle-right ml-2"/></a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="creative-team">
+				<div class="container extended-container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-team1.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<p>Facebook</p>
+										<p>Twitter</p>
+										<p>Instagram</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-content">
+								<h4>Paul Williams</h4>
+								<p>Video Editor</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-team2.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<p>Facebook</p>
+										<p>Twitter</p>
+										<p>Instagram</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-content">
+								<h4>Anita Oliver</h4>
+								<p>Video director</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-team3.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<p>Facebook</p>
+										<p>Twitter</p>
+										<p>Instagram</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-content">
+								<h4>Andrew Petersons</h4>
+								<p>Project manager</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 mb-4">
+							<div class="image-content">
+								<div class="image">
+									<a href="#">
+										<img class="img img-fluid"
+											src="/theme_vouge_business/static/src/img/creative-team4.jpg" />
+									</a>
+								</div>
+								<div class="image-info">
+									<div class="info">
+										<p>Facebook</p>
+										<p>Twitter</p>
+										<p>Instagram</p>
+									</div>
+								</div>
+							</div>
+							<div class="text-content">
+								<h4>Jessy Pinkman</h4>
+								<p>Photographer</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+			<section class="creative-contact-us">
+				<div class="container">
+					<div class="row">
+						<div class="heading w-75">
+							<h3>Contact us now and receive a free quotation for your project</h3>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-md-12">
+							<div class="form">
+								<form action="/website_form/" method="post" class="s_website_form container-fluid mt32" enctype="multipart/form-data" data-name="Form Builder" data-model_name="mail.mail" data-success_page="/thank-you">
+					          	<div class="row mb32">
+					          		<div class="col-lg-6">
+							          	<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+							              	<input type="text" placeholder="Name" class="form-control o_website_form_input" name="Your Name" required=""/>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-6">
+							          	<div class="form-group form-field o_website_form_custom o_fake_not_editable">
+							              	<input type="text" placeholder="Phone" class="form-control o_website_form_input" name="Phone Number"/>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-6">
+							          	<div class="form-group form-field o_website_form_required_custom">
+							              	<input type="email" placeholder="E-Mail" class="form-control o_website_form_input" name="email_from" required=""/>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-6">
+							          	<div class="form-group form-field o_website_form_required_custom">
+							              	<input type="text" placeholder="Subject" class="form-control o_website_form_input" name="subject" required=""/>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-12">
+							          	<div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+							              	<textarea placeholder="Message*" class="form-control o_website_form_input" name="Your Question" required=""></textarea>
+							          	</div>
+						          	</div>
+						          	<div class="col-lg-12">
+							          	<div class="form-group text-right">
+							              	<button class="o_website_form_send btn btn-link btn-md m-t-20 arrow-btn" type="submit">
+													Submit Message
+													<span class="fa fa-angle-right ml-2"/>
+											</button>
+											<span id="o_website_form_result"
+												class="text-danger ml8 mt16  mb16 col-md-12">
+											</span>
+							          	</div>
+						          	</div>
+					          	</div>
+					      	</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="oe_structure"/>
+		</section>
+	</template>
+
+</odoo>
